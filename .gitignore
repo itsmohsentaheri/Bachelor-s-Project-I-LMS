@@ -1,0 +1,58 @@
+# === Virtual Environment ===
+.venv/
+env/
+venv/
+ENV/
+
+# === Python Compiled / Cache Files ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# === IDE & Editor Specific Files (VS Code, PyCharm) ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.history/
+
+# === OS Generated Files ===
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# === Sensitive Files & Credentials ===
+.env
+*.env
+secrets.json
+config.json
+credentials.yaml
+
+# === Large Book Sources & Data Files ===
+*.pdf
+data/
+sources/
+output/
+embeddings_cache/
