@@ -2,7 +2,7 @@ from sqlalchemy import Column, Integer, String, Text
 from pgvector.sqlalchemy import Vector
 from bachelor_s_project_i_lms.db.session import Base
 
-EMBEDDING_DIM = 1536  # Sync this with the embedding model you use.
+EMBEDDING_DIM = 1024  # Sync this with the embedding model you use.
 
 class BookChunk(Base):
     __tablename__ = "book_chunks"
