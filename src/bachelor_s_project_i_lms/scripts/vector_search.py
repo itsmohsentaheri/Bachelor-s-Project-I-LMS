@@ -1,9 +1,22 @@
 from bachelor_s_project_i_lms.db.session import SessionLocal
 from bachelor_s_project_i_lms.db.models import BookChunk
+from sentence_transformers import SentenceTransformer
+
+EMBEDDING_MODEL_NAME = "BAAI/bge-large-en-v1.5"  # 1024 dimensions, must match chunk.ipynb
+
+_model = None  # lazy singleton: load once per process
+
+def _get_model():
+    global _model
+    if _model is None:
+        from sentence_transformers import SentenceTransformer
+        _model = SentenceTransformer(EMBEDDING_MODEL_NAME)
+    return _model
 
 def embed(text: str) -> list[float]:
-    """Use the same embedding function as in embed_chunks.py."""
-    raise NotImplementedError("Plug in your embedding model here.")
+    """Same embedding config as in chunk.ipynb (bge-large-en-v1.5, normalized)."""
+    vec = _get_model().encode([text], normalize_embeddings=True)[0]
+    return [float(x) for x in vec]
 
 def search(query: str, k: int = 3):
     query_vec = embed(query)

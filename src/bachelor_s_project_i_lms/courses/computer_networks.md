@@ -1,4 +1,4 @@
-coutse name: computers network
+course name: computers network
 Course objective: Computer engineering students
 
 1: Computer Networks and the Internet
