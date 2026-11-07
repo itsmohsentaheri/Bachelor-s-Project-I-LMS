@@ -4,7 +4,7 @@ from pathlib import Path
 CHAPTER_RE = re.compile(r"^(\d+)\s*[:.)-]\s*(.+)$")
 KV_RE = re.compile(r"^([A-Za-z][^:]*?)\s*:\s*(.+)$")
 
-def parse_course_file(path: str) -> dict:
+def load_roots(path: str) -> dict:
     course = {"chapters": {}}
 
     for raw_line in Path(path).read_text(encoding="utf-8").splitlines():
@@ -21,6 +21,3 @@ def parse_course_file(path: str) -> dict:
             course[key] = m.group(2).strip()
 
     return course
-
-result = parse_course_file("src/bachelor_s_project_i_lms/courses/computer_networks.md")
-print(result)
