@@ -1,0 +1,29 @@
+{
+  "subtopics": [
+    {
+      "title": "Wireless Links and Network Characteristics",
+      "summary": "How wireless links differ from wired links: signal attenuation and path loss, interference from other sources, multipath propagation, SNR and bit error rates, plus an introduction to CDMA as a shared-medium access protocol used in wireless networks.",
+      "is_atomic": false
+    },
+    {
+      "title": "WiFi: 802.11 Wireless LANs",
+      "summary": "The IEEE 802.11 (WiFi) standard: 802.11 architecture (BSS, access points, channels, SSIDs), the 802.11 MAC protocol (CSMA/CA), the 802.11 frame format, mobility within the same IP subnet, advanced features, and Bluetooth personal area networks.",
+      "is_atomic": false
+    },
+    {
+      "title": "Cellular Networks: 4G and 5G",
+      "summary": "Cellular Internet access architecture: 4G LTE network elements and architecture, LTE protocol stacks and radio access network, network attachment and power management, the global cellular network as a network of networks, and emerging 5G cellular technology.",
+      "is_atomic": false
+    },
+    {
+      "title": "Mobility Management: Principles",
+      "summary": "The network-layer challenges of mobility: forms of device mobility, locating and routing to a mobile user, home networks versus roaming on visited networks, direct versus indirect routing, and handover as a user moves between points of attachment.",
+      "is_atomic": false
+    },
+    {
+      "title": "Impact of Wireless and Mobility on Higher Layers",
+      "summary": "How wireless links and mobility affect transport- and application-layer protocols: TCP challenges over lossy wireless links, and treating bandwidth as a scarce commodity when serving content over cellular connections.",
+      "is_atomic": true
+    }
+  ]
+}

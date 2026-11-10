@@ -1,0 +1,34 @@
+{
+  "subtopics": [
+    {
+      "title": "Overview of HTTP",
+      "summary": "Web page structure (HTML base file plus referenced objects), URLs, browsers and Web servers as HTTP client/server, and HTTP's stateless request-response model.",
+      "is_atomic": true
+    },
+    {
+      "title": "Non-Persistent vs. Persistent Connections",
+      "summary": "How HTTP uses TCP connections: non-persistent connections with one object per connection, persistent connections with multiple objects, and response-time analysis using round-trip time.",
+      "is_atomic": true
+    },
+    {
+      "title": "HTTP Message Format",
+      "summary": "Structure of HTTP request messages (request line, header lines, methods like GET and POST) and response messages (status line, status codes, headers, entity body).",
+      "is_atomic": true
+    },
+    {
+      "title": "User-Server Interaction: Cookies",
+      "summary": "The four cookie components (cookie file, header lines, backend database) and how cookies enable stateful user identification over a stateless protocol.",
+      "is_atomic": true
+    },
+    {
+      "title": "Web Caching",
+      "summary": "Proxy servers as caches, cache hits and misses, benefits of caching (reduced response time and traffic), and the conditional GET for keeping cached copies fresh.",
+      "is_atomic": true
+    },
+    {
+      "title": "HTTP/2",
+      "summary": "HTTP/2's framing mechanism, multiplexing of requests/responses over one TCP connection, and how it addresses head-of-line blocking and improves page-load latency.",
+      "is_atomic": true
+    }
+  ]
+}

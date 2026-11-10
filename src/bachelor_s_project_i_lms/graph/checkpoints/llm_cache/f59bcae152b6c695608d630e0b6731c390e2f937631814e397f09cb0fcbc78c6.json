@@ -1,0 +1,29 @@
+{
+  "subtopics": [
+    {
+      "title": "Simple Client-Server Application Example",
+      "summary": "The running example used for both protocols: the client reads a line from the keyboard and sends it, the server converts the characters to uppercase and sends them back, and the client displays the modified line. Also covers the requirement that the server be up and running before the client sends its message.",
+      "is_atomic": true
+    },
+    {
+      "title": "Socket Programming with UDP",
+      "summary": "Connectionless programming with UDPClient.py and UDPServer.py: creating a datagram socket, sending independent packets with sendto()/recvfrom(), destination address attached to each packet, and the OS automatically attaching the source IP address and port number. No handshake or delivery guarantees.",
+      "is_atomic": true
+    },
+    {
+      "title": "Socket Programming with TCP",
+      "summary": "Connection-oriented programming with TCPClient.py and TCPServer.py: handshaking to establish a TCP connection before data flows, the client socket and server socket, the distinction between the welcome socket and the connection socket, and the reliable byte-stream channel between the two end systems.",
+      "is_atomic": true
+    },
+    {
+      "title": "Comparing TCP and UDP Socket Programs",
+      "summary": "Side-by-side comparison of the two program pairs: connection setup versus connectionless operation, byte-stream versus independent datagrams, number and role of sockets on each side, and how addressing is handled, to understand when each API is appropriate.",
+      "is_atomic": true
+    },
+    {
+      "title": "Choosing a Transport Protocol and Port Numbers",
+      "summary": "The first development decision: whether the application runs over TCP (connection-oriented, reliable byte stream) or UDP (connectionless, no delivery guarantees). Also covers using well-known port numbers when implementing an RFC-defined protocol and avoiding them when developing a proprietary application.",
+      "is_atomic": true
+    }
+  ]
+}

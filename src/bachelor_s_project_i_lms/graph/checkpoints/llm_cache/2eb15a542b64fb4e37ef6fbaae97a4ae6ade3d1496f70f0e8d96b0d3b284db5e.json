@@ -1,0 +1,39 @@
+{
+  "subtopics": [
+    {
+      "title": "What Is the Internet?",
+      "summary": "Introduces the Internet from a nuts-and-bolts view (end systems, communication links, packet switches, ISPs), a services view supporting distributed applications, and defines what a protocol is and why all Internet communication is governed by protocols.",
+      "is_atomic": true
+    },
+    {
+      "title": "The Network Edge",
+      "summary": "Covers end systems (hosts) and how they connect to the network: access networks such as DSL, cable, FTTH, Ethernet, WiFi, and cellular, plus guided and unguided physical media (twisted pair, coax, fiber, radio).",
+      "is_atomic": false
+    },
+    {
+      "title": "The Network Core",
+      "summary": "Examines the mesh of links and packet switches at the Internet's core: store-and-forward packet switching and statistical multiplexing, circuit switching with FDM/TDM, and the Internet's structure as a network of networks of ISPs.",
+      "is_atomic": false
+    },
+    {
+      "title": "Delay, Loss, and Throughput",
+      "summary": "Builds quantitative models for packet-switched networks: processing, queuing, transmission, and propagation delays; queuing delay and packet loss; end-to-end delay; and throughput including the bottleneck-link model.",
+      "is_atomic": false
+    },
+    {
+      "title": "Protocol Layers and Service Models",
+      "summary": "Explains why networks use a layered architecture, the service each layer provides, the five-layer Internet protocol stack, and how messages are encapsulated layer-by-layer as they traverse the sender's and receiver's stacks.",
+      "is_atomic": true
+    },
+    {
+      "title": "Networks Under Attack",
+      "summary": "Surveys prevalent Internet security attacks, including malware (viruses and worms), denial-of-service attacks, packet sniffing, and IP spoofing, motivating the study of network security.",
+      "is_atomic": true
+    },
+    {
+      "title": "History of Computer Networking",
+      "summary": "Traces the development of packet switching and the evolution of computer networking and the Internet from its early research origins to today's Internet.",
+      "is_atomic": true
+    }
+  ]
+}

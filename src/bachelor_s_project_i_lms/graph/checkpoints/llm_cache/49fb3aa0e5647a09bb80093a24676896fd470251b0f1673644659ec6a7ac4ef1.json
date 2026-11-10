@@ -1,0 +1,29 @@
+{
+  "subtopics": [
+    {
+      "title": "Device Mobility: A Network-Layer Perspective",
+      "summary": "Introduces the spectrum of device mobility, from no mobility to mobility within the same IP subnet to full mobility across networks, and explains how each point on the spectrum poses different network-layer challenges for addressing, locating, and routing to a mobile user.",
+      "is_atomic": true
+    },
+    {
+      "title": "Home Networks and Visited Networks",
+      "summary": "Covers the roles of the home network as the central point of information and control for a mobile device, the visited (foreign) network that hosts the roaming device, and the control-plane functions (e.g., home agent, registration) used to track a device roaming among visited networks.",
+      "is_atomic": true
+    },
+    {
+      "title": "Indirect Routing to a Mobile Device",
+      "summary": "Explains the indirect (triangle) routing data-plane approach: a correspondent sends datagrams via the home network, which tunnels them to the mobile device's care-of address in the visited network, including how ongoing sessions are preserved as the device moves.",
+      "is_atomic": true
+    },
+    {
+      "title": "Direct Routing to a Mobile Device",
+      "summary": "Explains the direct routing data-plane approach: the correspondent learns the mobile device's current care-of address from the home network and then routes datagrams directly to the visited network, including the challenges of maintaining sessions during handover.",
+      "is_atomic": true
+    },
+    {
+      "title": "Handover Between Points of Attachment",
+      "summary": "Covers the handover process by which a mobile device dynamically moves from one point of attachment to another, including the steps of breaking and establishing links, updating routing/addressing information, and who controls the handover (network vs. mobile device).",
+      "is_atomic": true
+    }
+  ]
+}

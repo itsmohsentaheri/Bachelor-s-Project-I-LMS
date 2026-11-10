@@ -1,0 +1,29 @@
+{
+  "subtopics": [
+    {
+      "title": "Network Application Architectures",
+      "summary": "Contrast client-server architectures (data centers, always-on servers) with P2P architectures (self-scalability, minimal server infrastructure) and hybrid designs, including examples like Web, e-mail, and file sharing.",
+      "is_atomic": true
+    },
+    {
+      "title": "Processes Communicating",
+      "summary": "Explain how processes on different end systems communicate: client vs. server processes, the socket as the interface between an application process and the transport layer, and addressing a destination process via IP address and port number.",
+      "is_atomic": true
+    },
+    {
+      "title": "Transport Services Available to Applications",
+      "summary": "Identify the four classes of service an application may need from a transport layer: reliable data transfer, throughput guarantees, timing guarantees, and security.",
+      "is_atomic": true
+    },
+    {
+      "title": "Transport Services Provided by the Internet",
+      "summary": "Describe the TCP service model (connection-oriented, reliable, congestion control) versus the UDP service model (connectionless, unreliable, minimal), and note why neither provides throughput, timing, or security guarantees (motivating SSL/TLS).",
+      "is_atomic": true
+    },
+    {
+      "title": "Application-Layer Protocols",
+      "summary": "Define what an application-layer protocol specifies—message types, message syntax, field semantics, and rules for when/how processes send and respond to messages—and distinguish open protocols (e.g., HTTP, SMTP) from proprietary ones.",
+      "is_atomic": true
+    }
+  ]
+}

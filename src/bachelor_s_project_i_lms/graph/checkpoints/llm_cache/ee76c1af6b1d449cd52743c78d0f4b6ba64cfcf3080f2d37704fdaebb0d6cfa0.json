@@ -1,0 +1,29 @@
+{
+  "subtopics": [
+    {
+      "title": "Symmetric Key Cryptography Basics",
+      "summary": "The shared-secret-key model in which sender and receiver use the same key; classical ciphers such as the Caesar cipher; cryptanalysis approaches including brute-force and known-plaintext attacks.",
+      "is_atomic": true
+    },
+    {
+      "title": "Block Ciphers and Stream Ciphers",
+      "summary": "Modern symmetric techniques: block ciphers that encrypt fixed-size blocks (illustrated with a 3-bit example cipher, DES, and AES) and stream ciphers that encrypt bit by bit.",
+      "is_atomic": true
+    },
+    {
+      "title": "Cipher Block Chaining (CBC)",
+      "summary": "Chaining ciphertext blocks together with an initialization vector (IV) so that identical plaintext blocks produce different ciphertext, avoiding the pattern leaks of encrypting blocks independently.",
+      "is_atomic": true
+    },
+    {
+      "title": "Public Key Cryptography Concepts",
+      "summary": "The two-key model with a publicly available key and a private key; how anyone can encrypt a message to a recipient while only the private-key holder can decrypt, and why a shared secret key implicitly identifies the sender while public key encryption does not.",
+      "is_atomic": true
+    },
+    {
+      "title": "RSA Algorithm",
+      "summary": "RSA key generation from primes p and q (computing n, z, choosing e and d), encryption and decryption via modular exponentiation, and why the algorithm works, with worked examples such as encrypting a word letter by letter.",
+      "is_atomic": true
+    }
+  ]
+}

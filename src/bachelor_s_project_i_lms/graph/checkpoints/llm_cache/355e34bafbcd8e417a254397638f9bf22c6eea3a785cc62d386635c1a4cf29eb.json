@@ -1,0 +1,34 @@
+{
+  "subtopics": [
+    {
+      "title": "Forwarding vs. Routing in the Network Layer",
+      "summary": "Introduces the two key network-layer functions: forwarding, the per-router data-plane function that moves a datagram from an input link to an output link, and routing, the control-plane, network-wide function that determines the end-to-end path a datagram takes from source to destination host.",
+      "is_atomic": true
+    },
+    {
+      "title": "Router Input and Output Ports",
+      "summary": "Covers the internal operations of a router's input and output ports: how arriving packets are processed and looked up on input links, and how packets are prepared and transmitted onto output links.",
+      "is_atomic": true
+    },
+    {
+      "title": "Switching Fabric and Packet Queues",
+      "summary": "Examines a router's internal switching mechanisms that move packets from input ports to output ports, and packet queue management, including where queues form inside a router and how they are managed.",
+      "is_atomic": true
+    },
+    {
+      "title": "Traditional IP Forwarding",
+      "summary": "Covers destination-based forwarding, where a router forwards a datagram based on the destination address in the datagram's header by matching it against entries in the forwarding table.",
+      "is_atomic": true
+    },
+    {
+      "title": "Generalized Forwarding",
+      "summary": "Covers generalized forwarding, in which forwarding and other packet-processing functions are performed using values from several different fields in the datagram's header rather than the destination address alone.",
+      "is_atomic": true
+    },
+    {
+      "title": "Software-Defined Networking (SDN)",
+      "summary": "Describes how SDN explicitly separates the data plane from the control plane: the routing device performs forwarding only, while a remote, software-implemented controller computes and distributes forwarding tables to the routers.",
+      "is_atomic": true
+    }
+  ]
+}

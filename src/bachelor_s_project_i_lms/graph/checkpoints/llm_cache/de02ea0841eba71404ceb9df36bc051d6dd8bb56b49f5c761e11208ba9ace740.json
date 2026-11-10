@@ -1,0 +1,34 @@
+{
+  "subtopics": [
+    {
+      "title": "802.11 Architecture: BSS, APs, and Channels",
+      "summary": "Covers the 802.11 standards family (b/g/n/ac/ax, branded WiFi 4/5/6), the basic service set (BSS), access points, channels and SSIDs, and how a station associates with an AP in a 'WiFi jungle' with multiple overlapping APs.",
+      "is_atomic": true
+    },
+    {
+      "title": "802.11 MAC Protocol (CSMA/CA)",
+      "summary": "Explains the 802.11 medium access protocol, including CSMA/CA with random backoff, link-layer acknowledgments, and how it differs from Ethernet's CSMA/CD.",
+      "is_atomic": true
+    },
+    {
+      "title": "IEEE 802.11 Frame Format",
+      "summary": "Describes the structure of 802.11 frames, including the address fields (which can differ from Ethernet addressing), frame types (data, control, management), and how frames are exchanged between a wireless host and an AP.",
+      "is_atomic": true
+    },
+    {
+      "title": "Mobility in the Same IP Subnet",
+      "summary": "Examines how a wireless station hands over between access points within the same IP subnet, including association/reassociation and switch self-learning to keep the session intact.",
+      "is_atomic": true
+    },
+    {
+      "title": "Advanced 802.11 Features",
+      "summary": "Covers advanced capabilities in 802.11 such as rate adaptation and power management, plus features like the WiFi Positioning System (WPS).",
+      "is_atomic": true
+    },
+    {
+      "title": "Bluetooth Personal Area Networks",
+      "summary": "Introduces Bluetooth as a wireless personal area network technology, covering its architecture (piconets) and how it complements 802.11 WLANs.",
+      "is_atomic": true
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "subtopics": [
+    {
+      "title": "Services Provided by DNS",
+      "summary": "Why a directory service is needed (hostnames vs. IP addresses), DNS's main task of translating hostnames to IP addresses, host aliasing with canonical names, and load distribution via DNS rotation among replicated servers.",
+      "is_atomic": true
+    },
+    {
+      "title": "DNS Server Hierarchy: Root, TLD, and Authoritative",
+      "summary": "DNS as a distributed database in a hierarchy of servers running BIND over UDP port 53; the roles of root servers (13 root servers, 1000+ instances), top-level-domain servers, and authoritative servers.",
+      "is_atomic": true
+    },
+    {
+      "title": "DNS Query Resolution: Recursive and Iterative",
+      "summary": "How a hostname lookup proceeds: the local DNS server's role, delegation from root to TLD to authoritative servers, intermediate servers in the chain, and the difference between recursive and iterative queries.",
+      "is_atomic": true
+    },
+    {
+      "title": "Exploring DNS with dig",
+      "summary": "Hands-on use of the dig tool to trace the delegation chain of DNS queries from a root server down to authoritative servers for real websites.",
+      "is_atomic": true
+    }
+  ]
+}

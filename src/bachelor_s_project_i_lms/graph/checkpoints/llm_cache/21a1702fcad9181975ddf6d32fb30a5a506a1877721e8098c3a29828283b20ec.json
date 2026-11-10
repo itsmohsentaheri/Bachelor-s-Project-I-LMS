@@ -1,0 +1,29 @@
+{
+  "subtopics": [
+    {
+      "title": "Sources of Nodal Delay",
+      "summary": "Introduces the four delay components at a node—processing (dproc), queuing (dqueue), transmission (dtrans), and propagation (dprop)—and the nodal delay formula dnodal = dproc + dqueue + dtrans + dprop. Compares the relative magnitude of each component across link types (e.g., negligible propagation on a campus LAN vs. hundreds of milliseconds over a geostationary satellite link; negligible transmission delay at 10 Mbps vs. significant on dial-up).",
+      "is_atomic": true
+    },
+    {
+      "title": "Queuing Delay and Traffic Intensity",
+      "summary": "Examines the most complex delay component: queuing delay. Covers how it depends on the traffic intensity La/R, including behavior as intensity approaches 0 (negligible delay), approaches 1 (delay grows large and highly variable), and exceeds 1 (average queue length unbounded). Notes the impact of queuing delay variation (jitter) on applications.",
+      "is_atomic": true
+    },
+    {
+      "title": "Packet Loss",
+      "summary": "Explains that router queues have finite capacity, so a packet arriving to find a full queue is dropped (lost). Relates loss to traffic intensity approaching or exceeding 1, and describes how, from an end-system viewpoint, a lost packet appears as one that never arrives rather than one with infinite delay.",
+      "is_atomic": true
+    },
+    {
+      "title": "End-to-End Delay",
+      "summary": "Defines end-to-end delay as the accumulation of nodal delays (plus other delays) along the source-to-destination path. Includes application-induced delays such as the packetization delay in Voice-over-IP, where the sender must fill a packet with encoded digitized speech before transmission, affecting user-perceived call quality.",
+      "is_atomic": true
+    },
+    {
+      "title": "Throughput and the Bottleneck Link",
+      "summary": "Defines instantaneous and average end-to-end throughput for a file transfer, and presents the bottleneck-link model: throughput equals the minimum transmission rate along the path, min{Rs, Rc}. Uses this to approximate file transfer time as F/min{Rs, Rc} (e.g., a 32 Mbit MP3 over a 1 Mbps bottleneck takes 32 seconds) and notes these are approximations ignoring store-and-forward and processing delays.",
+      "is_atomic": true
+    }
+  ]
+}

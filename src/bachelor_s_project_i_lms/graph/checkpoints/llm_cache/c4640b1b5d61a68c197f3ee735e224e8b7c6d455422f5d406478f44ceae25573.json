@@ -1,0 +1,34 @@
+{
+  "subtopics": [
+    {
+      "title": "Causes and Costs of Congestion",
+      "summary": "Walks through three increasingly complex scenarios (two senders sharing a router with infinite buffers, finite buffers, and multiple senders on a multihop path) to show why congestion occurs and what it costs: growing queuing delay, packet loss, retransmissions, wasted link capacity, and congestion collapse.",
+      "is_atomic": true
+    },
+    {
+      "title": "End-to-End vs. Network-Assisted Approaches",
+      "summary": "Distinguishes the two broad approaches by whether the network layer provides explicit assistance: end-to-end control, where end systems must infer congestion from observed loss or delay (as TCP does), versus network-assisted control, where the network supplies explicit congestion feedback (e.g., explicit congestion notification).",
+      "is_atomic": true
+    },
+    {
+      "title": "Classic TCP Congestion Control",
+      "summary": "How classic TCP (RFC 5681) implements end-to-end control since IP provides no explicit congestion feedback: the congestion window grows exponentially during slow start, then additively increases and multiplicatively decreases (AIMD) in congestion avoidance, with fast recovery on loss. Spans several mechanisms, so it should be split into slow start, congestion avoidance/AIMD, and fast recovery lessons.",
+      "is_atomic": false
+    },
+    {
+      "title": "Fairness of TCP Congestion Control",
+      "summary": "Examines how AIMD strives to give each TCP connection passing through a congested link an equal share of the link bandwidth, the sawtooth convergence toward equal shares, and behaviors such as synchronization of competing connections' window sizes.",
+      "is_atomic": true
+    },
+    {
+      "title": "Newer TCP Variants: Delay-Based and ECN",
+      "summary": "Surveys newer flavors of TCP that determine the sending rate more quickly than classic loss-based TCP by using a delay-based approach or explicit congestion notification (ECN) from the network rather than inferring congestion purely from loss.",
+      "is_atomic": true
+    },
+    {
+      "title": "Impact of Slow Start on Latency",
+      "summary": "Analyzes how TCP connection establishment and slow start significantly contribute to end-to-end delay in many important scenarios, which motivates designs that determine the sending rate more quickly.",
+      "is_atomic": true
+    }
+  ]
+}

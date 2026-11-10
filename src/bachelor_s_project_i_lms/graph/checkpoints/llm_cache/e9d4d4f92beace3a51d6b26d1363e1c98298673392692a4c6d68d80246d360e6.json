@@ -1,0 +1,34 @@
+{
+  "subtopics": [
+    {
+      "title": "MPLS Label Switching Fundamentals",
+      "summary": "How MPLS works: fixed-length labels, label-switched routers, and forwarding based on labels and FECs rather than longest-prefix IP destination matching, allowing MPLS networks to provide link-layer services interconnecting IP routers.",
+      "is_atomic": true
+    },
+    {
+      "title": "MPLS Traffic Engineering and Fast Restoration",
+      "summary": "Using MPLS to override standard IP routing: steering traffic toward a destination along multiple explicit paths for policy or performance, plus fast reroute over precomputed failover paths in response to link failure.",
+      "is_atomic": true
+    },
+    {
+      "title": "Data Center Purposes and Traffic Types",
+      "summary": "Why massive data centers exist (serving content, massively-parallel computing, cloud applications) and the two traffic types they must support: external client-to-host flows and internal host-to-host flows.",
+      "is_atomic": true
+    },
+    {
+      "title": "Data Center Network Architecture",
+      "summary": "Hierarchical data center network design: border routers, access routers, tier-1/2/3 switches, TOR switches and racks; redundancy of equipment and links for high availability; and partitioning subnets into VLANs to localize ARP broadcast traffic.",
+      "is_atomic": true
+    },
+    {
+      "title": "Multipath Routing in Data Centers",
+      "summary": "Exploiting rich inter-tier connectivity with multipath routing: ECMP's randomized next-hop selection, finer-grained flow-level load balancing, and designs that split individual packets of a flow across multiple paths.",
+      "is_atomic": true
+    },
+    {
+      "title": "Trends in Data Center Networking",
+      "summary": "Recent developments: modular data centers built from shipping containers with electrical/optical interconnects, cloud providers customizing their own adapters, switches, and protocols, and Amazon-style availability zones replicating data centers across nearby buildings for fault tolerance.",
+      "is_atomic": true
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "subtopics": [
+    {
+      "title": "Congestion Window and Loss Signals",
+      "summary": "How classic TCP infers congestion end-to-end since IP gives no explicit feedback: the congestion window (cwnd) limits the sending rate, arriving ACKs signal a congestion-free path and permit increases, while loss events (triple duplicate ACKs vs. timeouts) signal congestion and trigger decreases.",
+      "is_atomic": true
+    },
+    {
+      "title": "Slow Start",
+      "summary": "The initial slow-start phase: cwnd starts small and grows exponentially (doubling per RTT) as ACKs arrive, until the slow-start threshold (ssthresh) or a loss event ends the phase; also its contribution to connection latency.",
+      "is_atomic": true
+    },
+    {
+      "title": "Congestion Avoidance and AIMD",
+      "summary": "The steady-state additive-increase, multiplicative-decrease (AIMD) behavior: cwnd grows linearly by 1 MSS per RTT and is halved on a triple duplicate-ACK loss, producing the saw-tooth pattern as TCP probes for the available bandwidth.",
+      "is_atomic": true
+    },
+    {
+      "title": "Fast Recovery",
+      "summary": "Reacting to loss without a timeout: fast retransmit of the missing segment after three duplicate ACKs, halving cwnd and continuing transmission (Reno-style fast recovery), contrasted with the timeout-driven reset to slow start (Tahoe).",
+      "is_atomic": true
+    },
+    {
+      "title": "AIMD Fairness",
+      "summary": "Why AIMD yields an equal share of a congested link's bandwidth among competing TCP connections: the additive-increase/multiplicative-decrease dynamics converge competing flows toward equal throughput.",
+      "is_atomic": true
+    }
+  ]
+}

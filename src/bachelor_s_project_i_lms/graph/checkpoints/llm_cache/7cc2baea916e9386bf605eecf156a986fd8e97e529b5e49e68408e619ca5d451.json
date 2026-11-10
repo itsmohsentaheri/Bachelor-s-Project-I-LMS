@@ -1,0 +1,34 @@
+{
+  "subtopics": [
+    {
+      "title": "The Multiple Access Problem",
+      "summary": "Why shared broadcast channels need coordination: when multiple nodes transmit at the same time, frames collide, all colliding frames are lost, and the channel is wasted during the collision interval.",
+      "is_atomic": true
+    },
+    {
+      "title": "Channel Partitioning: TDM and FDM",
+      "summary": "Dividing the broadcast channel among nodes by time slots (TDM) or frequency bands (FDM) so each node gets a dedicated portion of the channel and collisions are avoided.",
+      "is_atomic": true
+    },
+    {
+      "title": "Slotted ALOHA",
+      "summary": "The simplest random access protocol: time is divided into synchronized slots of one frame-transmission time, nodes transmit with probability p at slot beginnings, and colliding frames in a slot are all lost.",
+      "is_atomic": true
+    },
+    {
+      "title": "CSMA and CSMA/CD",
+      "summary": "Improving random access with carrier sensing (transmit only when the channel is idle) and collision detection with backoff; the efficiency of CSMA/CD depends on the ratio of maximum propagation time to frame transmission time.",
+      "is_atomic": true
+    },
+    {
+      "title": "Taking-Turns: Polling and Token Passing",
+      "summary": "Coordinating channel access by having a master node poll each node in round-robin fashion (polling) or by exchanging a control token that grants transmission rights (token passing).",
+      "is_atomic": true
+    },
+    {
+      "title": "DOCSIS Cable Access",
+      "summary": "Case study of cable Internet access: the CMTS coordinates thousands of cable modems using FDM for downstream and upstream channels plus regulated upstream transmission, combining aspects of all three multiple access classes.",
+      "is_atomic": true
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "subtopics": [
+    {
+      "title": "What Is Network Security?",
+      "summary": "Introduces the goals of secure communication (confidentiality, message integrity, end-point authentication, availability) and surveys prevalent Internet attacks: eavesdropping/sniffing, message modification, insertion, and deletion, impersonation, session hijacking, and denial of service.",
+      "is_atomic": true
+    },
+    {
+      "title": "Principles of Cryptography",
+      "summary": "Fundamental cryptography techniques for encrypting communication, covering both symmetric key and public key encryption, which underpin all secure network protocols.",
+      "is_atomic": false
+    },
+    {
+      "title": "Message Integrity and Digital Signatures",
+      "summary": "Techniques for detecting tampering of messages in transit: cryptographic hash functions, message authentication codes (MACs), and digital signatures.",
+      "is_atomic": true
+    },
+    {
+      "title": "End-Point Authentication",
+      "summary": "Protocols for verifying the identity of the party with whom one is communicating, using nonces and shared secrets to defeat replay and impersonation attacks.",
+      "is_atomic": true
+    },
+    {
+      "title": "Securing E-Mail",
+      "summary": "Application-layer security for e-mail (e.g., PGP), combining digital signatures with symmetric and public key encryption to secure the e-mail message chain.",
+      "is_atomic": true
+    },
+    {
+      "title": "Securing TCP Connections: TLS",
+      "summary": "Transport-layer security for TCP connections, covering how TLS provides encryption, message integrity, and end-point authentication, including handshaking and the record protocol.",
+      "is_atomic": true
+    },
+    {
+      "title": "Network-Layer Security: IPsec and VPNs",
+      "summary": "Blanket protection at the network layer using the IPsec protocol suite, and its application in building virtual private networks (VPNs).",
+      "is_atomic": true
+    }
+  ]
+}

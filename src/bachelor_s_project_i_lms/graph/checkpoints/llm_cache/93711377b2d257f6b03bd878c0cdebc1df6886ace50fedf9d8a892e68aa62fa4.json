@@ -1,0 +1,39 @@
+{
+  "subtopics": [
+    {
+      "title": "Principles of Network Applications",
+      "summary": "Network application architectures (client-server vs. P2P), processes communicating through sockets, transport services available to applications, transport services provided by the Internet (TCP vs. UDP), and what an application-layer protocol defines.",
+      "is_atomic": false
+    },
+    {
+      "title": "The Web and HTTP",
+      "summary": "Overview of HTTP, non-persistent vs. persistent connections, HTTP message format, user-server interaction with cookies, web caching, and HTTP/2.",
+      "is_atomic": false
+    },
+    {
+      "title": "Electronic Mail in the Internet",
+      "summary": "SMTP for mail transfer, mail message formats (headers and body), and mail access protocols used to retrieve messages.",
+      "is_atomic": false
+    },
+    {
+      "title": "DNS: The Internet's Directory Service",
+      "summary": "Services provided by DNS and an overview of how DNS works, including its distributed, hierarchical name-server structure.",
+      "is_atomic": false
+    },
+    {
+      "title": "Peer-to-Peer File Distribution",
+      "summary": "How P2P architectures distribute a file among peers and how this scales compared with client-server distribution.",
+      "is_atomic": true
+    },
+    {
+      "title": "Video Streaming",
+      "summary": "How streaming applications deliver stored video over the Internet, including the bandwidth and timing considerations unique to streaming media.",
+      "is_atomic": true
+    },
+    {
+      "title": "Socket Programming with TCP and UDP",
+      "summary": "The socket interface and development of simple client-server network applications in Python, over both TCP and UDP.",
+      "is_atomic": false
+    }
+  ]
+}

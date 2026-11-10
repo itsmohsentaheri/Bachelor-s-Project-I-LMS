@@ -1,0 +1,34 @@
+{
+  "subtopics": [
+    {
+      "title": "The TCP Connection",
+      "summary": "Why TCP is connection-oriented: the two processes must handshake before sending data, and each end maintains connection state (buffers, variables, sequence numbers). Covers point-to-point, full-duplex service and the maximum segment size (MSS).",
+      "is_atomic": true
+    },
+    {
+      "title": "TCP Segment Structure",
+      "summary": "Anatomy of the TCP segment: source/destination port numbers, 32-bit sequence and acknowledgment numbers (byte-stream offsets), header flags (ACK, RST, SYN, FIN), receive window, checksum, options, and data payload.",
+      "is_atomic": true
+    },
+    {
+      "title": "RTT Estimation and Timeout",
+      "summary": "How TCP measures SampleRTT and computes EstimatedRTT and DevRTT using exponential weighted moving averages, sets TimeoutInterval, and doubles the timeout after a retransmission timeout.",
+      "is_atomic": true
+    },
+    {
+      "title": "TCP Reliable Data Transfer",
+      "summary": "How TCP provides reliability over an unreliable IP layer: cumulative acknowledgments, a single retransmission timer, sender events (ACK receipt, timeout, retransmission), and fast retransmit triggered by three duplicate ACKs.",
+      "is_atomic": true
+    },
+    {
+      "title": "TCP Flow Control",
+      "summary": "The speed-matching service that prevents the sender from overflowing the receiver's buffer: the receive window (rwnd) advertised in segment headers and how the sender limits unacknowledged data to this window.",
+      "is_atomic": true
+    },
+    {
+      "title": "TCP Connection Management",
+      "summary": "The connection lifecycle: the three-way handshake (SYN, SYN+ACK, ACK) with sequence number selection, connection teardown using FIN segments and ACKs, and the resulting client/server state transitions.",
+      "is_atomic": true
+    }
+  ]
+}

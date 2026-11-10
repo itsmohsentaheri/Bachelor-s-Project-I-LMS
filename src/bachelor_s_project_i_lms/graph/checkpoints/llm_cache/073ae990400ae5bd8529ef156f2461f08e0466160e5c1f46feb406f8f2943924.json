@@ -1,0 +1,34 @@
+{
+  "subtopics": [
+    {
+      "title": "Introduction and Transport-Layer Services",
+      "summary": "Logical end-to-end communication between application processes on different hosts; the relationship between the transport and network layers and how the underlying network service model constrains transport services; overview of the Internet's transport protocols (UDP and TCP).",
+      "is_atomic": true
+    },
+    {
+      "title": "Multiplexing and Demultiplexing",
+      "summary": "How the transport layer delivers segments to the correct application sockets using port numbers; connectionless (UDP) demultiplexing based on two-tuples versus connection-oriented (TCP) demultiplexing based on four-tuples.",
+      "is_atomic": true
+    },
+    {
+      "title": "Connectionless Transport: UDP",
+      "summary": "UDP's minimal, no-frills service model, why applications choose it, its segment structure (header fields), and how the UDP checksum is computed and used for error detection.",
+      "is_atomic": true
+    },
+    {
+      "title": "Principles of Reliable Data Transfer",
+      "summary": "Building a reliable channel over an unreliable network layer: ARQ with acknowledgments and retransmissions, sequence numbers, stop-and-wait versus pipelined operation, and the Go-Back-N (GBN) and Selective Repeat (SR) protocols.",
+      "is_atomic": false
+    },
+    {
+      "title": "Connection-Oriented Transport: TCP",
+      "summary": "The TCP connection (three-way handshake and teardown), TCP segment structure, round-trip time estimation and timeout management, TCP's reliable data transfer mechanisms, and flow control with the receive window.",
+      "is_atomic": false
+    },
+    {
+      "title": "Congestion Control",
+      "summary": "The causes and costs of network congestion, network-assisted versus end-to-end control approaches, and TCP's approach to congestion control (slow start, congestion avoidance/AIMD, fast recovery) along with fairness considerations.",
+      "is_atomic": false
+    }
+  ]
+}

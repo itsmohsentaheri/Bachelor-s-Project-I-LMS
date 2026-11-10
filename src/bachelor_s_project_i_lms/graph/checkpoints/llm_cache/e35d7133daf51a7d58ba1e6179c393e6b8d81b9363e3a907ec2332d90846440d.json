@@ -1,0 +1,34 @@
+{
+  "subtopics": [
+    {
+      "title": "End Systems and Their Role",
+      "summary": "What hosts (end systems) are, where they sit at the network edge, and their role in running network applications before connecting to the network core.",
+      "is_atomic": true
+    },
+    {
+      "title": "Home Access: DSL, Cable, and FTTH",
+      "summary": "Wired residential access technologies: DSL over telephone lines, cable over HFC (shared vs. dedicated bandwidth), and fiber to the home, including typical data rates.",
+      "is_atomic": true
+    },
+    {
+      "title": "Ethernet and WiFi Access",
+      "summary": "Local access via Ethernet LANs in homes and enterprises, and IEEE 802.11 wireless LANs in homes, offices, and public hotspots.",
+      "is_atomic": true
+    },
+    {
+      "title": "Cellular and Wide-Area Wireless Access",
+      "summary": "Mobile access through cellular networks (3G, LTE/4G, 5G), enabling untethered Internet access for hand-held devices over wide areas.",
+      "is_atomic": true
+    },
+    {
+      "title": "Guided Physical Media",
+      "summary": "Characteristics and uses of guided media: twisted pair (UTP/STP), coaxial cable, and optical fiber, including where each is deployed.",
+      "is_atomic": true
+    },
+    {
+      "title": "Unguided Physical Media",
+      "summary": "Wireless propagation of signals in radio channels: terrestrial microwave, WiFi/cellular radio bands, and satellite links, and how the environment affects them.",
+      "is_atomic": true
+    }
+  ]
+}

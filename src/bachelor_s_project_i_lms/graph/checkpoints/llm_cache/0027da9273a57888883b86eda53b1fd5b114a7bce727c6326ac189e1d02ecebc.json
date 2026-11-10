@@ -1,0 +1,29 @@
+{
+  "subtopics": [
+    {
+      "title": "Signal Attenuation and Path Loss",
+      "summary": "Why wireless signal strength decreases: electromagnetic radiation attenuates as it passes through matter (e.g., walls) and disperses even in free space, so received power falls as sender-receiver distance grows.",
+      "is_atomic": true
+    },
+    {
+      "title": "Interference and Multipath Propagation",
+      "summary": "How wireless signals are corrupted by other radio sources transmitting in the same frequency band, and how reflections off objects cause multipath propagation where multiple copies of a signal arrive at the receiver.",
+      "is_atomic": true
+    },
+    {
+      "title": "SNR and Bit Error Rates",
+      "summary": "The relationship between signal-to-noise ratio (SNR) and bit error rate (BER) on a wireless link, and how changing channel conditions and distance cause bit errors.",
+      "is_atomic": true
+    },
+    {
+      "title": "Wireless Link Rates and Coverage Ranges",
+      "summary": "Comparison of the key characteristics of popular wireless network standards: their transmission rates and coverage distances, and how these vary with distance, channel conditions, and number of users.",
+      "is_atomic": true
+    },
+    {
+      "title": "CDMA: Code Division Multiple Access",
+      "summary": "Introduction to CDMA as a shared-medium access protocol used in wireless networks, where senders encode their bits using unique code sequences so multiple users can transmit simultaneously over the same spectrum.",
+      "is_atomic": true
+    }
+  ]
+}

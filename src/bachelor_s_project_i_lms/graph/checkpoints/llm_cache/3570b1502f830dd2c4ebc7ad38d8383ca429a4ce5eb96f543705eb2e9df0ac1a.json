@@ -1,0 +1,29 @@
+{
+  "subtopics": [
+    {
+      "title": "4G LTE Architecture and Elements",
+      "summary": "The 4G LTE network architecture and its key elements: base stations, the edge/core distinction, gateway and mobility-management components, and the separation of data and control planes.",
+      "is_atomic": true
+    },
+    {
+      "title": "LTE Protocol Stacks and Radio Access Network",
+      "summary": "Protocol layering in LTE: the control-plane and data-plane protocol stacks and the radio access network connecting the mobile device to the base station.",
+      "is_atomic": true
+    },
+    {
+      "title": "LTE Network Attachment and Power Management",
+      "summary": "How a mobile device attaches (registers) to an LTE network and the power-management techniques used to conserve device battery life.",
+      "is_atomic": true
+    },
+    {
+      "title": "Global Cellular Network of Networks",
+      "summary": "How a carrier's network interconnects with other carrier networks and the larger Internet to form a global cellular 'network of networks,' mirroring Internet architectural principles.",
+      "is_atomic": true
+    },
+    {
+      "title": "5G Cellular Technology",
+      "summary": "Emerging 5G cellular technology: new frequency bands (including millimeter-wave FR2), increased cell density, wider available spectrum, and MIMO/beam-forming for improved spectral efficiency.",
+      "is_atomic": true
+    }
+  ]
+}

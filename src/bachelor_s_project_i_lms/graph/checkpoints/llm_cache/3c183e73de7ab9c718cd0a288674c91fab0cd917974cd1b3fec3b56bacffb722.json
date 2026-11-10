@@ -1,0 +1,39 @@
+{
+  "subtopics": [
+    {
+      "title": "Introduction to the Link Layer",
+      "summary": "The basic service of moving network-layer datagrams between adjacent nodes via framing/encapsulation; the services provided (link access, reliable delivery, error detection) and where the link layer is implemented (network adapters/NICs); broadcast vs. point-to-point links.",
+      "is_atomic": true
+    },
+    {
+      "title": "Error-Detection and -Correction Techniques",
+      "summary": "Techniques for detecting and correcting transmission errors in link-layer frames: simple and two-dimensional parity checks, checksumming methods, and the cyclic redundancy check (CRC).",
+      "is_atomic": true
+    },
+    {
+      "title": "Multiple Access Protocols",
+      "summary": "Coordinating access to a shared broadcast channel using three broad approaches: channel partitioning (TDM, FDM), random access (ALOHA, CSMA, CSMA/CD), and taking-turns (polling, token passing); DOCSIS as the link-layer protocol for cable Internet access.",
+      "is_atomic": false
+    },
+    {
+      "title": "Link-Layer Addressing and ARP",
+      "summary": "Link-layer (MAC) addresses, how they differ from network-layer addresses, and why broadcast channels require node addressing; address resolution between IP and MAC addresses.",
+      "is_atomic": true
+    },
+    {
+      "title": "Ethernet and Link-Layer Switches",
+      "summary": "Ethernet framing and link-layer technologies; how link-layer switches forward and filter frames (e.g., self-learning) and their role compared with routers.",
+      "is_atomic": false
+    },
+    {
+      "title": "Virtual LANs (VLANs)",
+      "summary": "Creating multiple virtual LANs over a single physical LAN infrastructure, including VLAN configuration and traffic isolation.",
+      "is_atomic": true
+    },
+    {
+      "title": "MPLS and Data Center Networking",
+      "summary": "How MPLS networks provide link-layer services when interconnecting IP routers, and an overview of network designs for today's massive data centers.",
+      "is_atomic": false
+    }
+  ]
+}

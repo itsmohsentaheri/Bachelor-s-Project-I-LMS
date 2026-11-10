@@ -1,0 +1,34 @@
+{
+  "subtopics": [
+    {
+      "title": "Link-Layer Addressing and ARP",
+      "summary": "Link-layer (MAC) addresses and how they differ from network-layer IP addresses; the ARP protocol for resolving IP-to-MAC addresses; sending datagrams to nodes off the local subnet.",
+      "is_atomic": true
+    },
+    {
+      "title": "Ethernet: Frame Format and Evolution",
+      "summary": "The structure of the Ethernet frame (data field, source/destination addresses, type field, CRC) and Ethernet's history and enduring dominance as the standard LAN technology.",
+      "is_atomic": true
+    },
+    {
+      "title": "Switch Forwarding, Filtering, and Self-Learning",
+      "summary": "How a switch uses its switch table to forward or filter incoming frames based on destination MAC addresses, and how it builds and ages table entries automatically via self-learning, making it a transparent plug-and-play device.",
+      "is_atomic": true
+    },
+    {
+      "title": "Properties of Link-Layer Switching",
+      "summary": "Advantages of switches over broadcast links and hubs: eliminating collisions through dedicated per-host bandwidth, full-duplex send/receive on each interface, and simplified network administration.",
+      "is_atomic": true
+    },
+    {
+      "title": "Switches versus Routers",
+      "summary": "Comparing link-layer switches (implementing layers 1-2, forwarding on MAC addresses) with routers (implementing layers 1-3, forwarding on IP addresses), and the trade-offs in choosing between them.",
+      "is_atomic": true
+    },
+    {
+      "title": "Virtual LANs (VLANs)",
+      "summary": "How multiple virtual LANs can be created over a single physical LAN/switch infrastructure, providing traffic isolation and flexible VLAN membership.",
+      "is_atomic": true
+    }
+  ]
+}

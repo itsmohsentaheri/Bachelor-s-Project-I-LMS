@@ -1,0 +1,34 @@
+{
+  "subtopics": [
+    {
+      "title": "Reliable Transfer over a Perfectly Reliable Channel (rdt1.0)",
+      "summary": "The baseline case where the underlying channel never corrupts or loses packets; the sender and receiver FSMs need no feedback, sequence numbers, or retransmissions. Serves as the starting point for incrementally adding reliability mechanisms.",
+      "is_atomic": true
+    },
+    {
+      "title": "Reliable Transfer over a Channel with Bit Errors (rdt2.x)",
+      "summary": "Introduces ARQ mechanisms: checksums for error detection, ACKs/NAKs, and retransmission on negative feedback. Covers handling corrupted ACKs/NAKs by adding sequence numbers (rdt2.1) and eliminating NAKs by ACKing the last correctly received packet (rdt2.2).",
+      "is_atomic": true
+    },
+    {
+      "title": "Reliable Transfer over a Lossy Channel (rdt3.0)",
+      "summary": "Handles lost packets and premature timeouts using a countdown timer and retransmission, with sequence numbers letting the receiver detect and discard duplicates. Shows why alternating-bit sequence numbers suffice for stop-and-wait operation.",
+      "is_atomic": true
+    },
+    {
+      "title": "Stop-and-Wait Performance and Channel Utilization",
+      "summary": "Quantifies how stop-and-wait wastes bandwidth (e.g., only 267 kbps effective throughput on a 1 Gbps link) and derives utilization as a function of RTT and L/R, motivating the shift to pipelined operation.",
+      "is_atomic": true
+    },
+    {
+      "title": "Go-Back-N (GBN) Protocol",
+      "summary": "Pipelined sliding-window protocol allowing up to N unacknowledged packets, using cumulative ACKs and retransmitting all outstanding packets after a single timeout; the receiver discards out-of-order packets.",
+      "is_atomic": true
+    },
+    {
+      "title": "Selective Repeat (SR) Protocol",
+      "summary": "Pipelined protocol in which the receiver individually acknowledges and buffers out-of-order packets while the sender retransmits only missing packets; covers per-packet timers and window-size constraints relative to the sequence-number space.",
+      "is_atomic": true
+    }
+  ]
+}

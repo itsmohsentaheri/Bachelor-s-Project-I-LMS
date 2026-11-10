@@ -1,0 +1,1867 @@
+[
+  {
+    "temp_id": "t_85bd028895",
+    "title": "Computer Networks and the Internet",
+    "summary": "",
+    "depth": 0,
+    "root": "Computer Networks and the Internet",
+    "parent_temp_id": null,
+    "is_atomic": false,
+    "needs_review": false,
+    "children": [
+      {
+        "temp_id": "t_7e98cb4a78",
+        "title": "What Is the Internet?",
+        "summary": "Introduces the Internet from a nuts-and-bolts view (end systems, communication links, packet switches, ISPs), a services view supporting distributed applications, and defines what a protocol is and why all Internet communication is governed by protocols.",
+        "depth": 1,
+        "root": "Computer Networks and the Internet",
+        "parent_temp_id": "t_85bd028895",
+        "is_atomic": true,
+        "needs_review": false,
+        "children": []
+      },
+      {
+        "temp_id": "t_d5581895ec",
+        "title": "The Network Edge",
+        "summary": "Covers end systems (hosts) and how they connect to the network: access networks such as DSL, cable, FTTH, Ethernet, WiFi, and cellular, plus guided and unguided physical media (twisted pair, coax, fiber, radio).",
+        "depth": 1,
+        "root": "Computer Networks and the Internet",
+        "parent_temp_id": "t_85bd028895",
+        "is_atomic": false,
+        "needs_review": false,
+        "children": [
+          {
+            "temp_id": "t_ba24910861",
+            "title": "End Systems and Their Role",
+            "summary": "What hosts (end systems) are, where they sit at the network edge, and their role in running network applications before connecting to the network core.",
+            "depth": 2,
+            "root": "Computer Networks and the Internet",
+            "parent_temp_id": "t_d5581895ec",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_816ac3f2f1",
+            "title": "Home Access: DSL, Cable, and FTTH",
+            "summary": "Wired residential access technologies: DSL over telephone lines, cable over HFC (shared vs. dedicated bandwidth), and fiber to the home, including typical data rates.",
+            "depth": 2,
+            "root": "Computer Networks and the Internet",
+            "parent_temp_id": "t_d5581895ec",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_a349f92353",
+            "title": "Ethernet and WiFi Access",
+            "summary": "Local access via Ethernet LANs in homes and enterprises, and IEEE 802.11 wireless LANs in homes, offices, and public hotspots.",
+            "depth": 2,
+            "root": "Computer Networks and the Internet",
+            "parent_temp_id": "t_d5581895ec",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_8bd0445165",
+            "title": "Cellular and Wide-Area Wireless Access",
+            "summary": "Mobile access through cellular networks (3G, LTE/4G, 5G), enabling untethered Internet access for hand-held devices over wide areas.",
+            "depth": 2,
+            "root": "Computer Networks and the Internet",
+            "parent_temp_id": "t_d5581895ec",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_9aee124d4a",
+            "title": "Guided Physical Media",
+            "summary": "Characteristics and uses of guided media: twisted pair (UTP/STP), coaxial cable, and optical fiber, including where each is deployed.",
+            "depth": 2,
+            "root": "Computer Networks and the Internet",
+            "parent_temp_id": "t_d5581895ec",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_c10e125868",
+            "title": "Unguided Physical Media",
+            "summary": "Wireless propagation of signals in radio channels: terrestrial microwave, WiFi/cellular radio bands, and satellite links, and how the environment affects them.",
+            "depth": 2,
+            "root": "Computer Networks and the Internet",
+            "parent_temp_id": "t_d5581895ec",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "temp_id": "t_3b7a01e3a3",
+        "title": "The Network Core",
+        "summary": "Examines the mesh of links and packet switches at the Internet's core: store-and-forward packet switching and statistical multiplexing, circuit switching with FDM/TDM, and the Internet's structure as a network of networks of ISPs.",
+        "depth": 1,
+        "root": "Computer Networks and the Internet",
+        "parent_temp_id": "t_85bd028895",
+        "is_atomic": false,
+        "needs_review": false,
+        "children": [
+          {
+            "temp_id": "t_0f17eb50b0",
+            "title": "Store-and-Forward Packet Switching",
+            "summary": "How packet switches receive, store, and retransmit packets; per-hop transmission delay and computing the end-to-end delay of a message crossing N links and N-1 switches.",
+            "depth": 2,
+            "root": "Computer Networks and the Internet",
+            "parent_temp_id": "t_3b7a01e3a3",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_ed98ff82ca",
+            "title": "Queuing Delay, Packet Loss, and Statistical Multiplexing",
+            "summary": "Output buffers in packet switches, queuing delay when packets arrive faster than the output link can transmit, packet loss under congestion, and how statistical multiplexing shares link capacity on demand.",
+            "depth": 2,
+            "root": "Computer Networks and the Internet",
+            "parent_temp_id": "t_3b7a01e3a3",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_dd95cb9dab",
+            "title": "Circuit Switching with FDM and TDM",
+            "summary": "Dedicated end-to-end circuits with reserved bandwidth, circuit setup and teardown, and how frequency-division and time-division multiplexing partition a link among active circuits.",
+            "depth": 2,
+            "root": "Computer Networks and the Internet",
+            "parent_temp_id": "t_3b7a01e3a3",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_0b55330cdc",
+            "title": "Packet Switching vs. Circuit Switching",
+            "summary": "Trade-offs between the two core approaches: efficiency for bursty traffic, wasted capacity during silent periods, guaranteed versus on-demand bandwidth, and why the Internet adopts packet switching.",
+            "depth": 2,
+            "root": "Computer Networks and the Internet",
+            "parent_temp_id": "t_3b7a01e3a3",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_b1e7966545",
+            "title": "The Internet as a Network of Networks",
+            "summary": "How access ISPs (home, mobile, enterprise) interconnect through regional ISPs, national and global tier-1 providers, peering, IXPs, and content provider networks to form today's Internet structure.",
+            "depth": 2,
+            "root": "Computer Networks and the Internet",
+            "parent_temp_id": "t_3b7a01e3a3",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "temp_id": "t_a25e6db16b",
+        "title": "Delay, Loss, and Throughput",
+        "summary": "Builds quantitative models for packet-switched networks: processing, queuing, transmission, and propagation delays; queuing delay and packet loss; end-to-end delay; and throughput including the bottleneck-link model.",
+        "depth": 1,
+        "root": "Computer Networks and the Internet",
+        "parent_temp_id": "t_85bd028895",
+        "is_atomic": false,
+        "needs_review": false,
+        "children": [
+          {
+            "temp_id": "t_d42ec990d6",
+            "title": "Sources of Nodal Delay",
+            "summary": "Introduces the four delay components at a node—processing (dproc), queuing (dqueue), transmission (dtrans), and propagation (dprop)—and the nodal delay formula dnodal = dproc + dqueue + dtrans + dprop. Compares the relative magnitude of each component across link types (e.g., negligible propagation on a campus LAN vs. hundreds of milliseconds over a geostationary satellite link; negligible transmission delay at 10 Mbps vs. significant on dial-up).",
+            "depth": 2,
+            "root": "Computer Networks and the Internet",
+            "parent_temp_id": "t_a25e6db16b",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_ea8692cda0",
+            "title": "Queuing Delay and Traffic Intensity",
+            "summary": "Examines the most complex delay component: queuing delay. Covers how it depends on the traffic intensity La/R, including behavior as intensity approaches 0 (negligible delay), approaches 1 (delay grows large and highly variable), and exceeds 1 (average queue length unbounded). Notes the impact of queuing delay variation (jitter) on applications.",
+            "depth": 2,
+            "root": "Computer Networks and the Internet",
+            "parent_temp_id": "t_a25e6db16b",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_9aa8afbd4d",
+            "title": "Packet Loss",
+            "summary": "Explains that router queues have finite capacity, so a packet arriving to find a full queue is dropped (lost). Relates loss to traffic intensity approaching or exceeding 1, and describes how, from an end-system viewpoint, a lost packet appears as one that never arrives rather than one with infinite delay.",
+            "depth": 2,
+            "root": "Computer Networks and the Internet",
+            "parent_temp_id": "t_a25e6db16b",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_1ae52d967f",
+            "title": "End-to-End Delay",
+            "summary": "Defines end-to-end delay as the accumulation of nodal delays (plus other delays) along the source-to-destination path. Includes application-induced delays such as the packetization delay in Voice-over-IP, where the sender must fill a packet with encoded digitized speech before transmission, affecting user-perceived call quality.",
+            "depth": 2,
+            "root": "Computer Networks and the Internet",
+            "parent_temp_id": "t_a25e6db16b",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_4767cea849",
+            "title": "Throughput and the Bottleneck Link",
+            "summary": "Defines instantaneous and average end-to-end throughput for a file transfer, and presents the bottleneck-link model: throughput equals the minimum transmission rate along the path, min{Rs, Rc}. Uses this to approximate file transfer time as F/min{Rs, Rc} (e.g., a 32 Mbit MP3 over a 1 Mbps bottleneck takes 32 seconds) and notes these are approximations ignoring store-and-forward and processing delays.",
+            "depth": 2,
+            "root": "Computer Networks and the Internet",
+            "parent_temp_id": "t_a25e6db16b",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "temp_id": "t_7aab4b277b",
+        "title": "Protocol Layers and Service Models",
+        "summary": "Explains why networks use a layered architecture, the service each layer provides, the five-layer Internet protocol stack, and how messages are encapsulated layer-by-layer as they traverse the sender's and receiver's stacks.",
+        "depth": 1,
+        "root": "Computer Networks and the Internet",
+        "parent_temp_id": "t_85bd028895",
+        "is_atomic": true,
+        "needs_review": false,
+        "children": []
+      },
+      {
+        "temp_id": "t_81b54d4c89",
+        "title": "Networks Under Attack",
+        "summary": "Surveys prevalent Internet security attacks, including malware (viruses and worms), denial-of-service attacks, packet sniffing, and IP spoofing, motivating the study of network security.",
+        "depth": 1,
+        "root": "Computer Networks and the Internet",
+        "parent_temp_id": "t_85bd028895",
+        "is_atomic": true,
+        "needs_review": false,
+        "children": []
+      },
+      {
+        "temp_id": "t_cabe097382",
+        "title": "History of Computer Networking",
+        "summary": "Traces the development of packet switching and the evolution of computer networking and the Internet from its early research origins to today's Internet.",
+        "depth": 1,
+        "root": "Computer Networks and the Internet",
+        "parent_temp_id": "t_85bd028895",
+        "is_atomic": true,
+        "needs_review": false,
+        "children": []
+      }
+    ]
+  },
+  {
+    "temp_id": "t_422ca8cabb",
+    "title": "Application Layer",
+    "summary": "",
+    "depth": 0,
+    "root": "Application Layer",
+    "parent_temp_id": null,
+    "is_atomic": false,
+    "needs_review": false,
+    "children": [
+      {
+        "temp_id": "t_6826a8895e",
+        "title": "Principles of Network Applications",
+        "summary": "Network application architectures (client-server vs. P2P), processes communicating through sockets, transport services available to applications, transport services provided by the Internet (TCP vs. UDP), and what an application-layer protocol defines.",
+        "depth": 1,
+        "root": "Application Layer",
+        "parent_temp_id": "t_422ca8cabb",
+        "is_atomic": false,
+        "needs_review": false,
+        "children": [
+          {
+            "temp_id": "t_a2f2554cdc",
+            "title": "Network Application Architectures",
+            "summary": "Contrast client-server architectures (data centers, always-on servers) with P2P architectures (self-scalability, minimal server infrastructure) and hybrid designs, including examples like Web, e-mail, and file sharing.",
+            "depth": 2,
+            "root": "Application Layer",
+            "parent_temp_id": "t_6826a8895e",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_8cb84b40e1",
+            "title": "Processes Communicating",
+            "summary": "Explain how processes on different end systems communicate: client vs. server processes, the socket as the interface between an application process and the transport layer, and addressing a destination process via IP address and port number.",
+            "depth": 2,
+            "root": "Application Layer",
+            "parent_temp_id": "t_6826a8895e",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_0216db1919",
+            "title": "Transport Services Available to Applications",
+            "summary": "Identify the four classes of service an application may need from a transport layer: reliable data transfer, throughput guarantees, timing guarantees, and security.",
+            "depth": 2,
+            "root": "Application Layer",
+            "parent_temp_id": "t_6826a8895e",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_a78d9a251c",
+            "title": "Transport Services Provided by the Internet",
+            "summary": "Describe the TCP service model (connection-oriented, reliable, congestion control) versus the UDP service model (connectionless, unreliable, minimal), and note why neither provides throughput, timing, or security guarantees (motivating SSL/TLS).",
+            "depth": 2,
+            "root": "Application Layer",
+            "parent_temp_id": "t_6826a8895e",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_f743b79be3",
+            "title": "Application-Layer Protocols",
+            "summary": "Define what an application-layer protocol specifies—message types, message syntax, field semantics, and rules for when/how processes send and respond to messages—and distinguish open protocols (e.g., HTTP, SMTP) from proprietary ones.",
+            "depth": 2,
+            "root": "Application Layer",
+            "parent_temp_id": "t_6826a8895e",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "temp_id": "t_6a52e2f07c",
+        "title": "The Web and HTTP",
+        "summary": "Overview of HTTP, non-persistent vs. persistent connections, HTTP message format, user-server interaction with cookies, web caching, and HTTP/2.",
+        "depth": 1,
+        "root": "Application Layer",
+        "parent_temp_id": "t_422ca8cabb",
+        "is_atomic": false,
+        "needs_review": false,
+        "children": [
+          {
+            "temp_id": "t_244e6be4a4",
+            "title": "Overview of HTTP",
+            "summary": "Web page structure (HTML base file plus referenced objects), URLs, browsers and Web servers as HTTP client/server, and HTTP's stateless request-response model.",
+            "depth": 2,
+            "root": "Application Layer",
+            "parent_temp_id": "t_6a52e2f07c",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_3f84aa70d7",
+            "title": "Non-Persistent vs. Persistent Connections",
+            "summary": "How HTTP uses TCP connections: non-persistent connections with one object per connection, persistent connections with multiple objects, and response-time analysis using round-trip time.",
+            "depth": 2,
+            "root": "Application Layer",
+            "parent_temp_id": "t_6a52e2f07c",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_e195c43945",
+            "title": "HTTP Message Format",
+            "summary": "Structure of HTTP request messages (request line, header lines, methods like GET and POST) and response messages (status line, status codes, headers, entity body).",
+            "depth": 2,
+            "root": "Application Layer",
+            "parent_temp_id": "t_6a52e2f07c",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_d97ac77b0d",
+            "title": "User-Server Interaction: Cookies",
+            "summary": "The four cookie components (cookie file, header lines, backend database) and how cookies enable stateful user identification over a stateless protocol.",
+            "depth": 2,
+            "root": "Application Layer",
+            "parent_temp_id": "t_6a52e2f07c",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_d5a8925b50",
+            "title": "Web Caching",
+            "summary": "Proxy servers as caches, cache hits and misses, benefits of caching (reduced response time and traffic), and the conditional GET for keeping cached copies fresh.",
+            "depth": 2,
+            "root": "Application Layer",
+            "parent_temp_id": "t_6a52e2f07c",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_d507a90238",
+            "title": "HTTP/2",
+            "summary": "HTTP/2's framing mechanism, multiplexing of requests/responses over one TCP connection, and how it addresses head-of-line blocking and improves page-load latency.",
+            "depth": 2,
+            "root": "Application Layer",
+            "parent_temp_id": "t_6a52e2f07c",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "temp_id": "t_44c3dd5323",
+        "title": "Electronic Mail in the Internet",
+        "summary": "SMTP for mail transfer, mail message formats (headers and body), and mail access protocols used to retrieve messages.",
+        "depth": 1,
+        "root": "Application Layer",
+        "parent_temp_id": "t_422ca8cabb",
+        "is_atomic": false,
+        "needs_review": false,
+        "children": [
+          {
+            "temp_id": "t_3e57c8b745",
+            "title": "E-mail System Architecture",
+            "summary": "The three main components—user agents, mail servers, and the SMTP protocol—plus mailboxes, message queues, and how a message flows from sender to recipient's mailbox, including failure handling and retries.",
+            "depth": 2,
+            "root": "Application Layer",
+            "parent_temp_id": "t_44c3dd5323",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_1f2e6da3f2",
+            "title": "SMTP: Mail Transfer Protocol",
+            "summary": "How SMTP (RFC 5321) transfers messages between mail servers: client/server roles, TCP port 25, direct delivery, command/reply dialogue, and its restrictions and differences from HTTP.",
+            "depth": 2,
+            "root": "Application Layer",
+            "parent_temp_id": "t_44c3dd5323",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_bb1a274a0a",
+            "title": "Mail Message Formats and MIME",
+            "summary": "The structure of an e-mail message with header lines (From:, To:, Subject:, Received:) and body, and MIME extensions that allow multimedia content in the body.",
+            "depth": 2,
+            "root": "Application Layer",
+            "parent_temp_id": "t_44c3dd5323",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_f0e3c60144",
+            "title": "Mail Access Protocols: POP3, IMAP, and HTTP",
+            "summary": "How recipients retrieve messages from their mail server: POP3 (download-and-delete vs. download-and-keep), IMAP (folders and server-side manipulation), and web-based e-mail over HTTP.",
+            "depth": 2,
+            "root": "Application Layer",
+            "parent_temp_id": "t_44c3dd5323",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "temp_id": "t_f73190262d",
+        "title": "DNS: The Internet's Directory Service",
+        "summary": "Services provided by DNS and an overview of how DNS works, including its distributed, hierarchical name-server structure.",
+        "depth": 1,
+        "root": "Application Layer",
+        "parent_temp_id": "t_422ca8cabb",
+        "is_atomic": false,
+        "needs_review": false,
+        "children": [
+          {
+            "temp_id": "t_2c88d103d2",
+            "title": "Services Provided by DNS",
+            "summary": "Why a directory service is needed (hostnames vs. IP addresses), DNS's main task of translating hostnames to IP addresses, host aliasing with canonical names, and load distribution via DNS rotation among replicated servers.",
+            "depth": 2,
+            "root": "Application Layer",
+            "parent_temp_id": "t_f73190262d",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_3b4d5a13ae",
+            "title": "DNS Server Hierarchy: Root, TLD, and Authoritative",
+            "summary": "DNS as a distributed database in a hierarchy of servers running BIND over UDP port 53; the roles of root servers (13 root servers, 1000+ instances), top-level-domain servers, and authoritative servers.",
+            "depth": 2,
+            "root": "Application Layer",
+            "parent_temp_id": "t_f73190262d",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_fcc36585fd",
+            "title": "DNS Query Resolution: Recursive and Iterative",
+            "summary": "How a hostname lookup proceeds: the local DNS server's role, delegation from root to TLD to authoritative servers, intermediate servers in the chain, and the difference between recursive and iterative queries.",
+            "depth": 2,
+            "root": "Application Layer",
+            "parent_temp_id": "t_f73190262d",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_b5b1e82e5c",
+            "title": "Exploring DNS with dig",
+            "summary": "Hands-on use of the dig tool to trace the delegation chain of DNS queries from a root server down to authoritative servers for real websites.",
+            "depth": 2,
+            "root": "Application Layer",
+            "parent_temp_id": "t_f73190262d",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "temp_id": "t_90bde9d97a",
+        "title": "Peer-to-Peer File Distribution",
+        "summary": "How P2P architectures distribute a file among peers and how this scales compared with client-server distribution.",
+        "depth": 1,
+        "root": "Application Layer",
+        "parent_temp_id": "t_422ca8cabb",
+        "is_atomic": true,
+        "needs_review": false,
+        "children": []
+      },
+      {
+        "temp_id": "t_8717fac8d7",
+        "title": "Video Streaming",
+        "summary": "How streaming applications deliver stored video over the Internet, including the bandwidth and timing considerations unique to streaming media.",
+        "depth": 1,
+        "root": "Application Layer",
+        "parent_temp_id": "t_422ca8cabb",
+        "is_atomic": true,
+        "needs_review": false,
+        "children": []
+      },
+      {
+        "temp_id": "t_172fdfaf12",
+        "title": "Socket Programming with TCP and UDP",
+        "summary": "The socket interface and development of simple client-server network applications in Python, over both TCP and UDP.",
+        "depth": 1,
+        "root": "Application Layer",
+        "parent_temp_id": "t_422ca8cabb",
+        "is_atomic": false,
+        "needs_review": false,
+        "children": [
+          {
+            "temp_id": "t_2738a2cd43",
+            "title": "Simple Client-Server Application Example",
+            "summary": "The running example used for both protocols: the client reads a line from the keyboard and sends it, the server converts the characters to uppercase and sends them back, and the client displays the modified line. Also covers the requirement that the server be up and running before the client sends its message.",
+            "depth": 2,
+            "root": "Application Layer",
+            "parent_temp_id": "t_172fdfaf12",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_c5616eeac6",
+            "title": "Socket Programming with UDP",
+            "summary": "Connectionless programming with UDPClient.py and UDPServer.py: creating a datagram socket, sending independent packets with sendto()/recvfrom(), destination address attached to each packet, and the OS automatically attaching the source IP address and port number. No handshake or delivery guarantees.",
+            "depth": 2,
+            "root": "Application Layer",
+            "parent_temp_id": "t_172fdfaf12",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_fc27d5a7f5",
+            "title": "Socket Programming with TCP",
+            "summary": "Connection-oriented programming with TCPClient.py and TCPServer.py: handshaking to establish a TCP connection before data flows, the client socket and server socket, the distinction between the welcome socket and the connection socket, and the reliable byte-stream channel between the two end systems.",
+            "depth": 2,
+            "root": "Application Layer",
+            "parent_temp_id": "t_172fdfaf12",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_70b822b7e6",
+            "title": "Comparing TCP and UDP Socket Programs",
+            "summary": "Side-by-side comparison of the two program pairs: connection setup versus connectionless operation, byte-stream versus independent datagrams, number and role of sockets on each side, and how addressing is handled, to understand when each API is appropriate.",
+            "depth": 2,
+            "root": "Application Layer",
+            "parent_temp_id": "t_172fdfaf12",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_f40a082fba",
+            "title": "Choosing a Transport Protocol and Port Numbers",
+            "summary": "The first development decision: whether the application runs over TCP (connection-oriented, reliable byte stream) or UDP (connectionless, no delivery guarantees). Also covers using well-known port numbers when implementing an RFC-defined protocol and avoiding them when developing a proprietary application.",
+            "depth": 2,
+            "root": "Application Layer",
+            "parent_temp_id": "t_172fdfaf12",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "temp_id": "t_74c9acd981",
+    "title": "Transport Layer",
+    "summary": "",
+    "depth": 0,
+    "root": "Transport Layer",
+    "parent_temp_id": null,
+    "is_atomic": false,
+    "needs_review": false,
+    "children": [
+      {
+        "temp_id": "t_fdc2fd4098",
+        "title": "Introduction and Transport-Layer Services",
+        "summary": "Logical end-to-end communication between application processes on different hosts; the relationship between the transport and network layers and how the underlying network service model constrains transport services; overview of the Internet's transport protocols (UDP and TCP).",
+        "depth": 1,
+        "root": "Transport Layer",
+        "parent_temp_id": "t_74c9acd981",
+        "is_atomic": true,
+        "needs_review": false,
+        "children": []
+      },
+      {
+        "temp_id": "t_77ec1669b6",
+        "title": "Multiplexing and Demultiplexing",
+        "summary": "How the transport layer delivers segments to the correct application sockets using port numbers; connectionless (UDP) demultiplexing based on two-tuples versus connection-oriented (TCP) demultiplexing based on four-tuples.",
+        "depth": 1,
+        "root": "Transport Layer",
+        "parent_temp_id": "t_74c9acd981",
+        "is_atomic": true,
+        "needs_review": false,
+        "children": []
+      },
+      {
+        "temp_id": "t_24fed41ec2",
+        "title": "Connectionless Transport: UDP",
+        "summary": "UDP's minimal, no-frills service model, why applications choose it, its segment structure (header fields), and how the UDP checksum is computed and used for error detection.",
+        "depth": 1,
+        "root": "Transport Layer",
+        "parent_temp_id": "t_74c9acd981",
+        "is_atomic": true,
+        "needs_review": false,
+        "children": []
+      },
+      {
+        "temp_id": "t_ab0c8f9876",
+        "title": "Principles of Reliable Data Transfer",
+        "summary": "Building a reliable channel over an unreliable network layer: ARQ with acknowledgments and retransmissions, sequence numbers, stop-and-wait versus pipelined operation, and the Go-Back-N (GBN) and Selective Repeat (SR) protocols.",
+        "depth": 1,
+        "root": "Transport Layer",
+        "parent_temp_id": "t_74c9acd981",
+        "is_atomic": false,
+        "needs_review": false,
+        "children": [
+          {
+            "temp_id": "t_3245369041",
+            "title": "Reliable Transfer over a Perfectly Reliable Channel (rdt1.0)",
+            "summary": "The baseline case where the underlying channel never corrupts or loses packets; the sender and receiver FSMs need no feedback, sequence numbers, or retransmissions. Serves as the starting point for incrementally adding reliability mechanisms.",
+            "depth": 2,
+            "root": "Transport Layer",
+            "parent_temp_id": "t_ab0c8f9876",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_5f705469c5",
+            "title": "Reliable Transfer over a Channel with Bit Errors (rdt2.x)",
+            "summary": "Introduces ARQ mechanisms: checksums for error detection, ACKs/NAKs, and retransmission on negative feedback. Covers handling corrupted ACKs/NAKs by adding sequence numbers (rdt2.1) and eliminating NAKs by ACKing the last correctly received packet (rdt2.2).",
+            "depth": 2,
+            "root": "Transport Layer",
+            "parent_temp_id": "t_ab0c8f9876",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_61e4e5d7ed",
+            "title": "Reliable Transfer over a Lossy Channel (rdt3.0)",
+            "summary": "Handles lost packets and premature timeouts using a countdown timer and retransmission, with sequence numbers letting the receiver detect and discard duplicates. Shows why alternating-bit sequence numbers suffice for stop-and-wait operation.",
+            "depth": 2,
+            "root": "Transport Layer",
+            "parent_temp_id": "t_ab0c8f9876",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_4ed6e9702e",
+            "title": "Stop-and-Wait Performance and Channel Utilization",
+            "summary": "Quantifies how stop-and-wait wastes bandwidth (e.g., only 267 kbps effective throughput on a 1 Gbps link) and derives utilization as a function of RTT and L/R, motivating the shift to pipelined operation.",
+            "depth": 2,
+            "root": "Transport Layer",
+            "parent_temp_id": "t_ab0c8f9876",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_dce7c5ce14",
+            "title": "Go-Back-N (GBN) Protocol",
+            "summary": "Pipelined sliding-window protocol allowing up to N unacknowledged packets, using cumulative ACKs and retransmitting all outstanding packets after a single timeout; the receiver discards out-of-order packets.",
+            "depth": 2,
+            "root": "Transport Layer",
+            "parent_temp_id": "t_ab0c8f9876",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_1844d31b92",
+            "title": "Selective Repeat (SR) Protocol",
+            "summary": "Pipelined protocol in which the receiver individually acknowledges and buffers out-of-order packets while the sender retransmits only missing packets; covers per-packet timers and window-size constraints relative to the sequence-number space.",
+            "depth": 2,
+            "root": "Transport Layer",
+            "parent_temp_id": "t_ab0c8f9876",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "temp_id": "t_58f5bfbaff",
+        "title": "Connection-Oriented Transport: TCP",
+        "summary": "The TCP connection (three-way handshake and teardown), TCP segment structure, round-trip time estimation and timeout management, TCP's reliable data transfer mechanisms, and flow control with the receive window.",
+        "depth": 1,
+        "root": "Transport Layer",
+        "parent_temp_id": "t_74c9acd981",
+        "is_atomic": false,
+        "needs_review": false,
+        "children": [
+          {
+            "temp_id": "t_379f333add",
+            "title": "The TCP Connection",
+            "summary": "Why TCP is connection-oriented: the two processes must handshake before sending data, and each end maintains connection state (buffers, variables, sequence numbers). Covers point-to-point, full-duplex service and the maximum segment size (MSS).",
+            "depth": 2,
+            "root": "Transport Layer",
+            "parent_temp_id": "t_58f5bfbaff",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_26e61b16fc",
+            "title": "TCP Segment Structure",
+            "summary": "Anatomy of the TCP segment: source/destination port numbers, 32-bit sequence and acknowledgment numbers (byte-stream offsets), header flags (ACK, RST, SYN, FIN), receive window, checksum, options, and data payload.",
+            "depth": 2,
+            "root": "Transport Layer",
+            "parent_temp_id": "t_58f5bfbaff",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_c03a0f3829",
+            "title": "RTT Estimation and Timeout",
+            "summary": "How TCP measures SampleRTT and computes EstimatedRTT and DevRTT using exponential weighted moving averages, sets TimeoutInterval, and doubles the timeout after a retransmission timeout.",
+            "depth": 2,
+            "root": "Transport Layer",
+            "parent_temp_id": "t_58f5bfbaff",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_bd9a97ca9e",
+            "title": "TCP Reliable Data Transfer",
+            "summary": "How TCP provides reliability over an unreliable IP layer: cumulative acknowledgments, a single retransmission timer, sender events (ACK receipt, timeout, retransmission), and fast retransmit triggered by three duplicate ACKs.",
+            "depth": 2,
+            "root": "Transport Layer",
+            "parent_temp_id": "t_58f5bfbaff",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_44f99e7463",
+            "title": "TCP Flow Control",
+            "summary": "The speed-matching service that prevents the sender from overflowing the receiver's buffer: the receive window (rwnd) advertised in segment headers and how the sender limits unacknowledged data to this window.",
+            "depth": 2,
+            "root": "Transport Layer",
+            "parent_temp_id": "t_58f5bfbaff",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_faf688c572",
+            "title": "TCP Connection Management",
+            "summary": "The connection lifecycle: the three-way handshake (SYN, SYN+ACK, ACK) with sequence number selection, connection teardown using FIN segments and ACKs, and the resulting client/server state transitions.",
+            "depth": 2,
+            "root": "Transport Layer",
+            "parent_temp_id": "t_58f5bfbaff",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "temp_id": "t_cf576c442c",
+        "title": "Congestion Control",
+        "summary": "The causes and costs of network congestion, network-assisted versus end-to-end control approaches, and TCP's approach to congestion control (slow start, congestion avoidance/AIMD, fast recovery) along with fairness considerations.",
+        "depth": 1,
+        "root": "Transport Layer",
+        "parent_temp_id": "t_74c9acd981",
+        "is_atomic": false,
+        "needs_review": false,
+        "children": [
+          {
+            "temp_id": "t_3e051b6203",
+            "title": "Causes and Costs of Congestion",
+            "summary": "Walks through three increasingly complex scenarios (two senders sharing a router with infinite buffers, finite buffers, and multiple senders on a multihop path) to show why congestion occurs and what it costs: growing queuing delay, packet loss, retransmissions, wasted link capacity, and congestion collapse.",
+            "depth": 2,
+            "root": "Transport Layer",
+            "parent_temp_id": "t_cf576c442c",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_42250f13f2",
+            "title": "End-to-End vs. Network-Assisted Approaches",
+            "summary": "Distinguishes the two broad approaches by whether the network layer provides explicit assistance: end-to-end control, where end systems must infer congestion from observed loss or delay (as TCP does), versus network-assisted control, where the network supplies explicit congestion feedback (e.g., explicit congestion notification).",
+            "depth": 2,
+            "root": "Transport Layer",
+            "parent_temp_id": "t_cf576c442c",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_a3cab07184",
+            "title": "Classic TCP Congestion Control",
+            "summary": "How classic TCP (RFC 5681) implements end-to-end control since IP provides no explicit congestion feedback: the congestion window grows exponentially during slow start, then additively increases and multiplicatively decreases (AIMD) in congestion avoidance, with fast recovery on loss. Spans several mechanisms, so it should be split into slow start, congestion avoidance/AIMD, and fast recovery lessons.",
+            "depth": 2,
+            "root": "Transport Layer",
+            "parent_temp_id": "t_cf576c442c",
+            "is_atomic": false,
+            "needs_review": false,
+            "children": [
+              {
+                "temp_id": "t_b5edbafc63",
+                "title": "Congestion Window and Loss Signals",
+                "summary": "How classic TCP infers congestion end-to-end since IP gives no explicit feedback: the congestion window (cwnd) limits the sending rate, arriving ACKs signal a congestion-free path and permit increases, while loss events (triple duplicate ACKs vs. timeouts) signal congestion and trigger decreases.",
+                "depth": 3,
+                "root": "Transport Layer",
+                "parent_temp_id": "t_a3cab07184",
+                "is_atomic": true,
+                "needs_review": false,
+                "children": []
+              },
+              {
+                "temp_id": "t_7f6f27dece",
+                "title": "Slow Start",
+                "summary": "The initial slow-start phase: cwnd starts small and grows exponentially (doubling per RTT) as ACKs arrive, until the slow-start threshold (ssthresh) or a loss event ends the phase; also its contribution to connection latency.",
+                "depth": 3,
+                "root": "Transport Layer",
+                "parent_temp_id": "t_a3cab07184",
+                "is_atomic": true,
+                "needs_review": false,
+                "children": []
+              },
+              {
+                "temp_id": "t_46135c5e99",
+                "title": "Congestion Avoidance and AIMD",
+                "summary": "The steady-state additive-increase, multiplicative-decrease (AIMD) behavior: cwnd grows linearly by 1 MSS per RTT and is halved on a triple duplicate-ACK loss, producing the saw-tooth pattern as TCP probes for the available bandwidth.",
+                "depth": 3,
+                "root": "Transport Layer",
+                "parent_temp_id": "t_a3cab07184",
+                "is_atomic": true,
+                "needs_review": false,
+                "children": []
+              },
+              {
+                "temp_id": "t_d44f3f3b35",
+                "title": "Fast Recovery",
+                "summary": "Reacting to loss without a timeout: fast retransmit of the missing segment after three duplicate ACKs, halving cwnd and continuing transmission (Reno-style fast recovery), contrasted with the timeout-driven reset to slow start (Tahoe).",
+                "depth": 3,
+                "root": "Transport Layer",
+                "parent_temp_id": "t_a3cab07184",
+                "is_atomic": true,
+                "needs_review": false,
+                "children": []
+              },
+              {
+                "temp_id": "t_fe7751c22d",
+                "title": "AIMD Fairness",
+                "summary": "Why AIMD yields an equal share of a congested link's bandwidth among competing TCP connections: the additive-increase/multiplicative-decrease dynamics converge competing flows toward equal throughput.",
+                "depth": 3,
+                "root": "Transport Layer",
+                "parent_temp_id": "t_a3cab07184",
+                "is_atomic": true,
+                "needs_review": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "temp_id": "t_7c1307ad8d",
+            "title": "Fairness of TCP Congestion Control",
+            "summary": "Examines how AIMD strives to give each TCP connection passing through a congested link an equal share of the link bandwidth, the sawtooth convergence toward equal shares, and behaviors such as synchronization of competing connections' window sizes.",
+            "depth": 2,
+            "root": "Transport Layer",
+            "parent_temp_id": "t_cf576c442c",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_c7e7aec8cc",
+            "title": "Newer TCP Variants: Delay-Based and ECN",
+            "summary": "Surveys newer flavors of TCP that determine the sending rate more quickly than classic loss-based TCP by using a delay-based approach or explicit congestion notification (ECN) from the network rather than inferring congestion purely from loss.",
+            "depth": 2,
+            "root": "Transport Layer",
+            "parent_temp_id": "t_cf576c442c",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_3e01380ec9",
+            "title": "Impact of Slow Start on Latency",
+            "summary": "Analyzes how TCP connection establishment and slow start significantly contribute to end-to-end delay in many important scenarios, which motivates designs that determine the sending rate more quickly.",
+            "depth": 2,
+            "root": "Transport Layer",
+            "parent_temp_id": "t_cf576c442c",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "temp_id": "t_3e0fec5f8d",
+    "title": "The Network Layer: Data Plane",
+    "summary": "",
+    "depth": 0,
+    "root": "The Network Layer: Data Plane",
+    "parent_temp_id": null,
+    "is_atomic": false,
+    "needs_review": false,
+    "children": [
+      {
+        "temp_id": "t_13014d5ed8",
+        "title": "Forwarding vs. Routing in the Network Layer",
+        "summary": "Introduces the two key network-layer functions: forwarding, the per-router data-plane function that moves a datagram from an input link to an output link, and routing, the control-plane, network-wide function that determines the end-to-end path a datagram takes from source to destination host.",
+        "depth": 1,
+        "root": "The Network Layer: Data Plane",
+        "parent_temp_id": "t_3e0fec5f8d",
+        "is_atomic": true,
+        "needs_review": false,
+        "children": []
+      },
+      {
+        "temp_id": "t_271b3890cb",
+        "title": "Router Input and Output Ports",
+        "summary": "Covers the internal operations of a router's input and output ports: how arriving packets are processed and looked up on input links, and how packets are prepared and transmitted onto output links.",
+        "depth": 1,
+        "root": "The Network Layer: Data Plane",
+        "parent_temp_id": "t_3e0fec5f8d",
+        "is_atomic": true,
+        "needs_review": false,
+        "children": []
+      },
+      {
+        "temp_id": "t_3d6c3ed74b",
+        "title": "Switching Fabric and Packet Queues",
+        "summary": "Examines a router's internal switching mechanisms that move packets from input ports to output ports, and packet queue management, including where queues form inside a router and how they are managed.",
+        "depth": 1,
+        "root": "The Network Layer: Data Plane",
+        "parent_temp_id": "t_3e0fec5f8d",
+        "is_atomic": true,
+        "needs_review": false,
+        "children": []
+      },
+      {
+        "temp_id": "t_6227833780",
+        "title": "Traditional IP Forwarding",
+        "summary": "Covers destination-based forwarding, where a router forwards a datagram based on the destination address in the datagram's header by matching it against entries in the forwarding table.",
+        "depth": 1,
+        "root": "The Network Layer: Data Plane",
+        "parent_temp_id": "t_3e0fec5f8d",
+        "is_atomic": true,
+        "needs_review": false,
+        "children": []
+      },
+      {
+        "temp_id": "t_058001effa",
+        "title": "Generalized Forwarding",
+        "summary": "Covers generalized forwarding, in which forwarding and other packet-processing functions are performed using values from several different fields in the datagram's header rather than the destination address alone.",
+        "depth": 1,
+        "root": "The Network Layer: Data Plane",
+        "parent_temp_id": "t_3e0fec5f8d",
+        "is_atomic": true,
+        "needs_review": false,
+        "children": []
+      },
+      {
+        "temp_id": "t_a491784728",
+        "title": "Software-Defined Networking (SDN)",
+        "summary": "Describes how SDN explicitly separates the data plane from the control plane: the routing device performs forwarding only, while a remote, software-implemented controller computes and distributes forwarding tables to the routers.",
+        "depth": 1,
+        "root": "The Network Layer: Data Plane",
+        "parent_temp_id": "t_3e0fec5f8d",
+        "is_atomic": true,
+        "needs_review": false,
+        "children": []
+      }
+    ]
+  },
+  {
+    "temp_id": "t_3e29d7f42f",
+    "title": "The Network Layer: Control Plane",
+    "summary": "",
+    "depth": 0,
+    "root": "The Network Layer: Control Plane",
+    "parent_temp_id": null,
+    "is_atomic": false,
+    "needs_review": false,
+    "children": [
+      {
+        "temp_id": "t_4d5673b3ab",
+        "title": "Control Plane Approaches: Per-Router vs. SDN",
+        "summary": "Introduces the network-wide logic that controls how datagrams are routed end-to-end and how network-layer services are configured and managed. Contrasts the two broad approaches: traditional per-router control, where a routing algorithm runs in every router and routers communicate routing information with each other, and software-defined networking (SDN) control, where a logically centralized controller computes and distributes forwarding tables to all routers.",
+        "depth": 1,
+        "root": "The Network Layer: Control Plane",
+        "parent_temp_id": "t_3e29d7f42f",
+        "is_atomic": true,
+        "needs_review": false,
+        "children": []
+      },
+      {
+        "temp_id": "t_b40d489b42",
+        "title": "Link-State (LS) Routing Algorithm",
+        "summary": "Covers the link-state routing algorithm for computing least-cost paths in a graph, in which each node has complete knowledge of network topology and link costs and runs a centralized algorithm (e.g., Dijkstra's) to compute least-cost paths from itself to all other nodes.",
+        "depth": 1,
+        "root": "The Network Layer: Control Plane",
+        "parent_temp_id": "t_3e29d7f42f",
+        "is_atomic": true,
+        "needs_review": false,
+        "children": []
+      },
+      {
+        "temp_id": "t_ea90d29929",
+        "title": "Distance-Vector (DV) Routing Algorithm",
+        "summary": "Covers the distance-vector routing algorithm, a distributed, asynchronous, iterative approach based on the Bellman-Ford equation, in which each node maintains a vector of least-cost estimates to all destinations and exchanges these vectors with its directly connected neighbors.",
+        "depth": 1,
+        "root": "The Network Layer: Control Plane",
+        "parent_temp_id": "t_3e29d7f42f",
+        "is_atomic": true,
+        "needs_review": false,
+        "children": []
+      },
+      {
+        "temp_id": "t_ed24ab34bd",
+        "title": "Intra-AS Routing: OSPF",
+        "summary": "Covers OSPF, the widely deployed intra-AS routing protocol that operates within a single ISP's network (autonomous system), including how it implements link-state routing inside an administrative domain.",
+        "depth": 1,
+        "root": "The Network Layer: Control Plane",
+        "parent_temp_id": "t_3e29d7f42f",
+        "is_atomic": true,
+        "needs_review": false,
+        "children": []
+      },
+      {
+        "temp_id": "t_6bc62995cb",
+        "title": "Inter-AS Routing: BGP",
+        "summary": "Covers BGP, the routing protocol that serves to interconnect all of the networks in the Internet, providing routing between autonomous systems and scaling routing across the entire Internet.",
+        "depth": 1,
+        "root": "The Network Layer: Control Plane",
+        "parent_temp_id": "t_3e29d7f42f",
+        "is_atomic": true,
+        "needs_review": false,
+        "children": []
+      },
+      {
+        "temp_id": "t_ebeafd62aa",
+        "title": "SDN Control Plane: Controller and Applications",
+        "summary": "Covers the architecture of the SDN control plane, divided into the SDN controller and SDN network-control applications. Emphasizes the separation of data plane (simple, fast switches executing match-plus-action rules in flow tables) and control plane (servers and software that compute, manage, and install flow table entries in all switches).",
+        "depth": 1,
+        "root": "The Network Layer: Control Plane",
+        "parent_temp_id": "t_3e29d7f42f",
+        "is_atomic": true,
+        "needs_review": false,
+        "children": []
+      },
+      {
+        "temp_id": "t_f3a9fed8c6",
+        "title": "Network Management: NETCONF and YANG",
+        "summary": "Covers configuration and management of network-layer devices using the NETCONF protocol, which exchanges XML-encoded RPC messages (e.g., edit-config commands and replies) between a managing server and managed devices, and the YANG data modeling language used to specify the structure and syntax of configuration data.",
+        "depth": 1,
+        "root": "The Network Layer: Control Plane",
+        "parent_temp_id": "t_3e29d7f42f",
+        "is_atomic": true,
+        "needs_review": false,
+        "children": []
+      }
+    ]
+  },
+  {
+    "temp_id": "t_1d43d26b89",
+    "title": "The Link Layer and LANs",
+    "summary": "",
+    "depth": 0,
+    "root": "The Link Layer and LANs",
+    "parent_temp_id": null,
+    "is_atomic": false,
+    "needs_review": false,
+    "children": [
+      {
+        "temp_id": "t_62a5a6c221",
+        "title": "Introduction to the Link Layer",
+        "summary": "The basic service of moving network-layer datagrams between adjacent nodes via framing/encapsulation; the services provided (link access, reliable delivery, error detection) and where the link layer is implemented (network adapters/NICs); broadcast vs. point-to-point links.",
+        "depth": 1,
+        "root": "The Link Layer and LANs",
+        "parent_temp_id": "t_1d43d26b89",
+        "is_atomic": true,
+        "needs_review": false,
+        "children": []
+      },
+      {
+        "temp_id": "t_332059f67e",
+        "title": "Error-Detection and -Correction Techniques",
+        "summary": "Techniques for detecting and correcting transmission errors in link-layer frames: simple and two-dimensional parity checks, checksumming methods, and the cyclic redundancy check (CRC).",
+        "depth": 1,
+        "root": "The Link Layer and LANs",
+        "parent_temp_id": "t_1d43d26b89",
+        "is_atomic": true,
+        "needs_review": false,
+        "children": []
+      },
+      {
+        "temp_id": "t_8c83cc5c40",
+        "title": "Multiple Access Protocols",
+        "summary": "Coordinating access to a shared broadcast channel using three broad approaches: channel partitioning (TDM, FDM), random access (ALOHA, CSMA, CSMA/CD), and taking-turns (polling, token passing); DOCSIS as the link-layer protocol for cable Internet access.",
+        "depth": 1,
+        "root": "The Link Layer and LANs",
+        "parent_temp_id": "t_1d43d26b89",
+        "is_atomic": false,
+        "needs_review": false,
+        "children": [
+          {
+            "temp_id": "t_3bd6c30e79",
+            "title": "The Multiple Access Problem",
+            "summary": "Why shared broadcast channels need coordination: when multiple nodes transmit at the same time, frames collide, all colliding frames are lost, and the channel is wasted during the collision interval.",
+            "depth": 2,
+            "root": "The Link Layer and LANs",
+            "parent_temp_id": "t_8c83cc5c40",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_b77d72f950",
+            "title": "Channel Partitioning: TDM and FDM",
+            "summary": "Dividing the broadcast channel among nodes by time slots (TDM) or frequency bands (FDM) so each node gets a dedicated portion of the channel and collisions are avoided.",
+            "depth": 2,
+            "root": "The Link Layer and LANs",
+            "parent_temp_id": "t_8c83cc5c40",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_4a50313fee",
+            "title": "Slotted ALOHA",
+            "summary": "The simplest random access protocol: time is divided into synchronized slots of one frame-transmission time, nodes transmit with probability p at slot beginnings, and colliding frames in a slot are all lost.",
+            "depth": 2,
+            "root": "The Link Layer and LANs",
+            "parent_temp_id": "t_8c83cc5c40",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_0fed3e8ee8",
+            "title": "CSMA and CSMA/CD",
+            "summary": "Improving random access with carrier sensing (transmit only when the channel is idle) and collision detection with backoff; the efficiency of CSMA/CD depends on the ratio of maximum propagation time to frame transmission time.",
+            "depth": 2,
+            "root": "The Link Layer and LANs",
+            "parent_temp_id": "t_8c83cc5c40",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_40814a2561",
+            "title": "Taking-Turns: Polling and Token Passing",
+            "summary": "Coordinating channel access by having a master node poll each node in round-robin fashion (polling) or by exchanging a control token that grants transmission rights (token passing).",
+            "depth": 2,
+            "root": "The Link Layer and LANs",
+            "parent_temp_id": "t_8c83cc5c40",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_4f1a0a8cc5",
+            "title": "DOCSIS Cable Access",
+            "summary": "Case study of cable Internet access: the CMTS coordinates thousands of cable modems using FDM for downstream and upstream channels plus regulated upstream transmission, combining aspects of all three multiple access classes.",
+            "depth": 2,
+            "root": "The Link Layer and LANs",
+            "parent_temp_id": "t_8c83cc5c40",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "temp_id": "t_90e84618c2",
+        "title": "Link-Layer Addressing and ARP",
+        "summary": "Link-layer (MAC) addresses, how they differ from network-layer addresses, and why broadcast channels require node addressing; address resolution between IP and MAC addresses.",
+        "depth": 1,
+        "root": "The Link Layer and LANs",
+        "parent_temp_id": "t_1d43d26b89",
+        "is_atomic": true,
+        "needs_review": false,
+        "children": []
+      },
+      {
+        "temp_id": "t_1d3909ae82",
+        "title": "Ethernet and Link-Layer Switches",
+        "summary": "Ethernet framing and link-layer technologies; how link-layer switches forward and filter frames (e.g., self-learning) and their role compared with routers.",
+        "depth": 1,
+        "root": "The Link Layer and LANs",
+        "parent_temp_id": "t_1d43d26b89",
+        "is_atomic": false,
+        "needs_review": false,
+        "children": [
+          {
+            "temp_id": "t_90e84618c2",
+            "title": "Link-Layer Addressing and ARP",
+            "summary": "Link-layer (MAC) addresses and how they differ from network-layer IP addresses; the ARP protocol for resolving IP-to-MAC addresses; sending datagrams to nodes off the local subnet.",
+            "depth": 2,
+            "root": "The Link Layer and LANs",
+            "parent_temp_id": "t_1d3909ae82",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_5ca2d79d5f",
+            "title": "Ethernet: Frame Format and Evolution",
+            "summary": "The structure of the Ethernet frame (data field, source/destination addresses, type field, CRC) and Ethernet's history and enduring dominance as the standard LAN technology.",
+            "depth": 2,
+            "root": "The Link Layer and LANs",
+            "parent_temp_id": "t_1d3909ae82",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_1f3ad1d745",
+            "title": "Switch Forwarding, Filtering, and Self-Learning",
+            "summary": "How a switch uses its switch table to forward or filter incoming frames based on destination MAC addresses, and how it builds and ages table entries automatically via self-learning, making it a transparent plug-and-play device.",
+            "depth": 2,
+            "root": "The Link Layer and LANs",
+            "parent_temp_id": "t_1d3909ae82",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_1fcbb78e61",
+            "title": "Properties of Link-Layer Switching",
+            "summary": "Advantages of switches over broadcast links and hubs: eliminating collisions through dedicated per-host bandwidth, full-duplex send/receive on each interface, and simplified network administration.",
+            "depth": 2,
+            "root": "The Link Layer and LANs",
+            "parent_temp_id": "t_1d3909ae82",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_fdcee80c61",
+            "title": "Switches versus Routers",
+            "summary": "Comparing link-layer switches (implementing layers 1-2, forwarding on MAC addresses) with routers (implementing layers 1-3, forwarding on IP addresses), and the trade-offs in choosing between them.",
+            "depth": 2,
+            "root": "The Link Layer and LANs",
+            "parent_temp_id": "t_1d3909ae82",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_5c8fdc549e",
+            "title": "Virtual LANs (VLANs)",
+            "summary": "How multiple virtual LANs can be created over a single physical LAN/switch infrastructure, providing traffic isolation and flexible VLAN membership.",
+            "depth": 2,
+            "root": "The Link Layer and LANs",
+            "parent_temp_id": "t_1d3909ae82",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "temp_id": "t_5c8fdc549e",
+        "title": "Virtual LANs (VLANs)",
+        "summary": "Creating multiple virtual LANs over a single physical LAN infrastructure, including VLAN configuration and traffic isolation.",
+        "depth": 1,
+        "root": "The Link Layer and LANs",
+        "parent_temp_id": "t_1d43d26b89",
+        "is_atomic": true,
+        "needs_review": false,
+        "children": []
+      },
+      {
+        "temp_id": "t_a1de1236d7",
+        "title": "MPLS and Data Center Networking",
+        "summary": "How MPLS networks provide link-layer services when interconnecting IP routers, and an overview of network designs for today's massive data centers.",
+        "depth": 1,
+        "root": "The Link Layer and LANs",
+        "parent_temp_id": "t_1d43d26b89",
+        "is_atomic": false,
+        "needs_review": false,
+        "children": [
+          {
+            "temp_id": "t_87f06460cd",
+            "title": "MPLS Label Switching Fundamentals",
+            "summary": "How MPLS works: fixed-length labels, label-switched routers, and forwarding based on labels and FECs rather than longest-prefix IP destination matching, allowing MPLS networks to provide link-layer services interconnecting IP routers.",
+            "depth": 2,
+            "root": "The Link Layer and LANs",
+            "parent_temp_id": "t_a1de1236d7",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_dc2bd714af",
+            "title": "MPLS Traffic Engineering and Fast Restoration",
+            "summary": "Using MPLS to override standard IP routing: steering traffic toward a destination along multiple explicit paths for policy or performance, plus fast reroute over precomputed failover paths in response to link failure.",
+            "depth": 2,
+            "root": "The Link Layer and LANs",
+            "parent_temp_id": "t_a1de1236d7",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_296749e58b",
+            "title": "Data Center Purposes and Traffic Types",
+            "summary": "Why massive data centers exist (serving content, massively-parallel computing, cloud applications) and the two traffic types they must support: external client-to-host flows and internal host-to-host flows.",
+            "depth": 2,
+            "root": "The Link Layer and LANs",
+            "parent_temp_id": "t_a1de1236d7",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_2dd30561bd",
+            "title": "Data Center Network Architecture",
+            "summary": "Hierarchical data center network design: border routers, access routers, tier-1/2/3 switches, TOR switches and racks; redundancy of equipment and links for high availability; and partitioning subnets into VLANs to localize ARP broadcast traffic.",
+            "depth": 2,
+            "root": "The Link Layer and LANs",
+            "parent_temp_id": "t_a1de1236d7",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_bb149e3db0",
+            "title": "Multipath Routing in Data Centers",
+            "summary": "Exploiting rich inter-tier connectivity with multipath routing: ECMP's randomized next-hop selection, finer-grained flow-level load balancing, and designs that split individual packets of a flow across multiple paths.",
+            "depth": 2,
+            "root": "The Link Layer and LANs",
+            "parent_temp_id": "t_a1de1236d7",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_9af817eb5e",
+            "title": "Trends in Data Center Networking",
+            "summary": "Recent developments: modular data centers built from shipping containers with electrical/optical interconnects, cloud providers customizing their own adapters, switches, and protocols, and Amazon-style availability zones replicating data centers across nearby buildings for fault tolerance.",
+            "depth": 2,
+            "root": "The Link Layer and LANs",
+            "parent_temp_id": "t_a1de1236d7",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "temp_id": "t_3d6ac1cbe2",
+    "title": "Wireless and Mobile Networks",
+    "summary": "",
+    "depth": 0,
+    "root": "Wireless and Mobile Networks",
+    "parent_temp_id": null,
+    "is_atomic": false,
+    "needs_review": false,
+    "children": [
+      {
+        "temp_id": "t_c88f36ab2a",
+        "title": "Wireless Links and Network Characteristics",
+        "summary": "How wireless links differ from wired links: signal attenuation and path loss, interference from other sources, multipath propagation, SNR and bit error rates, plus an introduction to CDMA as a shared-medium access protocol used in wireless networks.",
+        "depth": 1,
+        "root": "Wireless and Mobile Networks",
+        "parent_temp_id": "t_3d6ac1cbe2",
+        "is_atomic": false,
+        "needs_review": false,
+        "children": [
+          {
+            "temp_id": "t_d6ac2fd7d3",
+            "title": "Signal Attenuation and Path Loss",
+            "summary": "Why wireless signal strength decreases: electromagnetic radiation attenuates as it passes through matter (e.g., walls) and disperses even in free space, so received power falls as sender-receiver distance grows.",
+            "depth": 2,
+            "root": "Wireless and Mobile Networks",
+            "parent_temp_id": "t_c88f36ab2a",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_15b5e1b33e",
+            "title": "Interference and Multipath Propagation",
+            "summary": "How wireless signals are corrupted by other radio sources transmitting in the same frequency band, and how reflections off objects cause multipath propagation where multiple copies of a signal arrive at the receiver.",
+            "depth": 2,
+            "root": "Wireless and Mobile Networks",
+            "parent_temp_id": "t_c88f36ab2a",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_b12e7bb354",
+            "title": "SNR and Bit Error Rates",
+            "summary": "The relationship between signal-to-noise ratio (SNR) and bit error rate (BER) on a wireless link, and how changing channel conditions and distance cause bit errors.",
+            "depth": 2,
+            "root": "Wireless and Mobile Networks",
+            "parent_temp_id": "t_c88f36ab2a",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_87395eb779",
+            "title": "Wireless Link Rates and Coverage Ranges",
+            "summary": "Comparison of the key characteristics of popular wireless network standards: their transmission rates and coverage distances, and how these vary with distance, channel conditions, and number of users.",
+            "depth": 2,
+            "root": "Wireless and Mobile Networks",
+            "parent_temp_id": "t_c88f36ab2a",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_99615d8f61",
+            "title": "CDMA: Code Division Multiple Access",
+            "summary": "Introduction to CDMA as a shared-medium access protocol used in wireless networks, where senders encode their bits using unique code sequences so multiple users can transmit simultaneously over the same spectrum.",
+            "depth": 2,
+            "root": "Wireless and Mobile Networks",
+            "parent_temp_id": "t_c88f36ab2a",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "temp_id": "t_b9b25578c5",
+        "title": "WiFi: 802.11 Wireless LANs",
+        "summary": "The IEEE 802.11 (WiFi) standard: 802.11 architecture (BSS, access points, channels, SSIDs), the 802.11 MAC protocol (CSMA/CA), the 802.11 frame format, mobility within the same IP subnet, advanced features, and Bluetooth personal area networks.",
+        "depth": 1,
+        "root": "Wireless and Mobile Networks",
+        "parent_temp_id": "t_3d6ac1cbe2",
+        "is_atomic": false,
+        "needs_review": false,
+        "children": [
+          {
+            "temp_id": "t_f80785dda1",
+            "title": "802.11 Architecture: BSS, APs, and Channels",
+            "summary": "Covers the 802.11 standards family (b/g/n/ac/ax, branded WiFi 4/5/6), the basic service set (BSS), access points, channels and SSIDs, and how a station associates with an AP in a 'WiFi jungle' with multiple overlapping APs.",
+            "depth": 2,
+            "root": "Wireless and Mobile Networks",
+            "parent_temp_id": "t_b9b25578c5",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_248601076c",
+            "title": "802.11 MAC Protocol (CSMA/CA)",
+            "summary": "Explains the 802.11 medium access protocol, including CSMA/CA with random backoff, link-layer acknowledgments, and how it differs from Ethernet's CSMA/CD.",
+            "depth": 2,
+            "root": "Wireless and Mobile Networks",
+            "parent_temp_id": "t_b9b25578c5",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_11f441b583",
+            "title": "IEEE 802.11 Frame Format",
+            "summary": "Describes the structure of 802.11 frames, including the address fields (which can differ from Ethernet addressing), frame types (data, control, management), and how frames are exchanged between a wireless host and an AP.",
+            "depth": 2,
+            "root": "Wireless and Mobile Networks",
+            "parent_temp_id": "t_b9b25578c5",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_fc9084da80",
+            "title": "Mobility in the Same IP Subnet",
+            "summary": "Examines how a wireless station hands over between access points within the same IP subnet, including association/reassociation and switch self-learning to keep the session intact.",
+            "depth": 2,
+            "root": "Wireless and Mobile Networks",
+            "parent_temp_id": "t_b9b25578c5",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_def6611507",
+            "title": "Advanced 802.11 Features",
+            "summary": "Covers advanced capabilities in 802.11 such as rate adaptation and power management, plus features like the WiFi Positioning System (WPS).",
+            "depth": 2,
+            "root": "Wireless and Mobile Networks",
+            "parent_temp_id": "t_b9b25578c5",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_0b60cb649c",
+            "title": "Bluetooth Personal Area Networks",
+            "summary": "Introduces Bluetooth as a wireless personal area network technology, covering its architecture (piconets) and how it complements 802.11 WLANs.",
+            "depth": 2,
+            "root": "Wireless and Mobile Networks",
+            "parent_temp_id": "t_b9b25578c5",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "temp_id": "t_f0a5864843",
+        "title": "Cellular Networks: 4G and 5G",
+        "summary": "Cellular Internet access architecture: 4G LTE network elements and architecture, LTE protocol stacks and radio access network, network attachment and power management, the global cellular network as a network of networks, and emerging 5G cellular technology.",
+        "depth": 1,
+        "root": "Wireless and Mobile Networks",
+        "parent_temp_id": "t_3d6ac1cbe2",
+        "is_atomic": false,
+        "needs_review": false,
+        "children": [
+          {
+            "temp_id": "t_eb688e3ce2",
+            "title": "4G LTE Architecture and Elements",
+            "summary": "The 4G LTE network architecture and its key elements: base stations, the edge/core distinction, gateway and mobility-management components, and the separation of data and control planes.",
+            "depth": 2,
+            "root": "Wireless and Mobile Networks",
+            "parent_temp_id": "t_f0a5864843",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_9a6785d947",
+            "title": "LTE Protocol Stacks and Radio Access Network",
+            "summary": "Protocol layering in LTE: the control-plane and data-plane protocol stacks and the radio access network connecting the mobile device to the base station.",
+            "depth": 2,
+            "root": "Wireless and Mobile Networks",
+            "parent_temp_id": "t_f0a5864843",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_7e67df4973",
+            "title": "LTE Network Attachment and Power Management",
+            "summary": "How a mobile device attaches (registers) to an LTE network and the power-management techniques used to conserve device battery life.",
+            "depth": 2,
+            "root": "Wireless and Mobile Networks",
+            "parent_temp_id": "t_f0a5864843",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_c5e2be94e5",
+            "title": "Global Cellular Network of Networks",
+            "summary": "How a carrier's network interconnects with other carrier networks and the larger Internet to form a global cellular 'network of networks,' mirroring Internet architectural principles.",
+            "depth": 2,
+            "root": "Wireless and Mobile Networks",
+            "parent_temp_id": "t_f0a5864843",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_35d082b271",
+            "title": "5G Cellular Technology",
+            "summary": "Emerging 5G cellular technology: new frequency bands (including millimeter-wave FR2), increased cell density, wider available spectrum, and MIMO/beam-forming for improved spectral efficiency.",
+            "depth": 2,
+            "root": "Wireless and Mobile Networks",
+            "parent_temp_id": "t_f0a5864843",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "temp_id": "t_76aced4c36",
+        "title": "Mobility Management: Principles",
+        "summary": "The network-layer challenges of mobility: forms of device mobility, locating and routing to a mobile user, home networks versus roaming on visited networks, direct versus indirect routing, and handover as a user moves between points of attachment.",
+        "depth": 1,
+        "root": "Wireless and Mobile Networks",
+        "parent_temp_id": "t_3d6ac1cbe2",
+        "is_atomic": false,
+        "needs_review": false,
+        "children": [
+          {
+            "temp_id": "t_84e06cd7a0",
+            "title": "Device Mobility: A Network-Layer Perspective",
+            "summary": "Introduces the spectrum of device mobility, from no mobility to mobility within the same IP subnet to full mobility across networks, and explains how each point on the spectrum poses different network-layer challenges for addressing, locating, and routing to a mobile user.",
+            "depth": 2,
+            "root": "Wireless and Mobile Networks",
+            "parent_temp_id": "t_76aced4c36",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_447f4e1a0a",
+            "title": "Home Networks and Visited Networks",
+            "summary": "Covers the roles of the home network as the central point of information and control for a mobile device, the visited (foreign) network that hosts the roaming device, and the control-plane functions (e.g., home agent, registration) used to track a device roaming among visited networks.",
+            "depth": 2,
+            "root": "Wireless and Mobile Networks",
+            "parent_temp_id": "t_76aced4c36",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_4ba4f03c64",
+            "title": "Indirect Routing to a Mobile Device",
+            "summary": "Explains the indirect (triangle) routing data-plane approach: a correspondent sends datagrams via the home network, which tunnels them to the mobile device's care-of address in the visited network, including how ongoing sessions are preserved as the device moves.",
+            "depth": 2,
+            "root": "Wireless and Mobile Networks",
+            "parent_temp_id": "t_76aced4c36",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_0ee95e2dc0",
+            "title": "Direct Routing to a Mobile Device",
+            "summary": "Explains the direct routing data-plane approach: the correspondent learns the mobile device's current care-of address from the home network and then routes datagrams directly to the visited network, including the challenges of maintaining sessions during handover.",
+            "depth": 2,
+            "root": "Wireless and Mobile Networks",
+            "parent_temp_id": "t_76aced4c36",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_dde0236feb",
+            "title": "Handover Between Points of Attachment",
+            "summary": "Covers the handover process by which a mobile device dynamically moves from one point of attachment to another, including the steps of breaking and establishing links, updating routing/addressing information, and who controls the handover (network vs. mobile device).",
+            "depth": 2,
+            "root": "Wireless and Mobile Networks",
+            "parent_temp_id": "t_76aced4c36",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "temp_id": "t_a8d059e443",
+        "title": "Impact of Wireless and Mobility on Higher Layers",
+        "summary": "How wireless links and mobility affect transport- and application-layer protocols: TCP challenges over lossy wireless links, and treating bandwidth as a scarce commodity when serving content over cellular connections.",
+        "depth": 1,
+        "root": "Wireless and Mobile Networks",
+        "parent_temp_id": "t_3d6ac1cbe2",
+        "is_atomic": true,
+        "needs_review": false,
+        "children": []
+      }
+    ]
+  },
+  {
+    "temp_id": "t_77651091ce",
+    "title": "Security in Computer Networks",
+    "summary": "",
+    "depth": 0,
+    "root": "Security in Computer Networks",
+    "parent_temp_id": null,
+    "is_atomic": false,
+    "needs_review": false,
+    "children": [
+      {
+        "temp_id": "t_395133c118",
+        "title": "What Is Network Security?",
+        "summary": "Introduces the goals of secure communication (confidentiality, message integrity, end-point authentication, availability) and surveys prevalent Internet attacks: eavesdropping/sniffing, message modification, insertion, and deletion, impersonation, session hijacking, and denial of service.",
+        "depth": 1,
+        "root": "Security in Computer Networks",
+        "parent_temp_id": "t_77651091ce",
+        "is_atomic": true,
+        "needs_review": false,
+        "children": []
+      },
+      {
+        "temp_id": "t_8b5ddd0c4a",
+        "title": "Principles of Cryptography",
+        "summary": "Fundamental cryptography techniques for encrypting communication, covering both symmetric key and public key encryption, which underpin all secure network protocols.",
+        "depth": 1,
+        "root": "Security in Computer Networks",
+        "parent_temp_id": "t_77651091ce",
+        "is_atomic": false,
+        "needs_review": false,
+        "children": [
+          {
+            "temp_id": "t_4ebc9c9c1b",
+            "title": "Symmetric Key Cryptography Basics",
+            "summary": "The shared-secret-key model in which sender and receiver use the same key; classical ciphers such as the Caesar cipher; cryptanalysis approaches including brute-force and known-plaintext attacks.",
+            "depth": 2,
+            "root": "Security in Computer Networks",
+            "parent_temp_id": "t_8b5ddd0c4a",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_7f0192f9f9",
+            "title": "Block Ciphers and Stream Ciphers",
+            "summary": "Modern symmetric techniques: block ciphers that encrypt fixed-size blocks (illustrated with a 3-bit example cipher, DES, and AES) and stream ciphers that encrypt bit by bit.",
+            "depth": 2,
+            "root": "Security in Computer Networks",
+            "parent_temp_id": "t_8b5ddd0c4a",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_c5e6727a37",
+            "title": "Cipher Block Chaining (CBC)",
+            "summary": "Chaining ciphertext blocks together with an initialization vector (IV) so that identical plaintext blocks produce different ciphertext, avoiding the pattern leaks of encrypting blocks independently.",
+            "depth": 2,
+            "root": "Security in Computer Networks",
+            "parent_temp_id": "t_8b5ddd0c4a",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_1aa362c72e",
+            "title": "Public Key Cryptography Concepts",
+            "summary": "The two-key model with a publicly available key and a private key; how anyone can encrypt a message to a recipient while only the private-key holder can decrypt, and why a shared secret key implicitly identifies the sender while public key encryption does not.",
+            "depth": 2,
+            "root": "Security in Computer Networks",
+            "parent_temp_id": "t_8b5ddd0c4a",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          },
+          {
+            "temp_id": "t_e5c058c933",
+            "title": "RSA Algorithm",
+            "summary": "RSA key generation from primes p and q (computing n, z, choosing e and d), encryption and decryption via modular exponentiation, and why the algorithm works, with worked examples such as encrypting a word letter by letter.",
+            "depth": 2,
+            "root": "Security in Computer Networks",
+            "parent_temp_id": "t_8b5ddd0c4a",
+            "is_atomic": true,
+            "needs_review": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "temp_id": "t_1d643b5847",
+        "title": "Message Integrity and Digital Signatures",
+        "summary": "Techniques for detecting tampering of messages in transit: cryptographic hash functions, message authentication codes (MACs), and digital signatures.",
+        "depth": 1,
+        "root": "Security in Computer Networks",
+        "parent_temp_id": "t_77651091ce",
+        "is_atomic": true,
+        "needs_review": false,
+        "children": []
+      },
+      {
+        "temp_id": "t_5fed0405de",
+        "title": "End-Point Authentication",
+        "summary": "Protocols for verifying the identity of the party with whom one is communicating, using nonces and shared secrets to defeat replay and impersonation attacks.",
+        "depth": 1,
+        "root": "Security in Computer Networks",
+        "parent_temp_id": "t_77651091ce",
+        "is_atomic": true,
+        "needs_review": false,
+        "children": []
+      },
+      {
+        "temp_id": "t_83dca597bb",
+        "title": "Securing E-Mail",
+        "summary": "Application-layer security for e-mail (e.g., PGP), combining digital signatures with symmetric and public key encryption to secure the e-mail message chain.",
+        "depth": 1,
+        "root": "Security in Computer Networks",
+        "parent_temp_id": "t_77651091ce",
+        "is_atomic": true,
+        "needs_review": false,
+        "children": []
+      },
+      {
+        "temp_id": "t_fed701023b",
+        "title": "Securing TCP Connections: TLS",
+        "summary": "Transport-layer security for TCP connections, covering how TLS provides encryption, message integrity, and end-point authentication, including handshaking and the record protocol.",
+        "depth": 1,
+        "root": "Security in Computer Networks",
+        "parent_temp_id": "t_77651091ce",
+        "is_atomic": true,
+        "needs_review": false,
+        "children": []
+      },
+      {
+        "temp_id": "t_584093dcdd",
+        "title": "Network-Layer Security: IPsec and VPNs",
+        "summary": "Blanket protection at the network layer using the IPsec protocol suite, and its application in building virtual private networks (VPNs).",
+        "depth": 1,
+        "root": "Security in Computer Networks",
+        "parent_temp_id": "t_77651091ce",
+        "is_atomic": true,
+        "needs_review": false,
+        "children": []
+      }
+    ]
+  }
+]

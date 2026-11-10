@@ -1,0 +1,24 @@
+{
+  "subtopics": [
+    {
+      "title": "E-mail System Architecture",
+      "summary": "The three main components—user agents, mail servers, and the SMTP protocol—plus mailboxes, message queues, and how a message flows from sender to recipient's mailbox, including failure handling and retries.",
+      "is_atomic": true
+    },
+    {
+      "title": "SMTP: Mail Transfer Protocol",
+      "summary": "How SMTP (RFC 5321) transfers messages between mail servers: client/server roles, TCP port 25, direct delivery, command/reply dialogue, and its restrictions and differences from HTTP.",
+      "is_atomic": true
+    },
+    {
+      "title": "Mail Message Formats and MIME",
+      "summary": "The structure of an e-mail message with header lines (From:, To:, Subject:, Received:) and body, and MIME extensions that allow multimedia content in the body.",
+      "is_atomic": true
+    },
+    {
+      "title": "Mail Access Protocols: POP3, IMAP, and HTTP",
+      "summary": "How recipients retrieve messages from their mail server: POP3 (download-and-delete vs. download-and-keep), IMAP (folders and server-side manipulation), and web-based e-mail over HTTP.",
+      "is_atomic": true
+    }
+  ]
+}

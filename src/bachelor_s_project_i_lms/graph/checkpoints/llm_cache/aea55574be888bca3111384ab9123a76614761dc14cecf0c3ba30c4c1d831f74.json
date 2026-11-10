@@ -1,0 +1,29 @@
+{
+  "subtopics": [
+    {
+      "title": "Store-and-Forward Packet Switching",
+      "summary": "How packet switches receive, store, and retransmit packets; per-hop transmission delay and computing the end-to-end delay of a message crossing N links and N-1 switches.",
+      "is_atomic": true
+    },
+    {
+      "title": "Queuing Delay, Packet Loss, and Statistical Multiplexing",
+      "summary": "Output buffers in packet switches, queuing delay when packets arrive faster than the output link can transmit, packet loss under congestion, and how statistical multiplexing shares link capacity on demand.",
+      "is_atomic": true
+    },
+    {
+      "title": "Circuit Switching with FDM and TDM",
+      "summary": "Dedicated end-to-end circuits with reserved bandwidth, circuit setup and teardown, and how frequency-division and time-division multiplexing partition a link among active circuits.",
+      "is_atomic": true
+    },
+    {
+      "title": "Packet Switching vs. Circuit Switching",
+      "summary": "Trade-offs between the two core approaches: efficiency for bursty traffic, wasted capacity during silent periods, guaranteed versus on-demand bandwidth, and why the Internet adopts packet switching.",
+      "is_atomic": true
+    },
+    {
+      "title": "The Internet as a Network of Networks",
+      "summary": "How access ISPs (home, mobile, enterprise) interconnect through regional ISPs, national and global tier-1 providers, peering, IXPs, and content provider networks to form today's Internet structure.",
+      "is_atomic": true
+    }
+  ]
+}

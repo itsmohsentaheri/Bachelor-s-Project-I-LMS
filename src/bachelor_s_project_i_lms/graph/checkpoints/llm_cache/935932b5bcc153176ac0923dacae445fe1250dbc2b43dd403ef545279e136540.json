@@ -1,0 +1,39 @@
+{
+  "subtopics": [
+    {
+      "title": "Control Plane Approaches: Per-Router vs. SDN",
+      "summary": "Introduces the network-wide logic that controls how datagrams are routed end-to-end and how network-layer services are configured and managed. Contrasts the two broad approaches: traditional per-router control, where a routing algorithm runs in every router and routers communicate routing information with each other, and software-defined networking (SDN) control, where a logically centralized controller computes and distributes forwarding tables to all routers.",
+      "is_atomic": true
+    },
+    {
+      "title": "Link-State (LS) Routing Algorithm",
+      "summary": "Covers the link-state routing algorithm for computing least-cost paths in a graph, in which each node has complete knowledge of network topology and link costs and runs a centralized algorithm (e.g., Dijkstra's) to compute least-cost paths from itself to all other nodes.",
+      "is_atomic": true
+    },
+    {
+      "title": "Distance-Vector (DV) Routing Algorithm",
+      "summary": "Covers the distance-vector routing algorithm, a distributed, asynchronous, iterative approach based on the Bellman-Ford equation, in which each node maintains a vector of least-cost estimates to all destinations and exchanges these vectors with its directly connected neighbors.",
+      "is_atomic": true
+    },
+    {
+      "title": "Intra-AS Routing: OSPF",
+      "summary": "Covers OSPF, the widely deployed intra-AS routing protocol that operates within a single ISP's network (autonomous system), including how it implements link-state routing inside an administrative domain.",
+      "is_atomic": true
+    },
+    {
+      "title": "Inter-AS Routing: BGP",
+      "summary": "Covers BGP, the routing protocol that serves to interconnect all of the networks in the Internet, providing routing between autonomous systems and scaling routing across the entire Internet.",
+      "is_atomic": true
+    },
+    {
+      "title": "SDN Control Plane: Controller and Applications",
+      "summary": "Covers the architecture of the SDN control plane, divided into the SDN controller and SDN network-control applications. Emphasizes the separation of data plane (simple, fast switches executing match-plus-action rules in flow tables) and control plane (servers and software that compute, manage, and install flow table entries in all switches).",
+      "is_atomic": true
+    },
+    {
+      "title": "Network Management: NETCONF and YANG",
+      "summary": "Covers configuration and management of network-layer devices using the NETCONF protocol, which exchanges XML-encoded RPC messages (e.g., edit-config commands and replies) between a managing server and managed devices, and the YANG data modeling language used to specify the structure and syntax of configuration data.",
+      "is_atomic": true
+    }
+  ]
+}
