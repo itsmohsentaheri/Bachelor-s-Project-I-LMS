@@ -1,0 +1,106 @@
+{
+  "edges": [
+    {
+      "prerequisite": "What Is Network Security?",
+      "dependent": "Principles of Cryptography",
+      "confidence": 0.6,
+      "rationale": "The intro defines the goals (confidentiality, integrity, authentication) and the attack model that motivate why cryptographic techniques are studied next."
+    },
+    {
+      "prerequisite": "What Is Network Security?",
+      "dependent": "Message Integrity and Digital Signatures",
+      "confidence": 0.65,
+      "rationale": "The intro defines the message-integrity goal and the modification/insertion/deletion attacks that message integrity techniques are designed to defeat."
+    },
+    {
+      "prerequisite": "What Is Network Security?",
+      "dependent": "End-Point Authentication",
+      "confidence": 0.65,
+      "rationale": "The intro introduces impersonation, session hijacking, and the end-point authentication goal that the authentication protocols address."
+    },
+    {
+      "prerequisite": "What Is Network Security?",
+      "dependent": "Securing E-Mail",
+      "confidence": 0.6,
+      "rationale": "E-mail security is framed in terms of the confidentiality goal and eavesdropping/sniffing attack model defined in the intro."
+    },
+    {
+      "prerequisite": "What Is Network Security?",
+      "dependent": "Securing TCP Connections: TLS",
+      "confidence": 0.65,
+      "rationale": "TLS is understood as providing the confidentiality, message integrity, and end-point authentication goals enumerated in the intro."
+    },
+    {
+      "prerequisite": "What Is Network Security?",
+      "dependent": "Network-Layer Security: IPsec and VPNs",
+      "confidence": 0.6,
+      "rationale": "IPsec's 'blanket protection' implements the confidentiality/integrity goals and counters the sniffing attacks defined in the intro."
+    },
+    {
+      "prerequisite": "Principles of Cryptography",
+      "dependent": "Message Integrity and Digital Signatures",
+      "confidence": 0.95,
+      "rationale": "MACs and digital signatures are constructed directly from the symmetric-key/public-key primitives and hash functions introduced in the cryptography section."
+    },
+    {
+      "prerequisite": "Principles of Cryptography",
+      "dependent": "End-Point Authentication",
+      "confidence": 0.9,
+      "rationale": "Authentication protocols work by encrypting/MACing nonces with shared secret keys (or public-key techniques), requiring the crypto machinery first."
+    },
+    {
+      "prerequisite": "Principles of Cryptography",
+      "dependent": "Securing E-Mail",
+      "confidence": 0.9,
+      "rationale": "PGP explicitly combines symmetric key and public key encryption, both defined in the cryptography section."
+    },
+    {
+      "prerequisite": "Principles of Cryptography",
+      "dependent": "Securing TCP Connections: TLS",
+      "confidence": 0.9,
+      "rationale": "TLS's record protocol uses symmetric ciphers and its handshake uses public-key cryptography for key establishment and key derivation."
+    },
+    {
+      "prerequisite": "Principles of Cryptography",
+      "dependent": "Network-Layer Security: IPsec and VPNs",
+      "confidence": 0.85,
+      "rationale": "IPsec's AH/ESP rely on symmetric encryption and keyed hash functions, and its security associations presuppose shared-key establishment concepts."
+    },
+    {
+      "prerequisite": "Message Integrity and Digital Signatures",
+      "dependent": "End-Point Authentication",
+      "confidence": 0.7,
+      "rationale": "Authentication protocols prove identity by applying MACs or digital signatures to nonces, so the integrity/signature toolkit is needed first."
+    },
+    {
+      "prerequisite": "Message Integrity and Digital Signatures",
+      "dependent": "Securing E-Mail",
+      "confidence": 0.9,
+      "rationale": "PGP explicitly combines digital signatures with symmetric and public key encryption to secure the e-mail message chain."
+    },
+    {
+      "prerequisite": "Message Integrity and Digital Signatures",
+      "dependent": "Securing TCP Connections: TLS",
+      "confidence": 0.8,
+      "rationale": "The TLS record protocol provides message integrity via MACs, and the handshake authenticates via certificates/digital signatures."
+    },
+    {
+      "prerequisite": "Message Integrity and Digital Signatures",
+      "dependent": "Network-Layer Security: IPsec and VPNs",
+      "confidence": 0.75,
+      "rationale": "IPsec's AH and ESP compute MACs over packets to provide packet integrity and origin authentication."
+    },
+    {
+      "prerequisite": "End-Point Authentication",
+      "dependent": "Securing TCP Connections: TLS",
+      "confidence": 0.75,
+      "rationale": "The TLS handshake performs end-point (server, optionally client) authentication and uses nonce-like values to defeat replay attacks."
+    },
+    {
+      "prerequisite": "End-Point Authentication",
+      "dependent": "Network-Layer Security: IPsec and VPNs",
+      "confidence": 0.6,
+      "rationale": "IPsec (and its IKE key establishment) authenticate the communicating peers using nonce-based, shared-secret mechanisms studied in end-point authentication."
+    }
+  ]
+}

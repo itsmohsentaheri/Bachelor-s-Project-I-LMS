@@ -1,0 +1,1584 @@
+[
+  {
+    "from_temp_id": "t_0b55330cdc",
+    "to_temp_id": "t_d42ec990d6",
+    "confidence": 0.95,
+    "rationale": "The quantitative delay model (especially transmission delay and queuing) presupposes store-and-forward packet switching and statistical multiplexing covered in the core. [expanded from sibling edge 'The Network Core' -> 'Delay, Loss, and Throughput']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_0f17eb50b0",
+    "to_temp_id": "t_0b55330cdc",
+    "confidence": 0.85,
+    "rationale": "The comparison evaluates packet switching's per-hop store-and-forward behavior (transmission delays, no reservation), so the packet-switching mechanism must be understood first.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_0f17eb50b0",
+    "to_temp_id": "t_ed98ff82ca",
+    "confidence": 0.8,
+    "rationale": "Queuing delay and packet loss occur in the output buffers of store-and-forward switches; understanding that packets are received, stored, and retransmitted per hop is needed before analyzing buffering, delay, and on-demand capacity sharing.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_7e98cb4a78",
+    "to_temp_id": "t_0f17eb50b0",
+    "confidence": 0.9,
+    "rationale": "The core section examines the mesh of packet switches and links and the ISP structure of the Internet, all of which are first defined in the overview of what the Internet is. [expanded from sibling edge 'What Is the Internet?' -> 'The Network Core']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_7e98cb4a78",
+    "to_temp_id": "t_7aab4b277b",
+    "confidence": 0.85,
+    "rationale": "The layered architecture and per-layer service model build directly on the definition of a protocol and the idea that all Internet communication is protocol-governed.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_7e98cb4a78",
+    "to_temp_id": "t_81b54d4c89",
+    "confidence": 0.7,
+    "rationale": "Attacks like packet sniffing and IP spoofing only make sense once the student knows what packets are and how protocols govern their exchange.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_7e98cb4a78",
+    "to_temp_id": "t_9aee124d4a",
+    "confidence": 0.9,
+    "rationale": "The edge section details how end systems (hosts) connect to the network; the basic notions of end systems and communication links must be introduced first. [expanded from sibling edge 'What Is the Internet?' -> 'The Network Edge']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_7e98cb4a78",
+    "to_temp_id": "t_b1e7966545",
+    "confidence": 0.9,
+    "rationale": "The core section examines the mesh of packet switches and links and the ISP structure of the Internet, all of which are first defined in the overview of what the Internet is. [expanded from sibling edge 'What Is the Internet?' -> 'The Network Core']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_7e98cb4a78",
+    "to_temp_id": "t_ba24910861",
+    "confidence": 0.9,
+    "rationale": "The edge section details how end systems (hosts) connect to the network; the basic notions of end systems and communication links must be introduced first. [expanded from sibling edge 'What Is the Internet?' -> 'The Network Edge']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_7e98cb4a78",
+    "to_temp_id": "t_c10e125868",
+    "confidence": 0.9,
+    "rationale": "The edge section details how end systems (hosts) connect to the network; the basic notions of end systems and communication links must be introduced first. [expanded from sibling edge 'What Is the Internet?' -> 'The Network Edge']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_7e98cb4a78",
+    "to_temp_id": "t_dd95cb9dab",
+    "confidence": 0.9,
+    "rationale": "The core section examines the mesh of packet switches and links and the ISP structure of the Internet, all of which are first defined in the overview of what the Internet is. [expanded from sibling edge 'What Is the Internet?' -> 'The Network Core']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_9aee124d4a",
+    "to_temp_id": "t_816ac3f2f1",
+    "confidence": 0.75,
+    "rationale": "DSL runs over twisted-pair telephone lines, cable over coaxial HFC, and FTTH over optical fiber; understanding these media's properties is needed to grasp how each access technology works and its data rates.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_9aee124d4a",
+    "to_temp_id": "t_a349f92353",
+    "confidence": 0.6,
+    "rationale": "The wired Ethernet portion of this topic depends on knowing twisted-pair (and fiber) characteristics; the dependency applies to the Ethernet half, not WiFi.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_b1e7966545",
+    "to_temp_id": "t_d42ec990d6",
+    "confidence": 0.95,
+    "rationale": "The quantitative delay model (especially transmission delay and queuing) presupposes store-and-forward packet switching and statistical multiplexing covered in the core. [expanded from sibling edge 'The Network Core' -> 'Delay, Loss, and Throughput']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_ba24910861",
+    "to_temp_id": "t_816ac3f2f1",
+    "confidence": 0.6,
+    "rationale": "Home access technologies are defined as the means by which a residential end system connects to the network; understanding what an end system is and its role is needed before studying how it gains access.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_ba24910861",
+    "to_temp_id": "t_8bd0445165",
+    "confidence": 0.55,
+    "rationale": "Cellular access is framed as untethered connectivity for hand-held end systems; the end-system concept underpins why this access type exists.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_ba24910861",
+    "to_temp_id": "t_a349f92353",
+    "confidence": 0.55,
+    "rationale": "Ethernet and WiFi access describe how end systems (hosts) attach to LANs and hotspots, so the concept of an end system must come first.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_c10e125868",
+    "to_temp_id": "t_8bd0445165",
+    "confidence": 0.7,
+    "rationale": "Cellular access (3G/LTE/5G) fundamentally relies on radio transmission over licensed spectrum and propagation behavior, so unguided media concepts are a direct prerequisite.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_c10e125868",
+    "to_temp_id": "t_a349f92353",
+    "confidence": 0.6,
+    "rationale": "The WiFi (802.11) portion operates over radio channels; understanding wireless propagation and radio bands is needed to understand wireless LAN access.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_d42ec990d6",
+    "to_temp_id": "t_1ae52d967f",
+    "confidence": 0.95,
+    "rationale": "End-to-end delay is defined as the accumulation of nodal delays along the path, so the nodal delay components and formula must be understood first.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_d42ec990d6",
+    "to_temp_id": "t_4767cea849",
+    "confidence": 0.65,
+    "rationale": "The bottleneck-link model and the file-transfer-time approximation F/min{Rs, Rc} rely on the transmission-rate/transmission-delay concept, and its stated caveats (ignoring store-and-forward and processing delays) require knowing those nodal delay components.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_d42ec990d6",
+    "to_temp_id": "t_ea8692cda0",
+    "confidence": 0.95,
+    "rationale": "Queuing delay is one of the four nodal delay components introduced here; the deep-dive on dqueue presupposes the dnodal = dproc + dqueue + dtrans + dprop framework and the notion of a router queue.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_dd95cb9dab",
+    "to_temp_id": "t_0b55330cdc",
+    "confidence": 0.85,
+    "rationale": "The trade-off analysis (reserved vs. on-demand bandwidth, wasted capacity during silent periods) presupposes knowledge of how circuits and FDM/TDM partition link capacity.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_ea8692cda0",
+    "to_temp_id": "t_9aa8afbd4d",
+    "confidence": 0.9,
+    "rationale": "Packet loss is explained via finite queue capacity and is explicitly related to traffic intensity La/R approaching or exceeding 1, a quantity defined in the queuing-delay discussion.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_ed98ff82ca",
+    "to_temp_id": "t_0b55330cdc",
+    "confidence": 0.7,
+    "rationale": "The argument that packet switching suits bursty traffic rests on statistical multiplexing, and its drawbacks (queuing delay, packet loss under congestion) are key terms in the comparison.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_0216db1919",
+    "to_temp_id": "t_a78d9a251c",
+    "confidence": 0.95,
+    "rationale": "The TCP/UDP discussion is an evaluation of the Internet's transport models against the four requirement classes (reliability, throughput, timing, security); the requirement classes must be defined first for the comparison and the SSL/TLS motivation to be meaningful.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_1f2e6da3f2",
+    "to_temp_id": "t_bb1a274a0a",
+    "confidence": 0.85,
+    "rationale": "The message-format discussion (7-bit ASCII restrictions of SMTP motivating MIME) builds directly on SMTP's command dialogue and its content restrictions; MIME is introduced as a response to SMTP's limitations.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_244e6be4a4",
+    "to_temp_id": "t_3f84aa70d7",
+    "confidence": 0.95,
+    "rationale": "Analyzing how HTTP uses TCP connections (one object per connection vs. multiple objects) and computing response times requires first understanding that HTTP is a stateless request-response protocol for fetching objects referenced by a web page.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_244e6be4a4",
+    "to_temp_id": "t_d507a90238",
+    "confidence": 0.9,
+    "rationale": "HTTP/2's improvements (multiplexing, head-of-line blocking, page-load latency) are meaningful only against the baseline HTTP/1.x request-response model and the multi-object structure of web pages.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_244e6be4a4",
+    "to_temp_id": "t_d5a8925b50",
+    "confidence": 0.9,
+    "rationale": "Understanding proxy servers, cache hits/misses, and serving HTTP requests on behalf of clients presupposes knowledge of the browser/server request-response model and web objects.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_244e6be4a4",
+    "to_temp_id": "t_d97ac77b0d",
+    "confidence": 0.95,
+    "rationale": "Cookies are explicitly presented as a mechanism for adding stateful user identification on top of HTTP's stateless model, so the stateless request-response model must be learned first.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_244e6be4a4",
+    "to_temp_id": "t_e195c43945",
+    "confidence": 0.95,
+    "rationale": "Request lines, methods, status lines, and status codes only make sense once the student knows the HTTP client/server request-response model and what browsers ask of web servers.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_2738a2cd43",
+    "to_temp_id": "t_c5616eeac6",
+    "confidence": 0.9,
+    "rationale": "The UDP section presents UDPClient.py and UDPServer.py as implementations of the same running uppercase-conversion example, so the example's workflow must be understood before studying the UDP code.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_2738a2cd43",
+    "to_temp_id": "t_fc27d5a7f5",
+    "confidence": 0.9,
+    "rationale": "The TCP section presents TCPClient.py and TCPServer.py as implementations of the running uppercase-conversion example, so the example's workflow (client sends a line, server modifies it, server must be running first) must be understood before studying the TCP code.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_3e57c8b745",
+    "to_temp_id": "t_1f2e6da3f2",
+    "confidence": 0.95,
+    "rationale": "SMTP can only be understood as the transfer protocol connecting the mail servers defined in the architecture; the client/server roles and direct delivery between servers presuppose the user agent/mail server model and message queues.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_3e57c8b745",
+    "to_temp_id": "t_bb1a274a0a",
+    "confidence": 0.7,
+    "rationale": "Header lines such as Received: only make sense in light of the message's journey through mail servers described in the architecture.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_3e57c8b745",
+    "to_temp_id": "t_f0e3c60144",
+    "confidence": 0.9,
+    "rationale": "Access protocols are defined by their role in the architecture: retrieving mail from the recipient's mail server. Without the mail-server/mailbox model, POP3 and IMAP have no context.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_3f84aa70d7",
+    "to_temp_id": "t_d507a90238",
+    "confidence": 0.85,
+    "rationale": "HTTP/2's multiplexing of many requests/responses over a single TCP connection and its handling of head-of-line blocking build directly on the persistent-connection model and its latency limitations.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_8cb84b40e1",
+    "to_temp_id": "t_0216db1919",
+    "confidence": 0.7,
+    "rationale": "Transport services are defined as what the transport layer offers to an application through its socket; understanding the socket as the application-transport interface (from 'Processes Communicating') is needed to make sense of services delivered to an application.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_8cb84b40e1",
+    "to_temp_id": "t_f743b79be3",
+    "confidence": 0.85,
+    "rationale": "An application-layer protocol specifies the types, syntax, semantics, and send/respond rules for messages exchanged between processes; this definition presupposes the process-communication and socket model.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_a2f2554cdc",
+    "to_temp_id": "t_8cb84b40e1",
+    "confidence": 0.75,
+    "rationale": "The client/server process distinction in 'Processes Communicating' builds directly on the client-server architecture concept; you must know what a client-server design is before classifying which side of a communication is the client or server process.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_a78d9a251c",
+    "to_temp_id": "t_244e6be4a4",
+    "confidence": 0.95,
+    "rationale": "HTTP is studied as a concrete instance of the concepts introduced in Principles: application architectures, processes communicating through sockets, transport services (TCP), and what an application-layer protocol defines. Without those foundations, HTTP's connection behavior and message format lack context. [expanded from sibling edge 'Principles of Network Applications' -> 'The Web and HTTP']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_a78d9a251c",
+    "to_temp_id": "t_2738a2cd43",
+    "confidence": 0.95,
+    "rationale": "Socket programming is the hands-on realization of the socket abstraction and the TCP/UDP transport services introduced in Principles; the programming topics cannot be meaningfully attempted without first understanding processes, sockets, and transport-service differences. [expanded from sibling edge 'Principles of Network Applications' -> 'Socket Programming with TCP and UDP']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_a78d9a251c",
+    "to_temp_id": "t_2c88d103d2",
+    "confidence": 0.85,
+    "rationale": "DNS is an application-layer protocol whose operation depends on the transport services (primarily UDP, with TCP fallback) and the client-server communication model covered in Principles. [expanded from sibling edge 'Principles of Network Applications' -> 'DNS: The Internet's Directory Service']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_a78d9a251c",
+    "to_temp_id": "t_3b4d5a13ae",
+    "confidence": 0.85,
+    "rationale": "DNS is an application-layer protocol whose operation depends on the transport services (primarily UDP, with TCP fallback) and the client-server communication model covered in Principles. [expanded from sibling edge 'Principles of Network Applications' -> 'DNS: The Internet's Directory Service']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_a78d9a251c",
+    "to_temp_id": "t_3e57c8b745",
+    "confidence": 0.85,
+    "rationale": "SMTP and mail access protocols are application-layer protocols running over TCP; understanding transport services and what an application-layer protocol defines (from Principles) is needed before examining mail transfer and retrieval. [expanded from sibling edge 'Principles of Network Applications' -> 'Electronic Mail in the Internet']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_a78d9a251c",
+    "to_temp_id": "t_8717fac8d7",
+    "confidence": 0.8,
+    "rationale": "Streaming's bandwidth and timing considerations build on the transport-service requirements (throughput, timing, loss tolerance) that Principles categorizes for multimedia applications. [expanded from sibling edge 'Principles of Network Applications' -> 'Video Streaming']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_a78d9a251c",
+    "to_temp_id": "t_90bde9d97a",
+    "confidence": 0.9,
+    "rationale": "P2P file distribution directly extends the client-server vs. P2P architecture discussion from Principles; its scaling comparison is only meaningful once the two architecture models and self-scalability concepts are understood. [expanded from sibling edge 'Principles of Network Applications' -> 'Peer-to-Peer File Distribution']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_a78d9a251c",
+    "to_temp_id": "t_b5b1e82e5c",
+    "confidence": 0.85,
+    "rationale": "DNS is an application-layer protocol whose operation depends on the transport services (primarily UDP, with TCP fallback) and the client-server communication model covered in Principles. [expanded from sibling edge 'Principles of Network Applications' -> 'DNS: The Internet's Directory Service']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_a78d9a251c",
+    "to_temp_id": "t_fcc36585fd",
+    "confidence": 0.85,
+    "rationale": "DNS is an application-layer protocol whose operation depends on the transport services (primarily UDP, with TCP fallback) and the client-server communication model covered in Principles. [expanded from sibling edge 'Principles of Network Applications' -> 'DNS: The Internet's Directory Service']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_c5616eeac6",
+    "to_temp_id": "t_70b822b7e6",
+    "confidence": 0.95,
+    "rationale": "The side-by-side comparison requires knowledge of UDP's connectionless sendto()/recvfrom() operation and per-packet addressing to contrast them against TCP.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_c5616eeac6",
+    "to_temp_id": "t_f40a082fba",
+    "confidence": 0.7,
+    "rationale": "Deciding whether an application runs over UDP requires understanding UDP's connectionless, no-delivery-guarantee characteristics covered in the UDP programming section.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_e195c43945",
+    "to_temp_id": "t_d507a90238",
+    "confidence": 0.75,
+    "rationale": "HTTP/2's framing mechanism decomposes and restructures classic HTTP request/response messages into frames, so the traditional message format must be understood first to appreciate what framing changes.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_e195c43945",
+    "to_temp_id": "t_d5a8925b50",
+    "confidence": 0.9,
+    "rationale": "The conditional GET for keeping cached copies fresh is a specific use of HTTP request messages with header lines (If-Modified-Since), which requires knowing the request message structure first.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_e195c43945",
+    "to_temp_id": "t_d97ac77b0d",
+    "confidence": 0.85,
+    "rationale": "Two of the four cookie components are HTTP header lines (cookie-setting and cookie-carrying headers), so understanding message headers is needed to grasp how cookies work.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_f743b79be3",
+    "to_temp_id": "t_244e6be4a4",
+    "confidence": 0.95,
+    "rationale": "HTTP is studied as a concrete instance of the concepts introduced in Principles: application architectures, processes communicating through sockets, transport services (TCP), and what an application-layer protocol defines. Without those foundations, HTTP's connection behavior and message format lack context. [expanded from sibling edge 'Principles of Network Applications' -> 'The Web and HTTP']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_f743b79be3",
+    "to_temp_id": "t_2738a2cd43",
+    "confidence": 0.95,
+    "rationale": "Socket programming is the hands-on realization of the socket abstraction and the TCP/UDP transport services introduced in Principles; the programming topics cannot be meaningfully attempted without first understanding processes, sockets, and transport-service differences. [expanded from sibling edge 'Principles of Network Applications' -> 'Socket Programming with TCP and UDP']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_f743b79be3",
+    "to_temp_id": "t_2c88d103d2",
+    "confidence": 0.85,
+    "rationale": "DNS is an application-layer protocol whose operation depends on the transport services (primarily UDP, with TCP fallback) and the client-server communication model covered in Principles. [expanded from sibling edge 'Principles of Network Applications' -> 'DNS: The Internet's Directory Service']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_f743b79be3",
+    "to_temp_id": "t_3b4d5a13ae",
+    "confidence": 0.85,
+    "rationale": "DNS is an application-layer protocol whose operation depends on the transport services (primarily UDP, with TCP fallback) and the client-server communication model covered in Principles. [expanded from sibling edge 'Principles of Network Applications' -> 'DNS: The Internet's Directory Service']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_f743b79be3",
+    "to_temp_id": "t_3e57c8b745",
+    "confidence": 0.85,
+    "rationale": "SMTP and mail access protocols are application-layer protocols running over TCP; understanding transport services and what an application-layer protocol defines (from Principles) is needed before examining mail transfer and retrieval. [expanded from sibling edge 'Principles of Network Applications' -> 'Electronic Mail in the Internet']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_f743b79be3",
+    "to_temp_id": "t_8717fac8d7",
+    "confidence": 0.8,
+    "rationale": "Streaming's bandwidth and timing considerations build on the transport-service requirements (throughput, timing, loss tolerance) that Principles categorizes for multimedia applications. [expanded from sibling edge 'Principles of Network Applications' -> 'Video Streaming']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_f743b79be3",
+    "to_temp_id": "t_90bde9d97a",
+    "confidence": 0.9,
+    "rationale": "P2P file distribution directly extends the client-server vs. P2P architecture discussion from Principles; its scaling comparison is only meaningful once the two architecture models and self-scalability concepts are understood. [expanded from sibling edge 'Principles of Network Applications' -> 'Peer-to-Peer File Distribution']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_f743b79be3",
+    "to_temp_id": "t_b5b1e82e5c",
+    "confidence": 0.85,
+    "rationale": "DNS is an application-layer protocol whose operation depends on the transport services (primarily UDP, with TCP fallback) and the client-server communication model covered in Principles. [expanded from sibling edge 'Principles of Network Applications' -> 'DNS: The Internet's Directory Service']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_f743b79be3",
+    "to_temp_id": "t_fcc36585fd",
+    "confidence": 0.85,
+    "rationale": "DNS is an application-layer protocol whose operation depends on the transport services (primarily UDP, with TCP fallback) and the client-server communication model covered in Principles. [expanded from sibling edge 'Principles of Network Applications' -> 'DNS: The Internet's Directory Service']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_fc27d5a7f5",
+    "to_temp_id": "t_70b822b7e6",
+    "confidence": 0.95,
+    "rationale": "The side-by-side comparison requires knowledge of TCP's connection setup, welcome vs. connection sockets, and byte-stream model to contrast them against UDP.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_fc27d5a7f5",
+    "to_temp_id": "t_f40a082fba",
+    "confidence": 0.7,
+    "rationale": "Deciding whether an application runs over TCP requires understanding TCP's connection-oriented, reliable byte-stream characteristics covered in the TCP programming section.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_1844d31b92",
+    "to_temp_id": "t_26e61b16fc",
+    "confidence": 0.95,
+    "rationale": "TCP's reliable data transfer mechanism is a direct application of the RDT principles: acknowledgments, retransmissions, sequence numbers, pipelining, and the GBN/SR sliding-window ideas underpin TCP's error recovery, timeout management, and flow control. [expanded from sibling edge 'Principles of Reliable Data Transfer' -> 'Connection-Oriented Transport: TCP']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_1844d31b92",
+    "to_temp_id": "t_379f333add",
+    "confidence": 0.95,
+    "rationale": "TCP's reliable data transfer mechanism is a direct application of the RDT principles: acknowledgments, retransmissions, sequence numbers, pipelining, and the GBN/SR sliding-window ideas underpin TCP's error recovery, timeout management, and flow control. [expanded from sibling edge 'Principles of Reliable Data Transfer' -> 'Connection-Oriented Transport: TCP']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_26e61b16fc",
+    "to_temp_id": "t_44f99e7463",
+    "confidence": 0.9,
+    "rationale": "Flow control relies on the receive window (rwnd) field carried in the TCP segment header; the sender reads this field to limit unacknowledged data.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_26e61b16fc",
+    "to_temp_id": "t_bd9a97ca9e",
+    "confidence": 0.95,
+    "rationale": "Reliable data transfer is built on the 32-bit sequence and acknowledgment numbers (byte-stream offsets) and the ACK flag; cumulative acknowledgments cannot be understood without the segment's numbering scheme.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_26e61b16fc",
+    "to_temp_id": "t_c03a0f3829",
+    "confidence": 0.75,
+    "rationale": "SampleRTT is measured by timing the transmission of a segment and receipt of its acknowledgment, which requires understanding sequence/acknowledgment numbers and the ACK flag defined in the segment structure.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_26e61b16fc",
+    "to_temp_id": "t_faf688c572",
+    "confidence": 0.8,
+    "rationale": "The three-way handshake and teardown use the SYN, FIN, ACK, and RST header flags and involve sequence number selection, all defined in the segment structure.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_3245369041",
+    "to_temp_id": "t_5f705469c5",
+    "confidence": 0.98,
+    "rationale": "rdt2.x builds directly on the rdt1.0 baseline by incrementally adding checksums, ACKs/NAKs, retransmissions, and sequence numbers to the same sender/receiver FSM framework.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_379f333add",
+    "to_temp_id": "t_faf688c572",
+    "confidence": 0.85,
+    "rationale": "Connection management details the lifecycle (handshake, state, teardown) of the connection abstraction; understanding why a handshake and per-connection state exist must come first.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_3e01380ec9",
+    "to_temp_id": "t_c7e7aec8cc",
+    "confidence": 0.7,
+    "rationale": "The latency analysis of slow start explicitly motivates designs that determine the sending rate more quickly, which is exactly what the delay-based and ECN variants do.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_3e051b6203",
+    "to_temp_id": "t_42250f13f2",
+    "confidence": 0.8,
+    "rationale": "The two control approaches are solutions to the congestion problem; understanding what congestion is and its costs (queuing delay, loss, collapse) is needed before classifying how to control it.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_3e051b6203",
+    "to_temp_id": "t_b5edbafc63",
+    "confidence": 0.75,
+    "rationale": "Classic TCP infers congestion from packet loss and growing delay; learners must first know that loss and queuing delay are the symptoms and costs of congestion that TCP reacts to. [expanded from sibling edge 'Causes and Costs of Congestion' -> 'Classic TCP Congestion Control']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_42250f13f2",
+    "to_temp_id": "t_b5edbafc63",
+    "confidence": 0.9,
+    "rationale": "Classic TCP is the canonical instance of end-to-end control (inferring congestion from loss/delay because IP provides no explicit feedback); the taxonomy is required to frame why TCP works the way it does. [expanded from sibling edge 'End-to-End vs. Network-Assisted Approaches' -> 'Classic TCP Congestion Control']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_42250f13f2",
+    "to_temp_id": "t_c7e7aec8cc",
+    "confidence": 0.85,
+    "rationale": "The newer variants are organized by this taxonomy: delay-based TCP is still end-to-end inference (via delay), while ECN is network-assisted explicit feedback; the approach distinction is needed to classify them.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_44f99e7463",
+    "to_temp_id": "t_3e051b6203",
+    "confidence": 0.9,
+    "rationale": "TCP's congestion control (slow start, AIMD congestion avoidance, fast recovery) manipulates a congestion window alongside TCP's reliable data transfer, RTT estimation, and receive-window flow control; TCP's operation must be understood first for the congestion control mechanisms to make sense. [expanded from sibling edge 'Connection-Oriented Transport: TCP' -> 'Congestion Control']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_46135c5e99",
+    "to_temp_id": "t_d44f3f3b35",
+    "confidence": 0.8,
+    "rationale": "Fast recovery implements the multiplicative-decrease step (halving cwnd on a triple duplicate-ACK loss) whose role in the AIMD cycle is defined in the congestion avoidance leaf.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_46135c5e99",
+    "to_temp_id": "t_fe7751c22d",
+    "confidence": 0.95,
+    "rationale": "The fairness convergence argument is a direct analysis of the additive-increase/multiplicative-decrease dynamics, so AIMD must be learned first.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_4ed6e9702e",
+    "to_temp_id": "t_1844d31b92",
+    "confidence": 0.9,
+    "rationale": "SR is likewise a pipelined protocol whose design is motivated by the stop-and-wait utilization problem quantified in this analysis.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_4ed6e9702e",
+    "to_temp_id": "t_dce7c5ce14",
+    "confidence": 0.95,
+    "rationale": "The poor utilization derived here is the explicit motivation for pipelined operation, which GBN implements via its sliding window of N outstanding packets.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_5f705469c5",
+    "to_temp_id": "t_61e4e5d7ed",
+    "confidence": 0.97,
+    "rationale": "rdt3.0 extends rdt2.2 by adding a countdown timer to handle lost packets; its duplicate-detection relies on the sequence-number machinery introduced in rdt2.x.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_61e4e5d7ed",
+    "to_temp_id": "t_4ed6e9702e",
+    "confidence": 0.9,
+    "rationale": "The utilization analysis quantifies the bandwidth waste of the completed stop-and-wait protocol (rdt3.0), using its sender behavior and RTT/L/R timing model.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_77ec1669b6",
+    "to_temp_id": "t_24fed41ec2",
+    "confidence": 0.85,
+    "rationale": "Understanding UDP requires knowing how UDP segments are delivered to the correct socket via connectionless two-tuple demultiplexing, which is covered in the multiplexing/demultiplexing topic.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_77ec1669b6",
+    "to_temp_id": "t_26e61b16fc",
+    "confidence": 0.85,
+    "rationale": "TCP's connection-oriented demultiplexing based on four-tuples (source IP, source port, dest IP, dest port) is a prerequisite concept from the multiplexing/demultiplexing topic needed to understand how TCP segments reach the right connection. [expanded from sibling edge 'Multiplexing and Demultiplexing' -> 'Connection-Oriented Transport: TCP']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_77ec1669b6",
+    "to_temp_id": "t_379f333add",
+    "confidence": 0.85,
+    "rationale": "TCP's connection-oriented demultiplexing based on four-tuples (source IP, source port, dest IP, dest port) is a prerequisite concept from the multiplexing/demultiplexing topic needed to understand how TCP segments reach the right connection. [expanded from sibling edge 'Multiplexing and Demultiplexing' -> 'Connection-Oriented Transport: TCP']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_7f6f27dece",
+    "to_temp_id": "t_46135c5e99",
+    "confidence": 0.9,
+    "rationale": "Congestion avoidance begins when cwnd reaches the slow-start threshold (ssthresh) defined during slow start; the phase transition is a direct dependency.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_7f6f27dece",
+    "to_temp_id": "t_d44f3f3b35",
+    "confidence": 0.7,
+    "rationale": "The Tahoe-vs-Reno contrast (timeout-driven reset to slow start vs. fast recovery) only makes sense once slow start behavior is understood.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_b5edbafc63",
+    "to_temp_id": "t_46135c5e99",
+    "confidence": 0.9,
+    "rationale": "AIMD's linear cwnd increase and multiplicative decrease on loss cannot be understood without first knowing what cwnd is and how loss (triple duplicate ACKs vs. timeout) is detected.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_b5edbafc63",
+    "to_temp_id": "t_7f6f27dece",
+    "confidence": 0.95,
+    "rationale": "Slow start's exponential cwnd growth and its termination by ssthresh or a loss event presuppose the definitions of the congestion window and the loss signals introduced in this leaf.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_b5edbafc63",
+    "to_temp_id": "t_d44f3f3b35",
+    "confidence": 0.85,
+    "rationale": "Fast retransmit is triggered by three duplicate ACKs, which is one of the loss-signal distinctions (triple duplicate ACK vs. timeout) established in this leaf.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_bd9a97ca9e",
+    "to_temp_id": "t_44f99e7463",
+    "confidence": 0.7,
+    "rationale": "Flow control constrains the amount of unacknowledged (in-flight) data, a concept defined by the sender's acknowledgment and windowing behavior in reliable data transfer (LastByteSent, LastByteAcked).",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_c03a0f3829",
+    "to_temp_id": "t_bd9a97ca9e",
+    "confidence": 0.9,
+    "rationale": "The single retransmission timer's behavior, including timeout-triggered retransmissions and doubling the timeout, directly uses the TimeoutInterval computed from EstimatedRTT and DevRTT.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_d44f3f3b35",
+    "to_temp_id": "t_3e01380ec9",
+    "confidence": 0.85,
+    "rationale": "Analyzing how slow start contributes to end-to-end delay requires first understanding the slow-start mechanism itself, which is part of classic TCP congestion control. [expanded from sibling edge 'Classic TCP Congestion Control' -> 'Impact of Slow Start on Latency']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_d44f3f3b35",
+    "to_temp_id": "t_7c1307ad8d",
+    "confidence": 0.9,
+    "rationale": "The fairness analysis examines how AIMD's additive-increase/multiplicative-decrease converges to equal bandwidth shares with a sawtooth pattern; AIMD must be understood first. [expanded from sibling edge 'Classic TCP Congestion Control' -> 'Fairness of TCP Congestion Control']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_d44f3f3b35",
+    "to_temp_id": "t_c7e7aec8cc",
+    "confidence": 0.85,
+    "rationale": "The newer variants are presented as alternatives that determine the sending rate more quickly than classic loss-based TCP; the classic mechanisms (slow start, AIMD, loss-triggered reaction) are the baseline being contrasted. [expanded from sibling edge 'Classic TCP Congestion Control' -> 'Newer TCP Variants: Delay-Based and ECN']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_dce7c5ce14",
+    "to_temp_id": "t_1844d31b92",
+    "confidence": 0.75,
+    "rationale": "SR is best understood as a refinement of GBN's sliding-window approach: its individual ACKs, receiver buffering, and window-size constraint relative to the sequence-number space are defined in contrast to GBN's cumulative ACKs and out-of-order discarding.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_faf688c572",
+    "to_temp_id": "t_3e051b6203",
+    "confidence": 0.9,
+    "rationale": "TCP's congestion control (slow start, AIMD congestion avoidance, fast recovery) manipulates a congestion window alongside TCP's reliable data transfer, RTT estimation, and receive-window flow control; TCP's operation must be understood first for the congestion control mechanisms to make sense. [expanded from sibling edge 'Connection-Oriented Transport: TCP' -> 'Congestion Control']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_fdc2fd4098",
+    "to_temp_id": "t_24fed41ec2",
+    "confidence": 0.75,
+    "rationale": "UDP's minimal service model only makes sense against the backdrop of the transport/network layer relationship and the overview of Internet transport protocols (UDP vs. TCP) presented in the introduction.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_fdc2fd4098",
+    "to_temp_id": "t_77ec1669b6",
+    "confidence": 0.85,
+    "rationale": "Multiplexing/demultiplexing explains how the transport layer implements the logical end-to-end process-to-process communication introduced in the overview; students must first know what the transport layer does and how it relates to the network layer before studying how segments are delivered to sockets.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_fe7751c22d",
+    "to_temp_id": "t_3e01380ec9",
+    "confidence": 0.85,
+    "rationale": "Analyzing how slow start contributes to end-to-end delay requires first understanding the slow-start mechanism itself, which is part of classic TCP congestion control. [expanded from sibling edge 'Classic TCP Congestion Control' -> 'Impact of Slow Start on Latency']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_fe7751c22d",
+    "to_temp_id": "t_7c1307ad8d",
+    "confidence": 0.9,
+    "rationale": "The fairness analysis examines how AIMD's additive-increase/multiplicative-decrease converges to equal bandwidth shares with a sawtooth pattern; AIMD must be understood first. [expanded from sibling edge 'Classic TCP Congestion Control' -> 'Fairness of TCP Congestion Control']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_fe7751c22d",
+    "to_temp_id": "t_c7e7aec8cc",
+    "confidence": 0.85,
+    "rationale": "The newer variants are presented as alternatives that determine the sending rate more quickly than classic loss-based TCP; the classic mechanisms (slow start, AIMD, loss-triggered reaction) are the baseline being contrasted. [expanded from sibling edge 'Classic TCP Congestion Control' -> 'Newer TCP Variants: Delay-Based and ECN']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_058001effa",
+    "to_temp_id": "t_a491784728",
+    "confidence": 0.8,
+    "rationale": "SDN controllers compute and distribute match+action flow tables, which are an instance of generalized forwarding, so generalized forwarding is a prerequisite.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_13014d5ed8",
+    "to_temp_id": "t_058001effa",
+    "confidence": 0.85,
+    "rationale": "Generalized forwarding extends the forwarding function beyond destination-based lookup, requiring the basic forwarding concept first.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_13014d5ed8",
+    "to_temp_id": "t_271b3890cb",
+    "confidence": 0.9,
+    "rationale": "Input/output port processing is the hardware realization of the per-router forwarding function, so the forwarding-vs-routing distinction must come first.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_13014d5ed8",
+    "to_temp_id": "t_3d6c3ed74b",
+    "confidence": 0.9,
+    "rationale": "The switching fabric and queues are the internal mechanisms that accomplish forwarding within a router, which only makes sense once forwarding is defined.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_13014d5ed8",
+    "to_temp_id": "t_6227833780",
+    "confidence": 0.9,
+    "rationale": "Traditional IP forwarding details destination-based forwarding using the forwarding table, a concept introduced by the forwarding-vs-routing overview.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_13014d5ed8",
+    "to_temp_id": "t_a491784728",
+    "confidence": 0.9,
+    "rationale": "SDN explicitly separates the data plane from the control plane, which is precisely the forwarding/routing distinction, so that distinction is a direct prerequisite.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_271b3890cb",
+    "to_temp_id": "t_3d6c3ed74b",
+    "confidence": 0.85,
+    "rationale": "The switching fabric moves packets from input ports to output ports and queues form at those ports, so port operation must be understood first.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_6227833780",
+    "to_temp_id": "t_058001effa",
+    "confidence": 0.9,
+    "rationale": "Generalized forwarding is defined in contrast to destination-based forwarding ('rather than the destination address alone'), so traditional forwarding must be learned first.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_4d5673b3ab",
+    "to_temp_id": "t_6bc62995cb",
+    "confidence": 0.5,
+    "rationale": "BGP is another instance of the distributed per-router control paradigm; the overview's taxonomy of per-router vs. SDN control provides the conceptual frame for why BGP computes and advertises routes among routers/ASes rather than via a central controller.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_4d5673b3ab",
+    "to_temp_id": "t_ebeafd62aa",
+    "confidence": 0.85,
+    "rationale": "The SDN control plane topic elaborates the SDN approach defined in the overview; its controller/application architecture and separation of data and control planes presuppose familiarity with the SDN paradigm introduced there.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_4d5673b3ab",
+    "to_temp_id": "t_ed24ab34bd",
+    "confidence": 0.6,
+    "rationale": "The overview establishes the per-router control paradigm in which routing algorithms run inside each router; OSPF is presented as an intra-AS instance of that approach, so the framing is needed to situate it.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_b40d489b42",
+    "to_temp_id": "t_ed24ab34bd",
+    "confidence": 0.95,
+    "rationale": "OSPF implements link-state routing within an autonomous system, so understanding Dijkstra's least-cost computation and complete-topology link-state dissemination is a direct prerequisite.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_ea90d29929",
+    "to_temp_id": "t_6bc62995cb",
+    "confidence": 0.55,
+    "rationale": "BGP is a path-vector protocol that generalizes the distance-vector mechanism of iteratively exchanging reachability vectors with neighbors; the DV algorithm's distributed, iterative mechanics prepare students for BGP's AS-path advertisements.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_ed24ab34bd",
+    "to_temp_id": "t_6bc62995cb",
+    "confidence": 0.8,
+    "rationale": "Inter-AS routing presupposes the notion of autonomous systems with their own internal routing; BGP interconnects ASes whose intra-AS routing (e.g., OSPF) must be understood first to see how interior and exterior routes compose.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_0fed3e8ee8",
+    "to_temp_id": "t_90e84618c2",
+    "confidence": 0.8,
+    "rationale": "Classic shared-media Ethernet is built on CSMA/CD, a random-access protocol covered in Multiple Access Protocols; understanding Ethernet's medium access requires that background. [expanded from sibling edge 'Multiple Access Protocols' -> 'Ethernet and Link-Layer Switches']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_1f3ad1d745",
+    "to_temp_id": "t_1fcbb78e61",
+    "confidence": 0.75,
+    "rationale": "The advantages attributed to switches (collision elimination via per-interface bandwidth, full-duplex operation, transparent plug-and-play administration) only make sense once the switch's forwarding and self-learning mechanics are understood.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_1f3ad1d745",
+    "to_temp_id": "t_5c8fdc549e",
+    "confidence": 0.8,
+    "rationale": "VLANs partition a single physical switch into isolated virtual switches; understanding per-VLAN forwarding, filtering, and learning requires the base switch operation first.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_1f3ad1d745",
+    "to_temp_id": "t_fdcee80c61",
+    "confidence": 0.8,
+    "rationale": "The comparison centers on how switches forward frames using MAC addresses and self-learning versus how routers forward datagrams; switch operation must be understood before contrasting it with routing.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_1fcbb78e61",
+    "to_temp_id": "t_296749e58b",
+    "confidence": 0.6,
+    "rationale": "MPLS label switching is best understood in contrast to link-layer switching vs. IP routing, and data center designs are built on switched topologies covered in the switches topic. [expanded from sibling edge 'Ethernet and Link-Layer Switches' -> 'MPLS and Data Center Networking']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_1fcbb78e61",
+    "to_temp_id": "t_5c8fdc549e",
+    "confidence": 0.9,
+    "rationale": "VLANs are created by configuring link-layer switches (traffic isolation, trunking over switch infrastructure); they cannot be understood without the switch model. [expanded from sibling edge 'Ethernet and Link-Layer Switches' -> 'Virtual LANs (VLANs)']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_1fcbb78e61",
+    "to_temp_id": "t_87f06460cd",
+    "confidence": 0.6,
+    "rationale": "MPLS label switching is best understood in contrast to link-layer switching vs. IP routing, and data center designs are built on switched topologies covered in the switches topic. [expanded from sibling edge 'Ethernet and Link-Layer Switches' -> 'MPLS and Data Center Networking']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_1fcbb78e61",
+    "to_temp_id": "t_9af817eb5e",
+    "confidence": 0.6,
+    "rationale": "MPLS label switching is best understood in contrast to link-layer switching vs. IP routing, and data center designs are built on switched topologies covered in the switches topic. [expanded from sibling edge 'Ethernet and Link-Layer Switches' -> 'MPLS and Data Center Networking']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_296749e58b",
+    "to_temp_id": "t_2dd30561bd",
+    "confidence": 0.85,
+    "rationale": "The hierarchical architecture (tiers, TOR switches, redundancy, VLAN partitioning) is motivated by the need to support external client-to-host and internal host-to-host traffic; understanding the purposes and traffic types explains why the design takes this shape.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_2dd30561bd",
+    "to_temp_id": "t_bb149e3db0",
+    "confidence": 0.9,
+    "rationale": "Multipath routing (ECMP, flow-level load balancing, packet splitting) exploits the rich inter-tier connectivity and redundancy of the hierarchical data center topology; without knowing the architecture, the multipath designs make no sense.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_332059f67e",
+    "to_temp_id": "t_90e84618c2",
+    "confidence": 0.65,
+    "rationale": "Ethernet frames carry a CRC field and adapters use CRC to detect frame errors, so the CRC technique should be learned before studying Ethernet framing and frame processing. [expanded from sibling edge 'Error-Detection and -Correction Techniques' -> 'Ethernet and Link-Layer Switches']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_3bd6c30e79",
+    "to_temp_id": "t_0fed3e8ee8",
+    "confidence": 0.95,
+    "rationale": "CSMA improves on random access by reducing collisions; the collision problem and collision interval concept are needed to understand carrier sensing and backoff.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_3bd6c30e79",
+    "to_temp_id": "t_40814a2561",
+    "confidence": 0.9,
+    "rationale": "Taking-turns protocols are a third class of solutions to the multiple access problem; the problem frames why coordination via polling or tokens is needed.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_3bd6c30e79",
+    "to_temp_id": "t_4a50313fee",
+    "confidence": 0.95,
+    "rationale": "Slotted ALOHA is the simplest random access protocol designed to cope with collisions; the problem statement defines what its efficiency analysis measures.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_3bd6c30e79",
+    "to_temp_id": "t_4f1a0a8cc5",
+    "confidence": 0.8,
+    "rationale": "The DOCSIS case study explicitly combines the three multiple access classes, so the framing problem must be understood first.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_3bd6c30e79",
+    "to_temp_id": "t_b77d72f950",
+    "confidence": 0.95,
+    "rationale": "Channel partitioning is presented as one solution class to the collision problem; understanding why collisions occur motivates dividing the channel.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_40814a2561",
+    "to_temp_id": "t_4f1a0a8cc5",
+    "confidence": 0.85,
+    "rationale": "DOCSIS upstream transmission is regulated by the CMTS granting permissions to modems, which is a polling-style taking-turns mechanism.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_4a50313fee",
+    "to_temp_id": "t_0fed3e8ee8",
+    "confidence": 0.85,
+    "rationale": "CSMA is introduced as an evolution of ALOHA-style random access; slotted ALOHA's efficiency analysis provides the baseline that carrier sensing improves upon.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_4f1a0a8cc5",
+    "to_temp_id": "t_90e84618c2",
+    "confidence": 0.8,
+    "rationale": "Classic shared-media Ethernet is built on CSMA/CD, a random-access protocol covered in Multiple Access Protocols; understanding Ethernet's medium access requires that background. [expanded from sibling edge 'Multiple Access Protocols' -> 'Ethernet and Link-Layer Switches']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_5c8fdc549e",
+    "to_temp_id": "t_296749e58b",
+    "confidence": 0.6,
+    "rationale": "MPLS label switching is best understood in contrast to link-layer switching vs. IP routing, and data center designs are built on switched topologies covered in the switches topic. [expanded from sibling edge 'Ethernet and Link-Layer Switches' -> 'MPLS and Data Center Networking']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_5c8fdc549e",
+    "to_temp_id": "t_5c8fdc549e",
+    "confidence": 0.9,
+    "rationale": "VLANs are created by configuring link-layer switches (traffic isolation, trunking over switch infrastructure); they cannot be understood without the switch model. [expanded from sibling edge 'Ethernet and Link-Layer Switches' -> 'Virtual LANs (VLANs)']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_5c8fdc549e",
+    "to_temp_id": "t_87f06460cd",
+    "confidence": 0.6,
+    "rationale": "MPLS label switching is best understood in contrast to link-layer switching vs. IP routing, and data center designs are built on switched topologies covered in the switches topic. [expanded from sibling edge 'Ethernet and Link-Layer Switches' -> 'MPLS and Data Center Networking']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_5c8fdc549e",
+    "to_temp_id": "t_9af817eb5e",
+    "confidence": 0.6,
+    "rationale": "MPLS label switching is best understood in contrast to link-layer switching vs. IP routing, and data center designs are built on switched topologies covered in the switches topic. [expanded from sibling edge 'Ethernet and Link-Layer Switches' -> 'MPLS and Data Center Networking']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_5ca2d79d5f",
+    "to_temp_id": "t_1f3ad1d745",
+    "confidence": 0.8,
+    "rationale": "Switches operate on Ethernet frames, parsing the destination address field to forward/filter and the source address field to learn; the frame structure must be understood first.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_5ca2d79d5f",
+    "to_temp_id": "t_1fcbb78e61",
+    "confidence": 0.6,
+    "rationale": "Appreciating how switches eliminate collisions requires knowing that classic Ethernet evolved from a shared broadcast medium where hubs and collisions were inherent.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_5ca2d79d5f",
+    "to_temp_id": "t_5c8fdc549e",
+    "confidence": 0.6,
+    "rationale": "VLAN membership and traffic isolation are carried in the Ethernet frame itself (e.g., 802.1Q VLAN tag inserted into the frame), so the frame format is needed to understand the mechanism.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_62a5a6c221",
+    "to_temp_id": "t_296749e58b",
+    "confidence": 0.55,
+    "rationale": "MPLS is framed as providing link-layer services between IP routers, which only makes sense once the link layer's service model is understood. [expanded from sibling edge 'Introduction to the Link Layer' -> 'MPLS and Data Center Networking']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_62a5a6c221",
+    "to_temp_id": "t_332059f67e",
+    "confidence": 0.85,
+    "rationale": "Error detection/correction is one of the link-layer services introduced here; understanding where these techniques operate requires the framing/encapsulation model and the notion of link-layer services.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_62a5a6c221",
+    "to_temp_id": "t_3bd6c30e79",
+    "confidence": 0.85,
+    "rationale": "Multiple access protocols coordinate access to a shared broadcast channel, a concept defined in the introduction's coverage of broadcast vs. point-to-point links. [expanded from sibling edge 'Introduction to the Link Layer' -> 'Multiple Access Protocols']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_62a5a6c221",
+    "to_temp_id": "t_87f06460cd",
+    "confidence": 0.55,
+    "rationale": "MPLS is framed as providing link-layer services between IP routers, which only makes sense once the link layer's service model is understood. [expanded from sibling edge 'Introduction to the Link Layer' -> 'MPLS and Data Center Networking']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_62a5a6c221",
+    "to_temp_id": "t_90e84618c2",
+    "confidence": 0.8,
+    "rationale": "Understanding why broadcast channels need node-level addressing and how frames carry addresses builds on the framing and broadcast-link concepts from the introduction.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_62a5a6c221",
+    "to_temp_id": "t_9af817eb5e",
+    "confidence": 0.55,
+    "rationale": "MPLS is framed as providing link-layer services between IP routers, which only makes sense once the link layer's service model is understood. [expanded from sibling edge 'Introduction to the Link Layer' -> 'MPLS and Data Center Networking']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_87f06460cd",
+    "to_temp_id": "t_dc2bd714af",
+    "confidence": 0.95,
+    "rationale": "Traffic engineering and fast reroute are built on MPLS's label-switching mechanism: explicit paths and precomputed failover paths are implemented as label-switched paths, so understanding labels, LSRs, and FECs is required first.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_90e84618c2",
+    "to_temp_id": "t_1f3ad1d745",
+    "confidence": 0.85,
+    "rationale": "A switch's forwarding and filtering decisions are made by looking up destination MAC addresses, and self-learning records source MAC addresses; MAC addressing is a direct prerequisite.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_90e84618c2",
+    "to_temp_id": "t_5ca2d79d5f",
+    "confidence": 0.85,
+    "rationale": "The Ethernet frame's source and destination address fields contain MAC addresses; understanding the frame format requires first knowing what link-layer addresses are and how they differ from IP addresses.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_90e84618c2",
+    "to_temp_id": "t_90e84618c2",
+    "confidence": 0.85,
+    "rationale": "Switch forwarding/filtering and self-learning operate on MAC addresses, and frame delivery between hosts relies on ARP-resolved MAC addresses, so addressing must precede switches. [expanded from sibling edge 'Link-Layer Addressing and ARP' -> 'Ethernet and Link-Layer Switches']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_90e84618c2",
+    "to_temp_id": "t_fdcee80c61",
+    "confidence": 0.7,
+    "rationale": "The switch-vs-router trade-off hinges on layer-2 MAC-address forwarding versus layer-3 IP-address forwarding, which presupposes knowledge of both addressing schemes.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_b77d72f950",
+    "to_temp_id": "t_4f1a0a8cc5",
+    "confidence": 0.9,
+    "rationale": "DOCSIS uses FDM to divide downstream and upstream channels, directly applying the channel partitioning concept.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_fdcee80c61",
+    "to_temp_id": "t_296749e58b",
+    "confidence": 0.6,
+    "rationale": "MPLS label switching is best understood in contrast to link-layer switching vs. IP routing, and data center designs are built on switched topologies covered in the switches topic. [expanded from sibling edge 'Ethernet and Link-Layer Switches' -> 'MPLS and Data Center Networking']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_fdcee80c61",
+    "to_temp_id": "t_5c8fdc549e",
+    "confidence": 0.9,
+    "rationale": "VLANs are created by configuring link-layer switches (traffic isolation, trunking over switch infrastructure); they cannot be understood without the switch model. [expanded from sibling edge 'Ethernet and Link-Layer Switches' -> 'Virtual LANs (VLANs)']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_fdcee80c61",
+    "to_temp_id": "t_87f06460cd",
+    "confidence": 0.6,
+    "rationale": "MPLS label switching is best understood in contrast to link-layer switching vs. IP routing, and data center designs are built on switched topologies covered in the switches topic. [expanded from sibling edge 'Ethernet and Link-Layer Switches' -> 'MPLS and Data Center Networking']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_fdcee80c61",
+    "to_temp_id": "t_9af817eb5e",
+    "confidence": 0.6,
+    "rationale": "MPLS label switching is best understood in contrast to link-layer switching vs. IP routing, and data center designs are built on switched topologies covered in the switches topic. [expanded from sibling edge 'Ethernet and Link-Layer Switches' -> 'MPLS and Data Center Networking']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_0b60cb649c",
+    "to_temp_id": "t_84e06cd7a0",
+    "confidence": 0.65,
+    "rationale": "The 802.11 material introduces concrete link-layer mobility (association/reassociation and handover between access points within a subnet), providing the tangible example of handover that the abstract mobility-management principles generalize. [expanded from sibling edge 'WiFi: 802.11 Wireless LANs' -> 'Mobility Management: Principles']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_0ee95e2dc0",
+    "to_temp_id": "t_a8d059e443",
+    "confidence": 0.6,
+    "rationale": "The mobility side of the higher-layer impact (e.g., how indirect routing and handovers affect TCP behavior) presumes the vocabulary and mechanisms of mobility management such as direct versus indirect routing and handover. [expanded from sibling edge 'Mobility Management: Principles' -> 'Impact of Wireless and Mobility on Higher Layers']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_11f441b583",
+    "to_temp_id": "t_fc9084da80",
+    "confidence": 0.5,
+    "rationale": "Reassociation during handover is carried out via 802.11 management frames; knowing frame types and addressing clarifies what is exchanged when a station moves between APs.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_15b5e1b33e",
+    "to_temp_id": "t_99615d8f61",
+    "confidence": 0.6,
+    "rationale": "CDMA is a solution to the problem of multiple users transmitting simultaneously over the same spectrum; appreciating why simultaneous transmissions interfere motivates the use of unique code sequences to separate users.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_15b5e1b33e",
+    "to_temp_id": "t_b12e7bb354",
+    "confidence": 0.85,
+    "rationale": "Interference from other sources in the same band and multipath fading constitute the noise and channel-variation side of SNR; without these concepts the relationship between SNR, changing channel conditions, and bit errors cannot be explained.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_248601076c",
+    "to_temp_id": "t_11f441b583",
+    "confidence": 0.6,
+    "rationale": "Control and management frame types and the host–AP frame exchange sequence (e.g., acknowledgments) only make sense once the CSMA/CA access and acknowledgment procedure is understood.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_248601076c",
+    "to_temp_id": "t_def6611507",
+    "confidence": 0.6,
+    "rationale": "Rate adaptation relies on transmission outcomes observed through the MAC procedure (missing ACKs, backoff behavior), so CSMA/CA is needed to understand how and why transmission rates are adjusted.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_35d082b271",
+    "to_temp_id": "t_84e06cd7a0",
+    "confidence": 0.7,
+    "rationale": "Mobility-management concepts such as home networks, visited networks, roaming, and handover are first encountered concretely in the 4G architecture (HSS, tracking areas, attachment); the principles section abstracts from these cellular mechanisms. [expanded from sibling edge 'Cellular Networks: 4G and 5G' -> 'Mobility Management: Principles']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_447f4e1a0a",
+    "to_temp_id": "t_0ee95e2dc0",
+    "confidence": 0.95,
+    "rationale": "Direct routing presupposes the same home/visited machinery: the correspondent must query the home network (home agent) to learn the mobile's care-of address before routing to the visited network.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_447f4e1a0a",
+    "to_temp_id": "t_4ba4f03c64",
+    "confidence": 0.95,
+    "rationale": "Indirect (triangle) routing is defined entirely in terms of the home/visited framework: the home agent intercepts datagrams and tunnels them to the care-of address in the visited network, requiring the home-agent, registration, and care-of-address concepts first.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_447f4e1a0a",
+    "to_temp_id": "t_dde0236feb",
+    "confidence": 0.75,
+    "rationale": "The 'updating routing/addressing information' step of handover means re-registering a new care-of address with the home network's control plane, which presupposes the home/visited network and registration concepts.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_4ba4f03c64",
+    "to_temp_id": "t_0ee95e2dc0",
+    "confidence": 0.6,
+    "rationale": "Direct routing is taught as an alternative that fixes indirect routing's triangle-routing inefficiency; its session-continuity-during-handover challenge is understood by contrast with how indirect routing preserves sessions via home-network tunneling.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_7e67df4973",
+    "to_temp_id": "t_84e06cd7a0",
+    "confidence": 0.7,
+    "rationale": "Mobility-management concepts such as home networks, visited networks, roaming, and handover are first encountered concretely in the 4G architecture (HSS, tracking areas, attachment); the principles section abstracts from these cellular mechanisms. [expanded from sibling edge 'Cellular Networks: 4G and 5G' -> 'Mobility Management: Principles']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_84e06cd7a0",
+    "to_temp_id": "t_447f4e1a0a",
+    "confidence": 0.85,
+    "rationale": "The roles of home and visited networks (home agent, registration, tracking a roaming device) only make sense once the network-layer mobility spectrum and the addressing/locating challenges it poses have been established.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_87395eb779",
+    "to_temp_id": "t_0b60cb649c",
+    "confidence": 0.9,
+    "rationale": "Understanding 802.11's CSMA/CA MAC protocol and its design choices (e.g., hidden terminals, why collision detection is not used) requires prior knowledge of wireless link properties such as SNR, bit error rates, attenuation, and the shared-medium nature of the wireless channel. [expanded from sibling edge 'Wireless Links and Network Characteristics' -> 'WiFi: 802.11 Wireless LANs']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_87395eb779",
+    "to_temp_id": "t_a8d059e443",
+    "confidence": 0.85,
+    "rationale": "Explaining why TCP struggles over wireless (losses from bit errors rather than congestion) depends on understanding wireless bit error rates, SNR, and multipath-induced losses from the link-characteristics material. [expanded from sibling edge 'Wireless Links and Network Characteristics' -> 'Impact of Wireless and Mobility on Higher Layers']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_87395eb779",
+    "to_temp_id": "t_eb688e3ce2",
+    "confidence": 0.8,
+    "rationale": "The LTE radio access network and its protocol stack build directly on wireless link concepts: signal propagation, SNR-dependent rates, and shared-spectrum access (CDMA and its successors) underpin how cellular radio interfaces work. [expanded from sibling edge 'Wireless Links and Network Characteristics' -> 'Cellular Networks: 4G and 5G']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_87395eb779",
+    "to_temp_id": "t_f80785dda1",
+    "confidence": 0.9,
+    "rationale": "Understanding 802.11's CSMA/CA MAC protocol and its design choices (e.g., hidden terminals, why collision detection is not used) requires prior knowledge of wireless link properties such as SNR, bit error rates, attenuation, and the shared-medium nature of the wireless channel. [expanded from sibling edge 'Wireless Links and Network Characteristics' -> 'WiFi: 802.11 Wireless LANs']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_99615d8f61",
+    "to_temp_id": "t_0b60cb649c",
+    "confidence": 0.9,
+    "rationale": "Understanding 802.11's CSMA/CA MAC protocol and its design choices (e.g., hidden terminals, why collision detection is not used) requires prior knowledge of wireless link properties such as SNR, bit error rates, attenuation, and the shared-medium nature of the wireless channel. [expanded from sibling edge 'Wireless Links and Network Characteristics' -> 'WiFi: 802.11 Wireless LANs']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_99615d8f61",
+    "to_temp_id": "t_a8d059e443",
+    "confidence": 0.85,
+    "rationale": "Explaining why TCP struggles over wireless (losses from bit errors rather than congestion) depends on understanding wireless bit error rates, SNR, and multipath-induced losses from the link-characteristics material. [expanded from sibling edge 'Wireless Links and Network Characteristics' -> 'Impact of Wireless and Mobility on Higher Layers']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_99615d8f61",
+    "to_temp_id": "t_eb688e3ce2",
+    "confidence": 0.8,
+    "rationale": "The LTE radio access network and its protocol stack build directly on wireless link concepts: signal propagation, SNR-dependent rates, and shared-spectrum access (CDMA and its successors) underpin how cellular radio interfaces work. [expanded from sibling edge 'Wireless Links and Network Characteristics' -> 'Cellular Networks: 4G and 5G']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_99615d8f61",
+    "to_temp_id": "t_f80785dda1",
+    "confidence": 0.9,
+    "rationale": "Understanding 802.11's CSMA/CA MAC protocol and its design choices (e.g., hidden terminals, why collision detection is not used) requires prior knowledge of wireless link properties such as SNR, bit error rates, attenuation, and the shared-medium nature of the wireless channel. [expanded from sibling edge 'Wireless Links and Network Characteristics' -> 'WiFi: 802.11 Wireless LANs']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_9a6785d947",
+    "to_temp_id": "t_7e67df4973",
+    "confidence": 0.85,
+    "rationale": "Network attachment is carried out via the control-plane protocol stack (registration signaling with mobility-management entities), so the protocol stack must be understood first.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_b12e7bb354",
+    "to_temp_id": "t_87395eb779",
+    "confidence": 0.8,
+    "rationale": "Achievable transmission rates under varying channel conditions are determined by the SNR/BER relationship; comparing standards' rates and how they degrade with distance and conditions presupposes understanding SNR and BER.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_c5e2be94e5",
+    "to_temp_id": "t_84e06cd7a0",
+    "confidence": 0.7,
+    "rationale": "Mobility-management concepts such as home networks, visited networks, roaming, and handover are first encountered concretely in the 4G architecture (HSS, tracking areas, attachment); the principles section abstracts from these cellular mechanisms. [expanded from sibling edge 'Cellular Networks: 4G and 5G' -> 'Mobility Management: Principles']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_d6ac2fd7d3",
+    "to_temp_id": "t_87395eb779",
+    "confidence": 0.8,
+    "rationale": "Coverage distances of wireless standards are fundamentally limited by path loss, and transmission rates dropping with distance are a direct consequence of attenuation; path loss is needed to explain how rates and coverage vary with distance.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_d6ac2fd7d3",
+    "to_temp_id": "t_b12e7bb354",
+    "confidence": 0.85,
+    "rationale": "SNR is the ratio of received signal power to noise; understanding how attenuation and path loss reduce received power with distance is needed to explain why SNR falls and BER rises as sender-receiver distance grows.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_dde0236feb",
+    "to_temp_id": "t_a8d059e443",
+    "confidence": 0.6,
+    "rationale": "The mobility side of the higher-layer impact (e.g., how indirect routing and handovers affect TCP behavior) presumes the vocabulary and mechanisms of mobility management such as direct versus indirect routing and handover. [expanded from sibling edge 'Mobility Management: Principles' -> 'Impact of Wireless and Mobility on Higher Layers']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_def6611507",
+    "to_temp_id": "t_84e06cd7a0",
+    "confidence": 0.65,
+    "rationale": "The 802.11 material introduces concrete link-layer mobility (association/reassociation and handover between access points within a subnet), providing the tangible example of handover that the abstract mobility-management principles generalize. [expanded from sibling edge 'WiFi: 802.11 Wireless LANs' -> 'Mobility Management: Principles']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_eb688e3ce2",
+    "to_temp_id": "t_35d082b271",
+    "confidence": 0.7,
+    "rationale": "5G is best understood as an evolution relative to 4G LTE (cell density, spectrum, spectral efficiency), so the 4G baseline architecture is a prerequisite for appreciating what 5G changes.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_eb688e3ce2",
+    "to_temp_id": "t_7e67df4973",
+    "confidence": 0.7,
+    "rationale": "Attaching to the network involves specific architectural components (gateways, mobility-management elements), so knowledge of the architecture is needed to describe the attachment procedure.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_eb688e3ce2",
+    "to_temp_id": "t_9a6785d947",
+    "confidence": 0.9,
+    "rationale": "Understanding the protocol layering and the radio access network requires first knowing the LTE network elements (base stations, edge/core split) and the data/control plane separation that the protocol stacks implement.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_eb688e3ce2",
+    "to_temp_id": "t_c5e2be94e5",
+    "confidence": 0.6,
+    "rationale": "Discussing how carrier networks interconnect into a global system presupposes understanding the internal structure of a single carrier's LTE network (core, gateways, edge).",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_f80785dda1",
+    "to_temp_id": "t_11f441b583",
+    "confidence": 0.85,
+    "rationale": "The frame's address fields and the exchange of frames between a wireless host and an AP presuppose the BSS/AP model, channel usage, and the association relationship covered in the architecture topic.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_f80785dda1",
+    "to_temp_id": "t_248601076c",
+    "confidence": 0.9,
+    "rationale": "CSMA/CA, random backoff, and link-layer ACKs operate on the shared channel within a BSS; understanding APs, channels, and the overlapping-AP 'WiFi jungle' is needed to see why collision avoidance (not detection) and ACKs are used.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_f80785dda1",
+    "to_temp_id": "t_def6611507",
+    "confidence": 0.55,
+    "rationale": "Power management (stations dozing while APs buffer frames) and other advanced capabilities are defined in terms of station–AP interactions within a BSS.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_f80785dda1",
+    "to_temp_id": "t_fc9084da80",
+    "confidence": 0.9,
+    "rationale": "Handover between APs in a subnet is an extension of the initial association process across overlapping BSSs; association, AP roles, and the WiFi jungle must be learned first.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_fc9084da80",
+    "to_temp_id": "t_84e06cd7a0",
+    "confidence": 0.65,
+    "rationale": "The 802.11 material introduces concrete link-layer mobility (association/reassociation and handover between access points within a subnet), providing the tangible example of handover that the abstract mobility-management principles generalize. [expanded from sibling edge 'WiFi: 802.11 Wireless LANs' -> 'Mobility Management: Principles']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_1aa362c72e",
+    "to_temp_id": "t_e5c058c933",
+    "confidence": 0.95,
+    "rationale": "RSA is a concrete instantiation of the two-key public/private model; key generation and its use as a public encryption scheme only make sense after the public key model is established.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_1d643b5847",
+    "to_temp_id": "t_584093dcdd",
+    "confidence": 0.75,
+    "rationale": "IPsec's AH and ESP compute MACs over packets to provide packet integrity and origin authentication.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_1d643b5847",
+    "to_temp_id": "t_5fed0405de",
+    "confidence": 0.7,
+    "rationale": "Authentication protocols prove identity by applying MACs or digital signatures to nonces, so the integrity/signature toolkit is needed first.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_1d643b5847",
+    "to_temp_id": "t_83dca597bb",
+    "confidence": 0.9,
+    "rationale": "PGP explicitly combines digital signatures with symmetric and public key encryption to secure the e-mail message chain.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_1d643b5847",
+    "to_temp_id": "t_fed701023b",
+    "confidence": 0.8,
+    "rationale": "The TLS record protocol provides message integrity via MACs, and the handshake authenticates via certificates/digital signatures.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_395133c118",
+    "to_temp_id": "t_1d643b5847",
+    "confidence": 0.65,
+    "rationale": "The intro defines the message-integrity goal and the modification/insertion/deletion attacks that message integrity techniques are designed to defeat.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_395133c118",
+    "to_temp_id": "t_4ebc9c9c1b",
+    "confidence": 0.6,
+    "rationale": "The intro defines the goals (confidentiality, integrity, authentication) and the attack model that motivate why cryptographic techniques are studied next. [expanded from sibling edge 'What Is Network Security?' -> 'Principles of Cryptography']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_395133c118",
+    "to_temp_id": "t_584093dcdd",
+    "confidence": 0.6,
+    "rationale": "IPsec's 'blanket protection' implements the confidentiality/integrity goals and counters the sniffing attacks defined in the intro.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_395133c118",
+    "to_temp_id": "t_5fed0405de",
+    "confidence": 0.65,
+    "rationale": "The intro introduces impersonation, session hijacking, and the end-point authentication goal that the authentication protocols address.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_395133c118",
+    "to_temp_id": "t_83dca597bb",
+    "confidence": 0.6,
+    "rationale": "E-mail security is framed in terms of the confidentiality goal and eavesdropping/sniffing attack model defined in the intro.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_395133c118",
+    "to_temp_id": "t_fed701023b",
+    "confidence": 0.65,
+    "rationale": "TLS is understood as providing the confidentiality, message integrity, and end-point authentication goals enumerated in the intro.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_4ebc9c9c1b",
+    "to_temp_id": "t_1aa362c72e",
+    "confidence": 0.85,
+    "rationale": "Public key cryptography is defined in explicit contrast with the shared-secret model, including how a shared key implicitly identifies the sender — this comparison requires the symmetric model as a baseline.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_4ebc9c9c1b",
+    "to_temp_id": "t_7f0192f9f9",
+    "confidence": 0.95,
+    "rationale": "Block and stream ciphers are modern symmetric techniques that presuppose the shared-secret-key model and classical cipher concepts (substitution, key usage) introduced in the basics.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_5fed0405de",
+    "to_temp_id": "t_584093dcdd",
+    "confidence": 0.6,
+    "rationale": "IPsec (and its IKE key establishment) authenticate the communicating peers using nonce-based, shared-secret mechanisms studied in end-point authentication.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_5fed0405de",
+    "to_temp_id": "t_fed701023b",
+    "confidence": 0.75,
+    "rationale": "The TLS handshake performs end-point (server, optionally client) authentication and uses nonce-like values to defeat replay attacks.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_7f0192f9f9",
+    "to_temp_id": "t_c5e6727a37",
+    "confidence": 0.95,
+    "rationale": "CBC is a mode of operation on block ciphers; understanding what a block cipher is and how independent block encryption leaks patterns is necessary to see why chaining with an IV is used.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_c5e6727a37",
+    "to_temp_id": "t_1d643b5847",
+    "confidence": 0.95,
+    "rationale": "MACs and digital signatures are constructed directly from the symmetric-key/public-key primitives and hash functions introduced in the cryptography section. [expanded from sibling edge 'Principles of Cryptography' -> 'Message Integrity and Digital Signatures']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_c5e6727a37",
+    "to_temp_id": "t_584093dcdd",
+    "confidence": 0.85,
+    "rationale": "IPsec's AH/ESP rely on symmetric encryption and keyed hash functions, and its security associations presuppose shared-key establishment concepts. [expanded from sibling edge 'Principles of Cryptography' -> 'Network-Layer Security: IPsec and VPNs']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_c5e6727a37",
+    "to_temp_id": "t_5fed0405de",
+    "confidence": 0.9,
+    "rationale": "Authentication protocols work by encrypting/MACing nonces with shared secret keys (or public-key techniques), requiring the crypto machinery first. [expanded from sibling edge 'Principles of Cryptography' -> 'End-Point Authentication']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_c5e6727a37",
+    "to_temp_id": "t_83dca597bb",
+    "confidence": 0.9,
+    "rationale": "PGP explicitly combines symmetric key and public key encryption, both defined in the cryptography section. [expanded from sibling edge 'Principles of Cryptography' -> 'Securing E-Mail']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_c5e6727a37",
+    "to_temp_id": "t_fed701023b",
+    "confidence": 0.9,
+    "rationale": "TLS's record protocol uses symmetric ciphers and its handshake uses public-key cryptography for key establishment and key derivation. [expanded from sibling edge 'Principles of Cryptography' -> 'Securing TCP Connections: TLS']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_e5c058c933",
+    "to_temp_id": "t_1d643b5847",
+    "confidence": 0.95,
+    "rationale": "MACs and digital signatures are constructed directly from the symmetric-key/public-key primitives and hash functions introduced in the cryptography section. [expanded from sibling edge 'Principles of Cryptography' -> 'Message Integrity and Digital Signatures']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_e5c058c933",
+    "to_temp_id": "t_584093dcdd",
+    "confidence": 0.85,
+    "rationale": "IPsec's AH/ESP rely on symmetric encryption and keyed hash functions, and its security associations presuppose shared-key establishment concepts. [expanded from sibling edge 'Principles of Cryptography' -> 'Network-Layer Security: IPsec and VPNs']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_e5c058c933",
+    "to_temp_id": "t_5fed0405de",
+    "confidence": 0.9,
+    "rationale": "Authentication protocols work by encrypting/MACing nonces with shared secret keys (or public-key techniques), requiring the crypto machinery first. [expanded from sibling edge 'Principles of Cryptography' -> 'End-Point Authentication']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_e5c058c933",
+    "to_temp_id": "t_83dca597bb",
+    "confidence": 0.9,
+    "rationale": "PGP explicitly combines symmetric key and public key encryption, both defined in the cryptography section. [expanded from sibling edge 'Principles of Cryptography' -> 'Securing E-Mail']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_e5c058c933",
+    "to_temp_id": "t_fed701023b",
+    "confidence": 0.9,
+    "rationale": "TLS's record protocol uses symmetric ciphers and its handshake uses public-key cryptography for key establishment and key derivation. [expanded from sibling edge 'Principles of Cryptography' -> 'Securing TCP Connections: TLS']",
+    "origin": "local"
+  }
+]

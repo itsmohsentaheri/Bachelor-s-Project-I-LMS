@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "prerequisite": "Signal Attenuation and Path Loss",
+      "dependent": "SNR and Bit Error Rates",
+      "confidence": 0.85,
+      "rationale": "SNR is the ratio of received signal power to noise; understanding how attenuation and path loss reduce received power with distance is needed to explain why SNR falls and BER rises as sender-receiver distance grows."
+    },
+    {
+      "prerequisite": "Interference and Multipath Propagation",
+      "dependent": "SNR and Bit Error Rates",
+      "confidence": 0.85,
+      "rationale": "Interference from other sources in the same band and multipath fading constitute the noise and channel-variation side of SNR; without these concepts the relationship between SNR, changing channel conditions, and bit errors cannot be explained."
+    },
+    {
+      "prerequisite": "Signal Attenuation and Path Loss",
+      "dependent": "Wireless Link Rates and Coverage Ranges",
+      "confidence": 0.8,
+      "rationale": "Coverage distances of wireless standards are fundamentally limited by path loss, and transmission rates dropping with distance are a direct consequence of attenuation; path loss is needed to explain how rates and coverage vary with distance."
+    },
+    {
+      "prerequisite": "SNR and Bit Error Rates",
+      "dependent": "Wireless Link Rates and Coverage Ranges",
+      "confidence": 0.8,
+      "rationale": "Achievable transmission rates under varying channel conditions are determined by the SNR/BER relationship; comparing standards' rates and how they degrade with distance and conditions presupposes understanding SNR and BER."
+    },
+    {
+      "prerequisite": "Interference and Multipath Propagation",
+      "dependent": "CDMA: Code Division Multiple Access",
+      "confidence": 0.6,
+      "rationale": "CDMA is a solution to the problem of multiple users transmitting simultaneously over the same spectrum; appreciating why simultaneous transmissions interfere motivates the use of unique code sequences to separate users."
+    }
+  ]
+}

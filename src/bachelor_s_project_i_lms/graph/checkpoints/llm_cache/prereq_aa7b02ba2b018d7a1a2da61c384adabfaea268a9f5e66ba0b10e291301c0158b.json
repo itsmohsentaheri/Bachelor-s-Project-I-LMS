@@ -1,0 +1,40 @@
+{
+  "edges": [
+    {
+      "prerequisite": "Control Plane Approaches: Per-Router vs. SDN",
+      "dependent": "Intra-AS Routing: OSPF",
+      "confidence": 0.6,
+      "rationale": "The overview establishes the per-router control paradigm in which routing algorithms run inside each router; OSPF is presented as an intra-AS instance of that approach, so the framing is needed to situate it."
+    },
+    {
+      "prerequisite": "Link-State (LS) Routing Algorithm",
+      "dependent": "Intra-AS Routing: OSPF",
+      "confidence": 0.95,
+      "rationale": "OSPF implements link-state routing within an autonomous system, so understanding Dijkstra's least-cost computation and complete-topology link-state dissemination is a direct prerequisite."
+    },
+    {
+      "prerequisite": "Control Plane Approaches: Per-Router vs. SDN",
+      "dependent": "Inter-AS Routing: BGP",
+      "confidence": 0.5,
+      "rationale": "BGP is another instance of the distributed per-router control paradigm; the overview's taxonomy of per-router vs. SDN control provides the conceptual frame for why BGP computes and advertises routes among routers/ASes rather than via a central controller."
+    },
+    {
+      "prerequisite": "Intra-AS Routing: OSPF",
+      "dependent": "Inter-AS Routing: BGP",
+      "confidence": 0.8,
+      "rationale": "Inter-AS routing presupposes the notion of autonomous systems with their own internal routing; BGP interconnects ASes whose intra-AS routing (e.g., OSPF) must be understood first to see how interior and exterior routes compose."
+    },
+    {
+      "prerequisite": "Distance-Vector (DV) Routing Algorithm",
+      "dependent": "Inter-AS Routing: BGP",
+      "confidence": 0.55,
+      "rationale": "BGP is a path-vector protocol that generalizes the distance-vector mechanism of iteratively exchanging reachability vectors with neighbors; the DV algorithm's distributed, iterative mechanics prepare students for BGP's AS-path advertisements."
+    },
+    {
+      "prerequisite": "Control Plane Approaches: Per-Router vs. SDN",
+      "dependent": "SDN Control Plane: Controller and Applications",
+      "confidence": 0.85,
+      "rationale": "The SDN control plane topic elaborates the SDN approach defined in the overview; its controller/application architecture and separation of data and control planes presuppose familiarity with the SDN paradigm introduced there."
+    }
+  ]
+}

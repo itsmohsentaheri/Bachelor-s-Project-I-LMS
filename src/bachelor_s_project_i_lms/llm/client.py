@@ -15,6 +15,11 @@ load_dotenv()
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY", "")
 LLM_MODEL = os.getenv("LLM_MODEL")
 OPENROUTER_BASE_URL = os.getenv("OPENROUTER_BASE_URL", "https://openrouter.ai/api/v1")
+# Explicit cap is required: without it OpenRouter reserves the model's full output
+# ceiling (131k tokens) against the account balance and rejects with 402 on low credit.
+# GLM reasoning models spend completion tokens on chain-of-thought before the JSON,
+# so this must comfortably cover reasoning + a full edge list (~200-800 tokens).
+LLM_MAX_TOKENS = int(os.getenv("LLM_MAX_TOKENS", "8192"))
 DEFAULT_PROMPT_VERSION = "v1"
 
 logger = logging.getLogger(__name__)
@@ -47,6 +52,7 @@ def _openrouter_generate(messages: list[dict], system: Optional[str]) -> tuple[s
         model=model,
         messages=formatted_messages,
         temperature=0.0,
+        max_tokens=LLM_MAX_TOKENS,
     )
 
     choice = response.choices[0]

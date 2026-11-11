@@ -1,0 +1,46 @@
+{
+  "edges": [
+    {
+      "prerequisite": "802.11 Architecture: BSS, APs, and Channels",
+      "dependent": "802.11 MAC Protocol (CSMA/CA)",
+      "confidence": 0.9,
+      "rationale": "CSMA/CA, random backoff, and link-layer ACKs operate on the shared channel within a BSS; understanding APs, channels, and the overlapping-AP 'WiFi jungle' is needed to see why collision avoidance (not detection) and ACKs are used."
+    },
+    {
+      "prerequisite": "802.11 Architecture: BSS, APs, and Channels",
+      "dependent": "IEEE 802.11 Frame Format",
+      "confidence": 0.85,
+      "rationale": "The frame's address fields and the exchange of frames between a wireless host and an AP presuppose the BSS/AP model, channel usage, and the association relationship covered in the architecture topic."
+    },
+    {
+      "prerequisite": "802.11 MAC Protocol (CSMA/CA)",
+      "dependent": "IEEE 802.11 Frame Format",
+      "confidence": 0.6,
+      "rationale": "Control and management frame types and the host–AP frame exchange sequence (e.g., acknowledgments) only make sense once the CSMA/CA access and acknowledgment procedure is understood."
+    },
+    {
+      "prerequisite": "802.11 Architecture: BSS, APs, and Channels",
+      "dependent": "Mobility in the Same IP Subnet",
+      "confidence": 0.9,
+      "rationale": "Handover between APs in a subnet is an extension of the initial association process across overlapping BSSs; association, AP roles, and the WiFi jungle must be learned first."
+    },
+    {
+      "prerequisite": "IEEE 802.11 Frame Format",
+      "dependent": "Mobility in the Same IP Subnet",
+      "confidence": 0.5,
+      "rationale": "Reassociation during handover is carried out via 802.11 management frames; knowing frame types and addressing clarifies what is exchanged when a station moves between APs."
+    },
+    {
+      "prerequisite": "802.11 Architecture: BSS, APs, and Channels",
+      "dependent": "Advanced 802.11 Features",
+      "confidence": 0.55,
+      "rationale": "Power management (stations dozing while APs buffer frames) and other advanced capabilities are defined in terms of station–AP interactions within a BSS."
+    },
+    {
+      "prerequisite": "802.11 MAC Protocol (CSMA/CA)",
+      "dependent": "Advanced 802.11 Features",
+      "confidence": 0.6,
+      "rationale": "Rate adaptation relies on transmission outcomes observed through the MAC procedure (missing ACKs, backoff behavior), so CSMA/CA is needed to understand how and why transmission rates are adjusted."
+    }
+  ]
+}

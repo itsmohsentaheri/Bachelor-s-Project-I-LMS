@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "prerequisite": "Services Provided by DNS (atomic leaf)",
+      "dependent": "DNS Server Hierarchy: Root, TLD, and Authoritative (atomic leaf)",
+      "confidence": 0.9,
+      "rationale": "Understanding why DNS is a distributed, hierarchical database requires first knowing the service DNS provides (hostname-to-IP translation, aliasing, load distribution); the hierarchy of root/TLD/authoritative servers exists to deliver that service at Internet scale."
+    },
+    {
+      "prerequisite": "Services Provided by DNS (atomic leaf)",
+      "dependent": "DNS Query Resolution: Recursive and Iterative (atomic leaf)",
+      "confidence": 0.85,
+      "rationale": "A hostname lookup only makes sense once the student knows what the lookup is for — translating a hostname to an IP address — so the basic DNS service must precede the mechanics of query resolution."
+    },
+    {
+      "prerequisite": "DNS Server Hierarchy: Root, TLD, and Authoritative (atomic leaf)",
+      "dependent": "DNS Query Resolution: Recursive and Iterative (atomic leaf)",
+      "confidence": 0.95,
+      "rationale": "Query resolution is described as delegation from root to TLD to authoritative servers; a student cannot follow that chain without first knowing the distinct roles of each server type in the hierarchy."
+    },
+    {
+      "prerequisite": "DNS Query Resolution: Recursive and Iterative (atomic leaf)",
+      "dependent": "Exploring DNS with dig (atomic leaf)",
+      "confidence": 0.9,
+      "rationale": "Using dig to trace a delegation chain presumes the student already understands how recursive/iterative queries proceed through the server chain; otherwise the dig output is uninterpretable."
+    },
+    {
+      "prerequisite": "DNS Server Hierarchy: Root, TLD, and Authoritative (atomic leaf)",
+      "dependent": "Exploring DNS with dig (atomic leaf)",
+      "confidence": 0.7,
+      "rationale": "The dig exercise directly displays root, TLD, and authoritative servers in its output, so recognizing those server types (and BIND/UDP port 53 context) is a specific prerequisite for the hands-on activity, beyond what is gained transitively."
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "edges": [
+    {
+      "prerequisite": "Causes and Costs of Congestion",
+      "dependent": "End-to-End vs. Network-Assisted Approaches",
+      "confidence": 0.8,
+      "rationale": "The two control approaches are solutions to the congestion problem; understanding what congestion is and its costs (queuing delay, loss, collapse) is needed before classifying how to control it."
+    },
+    {
+      "prerequisite": "Causes and Costs of Congestion",
+      "dependent": "Classic TCP Congestion Control",
+      "confidence": 0.75,
+      "rationale": "Classic TCP infers congestion from packet loss and growing delay; learners must first know that loss and queuing delay are the symptoms and costs of congestion that TCP reacts to."
+    },
+    {
+      "prerequisite": "End-to-End vs. Network-Assisted Approaches",
+      "dependent": "Classic TCP Congestion Control",
+      "confidence": 0.9,
+      "rationale": "Classic TCP is the canonical instance of end-to-end control (inferring congestion from loss/delay because IP provides no explicit feedback); the taxonomy is required to frame why TCP works the way it does."
+    },
+    {
+      "prerequisite": "End-to-End vs. Network-Assisted Approaches",
+      "dependent": "Newer TCP Variants: Delay-Based and ECN",
+      "confidence": 0.85,
+      "rationale": "The newer variants are organized by this taxonomy: delay-based TCP is still end-to-end inference (via delay), while ECN is network-assisted explicit feedback; the approach distinction is needed to classify them."
+    },
+    {
+      "prerequisite": "Classic TCP Congestion Control",
+      "dependent": "Fairness of TCP Congestion Control",
+      "confidence": 0.9,
+      "rationale": "The fairness analysis examines how AIMD's additive-increase/multiplicative-decrease converges to equal bandwidth shares with a sawtooth pattern; AIMD must be understood first."
+    },
+    {
+      "prerequisite": "Classic TCP Congestion Control",
+      "dependent": "Newer TCP Variants: Delay-Based and ECN",
+      "confidence": 0.85,
+      "rationale": "The newer variants are presented as alternatives that determine the sending rate more quickly than classic loss-based TCP; the classic mechanisms (slow start, AIMD, loss-triggered reaction) are the baseline being contrasted."
+    },
+    {
+      "prerequisite": "Classic TCP Congestion Control",
+      "dependent": "Impact of Slow Start on Latency",
+      "confidence": 0.85,
+      "rationale": "Analyzing how slow start contributes to end-to-end delay requires first understanding the slow-start mechanism itself, which is part of classic TCP congestion control."
+    },
+    {
+      "prerequisite": "Impact of Slow Start on Latency",
+      "dependent": "Newer TCP Variants: Delay-Based and ECN",
+      "confidence": 0.7,
+      "rationale": "The latency analysis of slow start explicitly motivates designs that determine the sending rate more quickly, which is exactly what the delay-based and ECN variants do."
+    }
+  ]
+}

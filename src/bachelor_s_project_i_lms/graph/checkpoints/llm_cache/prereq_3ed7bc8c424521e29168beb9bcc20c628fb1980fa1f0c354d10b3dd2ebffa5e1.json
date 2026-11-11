@@ -1,0 +1,28 @@
+{
+  "edges": [
+    {
+      "prerequisite": "E-mail System Architecture",
+      "dependent": "SMTP: Mail Transfer Protocol",
+      "confidence": 0.95,
+      "rationale": "SMTP can only be understood as the transfer protocol connecting the mail servers defined in the architecture; the client/server roles and direct delivery between servers presuppose the user agent/mail server model and message queues."
+    },
+    {
+      "prerequisite": "E-mail System Architecture",
+      "dependent": "Mail Access Protocols: POP3, IMAP, and HTTP",
+      "confidence": 0.9,
+      "rationale": "Access protocols are defined by their role in the architecture: retrieving mail from the recipient's mail server. Without the mail-server/mailbox model, POP3 and IMAP have no context."
+    },
+    {
+      "prerequisite": "SMTP: Mail Transfer Protocol",
+      "dependent": "Mail Message Formats and MIME",
+      "confidence": 0.85,
+      "rationale": "The message-format discussion (7-bit ASCII restrictions of SMTP motivating MIME) builds directly on SMTP's command dialogue and its content restrictions; MIME is introduced as a response to SMTP's limitations."
+    },
+    {
+      "prerequisite": "E-mail System Architecture",
+      "dependent": "Mail Message Formats and MIME",
+      "confidence": 0.7,
+      "rationale": "Header lines such as Received: only make sense in light of the message's journey through mail servers described in the architecture."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "edges": [
+    {
+      "prerequisite": "MPLS Label Switching Fundamentals",
+      "dependent": "MPLS Traffic Engineering and Fast Restoration",
+      "confidence": 0.95,
+      "rationale": "Traffic engineering and fast reroute are built on MPLS's label-switching mechanism: explicit paths and precomputed failover paths are implemented as label-switched paths, so understanding labels, LSRs, and FECs is required first."
+    },
+    {
+      "prerequisite": "Data Center Purposes and Traffic Types",
+      "dependent": "Data Center Network Architecture",
+      "confidence": 0.85,
+      "rationale": "The hierarchical architecture (tiers, TOR switches, redundancy, VLAN partitioning) is motivated by the need to support external client-to-host and internal host-to-host traffic; understanding the purposes and traffic types explains why the design takes this shape."
+    },
+    {
+      "prerequisite": "Data Center Network Architecture",
+      "dependent": "Multipath Routing in Data Centers",
+      "confidence": 0.9,
+      "rationale": "Multipath routing (ECMP, flow-level load balancing, packet splitting) exploits the rich inter-tier connectivity and redundancy of the hierarchical data center topology; without knowing the architecture, the multipath designs make no sense."
+    }
+  ]
+}

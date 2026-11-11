@@ -12,8 +12,6 @@ from bachelor_s_project_i_lms.db.models import BookChunk
 from bachelor_s_project_i_lms.graph.decompose_prompts import DECOMPOSE_SYSTEM, build_decompose_messages
 from bachelor_s_project_i_lms.llm.client import call_llm
 from bachelor_s_project_i_lms.llm.schemas import DecomposeOutput
-from bachelor_s_project_i_lms.scripts.vector_search import embed
-from bachelor_s_project_i_lms.graph.syllabus import load_roots
 
 
 MAX_DEPTH = 4
@@ -52,6 +50,9 @@ def load_roots(path: Path = COURSE_FILE) -> list[str]:
 
 def fetch_chunks(query: str, k: int = TOP_K_CHUNKS) -> list[dict]:
     """Vector search book_chunks for a topic title. Returns [{chunk_id, page, text}]."""
+    # local import: keeps sentence_transformers (a heavy ML dep) out of module import time
+    from bachelor_s_project_i_lms.scripts.vector_search import embed
+
     qvec = embed(query)
     db = SessionLocal()
     try:

@@ -1,0 +1,52 @@
+{
+  "edges": [
+    {
+      "prerequisite": "The Multiple Access Problem",
+      "dependent": "Channel Partitioning: TDM and FDM",
+      "confidence": 0.95,
+      "rationale": "Channel partitioning is presented as one solution class to the collision problem; understanding why collisions occur motivates dividing the channel."
+    },
+    {
+      "prerequisite": "The Multiple Access Problem",
+      "dependent": "Slotted ALOHA",
+      "confidence": 0.95,
+      "rationale": "Slotted ALOHA is the simplest random access protocol designed to cope with collisions; the problem statement defines what its efficiency analysis measures."
+    },
+    {
+      "prerequisite": "The Multiple Access Problem",
+      "dependent": "CSMA and CSMA/CD",
+      "confidence": 0.95,
+      "rationale": "CSMA improves on random access by reducing collisions; the collision problem and collision interval concept are needed to understand carrier sensing and backoff."
+    },
+    {
+      "prerequisite": "The Multiple Access Problem",
+      "dependent": "Taking-Turns: Polling and Token Passing",
+      "confidence": 0.9,
+      "rationale": "Taking-turns protocols are a third class of solutions to the multiple access problem; the problem frames why coordination via polling or tokens is needed."
+    },
+    {
+      "prerequisite": "Slotted ALOHA",
+      "dependent": "CSMA and CSMA/CD",
+      "confidence": 0.85,
+      "rationale": "CSMA is introduced as an evolution of ALOHA-style random access; slotted ALOHA's efficiency analysis provides the baseline that carrier sensing improves upon."
+    },
+    {
+      "prerequisite": "Channel Partitioning: TDM and FDM",
+      "dependent": "DOCSIS Cable Access",
+      "confidence": 0.9,
+      "rationale": "DOCSIS uses FDM to divide downstream and upstream channels, directly applying the channel partitioning concept."
+    },
+    {
+      "prerequisite": "Taking-Turns: Polling and Token Passing",
+      "dependent": "DOCSIS Cable Access",
+      "confidence": 0.85,
+      "rationale": "DOCSIS upstream transmission is regulated by the CMTS granting permissions to modems, which is a polling-style taking-turns mechanism."
+    },
+    {
+      "prerequisite": "The Multiple Access Problem",
+      "dependent": "DOCSIS Cable Access",
+      "confidence": 0.8,
+      "rationale": "The DOCSIS case study explicitly combines the three multiple access classes, so the framing problem must be understood first."
+    }
+  ]
+}

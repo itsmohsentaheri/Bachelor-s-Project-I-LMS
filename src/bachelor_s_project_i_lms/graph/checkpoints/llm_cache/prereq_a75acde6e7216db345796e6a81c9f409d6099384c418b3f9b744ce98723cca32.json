@@ -1,0 +1,40 @@
+{
+  "edges": [
+    {
+      "prerequisite": "Simple Client-Server Application Example",
+      "dependent": "Socket Programming with TCP",
+      "confidence": 0.9,
+      "rationale": "The TCP section presents TCPClient.py and TCPServer.py as implementations of the running uppercase-conversion example, so the example's workflow (client sends a line, server modifies it, server must be running first) must be understood before studying the TCP code."
+    },
+    {
+      "prerequisite": "Simple Client-Server Application Example",
+      "dependent": "Socket Programming with UDP",
+      "confidence": 0.9,
+      "rationale": "The UDP section presents UDPClient.py and UDPServer.py as implementations of the same running uppercase-conversion example, so the example's workflow must be understood before studying the UDP code."
+    },
+    {
+      "prerequisite": "Socket Programming with TCP",
+      "dependent": "Comparing TCP and UDP Socket Programs",
+      "confidence": 0.95,
+      "rationale": "The side-by-side comparison requires knowledge of TCP's connection setup, welcome vs. connection sockets, and byte-stream model to contrast them against UDP."
+    },
+    {
+      "prerequisite": "Socket Programming with UDP",
+      "dependent": "Comparing TCP and UDP Socket Programs",
+      "confidence": 0.95,
+      "rationale": "The side-by-side comparison requires knowledge of UDP's connectionless sendto()/recvfrom() operation and per-packet addressing to contrast them against TCP."
+    },
+    {
+      "prerequisite": "Socket Programming with TCP",
+      "dependent": "Choosing a Transport Protocol and Port Numbers",
+      "confidence": 0.7,
+      "rationale": "Deciding whether an application runs over TCP requires understanding TCP's connection-oriented, reliable byte-stream characteristics covered in the TCP programming section."
+    },
+    {
+      "prerequisite": "Socket Programming with UDP",
+      "dependent": "Choosing a Transport Protocol and Port Numbers",
+      "confidence": 0.7,
+      "rationale": "Deciding whether an application runs over UDP requires understanding UDP's connectionless, no-delivery-guarantee characteristics covered in the UDP programming section."
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "edges": [
+    {
+      "prerequisite": "Overview of HTTP",
+      "dependent": "Non-Persistent vs. Persistent Connections",
+      "confidence": 0.95,
+      "rationale": "Analyzing how HTTP uses TCP connections (one object per connection vs. multiple objects) and computing response times requires first understanding that HTTP is a stateless request-response protocol for fetching objects referenced by a web page."
+    },
+    {
+      "prerequisite": "Overview of HTTP",
+      "dependent": "HTTP Message Format",
+      "confidence": 0.95,
+      "rationale": "Request lines, methods, status lines, and status codes only make sense once the student knows the HTTP client/server request-response model and what browsers ask of web servers."
+    },
+    {
+      "prerequisite": "Overview of HTTP",
+      "dependent": "User-Server Interaction: Cookies",
+      "confidence": 0.95,
+      "rationale": "Cookies are explicitly presented as a mechanism for adding stateful user identification on top of HTTP's stateless model, so the stateless request-response model must be learned first."
+    },
+    {
+      "prerequisite": "Overview of HTTP",
+      "dependent": "Web Caching",
+      "confidence": 0.9,
+      "rationale": "Understanding proxy servers, cache hits/misses, and serving HTTP requests on behalf of clients presupposes knowledge of the browser/server request-response model and web objects."
+    },
+    {
+      "prerequisite": "Overview of HTTP",
+      "dependent": "HTTP/2",
+      "confidence": 0.9,
+      "rationale": "HTTP/2's improvements (multiplexing, head-of-line blocking, page-load latency) are meaningful only against the baseline HTTP/1.x request-response model and the multi-object structure of web pages."
+    },
+    {
+      "prerequisite": "HTTP Message Format",
+      "dependent": "User-Server Interaction: Cookies",
+      "confidence": 0.85,
+      "rationale": "Two of the four cookie components are HTTP header lines (cookie-setting and cookie-carrying headers), so understanding message headers is needed to grasp how cookies work."
+    },
+    {
+      "prerequisite": "HTTP Message Format",
+      "dependent": "Web Caching",
+      "confidence": 0.9,
+      "rationale": "The conditional GET for keeping cached copies fresh is a specific use of HTTP request messages with header lines (If-Modified-Since), which requires knowing the request message structure first."
+    },
+    {
+      "prerequisite": "Non-Persistent vs. Persistent Connections",
+      "dependent": "HTTP/2",
+      "confidence": 0.85,
+      "rationale": "HTTP/2's multiplexing of many requests/responses over a single TCP connection and its handling of head-of-line blocking build directly on the persistent-connection model and its latency limitations."
+    },
+    {
+      "prerequisite": "HTTP Message Format",
+      "dependent": "HTTP/2",
+      "confidence": 0.75,
+      "rationale": "HTTP/2's framing mechanism decomposes and restructures classic HTTP request/response messages into frames, so the traditional message format must be understood first to appreciate what framing changes."
+    }
+  ]
+}

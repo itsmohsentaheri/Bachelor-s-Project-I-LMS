@@ -1,0 +1,40 @@
+{
+  "edges": [
+    {
+      "prerequisite": "Principles of Network Applications",
+      "dependent": "The Web and HTTP",
+      "confidence": 0.95,
+      "rationale": "HTTP is studied as a concrete instance of the concepts introduced in Principles: application architectures, processes communicating through sockets, transport services (TCP), and what an application-layer protocol defines. Without those foundations, HTTP's connection behavior and message format lack context."
+    },
+    {
+      "prerequisite": "Principles of Network Applications",
+      "dependent": "Electronic Mail in the Internet",
+      "confidence": 0.85,
+      "rationale": "SMTP and mail access protocols are application-layer protocols running over TCP; understanding transport services and what an application-layer protocol defines (from Principles) is needed before examining mail transfer and retrieval."
+    },
+    {
+      "prerequisite": "Principles of Network Applications",
+      "dependent": "DNS: The Internet's Directory Service",
+      "confidence": 0.85,
+      "rationale": "DNS is an application-layer protocol whose operation depends on the transport services (primarily UDP, with TCP fallback) and the client-server communication model covered in Principles."
+    },
+    {
+      "prerequisite": "Principles of Network Applications",
+      "dependent": "Peer-to-Peer File Distribution",
+      "confidence": 0.9,
+      "rationale": "P2P file distribution directly extends the client-server vs. P2P architecture discussion from Principles; its scaling comparison is only meaningful once the two architecture models and self-scalability concepts are understood."
+    },
+    {
+      "prerequisite": "Principles of Network Applications",
+      "dependent": "Video Streaming",
+      "confidence": 0.8,
+      "rationale": "Streaming's bandwidth and timing considerations build on the transport-service requirements (throughput, timing, loss tolerance) that Principles categorizes for multimedia applications."
+    },
+    {
+      "prerequisite": "Principles of Network Applications",
+      "dependent": "Socket Programming with TCP and UDP",
+      "confidence": 0.95,
+      "rationale": "Socket programming is the hands-on realization of the socket abstraction and the TCP/UDP transport services introduced in Principles; the programming topics cannot be meaningfully attempted without first understanding processes, sockets, and transport-service differences."
+    }
+  ]
+}

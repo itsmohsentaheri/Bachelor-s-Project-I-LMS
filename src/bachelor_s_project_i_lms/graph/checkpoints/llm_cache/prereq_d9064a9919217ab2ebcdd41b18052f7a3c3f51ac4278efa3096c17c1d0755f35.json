@@ -1,0 +1,40 @@
+{
+  "edges": [
+    {
+      "prerequisite": "Reliable Transfer over a Perfectly Reliable Channel (rdt1.0)",
+      "dependent": "Reliable Transfer over a Channel with Bit Errors (rdt2.x)",
+      "confidence": 0.98,
+      "rationale": "rdt2.x builds directly on the rdt1.0 baseline by incrementally adding checksums, ACKs/NAKs, retransmissions, and sequence numbers to the same sender/receiver FSM framework."
+    },
+    {
+      "prerequisite": "Reliable Transfer over a Channel with Bit Errors (rdt2.x)",
+      "dependent": "Reliable Transfer over a Lossy Channel (rdt3.0)",
+      "confidence": 0.97,
+      "rationale": "rdt3.0 extends rdt2.2 by adding a countdown timer to handle lost packets; its duplicate-detection relies on the sequence-number machinery introduced in rdt2.x."
+    },
+    {
+      "prerequisite": "Reliable Transfer over a Lossy Channel (rdt3.0)",
+      "dependent": "Stop-and-Wait Performance and Channel Utilization",
+      "confidence": 0.9,
+      "rationale": "The utilization analysis quantifies the bandwidth waste of the completed stop-and-wait protocol (rdt3.0), using its sender behavior and RTT/L/R timing model."
+    },
+    {
+      "prerequisite": "Stop-and-Wait Performance and Channel Utilization",
+      "dependent": "Go-Back-N (GBN) Protocol",
+      "confidence": 0.95,
+      "rationale": "The poor utilization derived here is the explicit motivation for pipelined operation, which GBN implements via its sliding window of N outstanding packets."
+    },
+    {
+      "prerequisite": "Stop-and-Wait Performance and Channel Utilization",
+      "dependent": "Selective Repeat (SR) Protocol",
+      "confidence": 0.9,
+      "rationale": "SR is likewise a pipelined protocol whose design is motivated by the stop-and-wait utilization problem quantified in this analysis."
+    },
+    {
+      "prerequisite": "Go-Back-N (GBN) Protocol",
+      "dependent": "Selective Repeat (SR) Protocol",
+      "confidence": 0.75,
+      "rationale": "SR is best understood as a refinement of GBN's sliding-window approach: its individual ACKs, receiver buffering, and window-size constraint relative to the sequence-number space are defined in contrast to GBN's cumulative ACKs and out-of-order discarding."
+    }
+  ]
+}

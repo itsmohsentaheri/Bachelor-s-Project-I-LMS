@@ -1,0 +1,28 @@
+{
+  "edges": [
+    {
+      "prerequisite": "Symmetric Key Cryptography Basics",
+      "dependent": "Block Ciphers and Stream Ciphers",
+      "confidence": 0.95,
+      "rationale": "Block and stream ciphers are modern symmetric techniques that presuppose the shared-secret-key model and classical cipher concepts (substitution, key usage) introduced in the basics."
+    },
+    {
+      "prerequisite": "Block Ciphers and Stream Ciphers",
+      "dependent": "Cipher Block Chaining (CBC)",
+      "confidence": 0.95,
+      "rationale": "CBC is a mode of operation on block ciphers; understanding what a block cipher is and how independent block encryption leaks patterns is necessary to see why chaining with an IV is used."
+    },
+    {
+      "prerequisite": "Symmetric Key Cryptography Basics",
+      "dependent": "Public Key Cryptography Concepts",
+      "confidence": 0.85,
+      "rationale": "Public key cryptography is defined in explicit contrast with the shared-secret model, including how a shared key implicitly identifies the sender — this comparison requires the symmetric model as a baseline."
+    },
+    {
+      "prerequisite": "Public Key Cryptography Concepts",
+      "dependent": "RSA Algorithm",
+      "confidence": 0.95,
+      "rationale": "RSA is a concrete instantiation of the two-key public/private model; key generation and its use as a public encryption scheme only make sense after the public key model is established."
+    }
+  ]
+}

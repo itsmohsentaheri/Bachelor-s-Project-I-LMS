@@ -1,0 +1,40 @@
+{
+  "edges": [
+    {
+      "prerequisite": "Wireless Links and Network Characteristics",
+      "dependent": "WiFi: 802.11 Wireless LANs",
+      "confidence": 0.9,
+      "rationale": "Understanding 802.11's CSMA/CA MAC protocol and its design choices (e.g., hidden terminals, why collision detection is not used) requires prior knowledge of wireless link properties such as SNR, bit error rates, attenuation, and the shared-medium nature of the wireless channel."
+    },
+    {
+      "prerequisite": "Wireless Links and Network Characteristics",
+      "dependent": "Cellular Networks: 4G and 5G",
+      "confidence": 0.8,
+      "rationale": "The LTE radio access network and its protocol stack build directly on wireless link concepts: signal propagation, SNR-dependent rates, and shared-spectrum access (CDMA and its successors) underpin how cellular radio interfaces work."
+    },
+    {
+      "prerequisite": "WiFi: 802.11 Wireless LANs",
+      "dependent": "Mobility Management: Principles",
+      "confidence": 0.65,
+      "rationale": "The 802.11 material introduces concrete link-layer mobility (association/reassociation and handover between access points within a subnet), providing the tangible example of handover that the abstract mobility-management principles generalize."
+    },
+    {
+      "prerequisite": "Cellular Networks: 4G and 5G",
+      "dependent": "Mobility Management: Principles",
+      "confidence": 0.7,
+      "rationale": "Mobility-management concepts such as home networks, visited networks, roaming, and handover are first encountered concretely in the 4G architecture (HSS, tracking areas, attachment); the principles section abstracts from these cellular mechanisms."
+    },
+    {
+      "prerequisite": "Wireless Links and Network Characteristics",
+      "dependent": "Impact of Wireless and Mobility on Higher Layers",
+      "confidence": 0.85,
+      "rationale": "Explaining why TCP struggles over wireless (losses from bit errors rather than congestion) depends on understanding wireless bit error rates, SNR, and multipath-induced losses from the link-characteristics material."
+    },
+    {
+      "prerequisite": "Mobility Management: Principles",
+      "dependent": "Impact of Wireless and Mobility on Higher Layers",
+      "confidence": 0.6,
+      "rationale": "The mobility side of the higher-layer impact (e.g., how indirect routing and handovers affect TCP behavior) presumes the vocabulary and mechanisms of mobility management such as direct versus indirect routing and handover."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "edges": [
+    {
+      "prerequisite": "Sources of Nodal Delay",
+      "dependent": "Queuing Delay and Traffic Intensity",
+      "confidence": 0.95,
+      "rationale": "Queuing delay is one of the four nodal delay components introduced here; the deep-dive on dqueue presupposes the dnodal = dproc + dqueue + dtrans + dprop framework and the notion of a router queue."
+    },
+    {
+      "prerequisite": "Sources of Nodal Delay",
+      "dependent": "End-to-End Delay",
+      "confidence": 0.95,
+      "rationale": "End-to-end delay is defined as the accumulation of nodal delays along the path, so the nodal delay components and formula must be understood first."
+    },
+    {
+      "prerequisite": "Queuing Delay and Traffic Intensity",
+      "dependent": "Packet Loss",
+      "confidence": 0.9,
+      "rationale": "Packet loss is explained via finite queue capacity and is explicitly related to traffic intensity La/R approaching or exceeding 1, a quantity defined in the queuing-delay discussion."
+    },
+    {
+      "prerequisite": "Sources of Nodal Delay",
+      "dependent": "Throughput and the Bottleneck Link",
+      "confidence": 0.65,
+      "rationale": "The bottleneck-link model and the file-transfer-time approximation F/min{Rs, Rc} rely on the transmission-rate/transmission-delay concept, and its stated caveats (ignoring store-and-forward and processing delays) require knowing those nodal delay components."
+    }
+  ]
+}

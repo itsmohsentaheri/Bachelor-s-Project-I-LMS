@@ -1,0 +1,46 @@
+{
+  "edges": [
+    {
+      "prerequisite": "Congestion Window and Loss Signals",
+      "dependent": "Slow Start",
+      "confidence": 0.95,
+      "rationale": "Slow start's exponential cwnd growth and its termination by ssthresh or a loss event presuppose the definitions of the congestion window and the loss signals introduced in this leaf."
+    },
+    {
+      "prerequisite": "Congestion Window and Loss Signals",
+      "dependent": "Congestion Avoidance and AIMD",
+      "confidence": 0.9,
+      "rationale": "AIMD's linear cwnd increase and multiplicative decrease on loss cannot be understood without first knowing what cwnd is and how loss (triple duplicate ACKs vs. timeout) is detected."
+    },
+    {
+      "prerequisite": "Slow Start",
+      "dependent": "Congestion Avoidance and AIMD",
+      "confidence": 0.9,
+      "rationale": "Congestion avoidance begins when cwnd reaches the slow-start threshold (ssthresh) defined during slow start; the phase transition is a direct dependency."
+    },
+    {
+      "prerequisite": "Congestion Window and Loss Signals",
+      "dependent": "Fast Recovery",
+      "confidence": 0.85,
+      "rationale": "Fast retransmit is triggered by three duplicate ACKs, which is one of the loss-signal distinctions (triple duplicate ACK vs. timeout) established in this leaf."
+    },
+    {
+      "prerequisite": "Congestion Avoidance and AIMD",
+      "dependent": "Fast Recovery",
+      "confidence": 0.8,
+      "rationale": "Fast recovery implements the multiplicative-decrease step (halving cwnd on a triple duplicate-ACK loss) whose role in the AIMD cycle is defined in the congestion avoidance leaf."
+    },
+    {
+      "prerequisite": "Slow Start",
+      "dependent": "Fast Recovery",
+      "confidence": 0.7,
+      "rationale": "The Tahoe-vs-Reno contrast (timeout-driven reset to slow start vs. fast recovery) only makes sense once slow start behavior is understood."
+    },
+    {
+      "prerequisite": "Congestion Avoidance and AIMD",
+      "dependent": "AIMD Fairness",
+      "confidence": 0.95,
+      "rationale": "The fairness convergence argument is a direct analysis of the additive-increase/multiplicative-decrease dynamics, so AIMD must be learned first."
+    }
+  ]
+}

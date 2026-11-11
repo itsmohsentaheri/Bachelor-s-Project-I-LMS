@@ -1,0 +1,46 @@
+{
+  "edges": [
+    {
+      "prerequisite": "TCP Segment Structure",
+      "dependent": "RTT Estimation and Timeout",
+      "confidence": 0.75,
+      "rationale": "SampleRTT is measured by timing the transmission of a segment and receipt of its acknowledgment, which requires understanding sequence/acknowledgment numbers and the ACK flag defined in the segment structure."
+    },
+    {
+      "prerequisite": "TCP Segment Structure",
+      "dependent": "TCP Reliable Data Transfer",
+      "confidence": 0.95,
+      "rationale": "Reliable data transfer is built on the 32-bit sequence and acknowledgment numbers (byte-stream offsets) and the ACK flag; cumulative acknowledgments cannot be understood without the segment's numbering scheme."
+    },
+    {
+      "prerequisite": "TCP Segment Structure",
+      "dependent": "TCP Flow Control",
+      "confidence": 0.9,
+      "rationale": "Flow control relies on the receive window (rwnd) field carried in the TCP segment header; the sender reads this field to limit unacknowledged data."
+    },
+    {
+      "prerequisite": "TCP Segment Structure",
+      "dependent": "TCP Connection Management",
+      "confidence": 0.8,
+      "rationale": "The three-way handshake and teardown use the SYN, FIN, ACK, and RST header flags and involve sequence number selection, all defined in the segment structure."
+    },
+    {
+      "prerequisite": "RTT Estimation and Timeout",
+      "dependent": "TCP Reliable Data Transfer",
+      "confidence": 0.9,
+      "rationale": "The single retransmission timer's behavior, including timeout-triggered retransmissions and doubling the timeout, directly uses the TimeoutInterval computed from EstimatedRTT and DevRTT."
+    },
+    {
+      "prerequisite": "TCP Reliable Data Transfer",
+      "dependent": "TCP Flow Control",
+      "confidence": 0.7,
+      "rationale": "Flow control constrains the amount of unacknowledged (in-flight) data, a concept defined by the sender's acknowledgment and windowing behavior in reliable data transfer (LastByteSent, LastByteAcked)."
+    },
+    {
+      "prerequisite": "The TCP Connection",
+      "dependent": "TCP Connection Management",
+      "confidence": 0.85,
+      "rationale": "Connection management details the lifecycle (handshake, state, teardown) of the connection abstraction; understanding why a handshake and per-connection state exist must come first."
+    }
+  ]
+}

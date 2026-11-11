@@ -1,0 +1,52 @@
+{
+  "edges": [
+    {
+      "prerequisite": "Forwarding vs. Routing in the Network Layer",
+      "dependent": "Router Input and Output Ports",
+      "confidence": 0.9,
+      "rationale": "Input/output port processing is the hardware realization of the per-router forwarding function, so the forwarding-vs-routing distinction must come first."
+    },
+    {
+      "prerequisite": "Forwarding vs. Routing in the Network Layer",
+      "dependent": "Switching Fabric and Packet Queues",
+      "confidence": 0.9,
+      "rationale": "The switching fabric and queues are the internal mechanisms that accomplish forwarding within a router, which only makes sense once forwarding is defined."
+    },
+    {
+      "prerequisite": "Forwarding vs. Routing in the Network Layer",
+      "dependent": "Traditional IP Forwarding",
+      "confidence": 0.9,
+      "rationale": "Traditional IP forwarding details destination-based forwarding using the forwarding table, a concept introduced by the forwarding-vs-routing overview."
+    },
+    {
+      "prerequisite": "Forwarding vs. Routing in the Network Layer",
+      "dependent": "Generalized Forwarding",
+      "confidence": 0.85,
+      "rationale": "Generalized forwarding extends the forwarding function beyond destination-based lookup, requiring the basic forwarding concept first."
+    },
+    {
+      "prerequisite": "Forwarding vs. Routing in the Network Layer",
+      "dependent": "Software-Defined Networking (SDN)",
+      "confidence": 0.9,
+      "rationale": "SDN explicitly separates the data plane from the control plane, which is precisely the forwarding/routing distinction, so that distinction is a direct prerequisite."
+    },
+    {
+      "prerequisite": "Router Input and Output Ports",
+      "dependent": "Switching Fabric and Packet Queues",
+      "confidence": 0.85,
+      "rationale": "The switching fabric moves packets from input ports to output ports and queues form at those ports, so port operation must be understood first."
+    },
+    {
+      "prerequisite": "Traditional IP Forwarding",
+      "dependent": "Generalized Forwarding",
+      "confidence": 0.9,
+      "rationale": "Generalized forwarding is defined in contrast to destination-based forwarding ('rather than the destination address alone'), so traditional forwarding must be learned first."
+    },
+    {
+      "prerequisite": "Generalized Forwarding",
+      "dependent": "Software-Defined Networking (SDN)",
+      "confidence": 0.8,
+      "rationale": "SDN controllers compute and distribute match+action flow tables, which are an instance of generalized forwarding, so generalized forwarding is a prerequisite."
+    }
+  ]
+}

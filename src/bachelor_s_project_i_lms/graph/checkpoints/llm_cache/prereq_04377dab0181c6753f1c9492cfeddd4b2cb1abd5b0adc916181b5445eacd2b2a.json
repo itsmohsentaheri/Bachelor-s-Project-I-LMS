@@ -1,0 +1,40 @@
+{
+  "edges": [
+    {
+      "prerequisite": "Introduction and Transport-Layer Services",
+      "dependent": "Multiplexing and Demultiplexing",
+      "confidence": 0.85,
+      "rationale": "Multiplexing/demultiplexing explains how the transport layer implements the logical end-to-end process-to-process communication introduced in the overview; students must first know what the transport layer does and how it relates to the network layer before studying how segments are delivered to sockets."
+    },
+    {
+      "prerequisite": "Introduction and Transport-Layer Services",
+      "dependent": "Connectionless Transport: UDP",
+      "confidence": 0.75,
+      "rationale": "UDP's minimal service model only makes sense against the backdrop of the transport/network layer relationship and the overview of Internet transport protocols (UDP vs. TCP) presented in the introduction."
+    },
+    {
+      "prerequisite": "Multiplexing and Demultiplexing",
+      "dependent": "Connectionless Transport: UDP",
+      "confidence": 0.85,
+      "rationale": "Understanding UDP requires knowing how UDP segments are delivered to the correct socket via connectionless two-tuple demultiplexing, which is covered in the multiplexing/demultiplexing topic."
+    },
+    {
+      "prerequisite": "Multiplexing and Demultiplexing",
+      "dependent": "Connection-Oriented Transport: TCP",
+      "confidence": 0.85,
+      "rationale": "TCP's connection-oriented demultiplexing based on four-tuples (source IP, source port, dest IP, dest port) is a prerequisite concept from the multiplexing/demultiplexing topic needed to understand how TCP segments reach the right connection."
+    },
+    {
+      "prerequisite": "Principles of Reliable Data Transfer",
+      "dependent": "Connection-Oriented Transport: TCP",
+      "confidence": 0.95,
+      "rationale": "TCP's reliable data transfer mechanism is a direct application of the RDT principles: acknowledgments, retransmissions, sequence numbers, pipelining, and the GBN/SR sliding-window ideas underpin TCP's error recovery, timeout management, and flow control."
+    },
+    {
+      "prerequisite": "Connection-Oriented Transport: TCP",
+      "dependent": "Congestion Control",
+      "confidence": 0.9,
+      "rationale": "TCP's congestion control (slow start, AIMD congestion avoidance, fast recovery) manipulates a congestion window alongside TCP's reliable data transfer, RTT estimation, and receive-window flow control; TCP's operation must be understood first for the congestion control mechanisms to make sense."
+    }
+  ]
+}

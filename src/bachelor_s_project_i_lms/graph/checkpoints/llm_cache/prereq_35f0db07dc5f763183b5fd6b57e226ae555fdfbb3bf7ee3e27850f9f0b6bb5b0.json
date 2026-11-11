@@ -1,0 +1,58 @@
+{
+  "edges": [
+    {
+      "prerequisite": "Link-Layer Addressing and ARP",
+      "dependent": "Ethernet: Frame Format and Evolution",
+      "confidence": 0.85,
+      "rationale": "The Ethernet frame's source and destination address fields contain MAC addresses; understanding the frame format requires first knowing what link-layer addresses are and how they differ from IP addresses."
+    },
+    {
+      "prerequisite": "Link-Layer Addressing and ARP",
+      "dependent": "Switch Forwarding, Filtering, and Self-Learning",
+      "confidence": 0.85,
+      "rationale": "A switch's forwarding and filtering decisions are made by looking up destination MAC addresses, and self-learning records source MAC addresses; MAC addressing is a direct prerequisite."
+    },
+    {
+      "prerequisite": "Ethernet: Frame Format and Evolution",
+      "dependent": "Switch Forwarding, Filtering, and Self-Learning",
+      "confidence": 0.8,
+      "rationale": "Switches operate on Ethernet frames, parsing the destination address field to forward/filter and the source address field to learn; the frame structure must be understood first."
+    },
+    {
+      "prerequisite": "Switch Forwarding, Filtering, and Self-Learning",
+      "dependent": "Properties of Link-Layer Switching",
+      "confidence": 0.75,
+      "rationale": "The advantages attributed to switches (collision elimination via per-interface bandwidth, full-duplex operation, transparent plug-and-play administration) only make sense once the switch's forwarding and self-learning mechanics are understood."
+    },
+    {
+      "prerequisite": "Ethernet: Frame Format and Evolution",
+      "dependent": "Properties of Link-Layer Switching",
+      "confidence": 0.6,
+      "rationale": "Appreciating how switches eliminate collisions requires knowing that classic Ethernet evolved from a shared broadcast medium where hubs and collisions were inherent."
+    },
+    {
+      "prerequisite": "Switch Forwarding, Filtering, and Self-Learning",
+      "dependent": "Switches versus Routers",
+      "confidence": 0.8,
+      "rationale": "The comparison centers on how switches forward frames using MAC addresses and self-learning versus how routers forward datagrams; switch operation must be understood before contrasting it with routing."
+    },
+    {
+      "prerequisite": "Link-Layer Addressing and ARP",
+      "dependent": "Switches versus Routers",
+      "confidence": 0.7,
+      "rationale": "The switch-vs-router trade-off hinges on layer-2 MAC-address forwarding versus layer-3 IP-address forwarding, which presupposes knowledge of both addressing schemes."
+    },
+    {
+      "prerequisite": "Switch Forwarding, Filtering, and Self-Learning",
+      "dependent": "Virtual LANs (VLANs)",
+      "confidence": 0.8,
+      "rationale": "VLANs partition a single physical switch into isolated virtual switches; understanding per-VLAN forwarding, filtering, and learning requires the base switch operation first."
+    },
+    {
+      "prerequisite": "Ethernet: Frame Format and Evolution",
+      "dependent": "Virtual LANs (VLANs)",
+      "confidence": 0.6,
+      "rationale": "VLAN membership and traffic isolation are carried in the Ethernet frame itself (e.g., 802.1Q VLAN tag inserted into the frame), so the frame format is needed to understand the mechanism."
+    }
+  ]
+}

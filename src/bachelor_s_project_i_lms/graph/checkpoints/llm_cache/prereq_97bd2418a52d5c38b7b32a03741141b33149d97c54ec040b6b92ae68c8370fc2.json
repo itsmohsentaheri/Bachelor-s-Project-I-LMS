@@ -1,0 +1,28 @@
+{
+  "edges": [
+    {
+      "prerequisite": "Network Application Architectures",
+      "dependent": "Processes Communicating",
+      "confidence": 0.75,
+      "rationale": "The client/server process distinction in 'Processes Communicating' builds directly on the client-server architecture concept; you must know what a client-server design is before classifying which side of a communication is the client or server process."
+    },
+    {
+      "prerequisite": "Processes Communicating",
+      "dependent": "Transport Services Available to Applications",
+      "confidence": 0.7,
+      "rationale": "Transport services are defined as what the transport layer offers to an application through its socket; understanding the socket as the application-transport interface (from 'Processes Communicating') is needed to make sense of services delivered to an application."
+    },
+    {
+      "prerequisite": "Transport Services Available to Applications",
+      "dependent": "Transport Services Provided by the Internet",
+      "confidence": 0.95,
+      "rationale": "The TCP/UDP discussion is an evaluation of the Internet's transport models against the four requirement classes (reliability, throughput, timing, security); the requirement classes must be defined first for the comparison and the SSL/TLS motivation to be meaningful."
+    },
+    {
+      "prerequisite": "Processes Communicating",
+      "dependent": "Application-Layer Protocols",
+      "confidence": 0.85,
+      "rationale": "An application-layer protocol specifies the types, syntax, semantics, and send/respond rules for messages exchanged between processes; this definition presupposes the process-communication and socket model."
+    }
+  ]
+}

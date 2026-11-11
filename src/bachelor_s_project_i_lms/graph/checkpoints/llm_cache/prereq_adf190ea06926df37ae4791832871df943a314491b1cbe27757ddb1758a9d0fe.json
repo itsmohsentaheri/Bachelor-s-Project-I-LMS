@@ -1,0 +1,28 @@
+{
+  "edges": [
+    {
+      "prerequisite": "Store-and-Forward Packet Switching",
+      "dependent": "Queuing Delay, Packet Loss, and Statistical Multiplexing",
+      "confidence": 0.8,
+      "rationale": "Queuing delay and packet loss occur in the output buffers of store-and-forward switches; understanding that packets are received, stored, and retransmitted per hop is needed before analyzing buffering, delay, and on-demand capacity sharing."
+    },
+    {
+      "prerequisite": "Store-and-Forward Packet Switching",
+      "dependent": "Packet Switching vs. Circuit Switching",
+      "confidence": 0.85,
+      "rationale": "The comparison evaluates packet switching's per-hop store-and-forward behavior (transmission delays, no reservation), so the packet-switching mechanism must be understood first."
+    },
+    {
+      "prerequisite": "Circuit Switching with FDM and TDM",
+      "dependent": "Packet Switching vs. Circuit Switching",
+      "confidence": 0.85,
+      "rationale": "The trade-off analysis (reserved vs. on-demand bandwidth, wasted capacity during silent periods) presupposes knowledge of how circuits and FDM/TDM partition link capacity."
+    },
+    {
+      "prerequisite": "Queuing Delay, Packet Loss, and Statistical Multiplexing",
+      "dependent": "Packet Switching vs. Circuit Switching",
+      "confidence": 0.7,
+      "rationale": "The argument that packet switching suits bursty traffic rests on statistical multiplexing, and its drawbacks (queuing delay, packet loss under congestion) are key terms in the comparison."
+    }
+  ]
+}

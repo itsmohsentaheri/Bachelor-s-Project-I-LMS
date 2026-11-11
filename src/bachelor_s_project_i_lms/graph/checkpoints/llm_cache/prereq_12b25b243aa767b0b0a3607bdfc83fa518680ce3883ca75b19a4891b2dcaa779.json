@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "prerequisite": "Device Mobility: A Network-Layer Perspective",
+      "dependent": "Home Networks and Visited Networks",
+      "confidence": 0.85,
+      "rationale": "The roles of home and visited networks (home agent, registration, tracking a roaming device) only make sense once the network-layer mobility spectrum and the addressing/locating challenges it poses have been established."
+    },
+    {
+      "prerequisite": "Home Networks and Visited Networks",
+      "dependent": "Indirect Routing to a Mobile Device",
+      "confidence": 0.95,
+      "rationale": "Indirect (triangle) routing is defined entirely in terms of the home/visited framework: the home agent intercepts datagrams and tunnels them to the care-of address in the visited network, requiring the home-agent, registration, and care-of-address concepts first."
+    },
+    {
+      "prerequisite": "Home Networks and Visited Networks",
+      "dependent": "Direct Routing to a Mobile Device",
+      "confidence": 0.95,
+      "rationale": "Direct routing presupposes the same home/visited machinery: the correspondent must query the home network (home agent) to learn the mobile's care-of address before routing to the visited network."
+    },
+    {
+      "prerequisite": "Home Networks and Visited Networks",
+      "dependent": "Handover Between Points of Attachment",
+      "confidence": 0.75,
+      "rationale": "The 'updating routing/addressing information' step of handover means re-registering a new care-of address with the home network's control plane, which presupposes the home/visited network and registration concepts."
+    },
+    {
+      "prerequisite": "Indirect Routing to a Mobile Device",
+      "dependent": "Direct Routing to a Mobile Device",
+      "confidence": 0.6,
+      "rationale": "Direct routing is taught as an alternative that fixes indirect routing's triangle-routing inefficiency; its session-continuity-during-handover challenge is understood by contrast with how indirect routing preserves sessions via home-network tunneling."
+    }
+  ]
+}

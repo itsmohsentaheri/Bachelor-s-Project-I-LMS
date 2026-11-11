@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "prerequisite": "4G LTE Architecture and Elements",
+      "dependent": "LTE Protocol Stacks and Radio Access Network",
+      "confidence": 0.9,
+      "rationale": "Understanding the protocol layering and the radio access network requires first knowing the LTE network elements (base stations, edge/core split) and the data/control plane separation that the protocol stacks implement."
+    },
+    {
+      "prerequisite": "LTE Protocol Stacks and Radio Access Network",
+      "dependent": "LTE Network Attachment and Power Management",
+      "confidence": 0.85,
+      "rationale": "Network attachment is carried out via the control-plane protocol stack (registration signaling with mobility-management entities), so the protocol stack must be understood first."
+    },
+    {
+      "prerequisite": "4G LTE Architecture and Elements",
+      "dependent": "LTE Network Attachment and Power Management",
+      "confidence": 0.7,
+      "rationale": "Attaching to the network involves specific architectural components (gateways, mobility-management elements), so knowledge of the architecture is needed to describe the attachment procedure."
+    },
+    {
+      "prerequisite": "4G LTE Architecture and Elements",
+      "dependent": "Global Cellular Network of Networks",
+      "confidence": 0.6,
+      "rationale": "Discussing how carrier networks interconnect into a global system presupposes understanding the internal structure of a single carrier's LTE network (core, gateways, edge)."
+    },
+    {
+      "prerequisite": "4G LTE Architecture and Elements",
+      "dependent": "5G Cellular Technology",
+      "confidence": 0.7,
+      "rationale": "5G is best understood as an evolution relative to 4G LTE (cell density, spectrum, spectral efficiency), so the 4G baseline architecture is a prerequisite for appreciating what 5G changes."
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "edges": [
+    {
+      "prerequisite": "Introduction to the Link Layer",
+      "dependent": "Error-Detection and -Correction Techniques",
+      "confidence": 0.85,
+      "rationale": "Error detection/correction is one of the link-layer services introduced here; understanding where these techniques operate requires the framing/encapsulation model and the notion of link-layer services."
+    },
+    {
+      "prerequisite": "Introduction to the Link Layer",
+      "dependent": "Multiple Access Protocols",
+      "confidence": 0.85,
+      "rationale": "Multiple access protocols coordinate access to a shared broadcast channel, a concept defined in the introduction's coverage of broadcast vs. point-to-point links."
+    },
+    {
+      "prerequisite": "Introduction to the Link Layer",
+      "dependent": "Link-Layer Addressing and ARP",
+      "confidence": 0.8,
+      "rationale": "Understanding why broadcast channels need node-level addressing and how frames carry addresses builds on the framing and broadcast-link concepts from the introduction."
+    },
+    {
+      "prerequisite": "Introduction to the Link Layer",
+      "dependent": "Ethernet and Link-Layer Switches",
+      "confidence": 0.8,
+      "rationale": "Ethernet framing and link-access presuppose the general framing/encapsulation and link-access services described in the introduction."
+    },
+    {
+      "prerequisite": "Introduction to the Link Layer",
+      "dependent": "MPLS and Data Center Networking",
+      "confidence": 0.55,
+      "rationale": "MPLS is framed as providing link-layer services between IP routers, which only makes sense once the link layer's service model is understood."
+    },
+    {
+      "prerequisite": "Error-Detection and -Correction Techniques",
+      "dependent": "Ethernet and Link-Layer Switches",
+      "confidence": 0.65,
+      "rationale": "Ethernet frames carry a CRC field and adapters use CRC to detect frame errors, so the CRC technique should be learned before studying Ethernet framing and frame processing."
+    },
+    {
+      "prerequisite": "Multiple Access Protocols",
+      "dependent": "Ethernet and Link-Layer Switches",
+      "confidence": 0.8,
+      "rationale": "Classic shared-media Ethernet is built on CSMA/CD, a random-access protocol covered in Multiple Access Protocols; understanding Ethernet's medium access requires that background."
+    },
+    {
+      "prerequisite": "Link-Layer Addressing and ARP",
+      "dependent": "Ethernet and Link-Layer Switches",
+      "confidence": 0.85,
+      "rationale": "Switch forwarding/filtering and self-learning operate on MAC addresses, and frame delivery between hosts relies on ARP-resolved MAC addresses, so addressing must precede switches."
+    },
+    {
+      "prerequisite": "Ethernet and Link-Layer Switches",
+      "dependent": "Virtual LANs (VLANs)",
+      "confidence": 0.9,
+      "rationale": "VLANs are created by configuring link-layer switches (traffic isolation, trunking over switch infrastructure); they cannot be understood without the switch model."
+    },
+    {
+      "prerequisite": "Ethernet and Link-Layer Switches",
+      "dependent": "MPLS and Data Center Networking",
+      "confidence": 0.6,
+      "rationale": "MPLS label switching is best understood in contrast to link-layer switching vs. IP routing, and data center designs are built on switched topologies covered in the switches topic."
+    }
+  ]
+}
