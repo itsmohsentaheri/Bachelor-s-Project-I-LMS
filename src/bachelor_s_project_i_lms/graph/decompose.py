@@ -152,14 +152,12 @@ def load_checkpoint(path: Path = CHECKPOINT_PATH) -> Optional[list[dict]]:
 
 
 def iter_atoms(tree: list[dict]):
-    """Yield every leaf/atom node in the forest."""
-    stack = list(tree)
-    while stack:
-        n = stack.pop()
-        if n["is_atomic"]:
-            yield n
+    """Yield every leaf/atom node in the forest, in document order."""
+    for node in tree:
+        if node["is_atomic"]:
+            yield node
         else:
-            stack.extend(n["children"])
+            yield from iter_atoms(node["children"])
 
 
 # ----------------------------- entry point -----------------------------

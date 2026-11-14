@@ -50,6 +50,9 @@ secrets.json
 config.json
 credentials.yaml
 
+# === Project Planning (internal) ===
+Phase1.md
+
 # === Large Book Sources & Data Files ===
 *.pdf
 data/
