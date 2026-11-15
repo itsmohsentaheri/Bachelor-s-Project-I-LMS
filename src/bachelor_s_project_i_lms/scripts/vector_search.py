@@ -1,6 +1,5 @@
 from bachelor_s_project_i_lms.db.session import SessionLocal
 from bachelor_s_project_i_lms.db.models import BookChunk
-from sentence_transformers import SentenceTransformer
 
 EMBEDDING_MODEL_NAME = "BAAI/bge-large-en-v1.5"  # 1024 dimensions, must match chunk.ipynb
 

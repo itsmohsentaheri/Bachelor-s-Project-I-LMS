@@ -55,6 +55,18 @@ class CrossBranchVerdict(BaseModel):
     rationale: str = Field(min_length=5)
 
 
+class DirectionalVerdict(BaseModel):
+    is_prerequisite: bool
+    confidence: float = Field(ge=0, le=1)
+    rationale: str = Field(min_length=5)
+
+
+class CrossBranchPairVerdict(BaseModel):
+    """Phase 5: one call per candidate pair, both directions at once."""
+    a_before_b: DirectionalVerdict
+    b_before_a: DirectionalVerdict
+
+
 class AtomMetadata(BaseModel):
     """Metadata filled for every atomic node."""
     learning_objective: str = Field(min_length=10)

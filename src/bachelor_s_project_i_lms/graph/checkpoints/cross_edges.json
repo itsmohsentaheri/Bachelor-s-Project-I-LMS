@@ -1,0 +1,1370 @@
+[
+  {
+    "from_temp_id": "t_0216db1919",
+    "to_temp_id": "t_24fed41ec2",
+    "confidence": 0.85,
+    "rationale": "Understanding the four classes of transport service (reliable transfer, throughput, timing, security) provides the conceptual framework needed to explain why applications would choose UDP despite its lack of guarantees, which is an explicit learning objective of B.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_7aab4b277b",
+    "to_temp_id": "t_0216db1919",
+    "confidence": 0.95,
+    "rationale": "Atom B establishes the layered model and identifies the transport layer's role in the stack, which is necessary before a learner can meaningfully understand what services that layer provides to applications (Atom A).",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_0b55330cdc",
+    "to_temp_id": "t_13014d5ed8",
+    "confidence": 0.8,
+    "rationale": "Mastering Atom A establishes that the Internet uses packet switching and defines what a datagram is, which is essential context for understanding Atom B's distinction between forwarding (moving a datagram) and routing (determining a path for datagrams).",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_0b55330cdc",
+    "to_temp_id": "t_3d6c3ed74b",
+    "confidence": 0.85,
+    "rationale": "Understanding the fundamental paradigm of packet switching (statistical multiplexing, no resource reservation, bursty traffic handling) from Atom A is necessary to comprehend why routers require switching fabrics and experience queuing delays, which are the focus of Atom B.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_0b55330cdc",
+    "to_temp_id": "t_3e051b6203",
+    "confidence": 0.75,
+    "rationale": "Understanding that packet switching uses statistical multiplexing without resource reservation (A) provides the conceptual foundation for why congestion occurs when bursty traffic exceeds link capacity (B).",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_13014d5ed8",
+    "to_temp_id": "t_0ee95e2dc0",
+    "confidence": 0.9,
+    "rationale": "Direct routing to a mobile device relies on the underlying concepts of routing (determining the end-to-end path) and forwarding (moving the datagrams) to function.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_6227833780",
+    "to_temp_id": "t_0ee95e2dc0",
+    "confidence": 0.9,
+    "rationale": "Understanding how a router forwards a datagram using an IP header is foundational to understanding the subsequent direct tunneling of datagrams in mobile routing.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_62a5a6c221",
+    "to_temp_id": "t_0ee95e2dc0",
+    "confidence": 0.9,
+    "rationale": "Understanding how datagrams are moved between adjacent nodes via frame encapsulation at the link layer is necessary before discussing how direct tunneling of datagrams occurs in mobile networks.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_0f17eb50b0",
+    "to_temp_id": "t_2dd30561bd",
+    "confidence": 0.9,
+    "rationale": "Understanding basic packet switching mechanisms like store-and-forward is foundational to understanding complex data center network architectures.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_0f17eb50b0",
+    "to_temp_id": "t_3d6c3ed74b",
+    "confidence": 0.9,
+    "rationale": "Understanding store-and-forward is fundamental to understanding how packets are processed and queued at router input/output ports.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_0f17eb50b0",
+    "to_temp_id": "t_8717fac8d7",
+    "confidence": 0.9,
+    "rationale": "Understanding how packets are switched (A) is fundamental to understanding how any data, including streamed video (B), traverses the network.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_0f17eb50b0",
+    "to_temp_id": "t_d5a8925b50",
+    "confidence": 0.9,
+    "rationale": "Understanding packet switching (A) is necessary to understand how HTTP requests traverse the network to reach a cache (B).",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_62a5a6c221",
+    "to_temp_id": "t_11f441b583",
+    "confidence": 0.9,
+    "rationale": "The concept of frame encapsulation and the link layer's role in moving datagrams between adjacent nodes (B) must be understood before analyzing the specific fields of an 802.11 frame (A).",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_13014d5ed8",
+    "to_temp_id": "t_4ba4f03c64",
+    "confidence": 0.9,
+    "rationale": "Understanding the fundamental distinction between forwarding (per-router action) and routing (path determination) is necessary to understand how indirect routing utilizes these concepts.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_13014d5ed8",
+    "to_temp_id": "t_4d5673b3ab",
+    "confidence": 0.95,
+    "rationale": "Understanding the distinction between forwarding (data plane) and routing (control plane) is necessary to meaningfully contrast traditional per-router control plane approaches with SDN.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_13014d5ed8",
+    "to_temp_id": "t_84e06cd7a0",
+    "confidence": 0.9,
+    "rationale": "Understanding the fundamental concepts of forwarding and routing (Atom A) is necessary to understand the network-layer challenges of device mobility (Atom B).",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_13014d5ed8",
+    "to_temp_id": "t_b40d489b42",
+    "confidence": 0.95,
+    "rationale": "Understanding the distinction between forwarding (data plane) and routing (control plane) is necessary context before learning a specific control plane algorithm like Link-State routing.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_13014d5ed8",
+    "to_temp_id": "t_dc2bd714af",
+    "confidence": 0.9,
+    "rationale": "Understanding the fundamental distinction between routing (path determination) and forwarding (per-hop action) is necessary to grasp how MPLS traffic engineering overrides standard IP routing.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_13014d5ed8",
+    "to_temp_id": "t_ea90d29929",
+    "confidence": 0.95,
+    "rationale": "Understanding the distinction between forwarding (data plane) and routing (control plane) is necessary context before learning a specific routing algorithm like Distance-Vector.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_13014d5ed8",
+    "to_temp_id": "t_ed24ab34bd",
+    "confidence": 0.95,
+    "rationale": "Understanding the distinction between forwarding (data plane) and routing (control plane) is necessary context before learning a specific control plane algorithm like OSPF.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_c10e125868",
+    "to_temp_id": "t_15b5e1b33e",
+    "confidence": 0.9,
+    "rationale": "Understanding specific wireless phenomena like interference and multipath (Atom A) requires first knowing that signals propagate as electromagnetic waves over unguided media (Atom B).",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_1ae52d967f",
+    "to_temp_id": "t_3e01380ec9",
+    "confidence": 0.9,
+    "rationale": "Understanding the components of end-to-end delay (Atom A) is necessary to quantify how slow start contributes to that delay (Atom B).",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_1ae52d967f",
+    "to_temp_id": "t_42250f13f2",
+    "confidence": 0.9,
+    "rationale": "Understanding the components of end-to-end delay (Atom A) is necessary to understand why end-to-end congestion control (Atom B) relies on observing delay or loss.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_379f333add",
+    "to_temp_id": "t_1f2e6da3f2",
+    "confidence": 0.9,
+    "rationale": "SMTP uses TCP (specifically port 25) for message transfer, meaning the learner must understand the concept of a reliable, connection-oriented pipe before understanding how SMTP utilizes it.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_1f2e6da3f2",
+    "to_temp_id": "t_83dca597bb",
+    "confidence": 0.9,
+    "rationale": "Understanding how SMTP transfers mail (Atom A) is necessary context before learning how to secure that transfer mechanism (Atom B).",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_bd9a97ca9e",
+    "to_temp_id": "t_1f2e6da3f2",
+    "confidence": 0.9,
+    "rationale": "SMTP uses TCP (specifically port 25) for message transfer, so understanding TCP's reliable data transfer mechanism is necessary to understand how SMTP functions reliably.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_faf688c572",
+    "to_temp_id": "t_1f2e6da3f2",
+    "confidence": 0.9,
+    "rationale": "SMTP transfers messages over TCP, so understanding the TCP connection establishment and state transitions is necessary to understand the underlying transport mechanism of SMTP.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_fdc2fd4098",
+    "to_temp_id": "t_1f2e6da3f2",
+    "confidence": 0.9,
+    "rationale": "SMTP uses TCP (a transport layer service) for its message transfer, so understanding transport layer services is necessary to understand how SMTP functions.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_1f3ad1d745",
+    "to_temp_id": "t_a491784728",
+    "confidence": 0.9,
+    "rationale": "Understanding basic switch forwarding and MAC address learning (Atom A) is necessary context to understand the problem SDN solves by separating the control plane from the data plane (Atom B).",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_1f3ad1d745",
+    "to_temp_id": "t_fc9084da80",
+    "confidence": 0.9,
+    "rationale": "Understanding switch self-learning (Atom A) is necessary to explain MAC address handling during handover in the same subnet (Atom B).",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_7aab4b277b",
+    "to_temp_id": "t_244e6be4a4",
+    "confidence": 0.9,
+    "rationale": "Understanding the concept of protocol layering and the Internet stack (Atom B) provides the necessary context to meaningfully place HTTP as an application-layer protocol (Atom A).",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_7e98cb4a78",
+    "to_temp_id": "t_244e6be4a4",
+    "confidence": 0.9,
+    "rationale": "Understanding HTTP as a protocol operating on the Internet requires a foundational grasp of what the Internet infrastructure (end systems, links) is.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_3bd6c30e79",
+    "to_temp_id": "t_248601076c",
+    "confidence": 0.9,
+    "rationale": "The concept of collision and the necessity for multiple access coordination (B) is the fundamental problem that CSMA/CA (A) is designed to solve.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_24fed41ec2",
+    "to_temp_id": "t_70b822b7e6",
+    "confidence": 0.9,
+    "rationale": "Understanding UDP's minimal service model (Atom A) is necessary to meaningfully compare it against TCP in socket programming (Atom B).",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_7aab4b277b",
+    "to_temp_id": "t_24fed41ec2",
+    "confidence": 0.9,
+    "rationale": "Understanding the concept of protocol layering and the Internet stack (Atom B) provides the necessary context to understand where UDP fits as a specific transport layer service (Atom A).",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_24fed41ec2",
+    "to_temp_id": "t_c5616eeac6",
+    "confidence": 0.95,
+    "rationale": "Understanding UDP's minimal service model and segment structure (Atom A) is necessary context before one can effectively write and trace code using UDP socket functions (Atom B).",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_26e61b16fc",
+    "to_temp_id": "t_70b822b7e6",
+    "confidence": 0.9,
+    "rationale": "Understanding TCP segment structure, especially sequence/acknowledgment numbers, is necessary to meaningfully compare TCP's byte-stream operation in socket programs.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_26e61b16fc",
+    "to_temp_id": "t_fc27d5a7f5",
+    "confidence": 0.9,
+    "rationale": "Understanding TCP segment structure, especially sequence and acknowledgment numbers, is necessary to meaningfully implement and debug TCP socket programming.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_26e61b16fc",
+    "to_temp_id": "t_fed701023b",
+    "confidence": 0.95,
+    "rationale": "Understanding the basic structure and operation of TCP segments is necessary context to understand how TLS operates on top of and secures TCP connections.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_379f333add",
+    "to_temp_id": "t_2738a2cd43",
+    "confidence": 0.9,
+    "rationale": "The client-server application described fundamentally relies on a reliable, connection-oriented transport mechanism like TCP to ensure the message is delivered and the response is received.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_faf688c572",
+    "to_temp_id": "t_2738a2cd43",
+    "confidence": 0.9,
+    "rationale": "A client-server application relying on reliable message exchange, as implied by the flow, fundamentally requires understanding the underlying connection management provided by TCP.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_fdc2fd4098",
+    "to_temp_id": "t_2738a2cd43",
+    "confidence": 0.85,
+    "rationale": "The client-server application described in A relies fundamentally on the end-to-end communication services provided by the transport layer explained in B.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_7aab4b277b",
+    "to_temp_id": "t_2c88d103d2",
+    "confidence": 0.9,
+    "rationale": "Understanding DNS as an application service requires knowing where it fits within the overall five-layer Internet protocol stack.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_7e98cb4a78",
+    "to_temp_id": "t_2c88d103d2",
+    "confidence": 0.9,
+    "rationale": "A learner must first understand the overall structure and services of the Internet (B) to meaningfully grasp the specific role of DNS within that ecosystem (A).",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_b1e7966545",
+    "to_temp_id": "t_2c88d103d2",
+    "confidence": 0.9,
+    "rationale": "The concept of the Internet as a network of networks (B) must be understood to grasp how DNS operates within that large, interconnected system (A).",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_ba24910861",
+    "to_temp_id": "t_2c88d103d2",
+    "confidence": 0.9,
+    "rationale": "DNS services operate on and serve end systems (hosts), so knowing what an end system is is necessary to understand the context of DNS application services.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_8bd0445165",
+    "to_temp_id": "t_35d082b271",
+    "confidence": 0.9,
+    "rationale": "Atom B provides the foundational context of how cellular networks (including 5G) deliver wide-area mobile internet access, which is necessary to meaningfully understand the specific characteristics of 5G technology in Atom A.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_c10e125868",
+    "to_temp_id": "t_35d082b271",
+    "confidence": 0.9,
+    "rationale": "Understanding 5G's use of frequency bands and electromagnetic wave propagation (like millimeter-wave) requires a foundational grasp of unguided physical media.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_379f333add",
+    "to_temp_id": "t_70b822b7e6",
+    "confidence": 0.95,
+    "rationale": "Understanding the necessity of a TCP handshake and connection state (Atom A) is fundamental to meaningfully comparing TCP's connection setup against UDP's connectionless operation (Atom B).",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_379f333add",
+    "to_temp_id": "t_fc27d5a7f5",
+    "confidence": 0.95,
+    "rationale": "Understanding *why* a handshake and state are needed (Atom A) is necessary to correctly implement and explain the behavior in socket programming (Atom B).",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_379f333add",
+    "to_temp_id": "t_fed701023b",
+    "confidence": 0.95,
+    "rationale": "Understanding the basic TCP connection (A) is necessary to understand how TLS secures that specific connection (B).",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_7e98cb4a78",
+    "to_temp_id": "t_395133c118",
+    "confidence": 0.9,
+    "rationale": "To meaningfully understand network security goals and attacks (A), the learner must first know what a network and the Internet structure (B) is.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_395133c118",
+    "to_temp_id": "t_81b54d4c89",
+    "confidence": 0.9,
+    "rationale": "Understanding the fundamental goals of network security (like confidentiality and integrity) provides the necessary context to meaningfully identify and describe specific attack classes like packet sniffing or DoS.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_7aab4b277b",
+    "to_temp_id": "t_3b4d5a13ae",
+    "confidence": 0.9,
+    "rationale": "DNS operates within the context of the Internet protocol stack, so understanding the layers provides the necessary framework to understand where DNS fits and how it functions.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_7e98cb4a78",
+    "to_temp_id": "t_3b4d5a13ae",
+    "confidence": 0.9,
+    "rationale": "The concept of the Internet infrastructure (Atom B) must be understood to contextualize how a specific service like DNS operates within that network (Atom A).",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_ba24910861",
+    "to_temp_id": "t_3b4d5a13ae",
+    "confidence": 0.9,
+    "rationale": "Understanding how DNS resolves a hostname (Atom A) requires knowing that end systems (hosts) are the entities making the requests (Atom B).",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_3bd6c30e79",
+    "to_temp_id": "t_99615d8f61",
+    "confidence": 0.95,
+    "rationale": "Understanding the collision problem in shared channels (Atom A) provides the motivation for needing a technique like CDMA (Atom B) to allow simultaneous transmission.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_3d6c3ed74b",
+    "to_temp_id": "t_9aa8afbd4d",
+    "confidence": 0.95,
+    "rationale": "Understanding where and why packet queues form (Atom A) is necessary to understand the mechanism of packet loss due to a full queue (Atom B).",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_3e01380ec9",
+    "to_temp_id": "t_d507a90238",
+    "confidence": 0.9,
+    "rationale": "Understanding TCP's slow start (Atom A) is necessary to understand how HTTP/2 leverages a single TCP connection and its performance characteristics (Atom B).",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_9aa8afbd4d",
+    "to_temp_id": "t_3e051b6203",
+    "confidence": 0.85,
+    "rationale": "Understanding why a router drops a packet due to a full queue (B) is a fundamental cause that must be known to explain the congestion scenarios and costs detailed in A.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_ea8692cda0",
+    "to_temp_id": "t_3e051b6203",
+    "confidence": 0.95,
+    "rationale": "Understanding how traffic intensity leads to specific queuing delay behaviors (Atom B) is necessary to meaningfully explain why congestion occurs and its associated costs (Atom A).",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_ed98ff82ca",
+    "to_temp_id": "t_3e051b6203",
+    "confidence": 0.95,
+    "rationale": "Understanding how queuing delay and packet loss arise from finite buffers and statistical multiplexing (Atom B) is necessary to explain the specific causes and costs of network congestion (Atom A).",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_7e98cb4a78",
+    "to_temp_id": "t_3e57c8b745",
+    "confidence": 0.9,
+    "rationale": "The e-mail system described in Atom A operates over the infrastructure of the Internet, making a basic understanding of the Internet necessary for context.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_bd9a97ca9e",
+    "to_temp_id": "t_3f84aa70d7",
+    "confidence": 0.9,
+    "rationale": "HTTP connections (Atom A) rely fundamentally on TCP for reliable transport, making TCP concepts (Atom B) a necessary prerequisite for meaningful understanding of connection behavior.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_4767cea849",
+    "to_temp_id": "t_42250f13f2",
+    "confidence": 0.9,
+    "rationale": "The concept of end-to-end throughput and the bottleneck link (B) provides the context (rate limitations) against which the need for and implementation of congestion control strategies (A) are meaningful.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_9aa8afbd4d",
+    "to_temp_id": "t_42250f13f2",
+    "confidence": 0.9,
+    "rationale": "The concept of packet loss due to full queues (B) is a primary mechanism that end systems use to infer congestion in end-to-end approaches (A).",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_ba24910861",
+    "to_temp_id": "t_447f4e1a0a",
+    "confidence": 0.9,
+    "rationale": "Understanding that end systems exist at the network edge is necessary context before discussing how mobile devices (end systems) interact with home and visited networks.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_44f99e7463",
+    "to_temp_id": "t_d507a90238",
+    "confidence": 0.95,
+    "rationale": "HTTP/2 runs over TCP, so understanding TCP flow control is necessary to understand how HTTP/2 utilizes the underlying connection without causing receiver buffer overflow.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_4767cea849",
+    "to_temp_id": "t_46135c5e99",
+    "confidence": 0.9,
+    "rationale": "The concept of a bottleneck link and its impact on achievable throughput (B) provides the context for why TCP needs congestion avoidance mechanisms like AIMD (A).",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_4767cea849",
+    "to_temp_id": "t_4ed6e9702e",
+    "confidence": 0.9,
+    "rationale": "Understanding the concept of bottleneck throughput (Atom A) is necessary to correctly calculate the effective throughput in a stop-and-wait protocol (Atom B).",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_4767cea849",
+    "to_temp_id": "t_7c1307ad8d",
+    "confidence": 0.9,
+    "rationale": "Understanding the bottleneck link and throughput (Atom A) is necessary to understand how AIMD converges to an equal share of that bottleneck bandwidth (Atom B).",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_4767cea849",
+    "to_temp_id": "t_8717fac8d7",
+    "confidence": 0.95,
+    "rationale": "Understanding throughput and the bottleneck link (Atom A) is necessary to explain how DASH adapts chunk selection based on available bandwidth in video streaming (Atom B).",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_4767cea849",
+    "to_temp_id": "t_90bde9d97a",
+    "confidence": 0.9,
+    "rationale": "Understanding throughput and bottleneck links (A) is necessary to analyze how P2P distribution time scales (B).",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_4767cea849",
+    "to_temp_id": "t_b5edbafc63",
+    "confidence": 0.9,
+    "rationale": "Understanding throughput and the bottleneck link (Atom A) provides the fundamental concept of limiting rate that the congestion window mechanism (Atom B) attempts to manage.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_6227833780",
+    "to_temp_id": "t_4ba4f03c64",
+    "confidence": 0.9,
+    "rationale": "Understanding how routers use forwarding tables to move datagrams (B) is necessary to understand how indirect routing (A) utilizes these forwarding mechanisms for tunnel establishment and packet delivery.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_62a5a6c221",
+    "to_temp_id": "t_4ba4f03c64",
+    "confidence": 0.9,
+    "rationale": "Understanding how datagrams move between adjacent nodes via frame encapsulation at the link layer is fundamental to any network routing mechanism, including indirect routing.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_a491784728",
+    "to_temp_id": "t_4d5673b3ab",
+    "confidence": 0.9,
+    "rationale": "Understanding the fundamental SDN architecture (separation of planes) described in B is necessary to meaningfully contrast it against the traditional per-router control plane in A.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_fdcee80c61",
+    "to_temp_id": "t_4d5673b3ab",
+    "confidence": 0.9,
+    "rationale": "The concept of a router, which is central to Atom A's discussion of per-router control planes, must first be understood in the context of its function compared to a switch.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_dd95cb9dab",
+    "to_temp_id": "t_4f1a0a8cc5",
+    "confidence": 0.9,
+    "rationale": "Understanding how FDM and TDM partition bandwidth and calculate transmission times is necessary to meaningfully explain the FDM channel partitioning and TDM-like mini-slots used in DOCSIS.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_7aab4b277b",
+    "to_temp_id": "t_584093dcdd",
+    "confidence": 0.9,
+    "rationale": "Knowing the five-layer Internet protocol stack is necessary context to understand how IPsec functions specifically at the network layer.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_b1e7966545",
+    "to_temp_id": "t_584093dcdd",
+    "confidence": 0.9,
+    "rationale": "Understanding the Internet as a network of networks (B) provides the necessary environment (the public Internet) over which VPNs using IPsec (A) are constructed.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_fdc2fd4098",
+    "to_temp_id": "t_584093dcdd",
+    "confidence": 0.9,
+    "rationale": "The transport layer service model (B) constrains the security services like confidentiality and integrity provided by IPsec (A) at the network layer.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_7aab4b277b",
+    "to_temp_id": "t_5ca2d79d5f",
+    "confidence": 0.9,
+    "rationale": "Understanding the concept of protocol layers (B) is necessary to contextualize where the Ethernet frame format (A) fits within the overall network stack.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_ba24910861",
+    "to_temp_id": "t_5fed0405de",
+    "confidence": 0.9,
+    "rationale": "One cannot meaningfully discuss end-point authentication (A) without first knowing what an end system is and where it operates within the network (B).",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_7aab4b277b",
+    "to_temp_id": "t_62a5a6c221",
+    "confidence": 0.9,
+    "rationale": "Understanding the overall protocol layering model (Atom B) provides the necessary context to understand where the link layer fits and what its service role is (Atom A).",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_62a5a6c221",
+    "to_temp_id": "t_9a6785d947",
+    "confidence": 0.9,
+    "rationale": "Understanding link layer concepts like frame encapsulation is foundational to describing the specific protocol stacks within the LTE radio access network.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_62a5a6c221",
+    "to_temp_id": "t_b40d489b42",
+    "confidence": 0.95,
+    "rationale": "Understanding how the link layer encapsulates data (Atom A) is necessary to understand what the routing algorithm (Atom B) is trying to route across the network.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_62a5a6c221",
+    "to_temp_id": "t_d507a90238",
+    "confidence": 0.95,
+    "rationale": "Understanding frame encapsulation at the link layer is necessary context for understanding how higher-layer protocols like HTTP/2 operate over underlying network connections.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_62a5a6c221",
+    "to_temp_id": "t_f80785dda1",
+    "confidence": 0.9,
+    "rationale": "Understanding the general concept of link layer framing and adjacent node communication (Atom A) is necessary context before learning the specific 802.11 implementation details (Atom B).",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_62a5a6c221",
+    "to_temp_id": "t_fc9084da80",
+    "confidence": 0.9,
+    "rationale": "Understanding frame encapsulation and adjacent node communication (Link Layer basics) is necessary to understand how MAC address handling and handover work within a subnet.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_7e98cb4a78",
+    "to_temp_id": "t_6bc62995cb",
+    "confidence": 0.9,
+    "rationale": "A learner must first understand the components of the Internet, including ISPs and the concept of Autonomous Systems, to meaningfully grasp how BGP facilitates inter-AS routing.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_b1e7966545",
+    "to_temp_id": "t_6bc62995cb",
+    "confidence": 0.9,
+    "rationale": "The concept of an Internet structured as a network of interconnected Autonomous Systems (B) provides the necessary context for understanding why BGP is required for inter-AS routing (A).",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_bd9a97ca9e",
+    "to_temp_id": "t_70b822b7e6",
+    "confidence": 0.9,
+    "rationale": "To meaningfully compare TCP socket programs (A), the learner must first understand the underlying mechanisms of TCP reliability, such as acknowledgments and retransmission (B).",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_faf688c572",
+    "to_temp_id": "t_70b822b7e6",
+    "confidence": 0.9,
+    "rationale": "Describing the TCP connection establishment and teardown (B) is fundamental to contrasting connection setup in TCP socket programs (A).",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_fdc2fd4098",
+    "to_temp_id": "t_70b822b7e6",
+    "confidence": 0.95,
+    "rationale": "Understanding the transport layer services and the nature of TCP/UDP (B) is necessary to meaningfully compare their socket implementations and operational differences (A).",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_77ec1669b6",
+    "to_temp_id": "t_8717fac8d7",
+    "confidence": 0.9,
+    "rationale": "Understanding how transport-layer multiplexing directs data to the correct socket is necessary to understand how a specific application like video streaming uses those mechanisms.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_77ec1669b6",
+    "to_temp_id": "t_8cb84b40e1",
+    "confidence": 0.9,
+    "rationale": "Understanding how transport-layer multiplexing works is necessary to understand how a socket delivers data to the correct process.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_77ec1669b6",
+    "to_temp_id": "t_c5616eeac6",
+    "confidence": 0.9,
+    "rationale": "Understanding how transport-layer multiplexing uses header fields to direct data to the correct socket is necessary to meaningfully implement socket programming that relies on this mechanism.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_77ec1669b6",
+    "to_temp_id": "t_d507a90238",
+    "confidence": 0.95,
+    "rationale": "Understanding transport-layer multiplexing (Atom A) is necessary to grasp how HTTP/2 uses multiplexing over a single TCP connection (Atom B).",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_7aab4b277b",
+    "to_temp_id": "t_84e06cd7a0",
+    "confidence": 0.9,
+    "rationale": "Understanding the basic five-layer Internet protocol stack (Atom A) provides the necessary context for understanding network-layer challenges like addressing and routing in mobile scenarios (Atom B).",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_7aab4b277b",
+    "to_temp_id": "t_8cb84b40e1",
+    "confidence": 0.95,
+    "rationale": "Understanding the layered structure (like the transport layer) is necessary context to understand how sockets interface with the transport layer in process communication.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_7aab4b277b",
+    "to_temp_id": "t_9a6785d947",
+    "confidence": 0.9,
+    "rationale": "Understanding the general concept of protocol layering (Atom A) is necessary to meaningfully describe a specific protocol stack like LTE (Atom B).",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_7aab4b277b",
+    "to_temp_id": "t_a2f2554cdc",
+    "confidence": 0.95,
+    "rationale": "Understanding the five-layer protocol stack (Atom A) provides the necessary context for where application architectures (Atom B) operate within the overall network model.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_7aab4b277b",
+    "to_temp_id": "t_a78d9a251c",
+    "confidence": 0.95,
+    "rationale": "Understanding the five-layer Internet protocol stack (Atom A) provides the necessary context to locate and understand the role of transport services (TCP/UDP) within that structure (Atom B).",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_7aab4b277b",
+    "to_temp_id": "t_c5e2be94e5",
+    "confidence": 0.9,
+    "rationale": "Understanding the five-layer Internet protocol stack (Atom A) is necessary to comprehend how cellular networks interconnect with the Internet using gateway routers (Atom B).",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_7aab4b277b",
+    "to_temp_id": "t_d5a8925b50",
+    "confidence": 0.95,
+    "rationale": "Understanding the protocol stack layers (Atom A) is necessary context to understand where HTTP and caching mechanisms (Atom B) operate within the network model.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_7aab4b277b",
+    "to_temp_id": "t_d97ac77b0d",
+    "confidence": 0.9,
+    "rationale": "Understanding the layered architecture (Atom A) provides the necessary context for where application-layer protocols like cookies (Atom B) operate within the stack.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_7aab4b277b",
+    "to_temp_id": "t_e195c43945",
+    "confidence": 0.95,
+    "rationale": "Understanding the application layer context provided by protocol layering (Atom A) is necessary to meaningfully understand where HTTP fits within the stack (Atom B).",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_7aab4b277b",
+    "to_temp_id": "t_f0e3c60144",
+    "confidence": 0.95,
+    "rationale": "Understanding the five-layer protocol stack (Atom A) provides the necessary context for where application protocols like POP3 and IMAP (Atom B) reside.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_7aab4b277b",
+    "to_temp_id": "t_f743b79be3",
+    "confidence": 0.95,
+    "rationale": "Understanding the five-layer model (Atom A) provides the necessary context to locate and understand the specific role of application-layer protocols (Atom B).",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_7aab4b277b",
+    "to_temp_id": "t_fdc2fd4098",
+    "confidence": 0.95,
+    "rationale": "Understanding the five-layer stack (Atom A) provides the necessary context to understand where the Transport Layer fits and how its services relate to the overall protocol structure (Atom B).",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_7aab4b277b",
+    "to_temp_id": "t_fed701023b",
+    "confidence": 0.95,
+    "rationale": "Understanding the protocol stack structure (Atom A) is necessary to meaningfully place TLS within that stack and understand its interaction with TCP (Atom B).",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_9aa8afbd4d",
+    "to_temp_id": "t_7c1307ad8d",
+    "confidence": 0.85,
+    "rationale": "TCP congestion control (A) relies fundamentally on the end-system observing packet loss (B) as the primary signal for reducing congestion.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_ea8692cda0",
+    "to_temp_id": "t_7c1307ad8d",
+    "confidence": 0.9,
+    "rationale": "The convergence and fairness of TCP congestion control (A) are directly dependent on the queuing delay and traffic intensity characteristics of the bottleneck link (B).",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_ed98ff82ca",
+    "to_temp_id": "t_7c1307ad8d",
+    "confidence": 0.9,
+    "rationale": "TCP congestion control (A) relies on observing packet loss and queuing delay (B) to implement its AIMD mechanism and achieve fairness.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_7e98cb4a78",
+    "to_temp_id": "t_84e06cd7a0",
+    "confidence": 0.9,
+    "rationale": "Understanding the basic components of the Internet (end systems, links, packet switches) provides the necessary context for understanding network-layer challenges in mobile environments.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_7e98cb4a78",
+    "to_temp_id": "t_8717fac8d7",
+    "confidence": 0.95,
+    "rationale": "Understanding the basic components of the Internet (end systems, links, ISPs) is necessary context to explain how video streaming operates over it.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_7e98cb4a78",
+    "to_temp_id": "t_8cb84b40e1",
+    "confidence": 0.9,
+    "rationale": "Understanding the components of the Internet (end systems, links, ISPs) provides the necessary context for understanding how processes communicate across different end systems.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_7e98cb4a78",
+    "to_temp_id": "t_a2f2554cdc",
+    "confidence": 0.95,
+    "rationale": "Understanding the fundamental components of the Internet (end systems, links, packet switches) is necessary context before analyzing specific application architectures built upon it.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_7e98cb4a78",
+    "to_temp_id": "t_a78d9a251c",
+    "confidence": 0.95,
+    "rationale": "Understanding the Internet's components (like packet switches and ISPs) described in A is necessary context to understand the transport services (TCP/UDP) provided by the Internet in B.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_7e98cb4a78",
+    "to_temp_id": "t_b5b1e82e5c",
+    "confidence": 0.95,
+    "rationale": "Understanding the Internet structure (Atom A) provides the necessary context for understanding how DNS operates within that network environment (Atom B).",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_7e98cb4a78",
+    "to_temp_id": "t_c5e2be94e5",
+    "confidence": 0.95,
+    "rationale": "Understanding the basic structure of the Internet (Atom A) is necessary context to understand how cellular networks interconnect with it (Atom B).",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_7e98cb4a78",
+    "to_temp_id": "t_fcc36585fd",
+    "confidence": 0.95,
+    "rationale": "Understanding the Internet's structure (ISPs, packet switches, end systems) is necessary context to understand how a specific application layer service like DNS operates within it.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_7e98cb4a78",
+    "to_temp_id": "t_fdc2fd4098",
+    "confidence": 0.9,
+    "rationale": "Understanding the components of the Internet (end systems, links, ISPs) described in A is necessary context before understanding end-to-end communication provided by the transport layer in B.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_7e98cb4a78",
+    "to_temp_id": "t_fdcee80c61",
+    "confidence": 0.9,
+    "rationale": "Understanding the Internet's components (like packet switches and ISPs) provides the necessary context for understanding the specific roles of switches and routers within that larger system.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_f743b79be3",
+    "to_temp_id": "t_83dca597bb",
+    "confidence": 0.9,
+    "rationale": "Knowing what application-layer protocols specify, such as message syntax and semantics, is necessary to understand how PGP integrates with and secures an existing email protocol.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_90e84618c2",
+    "to_temp_id": "t_84e06cd7a0",
+    "confidence": 0.9,
+    "rationale": "Network-layer challenges in mobility (A), such as addressing and locating, fundamentally rely on the concepts of link-layer addressing and address resolution like ARP (B).",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_ba24910861",
+    "to_temp_id": "t_84e06cd7a0",
+    "confidence": 0.9,
+    "rationale": "One must first understand what an end system is before analyzing the specific network-layer challenges that arise when that system is mobile.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_c10e125868",
+    "to_temp_id": "t_84e06cd7a0",
+    "confidence": 0.85,
+    "rationale": "Understanding network-layer mobility challenges in wireless networks (A) requires the foundational knowledge of unguided physical media and wireless signal propagation (B).",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_fdc2fd4098",
+    "to_temp_id": "t_84e06cd7a0",
+    "confidence": 0.85,
+    "rationale": "Understanding network-layer challenges related to mobility (A) requires knowing the fundamental end-to-end communication model and service constraints provided by the transport layer (B).",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_ed98ff82ca",
+    "to_temp_id": "t_8717fac8d7",
+    "confidence": 0.9,
+    "rationale": "Understanding queuing delay and packet loss (B) is necessary to meaningfully explain how DASH adapts chunk selection based on available bandwidth in video streaming (A).",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_fe7751c22d",
+    "to_temp_id": "t_8717fac8d7",
+    "confidence": 0.85,
+    "rationale": "Understanding how DASH adapts chunk selection based on available bandwidth (A) fundamentally relies on the principles of congestion control like AIMD (B) to estimate that available bandwidth accurately.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_c10e125868",
+    "to_temp_id": "t_87395eb779",
+    "confidence": 0.9,
+    "rationale": "Identifying unguided media and understanding signal propagation (B) is foundational to meaningfully comparing specific wireless link rates and coverage (A).",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_8bd0445165",
+    "to_temp_id": "t_a8d059e443",
+    "confidence": 0.9,
+    "rationale": "Understanding the architecture of cellular networks (Atom A) is necessary context before analyzing how wireless link characteristics affect higher-layer protocols like TCP (Atom B).",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_8bd0445165",
+    "to_temp_id": "t_dde0236feb",
+    "confidence": 0.9,
+    "rationale": "Understanding the overall architecture of cellular networks (Atom A) is necessary context before detailing the specific process of handover within that system (Atom B).",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_ba24910861",
+    "to_temp_id": "t_8cb84b40e1",
+    "confidence": 0.9,
+    "rationale": "Understanding process communication (A) requires knowing that these processes run on end systems (B) which are the network edge devices.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_fdc2fd4098",
+    "to_temp_id": "t_8cb84b40e1",
+    "confidence": 0.95,
+    "rationale": "The concept of logical end-to-end communication and the services (TCP/UDP) provided by the transport layer (B) must be understood before explaining how application processes use sockets to leverage those services (A).",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_8cb84b40e1",
+    "to_temp_id": "t_fed701023b",
+    "confidence": 0.95,
+    "rationale": "Understanding client-server communication via sockets (Atom A) is necessary context before learning how TLS secures those TCP connections (Atom B).",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_b1e7966545",
+    "to_temp_id": "t_90bde9d97a",
+    "confidence": 0.9,
+    "rationale": "P2P file distribution (A) relies on the underlying structure of the Internet as a network of networks (B) for packet exchange to function.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_90e84618c2",
+    "to_temp_id": "t_fc9084da80",
+    "confidence": 0.9,
+    "rationale": "Understanding MAC/ARP resolution (A) is fundamental to how a switch handles MAC addresses during a handover within the same subnet (B).",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_c10e125868",
+    "to_temp_id": "t_99615d8f61",
+    "confidence": 0.85,
+    "rationale": "CDMA is a specific multiple access technique that operates over unguided (wireless) physical media, so the latter provides the necessary context for the former.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_fdc2fd4098",
+    "to_temp_id": "t_9a6785d947",
+    "confidence": 0.85,
+    "rationale": "LTE protocols (A) utilize transport layer services (like TCP/UDP) to provide end-to-end communication, making B foundational for understanding A's operation.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_9aa8afbd4d",
+    "to_temp_id": "t_b5edbafc63",
+    "confidence": 0.95,
+    "rationale": "Understanding *why* packet loss occurs (queue overflow) is necessary context for understanding how TCP uses loss events to infer congestion.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_a491784728",
+    "to_temp_id": "t_9af817eb5e",
+    "confidence": 0.85,
+    "rationale": "Understanding modern data center trends, such as multi-path routing and cloud customization, is significantly enhanced by knowing the principles of SDN architecture.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_b1e7966545",
+    "to_temp_id": "t_9af817eb5e",
+    "confidence": 0.9,
+    "rationale": "The concept of the Internet as a network of networks (B) provides the necessary context for understanding specialized data center networking trends like multi-path routing and availability zones (A).",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_a349f92353",
+    "to_temp_id": "t_def6611507",
+    "confidence": 0.9,
+    "rationale": "Understanding basic 802.11 access (Atom A) is necessary context before learning advanced features like rate adaptation (Atom B).",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_a349f92353",
+    "to_temp_id": "t_fc9084da80",
+    "confidence": 0.9,
+    "rationale": "Understanding how end devices get local access via Ethernet/WiFi (Atom A) is necessary context before understanding mobility within that established local subnet (Atom B).",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_ba24910861",
+    "to_temp_id": "t_a491784728",
+    "confidence": 0.9,
+    "rationale": "SDN describes how networks connect things, and the 'things' (end systems) must first be understood as the network edge components.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_a491784728",
+    "to_temp_id": "t_ebeafd62aa",
+    "confidence": 0.95,
+    "rationale": "Understanding the separation of data and control planes (Atom A) is necessary context before detailing the components and functions of the SDN control plane (Atom B).",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_fdcee80c61",
+    "to_temp_id": "t_a491784728",
+    "confidence": 0.85,
+    "rationale": "Understanding the traditional functions of switches and routers (Layer 2 vs Layer 3 forwarding) is necessary context to appreciate the architectural separation in SDN.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_a78d9a251c",
+    "to_temp_id": "t_c7e7aec8cc",
+    "confidence": 0.95,
+    "rationale": "Understanding the basic transport protocols (TCP/UDP) from Atom A is necessary context before learning about specific, advanced TCP variants like those in Atom B.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_fdc2fd4098",
+    "to_temp_id": "t_a78d9a251c",
+    "confidence": 0.95,
+    "rationale": "Understanding how the transport layer provides end-to-end communication and the constraints on its services (Atom B) is necessary to meaningfully explain the selection criteria for TCP vs. UDP (Atom A).",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_a78d9a251c",
+    "to_temp_id": "t_fed701023b",
+    "confidence": 0.95,
+    "rationale": "Understanding TCP (from Atom A) is necessary to understand how TLS secures TCP connections (Atom B).",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_b5edbafc63",
+    "to_temp_id": "t_a8d059e443",
+    "confidence": 0.9,
+    "rationale": "To explain how wireless link characteristics affect TCP performance, the learner must first understand the basic mechanism of TCP congestion window and loss signals (Atom B).",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_bd9a97ca9e",
+    "to_temp_id": "t_a8d059e443",
+    "confidence": 0.9,
+    "rationale": "To explain how wireless characteristics affect TCP performance, the learner must first understand the fundamental operation of TCP reliable data transfer.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_c03a0f3829",
+    "to_temp_id": "t_a8d059e443",
+    "confidence": 0.85,
+    "rationale": "To explain how wireless characteristics affect TCP performance (A), one must first understand core TCP mechanisms like RTT estimation and timeouts (B).",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_c10e125868",
+    "to_temp_id": "t_a8d059e443",
+    "confidence": 0.9,
+    "rationale": "Identifying unguided physical media (B) is necessary to understand how wireless link characteristics affect higher-layer protocols like TCP (A).",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_fdc2fd4098",
+    "to_temp_id": "t_a8d059e443",
+    "confidence": 0.9,
+    "rationale": "The learner must first understand TCP's function and constraints (B) to meaningfully explain how wireless link issues affect its performance (A).",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_fe7751c22d",
+    "to_temp_id": "t_a8d059e443",
+    "confidence": 0.9,
+    "rationale": "Understanding how TCP congestion control (AIMD) works is necessary to explain how wireless link characteristics affect TCP performance.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_b1e7966545",
+    "to_temp_id": "t_c5e2be94e5",
+    "confidence": 0.9,
+    "rationale": "Understanding the general structure of the Internet as a network of networks (Atom A) provides the necessary context for understanding how cellular networks integrate into that global structure (Atom B).",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_ba24910861",
+    "to_temp_id": "t_b5b1e82e5c",
+    "confidence": 0.9,
+    "rationale": "DNS is an application running on an end system, so knowing what an end system is is necessary to understand the context of DNS queries.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_b5edbafc63",
+    "to_temp_id": "t_d507a90238",
+    "confidence": 0.95,
+    "rationale": "Understanding TCP congestion control (Atom A) is necessary to understand how HTTP/2 multiplexing operates over a single TCP connection (Atom B).",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_ed98ff82ca",
+    "to_temp_id": "t_b5edbafc63",
+    "confidence": 0.9,
+    "rationale": "TCP's congestion control (A) relies on the physical reality of queuing delay and packet loss caused by finite buffers and statistical multiplexing (B) to function correctly.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_ba24910861",
+    "to_temp_id": "t_c5e2be94e5",
+    "confidence": 0.9,
+    "rationale": "Understanding what an end system is (Atom A) is necessary to understand how cellular networks connect to the Internet at the edge (Atom B).",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_ba24910861",
+    "to_temp_id": "t_fcc36585fd",
+    "confidence": 0.95,
+    "rationale": "Understanding that end systems run network applications is necessary context for understanding how an application-layer service like DNS operates on those systems.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_ba24910861",
+    "to_temp_id": "t_fdc2fd4098",
+    "confidence": 0.9,
+    "rationale": "Understanding that end systems are the hosts running applications is necessary context before learning how the transport layer provides end-to-end communication between processes on those hosts.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_bd9a97ca9e",
+    "to_temp_id": "t_fc27d5a7f5",
+    "confidence": 0.95,
+    "rationale": "Understanding TCP's reliability mechanisms (like ACKs and retransmission) is necessary to correctly explain the reliable byte-stream behavior in socket programming.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_bd9a97ca9e",
+    "to_temp_id": "t_fed701023b",
+    "confidence": 0.95,
+    "rationale": "Understanding TCP's reliable data transfer mechanisms is necessary context before learning how TLS operates on top of it to secure those connections.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_c10e125868",
+    "to_temp_id": "t_d6ac2fd7d3",
+    "confidence": 0.9,
+    "rationale": "Understanding that signals propagate as electromagnetic waves (from A) is necessary to understand how those waves attenuate and experience path loss (in B).",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_fdc2fd4098",
+    "to_temp_id": "t_c5616eeac6",
+    "confidence": 0.9,
+    "rationale": "The learning objective for Atom A requires using UDP, and Atom B explains what UDP is and how it functions within the transport layer service model.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_d42ec990d6",
+    "to_temp_id": "t_c7e7aec8cc",
+    "confidence": 0.85,
+    "rationale": "Understanding delay-based TCP variants (Atom A) requires knowing what nodal delay is and its components (Atom B) to interpret delay signals correctly.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_ea8692cda0",
+    "to_temp_id": "t_c7e7aec8cc",
+    "confidence": 0.9,
+    "rationale": "The concept of queuing delay and traffic intensity (B) provides the necessary context for understanding why delay-based congestion control (A) is effective.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_ed98ff82ca",
+    "to_temp_id": "t_c7e7aec8cc",
+    "confidence": 0.9,
+    "rationale": "The mechanisms of queuing delay and packet loss (B) provide the fundamental network conditions that delay-based and ECN TCP variants (A) are designed to react to.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_fdc2fd4098",
+    "to_temp_id": "t_d507a90238",
+    "confidence": 0.9,
+    "rationale": "Understanding TCP's reliable, connection-oriented nature (B) is fundamental to explaining how HTTP/2 multiplexes messages over a single TCP connection (A).",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_ed24ab34bd",
+    "to_temp_id": "t_dc2bd714af",
+    "confidence": 0.9,
+    "rationale": "MPLS traffic engineering operates within an IP network context, requiring a foundational understanding of intra-AS routing protocols like OSPF to define the underlying topology and reachability.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_faf688c572",
+    "to_temp_id": "t_e195c43945",
+    "confidence": 0.9,
+    "rationale": "HTTP (A) relies on a reliable transport mechanism, which TCP connection management (B) provides, making B necessary for meaningful understanding of how HTTP operates end-to-end.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_fdcee80c61",
+    "to_temp_id": "t_ebeafd62aa",
+    "confidence": 0.9,
+    "rationale": "The learner must first know what a switch is and how it operates (B) to meaningfully understand how an SDN controller manages flow table entries in a switch (A).",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_faf688c572",
+    "to_temp_id": "t_f0e3c60144",
+    "confidence": 0.9,
+    "rationale": "Mail access protocols like POP3 and IMAP rely fundamentally on the reliable, connection-oriented service provided by TCP for message transfer.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_f743b79be3",
+    "to_temp_id": "t_f3a9fed8c6",
+    "confidence": 0.9,
+    "rationale": "NETCONF (A) is a specific application-layer protocol whose function (exchanging RPC messages) relies on the general understanding of what an application-layer protocol specifies (B).",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_fdc2fd4098",
+    "to_temp_id": "t_f3a9fed8c6",
+    "confidence": 0.9,
+    "rationale": "Understanding TCP/UDP reliability and end-to-end communication is necessary to understand how NETCONF exchanges reliable, structured RPC messages.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_faf688c572",
+    "to_temp_id": "t_f40a082fba",
+    "confidence": 0.9,
+    "rationale": "To meaningfully choose TCP over UDP (Atom A), the learner must first understand the fundamental service model and connection management provided by TCP (Atom B).",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_fdc2fd4098",
+    "to_temp_id": "t_f40a082fba",
+    "confidence": 0.95,
+    "rationale": "Understanding the core services and constraints of TCP and UDP (Atom B) is necessary before a learner can meaningfully choose between them or assign appropriate port numbers (Atom A).",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_fdc2fd4098",
+    "to_temp_id": "t_f743b79be3",
+    "confidence": 0.9,
+    "rationale": "Application protocols (A) rely on the end-to-end communication services provided by the transport layer (B) to function correctly.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_f743b79be3",
+    "to_temp_id": "t_fed701023b",
+    "confidence": 0.9,
+    "rationale": "Understanding application-layer protocols (like HTTP) is necessary context to understand *what* TLS is securing in the connection.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_faf688c572",
+    "to_temp_id": "t_fc27d5a7f5",
+    "confidence": 0.95,
+    "rationale": "Understanding the TCP handshake and state transitions (Atom A) is necessary to correctly implement and explain the behavior in socket programming (Atom B).",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_faf688c572",
+    "to_temp_id": "t_fed701023b",
+    "confidence": 0.95,
+    "rationale": "Understanding the basic TCP connection lifecycle (establishment/teardown) is necessary context before learning how TLS operates on top of and secures that existing TCP connection.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_fdc2fd4098",
+    "to_temp_id": "t_fc27d5a7f5",
+    "confidence": 0.9,
+    "rationale": "Understanding the reliable byte-stream behavior and end-to-end communication provided by TCP (B) is necessary to meaningfully write and debug a TCP client-server application (A).",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_fc27d5a7f5",
+    "to_temp_id": "t_fed701023b",
+    "confidence": 0.95,
+    "rationale": "Understanding the basic TCP connection (handshaking, reliable stream) is necessary context before learning how TLS secures that specific TCP connection.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_fdc2fd4098",
+    "to_temp_id": "t_fed701023b",
+    "confidence": 0.95,
+    "rationale": "Understanding how TCP provides end-to-end communication (Atom A) is necessary to understand where and how TLS secures those specific TCP connections (Atom B).",
+    "origin": "cross_branch"
+  }
+]
