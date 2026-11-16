@@ -1,0 +1,1178 @@
+{
+  "n_atoms": 137,
+  "n_edges_in": 413,
+  "cycle_edges_removed": [],
+  "n_edges_after_cycles": 413,
+  "redundant_edges_removed": [
+    {
+      "from": "Packet Switching vs. Circuit Switching",
+      "to": "Switching Fabric and Packet Queues",
+      "confidence": 0.85,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Packet Switching vs. Circuit Switching",
+      "to": "Causes and Costs of Congestion",
+      "confidence": 0.75,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Store-and-Forward Packet Switching",
+      "to": "Packet Switching vs. Circuit Switching",
+      "confidence": 0.85,
+      "origin": "local"
+    },
+    {
+      "from": "Store-and-Forward Packet Switching",
+      "to": "Switching Fabric and Packet Queues",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Store-and-Forward Packet Switching",
+      "to": "Video Streaming",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Store-and-Forward Packet Switching",
+      "to": "Web Caching",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Forwarding vs. Routing in the Network Layer",
+      "to": "Generalized Forwarding",
+      "confidence": 0.85,
+      "origin": "local"
+    },
+    {
+      "from": "Forwarding vs. Routing in the Network Layer",
+      "to": "Direct Routing to a Mobile Device",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Forwarding vs. Routing in the Network Layer",
+      "to": "Switching Fabric and Packet Queues",
+      "confidence": 0.9,
+      "origin": "local"
+    },
+    {
+      "from": "Forwarding vs. Routing in the Network Layer",
+      "to": "Indirect Routing to a Mobile Device",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Forwarding vs. Routing in the Network Layer",
+      "to": "Control Plane Approaches: Per-Router vs. SDN",
+      "confidence": 0.95,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Forwarding vs. Routing in the Network Layer",
+      "to": "Software-Defined Networking (SDN)",
+      "confidence": 0.9,
+      "origin": "local"
+    },
+    {
+      "from": "Forwarding vs. Routing in the Network Layer",
+      "to": "MPLS Traffic Engineering and Fast Restoration",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Forwarding vs. Routing in the Network Layer",
+      "to": "Intra-AS Routing: OSPF",
+      "confidence": 0.95,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "End-to-End Delay",
+      "to": "Impact of Slow Start on Latency",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Message Integrity and Digital Signatures",
+      "to": "Network-Layer Security: IPsec and VPNs",
+      "confidence": 0.75,
+      "origin": "local"
+    },
+    {
+      "from": "Message Integrity and Digital Signatures",
+      "to": "Securing TCP Connections: TLS",
+      "confidence": 0.8,
+      "origin": "local"
+    },
+    {
+      "from": "Switch Forwarding, Filtering, and Self-Learning",
+      "to": "Virtual LANs (VLANs)",
+      "confidence": 0.8,
+      "origin": "local"
+    },
+    {
+      "from": "Switch Forwarding, Filtering, and Self-Learning",
+      "to": "Software-Defined Networking (SDN)",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Properties of Link-Layer Switching",
+      "to": "Data Center Purposes and Traffic Types",
+      "confidence": 0.6,
+      "origin": "local"
+    },
+    {
+      "from": "Properties of Link-Layer Switching",
+      "to": "MPLS Label Switching Fundamentals",
+      "confidence": 0.6,
+      "origin": "local"
+    },
+    {
+      "from": "Properties of Link-Layer Switching",
+      "to": "Trends in Data Center Networking",
+      "confidence": 0.6,
+      "origin": "local"
+    },
+    {
+      "from": "Overview of HTTP",
+      "to": "HTTP/2",
+      "confidence": 0.9,
+      "origin": "local"
+    },
+    {
+      "from": "Overview of HTTP",
+      "to": "Web Caching",
+      "confidence": 0.9,
+      "origin": "local"
+    },
+    {
+      "from": "Overview of HTTP",
+      "to": "User-Server Interaction: Cookies",
+      "confidence": 0.95,
+      "origin": "local"
+    },
+    {
+      "from": "Connectionless Transport: UDP",
+      "to": "Comparing TCP and UDP Socket Programs",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "TCP Segment Structure",
+      "to": "TCP Flow Control",
+      "confidence": 0.9,
+      "origin": "local"
+    },
+    {
+      "from": "TCP Segment Structure",
+      "to": "Comparing TCP and UDP Socket Programs",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "TCP Segment Structure",
+      "to": "TCP Reliable Data Transfer",
+      "confidence": 0.95,
+      "origin": "local"
+    },
+    {
+      "from": "TCP Segment Structure",
+      "to": "Socket Programming with TCP",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "TCP Segment Structure",
+      "to": "Securing TCP Connections: TLS",
+      "confidence": 0.95,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "The TCP Connection",
+      "to": "SMTP: Mail Transfer Protocol",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "The TCP Connection",
+      "to": "Simple Client-Server Application Example",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "The TCP Connection",
+      "to": "Comparing TCP and UDP Socket Programs",
+      "confidence": 0.95,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "The TCP Connection",
+      "to": "Socket Programming with TCP",
+      "confidence": 0.95,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "The TCP Connection",
+      "to": "Securing TCP Connections: TLS",
+      "confidence": 0.95,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "What Is Network Security?",
+      "to": "Message Integrity and Digital Signatures",
+      "confidence": 0.65,
+      "origin": "local"
+    },
+    {
+      "from": "What Is Network Security?",
+      "to": "Network-Layer Security: IPsec and VPNs",
+      "confidence": 0.6,
+      "origin": "local"
+    },
+    {
+      "from": "What Is Network Security?",
+      "to": "End-Point Authentication",
+      "confidence": 0.65,
+      "origin": "local"
+    },
+    {
+      "from": "What Is Network Security?",
+      "to": "Securing E-Mail",
+      "confidence": 0.6,
+      "origin": "local"
+    },
+    {
+      "from": "What Is Network Security?",
+      "to": "Securing TCP Connections: TLS",
+      "confidence": 0.65,
+      "origin": "local"
+    },
+    {
+      "from": "The Multiple Access Problem",
+      "to": "CSMA and CSMA/CD",
+      "confidence": 0.95,
+      "origin": "local"
+    },
+    {
+      "from": "The Multiple Access Problem",
+      "to": "802.11 MAC Protocol (CSMA/CA)",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "The Multiple Access Problem",
+      "to": "DOCSIS Cable Access",
+      "confidence": 0.8,
+      "origin": "local"
+    },
+    {
+      "from": "Causes and Costs of Congestion",
+      "to": "Congestion Window and Loss Signals",
+      "confidence": 0.75,
+      "origin": "local"
+    },
+    {
+      "from": "E-mail System Architecture",
+      "to": "Mail Message Formats and MIME",
+      "confidence": 0.7,
+      "origin": "local"
+    },
+    {
+      "from": "End-to-End vs. Network-Assisted Approaches",
+      "to": "Newer TCP Variants: Delay-Based and ECN",
+      "confidence": 0.85,
+      "origin": "local"
+    },
+    {
+      "from": "Home Networks and Visited Networks",
+      "to": "Direct Routing to a Mobile Device",
+      "confidence": 0.95,
+      "origin": "local"
+    },
+    {
+      "from": "TCP Flow Control",
+      "to": "HTTP/2",
+      "confidence": 0.95,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Throughput and the Bottleneck Link",
+      "to": "End-to-End vs. Network-Assisted Approaches",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Throughput and the Bottleneck Link",
+      "to": "Congestion Avoidance and AIMD",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Throughput and the Bottleneck Link",
+      "to": "Fairness of TCP Congestion Control",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Throughput and the Bottleneck Link",
+      "to": "Video Streaming",
+      "confidence": 0.95,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Throughput and the Bottleneck Link",
+      "to": "Congestion Window and Loss Signals",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Control Plane Approaches: Per-Router vs. SDN",
+      "to": "Inter-AS Routing: BGP",
+      "confidence": 0.5,
+      "origin": "local"
+    },
+    {
+      "from": "Stop-and-Wait Performance and Channel Utilization",
+      "to": "Selective Repeat (SR) Protocol",
+      "confidence": 0.9,
+      "origin": "local"
+    },
+    {
+      "from": "Ethernet: Frame Format and Evolution",
+      "to": "Properties of Link-Layer Switching",
+      "confidence": 0.6,
+      "origin": "local"
+    },
+    {
+      "from": "Ethernet: Frame Format and Evolution",
+      "to": "Virtual LANs (VLANs)",
+      "confidence": 0.6,
+      "origin": "local"
+    },
+    {
+      "from": "Traditional IP Forwarding",
+      "to": "Direct Routing to a Mobile Device",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Introduction to the Link Layer",
+      "to": "Direct Routing to a Mobile Device",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Introduction to the Link Layer",
+      "to": "IEEE 802.11 Frame Format",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Introduction to the Link Layer",
+      "to": "Data Center Purposes and Traffic Types",
+      "confidence": 0.55,
+      "origin": "local"
+    },
+    {
+      "from": "Introduction to the Link Layer",
+      "to": "Indirect Routing to a Mobile Device",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Introduction to the Link Layer",
+      "to": "MPLS Label Switching Fundamentals",
+      "confidence": 0.55,
+      "origin": "local"
+    },
+    {
+      "from": "Introduction to the Link Layer",
+      "to": "Link-Layer Addressing and ARP",
+      "confidence": 0.8,
+      "origin": "local"
+    },
+    {
+      "from": "Introduction to the Link Layer",
+      "to": "LTE Protocol Stacks and Radio Access Network",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Introduction to the Link Layer",
+      "to": "Trends in Data Center Networking",
+      "confidence": 0.55,
+      "origin": "local"
+    },
+    {
+      "from": "Introduction to the Link Layer",
+      "to": "802.11 Architecture: BSS, APs, and Channels",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Introduction to the Link Layer",
+      "to": "Mobility in the Same IP Subnet",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Multiplexing and Demultiplexing",
+      "to": "Connectionless Transport: UDP",
+      "confidence": 0.85,
+      "origin": "local"
+    },
+    {
+      "from": "Multiplexing and Demultiplexing",
+      "to": "Video Streaming",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Multiplexing and Demultiplexing",
+      "to": "Socket Programming with UDP",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Multiplexing and Demultiplexing",
+      "to": "HTTP/2",
+      "confidence": 0.95,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Protocol Layers and Service Models",
+      "to": "Transport Services Available to Applications",
+      "confidence": 0.95,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Protocol Layers and Service Models",
+      "to": "Overview of HTTP",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Protocol Layers and Service Models",
+      "to": "Connectionless Transport: UDP",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Protocol Layers and Service Models",
+      "to": "Services Provided by DNS",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Protocol Layers and Service Models",
+      "to": "DNS Server Hierarchy: Root, TLD, and Authoritative",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Protocol Layers and Service Models",
+      "to": "Network-Layer Security: IPsec and VPNs",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Protocol Layers and Service Models",
+      "to": "Ethernet: Frame Format and Evolution",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Protocol Layers and Service Models",
+      "to": "Device Mobility: A Network-Layer Perspective",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Protocol Layers and Service Models",
+      "to": "Processes Communicating",
+      "confidence": 0.95,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Protocol Layers and Service Models",
+      "to": "LTE Protocol Stacks and Radio Access Network",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Protocol Layers and Service Models",
+      "to": "Transport Services Provided by the Internet",
+      "confidence": 0.95,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Protocol Layers and Service Models",
+      "to": "Global Cellular Network of Networks",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Protocol Layers and Service Models",
+      "to": "Web Caching",
+      "confidence": 0.95,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Protocol Layers and Service Models",
+      "to": "User-Server Interaction: Cookies",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Protocol Layers and Service Models",
+      "to": "HTTP Message Format",
+      "confidence": 0.95,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Protocol Layers and Service Models",
+      "to": "Mail Access Protocols: POP3, IMAP, and HTTP",
+      "confidence": 0.95,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Protocol Layers and Service Models",
+      "to": "Application-Layer Protocols",
+      "confidence": 0.95,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Protocol Layers and Service Models",
+      "to": "Securing TCP Connections: TLS",
+      "confidence": 0.95,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "What Is the Internet?",
+      "to": "Overview of HTTP",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "What Is the Internet?",
+      "to": "Services Provided by DNS",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "What Is the Internet?",
+      "to": "DNS Server Hierarchy: Root, TLD, and Authoritative",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "What Is the Internet?",
+      "to": "E-mail System Architecture",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "What Is the Internet?",
+      "to": "Inter-AS Routing: BGP",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "What Is the Internet?",
+      "to": "Networks Under Attack",
+      "confidence": 0.7,
+      "origin": "local"
+    },
+    {
+      "from": "What Is the Internet?",
+      "to": "Device Mobility: A Network-Layer Perspective",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "What Is the Internet?",
+      "to": "Video Streaming",
+      "confidence": 0.95,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "What Is the Internet?",
+      "to": "Processes Communicating",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "What Is the Internet?",
+      "to": "Network Application Architectures",
+      "confidence": 0.95,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "What Is the Internet?",
+      "to": "Transport Services Provided by the Internet",
+      "confidence": 0.95,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "What Is the Internet?",
+      "to": "Exploring DNS with dig",
+      "confidence": 0.95,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "What Is the Internet?",
+      "to": "Global Cellular Network of Networks",
+      "confidence": 0.95,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "What Is the Internet?",
+      "to": "DNS Query Resolution: Recursive and Iterative",
+      "confidence": 0.95,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "What Is the Internet?",
+      "to": "Introduction and Transport-Layer Services",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "What Is the Internet?",
+      "to": "Switches versus Routers",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Slow Start",
+      "to": "Fast Recovery",
+      "confidence": 0.7,
+      "origin": "local"
+    },
+    {
+      "from": "Wireless Link Rates and Coverage Ranges",
+      "to": "Impact of Wireless and Mobility on Higher Layers",
+      "confidence": 0.85,
+      "origin": "local"
+    },
+    {
+      "from": "Cellular and Wide-Area Wireless Access",
+      "to": "Impact of Wireless and Mobility on Higher Layers",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Cellular and Wide-Area Wireless Access",
+      "to": "Handover Between Points of Attachment",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Processes Communicating",
+      "to": "Securing TCP Connections: TLS",
+      "confidence": 0.95,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Link-Layer Addressing and ARP",
+      "to": "Switch Forwarding, Filtering, and Self-Learning",
+      "confidence": 0.85,
+      "origin": "local"
+    },
+    {
+      "from": "Link-Layer Addressing and ARP",
+      "to": "Device Mobility: A Network-Layer Perspective",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Link-Layer Addressing and ARP",
+      "to": "Mobility in the Same IP Subnet",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Link-Layer Addressing and ARP",
+      "to": "Switches versus Routers",
+      "confidence": 0.7,
+      "origin": "local"
+    },
+    {
+      "from": "CDMA: Code Division Multiple Access",
+      "to": "Impact of Wireless and Mobility on Higher Layers",
+      "confidence": 0.85,
+      "origin": "local"
+    },
+    {
+      "from": "Packet Loss",
+      "to": "End-to-End vs. Network-Assisted Approaches",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Packet Loss",
+      "to": "Fairness of TCP Congestion Control",
+      "confidence": 0.85,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Packet Loss",
+      "to": "Congestion Window and Loss Signals",
+      "confidence": 0.95,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Software-Defined Networking (SDN)",
+      "to": "SDN Control Plane: Controller and Applications",
+      "confidence": 0.95,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Transport Services Provided by the Internet",
+      "to": "Securing TCP Connections: TLS",
+      "confidence": 0.95,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "The Internet as a Network of Networks",
+      "to": "Peer-to-Peer File Distribution",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Congestion Window and Loss Signals",
+      "to": "Congestion Avoidance and AIMD",
+      "confidence": 0.9,
+      "origin": "local"
+    },
+    {
+      "from": "Congestion Window and Loss Signals",
+      "to": "Impact of Wireless and Mobility on Higher Layers",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Congestion Window and Loss Signals",
+      "to": "Fast Recovery",
+      "confidence": 0.85,
+      "origin": "local"
+    },
+    {
+      "from": "Congestion Window and Loss Signals",
+      "to": "HTTP/2",
+      "confidence": 0.95,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "End Systems and Their Role",
+      "to": "Services Provided by DNS",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "End Systems and Their Role",
+      "to": "DNS Server Hierarchy: Root, TLD, and Authoritative",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "End Systems and Their Role",
+      "to": "Home Networks and Visited Networks",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "End Systems and Their Role",
+      "to": "Device Mobility: A Network-Layer Perspective",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "End Systems and Their Role",
+      "to": "Processes Communicating",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "End Systems and Their Role",
+      "to": "Exploring DNS with dig",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "End Systems and Their Role",
+      "to": "DNS Query Resolution: Recursive and Iterative",
+      "confidence": 0.95,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "TCP Reliable Data Transfer",
+      "to": "Comparing TCP and UDP Socket Programs",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "TCP Reliable Data Transfer",
+      "to": "Impact of Wireless and Mobility on Higher Layers",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "TCP Reliable Data Transfer",
+      "to": "Securing TCP Connections: TLS",
+      "confidence": 0.95,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "RTT Estimation and Timeout",
+      "to": "Impact of Wireless and Mobility on Higher Layers",
+      "confidence": 0.85,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Unguided Physical Media",
+      "to": "5G Cellular Technology",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Unguided Physical Media",
+      "to": "Device Mobility: A Network-Layer Perspective",
+      "confidence": 0.85,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Unguided Physical Media",
+      "to": "Wireless Link Rates and Coverage Ranges",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Unguided Physical Media",
+      "to": "CDMA: Code Division Multiple Access",
+      "confidence": 0.85,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Unguided Physical Media",
+      "to": "Impact of Wireless and Mobility on Higher Layers",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Cipher Block Chaining (CBC)",
+      "to": "Network-Layer Security: IPsec and VPNs",
+      "confidence": 0.85,
+      "origin": "local"
+    },
+    {
+      "from": "Cipher Block Chaining (CBC)",
+      "to": "End-Point Authentication",
+      "confidence": 0.9,
+      "origin": "local"
+    },
+    {
+      "from": "Cipher Block Chaining (CBC)",
+      "to": "Securing E-Mail",
+      "confidence": 0.9,
+      "origin": "local"
+    },
+    {
+      "from": "Cipher Block Chaining (CBC)",
+      "to": "Securing TCP Connections: TLS",
+      "confidence": 0.9,
+      "origin": "local"
+    },
+    {
+      "from": "Sources of Nodal Delay",
+      "to": "Newer TCP Variants: Delay-Based and ECN",
+      "confidence": 0.85,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Fast Recovery",
+      "to": "Newer TCP Variants: Delay-Based and ECN",
+      "confidence": 0.85,
+      "origin": "local"
+    },
+    {
+      "from": "Signal Attenuation and Path Loss",
+      "to": "Wireless Link Rates and Coverage Ranges",
+      "confidence": 0.8,
+      "origin": "local"
+    },
+    {
+      "from": "RSA Algorithm",
+      "to": "Network-Layer Security: IPsec and VPNs",
+      "confidence": 0.85,
+      "origin": "local"
+    },
+    {
+      "from": "RSA Algorithm",
+      "to": "End-Point Authentication",
+      "confidence": 0.9,
+      "origin": "local"
+    },
+    {
+      "from": "RSA Algorithm",
+      "to": "Securing E-Mail",
+      "confidence": 0.9,
+      "origin": "local"
+    },
+    {
+      "from": "RSA Algorithm",
+      "to": "Securing TCP Connections: TLS",
+      "confidence": 0.9,
+      "origin": "local"
+    },
+    {
+      "from": "Queuing Delay and Traffic Intensity",
+      "to": "Causes and Costs of Congestion",
+      "confidence": 0.95,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Queuing Delay and Traffic Intensity",
+      "to": "Fairness of TCP Congestion Control",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Queuing Delay and Traffic Intensity",
+      "to": "Newer TCP Variants: Delay-Based and ECN",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "4G LTE Architecture and Elements",
+      "to": "LTE Network Attachment and Power Management",
+      "confidence": 0.7,
+      "origin": "local"
+    },
+    {
+      "from": "Queuing Delay, Packet Loss, and Statistical Multiplexing",
+      "to": "Causes and Costs of Congestion",
+      "confidence": 0.95,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Queuing Delay, Packet Loss, and Statistical Multiplexing",
+      "to": "Fairness of TCP Congestion Control",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Queuing Delay, Packet Loss, and Statistical Multiplexing",
+      "to": "Video Streaming",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Queuing Delay, Packet Loss, and Statistical Multiplexing",
+      "to": "Congestion Window and Loss Signals",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Queuing Delay, Packet Loss, and Statistical Multiplexing",
+      "to": "Newer TCP Variants: Delay-Based and ECN",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Application-Layer Protocols",
+      "to": "Securing E-Mail",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Application-Layer Protocols",
+      "to": "Securing TCP Connections: TLS",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "802.11 Architecture: BSS, APs, and Channels",
+      "to": "IEEE 802.11 Frame Format",
+      "confidence": 0.85,
+      "origin": "local"
+    },
+    {
+      "from": "802.11 Architecture: BSS, APs, and Channels",
+      "to": "Advanced 802.11 Features",
+      "confidence": 0.55,
+      "origin": "local"
+    },
+    {
+      "from": "802.11 Architecture: BSS, APs, and Channels",
+      "to": "Mobility in the Same IP Subnet",
+      "confidence": 0.9,
+      "origin": "local"
+    },
+    {
+      "from": "TCP Connection Management",
+      "to": "Comparing TCP and UDP Socket Programs",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "TCP Connection Management",
+      "to": "Choosing a Transport Protocol and Port Numbers",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "TCP Connection Management",
+      "to": "Socket Programming with TCP",
+      "confidence": 0.95,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "TCP Connection Management",
+      "to": "Securing TCP Connections: TLS",
+      "confidence": 0.95,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Introduction and Transport-Layer Services",
+      "to": "SMTP: Mail Transfer Protocol",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Introduction and Transport-Layer Services",
+      "to": "Connectionless Transport: UDP",
+      "confidence": 0.75,
+      "origin": "local"
+    },
+    {
+      "from": "Introduction and Transport-Layer Services",
+      "to": "Simple Client-Server Application Example",
+      "confidence": 0.85,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Introduction and Transport-Layer Services",
+      "to": "Comparing TCP and UDP Socket Programs",
+      "confidence": 0.95,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Introduction and Transport-Layer Services",
+      "to": "Device Mobility: A Network-Layer Perspective",
+      "confidence": 0.85,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Introduction and Transport-Layer Services",
+      "to": "Processes Communicating",
+      "confidence": 0.95,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Introduction and Transport-Layer Services",
+      "to": "Transport Services Provided by the Internet",
+      "confidence": 0.95,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Introduction and Transport-Layer Services",
+      "to": "Impact of Wireless and Mobility on Higher Layers",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Introduction and Transport-Layer Services",
+      "to": "Socket Programming with UDP",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Introduction and Transport-Layer Services",
+      "to": "HTTP/2",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Introduction and Transport-Layer Services",
+      "to": "Network Management: NETCONF and YANG",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Introduction and Transport-Layer Services",
+      "to": "Choosing a Transport Protocol and Port Numbers",
+      "confidence": 0.95,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Introduction and Transport-Layer Services",
+      "to": "Application-Layer Protocols",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Introduction and Transport-Layer Services",
+      "to": "Socket Programming with TCP",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Introduction and Transport-Layer Services",
+      "to": "Securing TCP Connections: TLS",
+      "confidence": 0.95,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Switches versus Routers",
+      "to": "Data Center Purposes and Traffic Types",
+      "confidence": 0.6,
+      "origin": "local"
+    },
+    {
+      "from": "Switches versus Routers",
+      "to": "Control Plane Approaches: Per-Router vs. SDN",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Switches versus Routers",
+      "to": "MPLS Label Switching Fundamentals",
+      "confidence": 0.6,
+      "origin": "local"
+    },
+    {
+      "from": "Switches versus Routers",
+      "to": "Trends in Data Center Networking",
+      "confidence": 0.6,
+      "origin": "local"
+    },
+    {
+      "from": "Switches versus Routers",
+      "to": "SDN Control Plane: Controller and Applications",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "AIMD Fairness",
+      "to": "Newer TCP Variants: Delay-Based and ECN",
+      "confidence": 0.85,
+      "origin": "local"
+    }
+  ],
+  "n_edges_after_reduction": 220,
+  "isolated_nodes": [
+    "History of Computer Networking"
+  ],
+  "coverage": {
+    "headings_without_atoms": [],
+    "atoms_not_in_tree": [],
+    "n_headings_checked": 50
+  },
+  "duplicate_atom_pairs": "skipped (no embed_fn)",
+  "longest_chain_edges": 20,
+  "chain_warning": true
+}
