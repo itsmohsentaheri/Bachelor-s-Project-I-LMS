@@ -3672,44 +3672,6 @@
         ]
       },
       {
-        "temp_id": "t_90e84618c2",
-        "title": "Link-Layer Addressing and ARP",
-        "summary": "Link-layer (MAC) addresses, how they differ from network-layer addresses, and why broadcast channels require node addressing; address resolution between IP and MAC addresses.",
-        "depth": 1,
-        "root": "The Link Layer and LANs",
-        "parent_temp_id": "t_1d43d26b89",
-        "is_atomic": true,
-        "needs_review": false,
-        "children": [],
-        "learning_objective": "The learner can explain how link-layer (MAC) addresses differ from network-layer (IP) addresses and describe how ARP resolves IP addresses to MAC addresses using broadcast queries and cached ARP tables with TTL-based expiration.",
-        "estimated_time_min": 8,
-        "difficulty_weight": 2,
-        "type": "concept",
-        "common_misconceptions": [
-          {
-            "id": "mac_equals_ip",
-            "description": "Students often think MAC and IP addresses are interchangeable or that only one kind of address is needed, when in fact link-layer addresses differ in size, structure, and scope from network-layer addresses and both are required."
-          },
-          {
-            "id": "arp_layer_confusion",
-            "description": "Students frequently assume ARP belongs entirely to either the link layer or the network layer, when it actually sits between them: an ARP packet is encapsulated in a link-layer frame yet carries network-layer address fields."
-          },
-          {
-            "id": "arp_table_manual",
-            "description": "Students may believe ARP tables must be configured by a system administrator, when ARP is plug-and-play: tables are built automatically and entries expire (typically after about 20 minutes)."
-          },
-          {
-            "id": "arp_response_broadcast",
-            "description": "Students often assume both the ARP query and the ARP response are sent in broadcast frames, when only the query is broadcast while the response is sent in a standard (unicast) frame."
-          }
-        ],
-        "source_chunk_ids": [
-          "chunk_p489_851",
-          "chunk_p493_859",
-          "chunk_p494_861"
-        ]
-      },
-      {
         "temp_id": "t_1d3909ae82",
         "title": "Ethernet and Link-Layer Switches",
         "summary": "Ethernet framing and link-layer technologies; how link-layer switches forward and filter frames (e.g., self-learning) and their role compared with routers.",
@@ -3942,40 +3904,6 @@
               "chunk_p530_931"
             ]
           }
-        ]
-      },
-      {
-        "temp_id": "t_5c8fdc549e",
-        "title": "Virtual LANs (VLANs)",
-        "summary": "Creating multiple virtual LANs over a single physical LAN infrastructure, including VLAN configuration and traffic isolation.",
-        "depth": 1,
-        "root": "The Link Layer and LANs",
-        "parent_temp_id": "t_1d43d26b89",
-        "is_atomic": true,
-        "needs_review": false,
-        "children": [],
-        "learning_objective": "The learner can explain how VLANs enable traffic isolation and flexible membership on a single physical LAN infrastructure, and describe port-based, MAC-based, and protocol-based VLAN assignment methods.",
-        "estimated_time_min": 5,
-        "difficulty_weight": 2,
-        "type": "concept",
-        "common_misconceptions": [
-          {
-            "id": "vlans_require_separate_physical_switches",
-            "description": "VLANs require separate physical switches for each virtual LAN."
-          },
-          {
-            "id": "vlans_only_port_based",
-            "description": "VLAN membership can only be assigned based on switch ports."
-          },
-          {
-            "id": "vlans_cannot_span_routers",
-            "description": "VLANs cannot be extended across IP routers to connect geographically separated LANs."
-          }
-        ],
-        "source_chunk_ids": [
-          "chunk_p512_896",
-          "chunk_p509_891",
-          "chunk_p530_931"
         ]
       },
       {

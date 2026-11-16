@@ -92,8 +92,13 @@ def decompose_topic(title: str, summary_hint: str, depth: int, generate=None) ->
 # ----------------------------- recursion -----------------------------
 
 def _new_node(title: str, summary: str, parent_tid: Optional[str], depth: int, root: str) -> dict:
+    # Identity is the *path*, not (chapter, title): the same topic can legitimately be
+    # emitted under two different parents, and hashing only (root, title) collapsed
+    # those into one id — two nodes sharing an identity, aliased edges and self-loops.
+    # Roots keep the old (root, title) scheme so existing checkpoints still resume.
+    tid = _tid(root, title) if parent_tid is None else _tid(root, parent_tid, title)
     return {
-        "temp_id": _tid(root, title),
+        "temp_id": tid,
         "title": title,
         "summary": summary,
         "depth": depth,
