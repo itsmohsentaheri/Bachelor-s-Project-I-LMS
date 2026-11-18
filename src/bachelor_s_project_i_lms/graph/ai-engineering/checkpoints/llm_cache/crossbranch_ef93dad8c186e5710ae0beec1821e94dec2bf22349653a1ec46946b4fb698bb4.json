@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Assessing every part of an AI application is not required to understand how to evaluate and iterate on an evaluation pipeline itself."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Iterating on an evaluation pipeline is not required before a learner can assess the individual components of an AI system."
+  }
+}

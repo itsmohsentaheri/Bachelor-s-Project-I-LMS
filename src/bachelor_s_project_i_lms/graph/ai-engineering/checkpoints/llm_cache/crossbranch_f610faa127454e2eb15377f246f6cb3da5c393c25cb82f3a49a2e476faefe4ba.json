@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Understanding that all parameters are updated during pre-training is a specific detail that does not block a learner from defining foundation models and describing their core characteristics."
+  },
+  "b_before_a": {
+    "is_prerequisite": true,
+    "confidence": 0.95,
+    "rationale": "A learner must first understand what foundation models are and that they are pre-trained on large datasets before they can meaningfully understand the specifics of full parameter updates during pre-training."
+  }
+}

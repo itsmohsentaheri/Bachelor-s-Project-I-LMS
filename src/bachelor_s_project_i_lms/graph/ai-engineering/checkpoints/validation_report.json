@@ -1,0 +1,260 @@
+{
+  "n_atoms": 128,
+  "n_edges_in": 193,
+  "cycle_edges_removed": [
+    {
+      "from": "Scalability Bottlenecks in Comparative Evaluation",
+      "to": "Signal Gathering and Model Ranking Challenges",
+      "confidence": 0.7,
+      "origin": "local",
+      "rationale": "Understanding scalability bottlenecks provides context for the data-intensity challenges in gathering sufficient comparison signals."
+    },
+    {
+      "from": "Selecting Evaluation Methods",
+      "to": "Selecting Evaluation Methods",
+      "confidence": 0.9,
+      "origin": "local",
+      "rationale": "You must define what to measure (criteria) before selecting appropriate methods and data to measure it. [expanded from sibling edge 'Evaluation Criteria Definition' -> 'Evaluation Methods and Data Selection']"
+    }
+  ],
+  "n_edges_after_cycles": 191,
+  "redundant_edges_removed": [
+    {
+      "from": "Annotation Consistency",
+      "to": "Downstream Task Evaluation",
+      "confidence": 0.85,
+      "origin": "local"
+    },
+    {
+      "from": "Model Optimization",
+      "to": "Inference Service Optimization",
+      "confidence": 0.6,
+      "origin": "local"
+    },
+    {
+      "from": "Generation Quality Criteria",
+      "to": "Define Evaluation Methods and Data",
+      "confidence": 0.9,
+      "origin": "local"
+    },
+    {
+      "from": "Reasons for Synthesizing Data",
+      "to": "AI-Powered Data Synthesis",
+      "confidence": 0.7,
+      "origin": "local"
+    },
+    {
+      "from": "Prompt Fundamentals",
+      "to": "Prompt Attacks and Defense",
+      "confidence": 0.9,
+      "origin": "local"
+    },
+    {
+      "from": "Domain-Specific Capability Benchmarks",
+      "to": "Define Evaluation Methods and Data",
+      "confidence": 0.9,
+      "origin": "local"
+    },
+    {
+      "from": "Manual Data Inspection",
+      "to": "Downstream Task Evaluation",
+      "confidence": 0.85,
+      "origin": "local"
+    },
+    {
+      "from": "Post-Training Workflow",
+      "to": "Parameter-Efficient Finetuning",
+      "confidence": 0.8,
+      "origin": "local"
+    },
+    {
+      "from": "Post-Training Workflow",
+      "to": "Preference Finetuning",
+      "confidence": 0.9,
+      "origin": "local"
+    },
+    {
+      "from": "Post-Training Workflow",
+      "to": "Finetuning Frameworks and Tactics",
+      "confidence": 0.75,
+      "origin": "local"
+    },
+    {
+      "from": "Domain-Specific Capability Benchmarks",
+      "to": "Evaluation Pipeline Design",
+      "confidence": 0.8,
+      "origin": "local"
+    },
+    {
+      "from": "Domain-Specific Capability Benchmarks",
+      "to": "Absolute vs Comparative Evaluation",
+      "confidence": 0.8,
+      "origin": "local"
+    },
+    {
+      "from": "Domain-Specific Capability Benchmarks",
+      "to": "Comparative vs. Absolute Evaluation",
+      "confidence": 0.8,
+      "origin": "local"
+    },
+    {
+      "from": "RAG Evaluation",
+      "to": "Agent Definition and Core Concepts",
+      "confidence": 0.6,
+      "origin": "local"
+    },
+    {
+      "from": "RAG Implementation Starting Points",
+      "to": "Agent Definition and Core Concepts",
+      "confidence": 0.6,
+      "origin": "local"
+    },
+    {
+      "from": "Data Filtering and Deduplication",
+      "to": "Data Coverage",
+      "confidence": 0.8,
+      "origin": "local"
+    },
+    {
+      "from": "Ranking Models via Pairwise Comparisons",
+      "to": "Scalability Bottlenecks in Comparative Evaluation",
+      "confidence": 0.85,
+      "origin": "local"
+    },
+    {
+      "from": "Generation Capability Metrics",
+      "to": "Evaluation Pipeline Design",
+      "confidence": 0.8,
+      "origin": "local"
+    },
+    {
+      "from": "Generation Capability Metrics",
+      "to": "Absolute vs Comparative Evaluation",
+      "confidence": 0.8,
+      "origin": "local"
+    },
+    {
+      "from": "Generation Capability Metrics",
+      "to": "Comparative vs. Absolute Evaluation",
+      "confidence": 0.8,
+      "origin": "local"
+    },
+    {
+      "from": "Data and Memory Considerations",
+      "to": "Finetuning Frameworks and Compute",
+      "confidence": 0.8,
+      "origin": "local"
+    },
+    {
+      "from": "Agent Definition and Core Concepts",
+      "to": "Agent Planning",
+      "confidence": 0.9,
+      "origin": "local"
+    },
+    {
+      "from": "Selecting Evaluation Methods",
+      "to": "Designing Evaluation Data Slices",
+      "confidence": 0.7,
+      "origin": "local"
+    },
+    {
+      "from": "Prompt Engineering",
+      "to": "Retrieval-Augmented Generation",
+      "confidence": 0.7,
+      "origin": "local"
+    },
+    {
+      "from": "Defining Evaluation Criteria",
+      "to": "Selecting Evaluation Methods",
+      "confidence": 0.9,
+      "origin": "local"
+    },
+    {
+      "from": "Overlap Analysis",
+      "to": "Reasons for Synthesizing Data",
+      "confidence": 0.85,
+      "origin": "local"
+    },
+    {
+      "from": "Overlap Analysis",
+      "to": "Downstream Task Evaluation",
+      "confidence": 0.9,
+      "origin": "local"
+    },
+    {
+      "from": "Operational Evaluation Factors",
+      "to": "Define Evaluation Methods and Data",
+      "confidence": 0.9,
+      "origin": "local"
+    },
+    {
+      "from": "Data Coverage",
+      "to": "Reasons for Synthesizing Data",
+      "confidence": 0.85,
+      "origin": "local"
+    },
+    {
+      "from": "Data Coverage",
+      "to": "Downstream Task Evaluation",
+      "confidence": 0.9,
+      "origin": "local"
+    },
+    {
+      "from": "Supervised Finetuning (SFT)",
+      "to": "Finetuning Frameworks and Tactics",
+      "confidence": 0.75,
+      "origin": "local"
+    },
+    {
+      "from": "Inference Performance Metrics",
+      "to": "AI Accelerators",
+      "confidence": 0.7,
+      "origin": "local"
+    },
+    {
+      "from": "Inference Performance Metrics",
+      "to": "Inference Service Optimization",
+      "confidence": 0.7,
+      "origin": "local"
+    },
+    {
+      "from": "RAG Architecture",
+      "to": "RAG Implementation Starting Points",
+      "confidence": 0.9,
+      "origin": "local"
+    },
+    {
+      "from": "Defining Application Requirements",
+      "to": "Analyzing Cost and Deployment Trade-offs",
+      "confidence": 0.85,
+      "origin": "local"
+    },
+    {
+      "from": "Defining Application Requirements",
+      "to": "Evaluating Model Performance",
+      "confidence": 0.95,
+      "origin": "local"
+    },
+    {
+      "from": "Agent Tools",
+      "to": "Agent Failure Modes",
+      "confidence": 0.8,
+      "origin": "local"
+    }
+  ],
+  "n_edges_after_reduction": 154,
+  "isolated_nodes": [
+    "Simplest Foundation Model Application Architecture",
+    "Challenges of Simple AI Application Architectures",
+    "Incremental Component Addition for AI Products",
+    "User Feedback in AI Product Evaluation"
+  ],
+  "coverage": {
+    "headings_without_atoms": [],
+    "atoms_not_in_tree": [],
+    "n_headings_checked": 39
+  },
+  "duplicate_atom_pairs": "skipped (no embed_fn)",
+  "longest_chain_edges": 14,
+  "chain_warning": true
+}

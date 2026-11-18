@@ -1,0 +1,25 @@
+{
+  "learning_objective": "The learner can outline the end-to-end process for building an evaluation system, including creating guidelines, defining methods and data, annotating evaluation sets, and iterating based on results.",
+  "estimated_time_min": 10,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "public_benchmarks_sufficiency",
+      "description": "Believing that public benchmarks alone are sufficient to find the best model for a specific application."
+    },
+    {
+      "id": "evaluation_set_size",
+      "description": "Assuming that more evaluation data is always better without considering cost and reliability trade-offs."
+    },
+    {
+      "id": "pipeline_linearity",
+      "description": "Thinking that evaluation pipeline design is a one-time linear process rather than an iterative cycle."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p224_350",
+    "chunk_p525_794",
+    "chunk_p230_361"
+  ]
+}

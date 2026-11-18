@@ -1,0 +1,19 @@
+{
+  "learning_objective": "The learner can identify simple term-based solutions like BM25 as the recommended starting point for RAG implementations before adopting vector databases.",
+  "estimated_time_min": 5,
+  "difficulty_weight": 2,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "vector_databases_first",
+      "description": "Believing that vector databases are the necessary first step for any RAG implementation."
+    },
+    {
+      "id": "rag_vs_finetuning_exclusivity",
+      "description": "Assuming RAG and finetuning are mutually exclusive and cannot be used together."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p342_522"
+  ]
+}

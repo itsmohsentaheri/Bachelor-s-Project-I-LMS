@@ -1,0 +1,24 @@
+{
+  "subtopics": [
+    {
+      "title": "Data Collection and Curation",
+      "summary": "The process of gathering raw data, filtering it, removing duplicates, and performing overlap analysis to build a high-quality dataset foundation.",
+      "is_atomic": false
+    },
+    {
+      "title": "Data Annotation and Quality Control",
+      "summary": "Creating annotation guidelines, labeling data, fact-checking annotations, and removing sensitive or toxic information to ensure dataset accuracy.",
+      "is_atomic": false
+    },
+    {
+      "title": "Data Synthesis and Verification",
+      "summary": "Generating synthetic instructions using templates, verifying data quality, and balancing data diversity with volume to improve model training.",
+      "is_atomic": false
+    },
+    {
+      "title": "Dataset Evaluation and Benchmarking",
+      "summary": "Assessing dataset quality by training models on them and measuring performance on downstream tasks, using benchmarks such as DataPerf and dcbench.",
+      "is_atomic": false
+    }
+  ]
+}

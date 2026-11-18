@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Defining an agent and its core concepts does not require the ability to evaluate every component of an AI application."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Evaluating all system components can be performed without first mastering the specific definition of an agent."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "learning_objective": "The learner can describe the gradual approach of adding engineering components to address specific challenges and build more successful AI applications.",
+  "estimated_time_min": 10,
+  "difficulty_weight": 2,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "all_components_at_once",
+      "description": "Believing that all AI engineering components must be implemented simultaneously rather than incrementally."
+    },
+    {
+      "id": "universal_components",
+      "description": "Assuming that every AI application requires the same set of engineering components regardless of its specific challenges."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p478_730"
+  ]
+}

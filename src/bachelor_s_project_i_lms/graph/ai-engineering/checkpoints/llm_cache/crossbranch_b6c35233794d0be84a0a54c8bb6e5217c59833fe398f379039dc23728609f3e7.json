@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Understanding memory systems for RAG and agents does not require prior knowledge of model-level optimization techniques like quantization or distillation."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Describing model optimization techniques such as quantization and distillation does not depend on understanding how memory systems manage context length in RAG and agent applications."
+  }
+}

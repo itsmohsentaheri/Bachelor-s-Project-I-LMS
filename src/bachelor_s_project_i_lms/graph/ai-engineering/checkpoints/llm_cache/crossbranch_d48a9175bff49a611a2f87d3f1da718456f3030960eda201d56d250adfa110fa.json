@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Defining data quality and its impact on model performance is not required to identify challenges in gathering comparison signals and ranking models."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Understanding signal gathering and model ranking challenges is not necessary to define data quality or explain its impact on model performance."
+  }
+}

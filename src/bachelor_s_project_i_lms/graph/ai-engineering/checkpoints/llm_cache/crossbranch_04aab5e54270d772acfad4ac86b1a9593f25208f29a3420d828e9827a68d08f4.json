@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Defining quality criteria for generated text is not required to create annotation guidelines or fact-check annotations, as annotation guidelines can be based on task-specific requirements independent of general generation quality dimensions."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Creating annotation guidelines and fact-checking annotations does not require prior mastery of defining fluency, coherence, factual consistency, faithfulness, and safety as quality criteria for generated text."
+  }
+}

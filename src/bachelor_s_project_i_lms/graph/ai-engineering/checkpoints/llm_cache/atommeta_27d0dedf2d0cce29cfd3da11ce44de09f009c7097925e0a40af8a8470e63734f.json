@@ -1,0 +1,29 @@
+{
+  "learning_objective": "The learner can distinguish between information-based and behavior-based model failures to decide whether to apply RAG, finetuning, or a combination of both.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "rag_only_for_facts",
+      "description": "Believing RAG is only useful for factual knowledge and cannot help with behavioral issues like output formatting."
+    },
+    {
+      "id": "finetuning_adds_knowledge",
+      "description": "Thinking finetuning is the best way to add new factual information to a model rather than adjusting its behavior or format."
+    },
+    {
+      "id": "mutually_exclusive",
+      "description": "Assuming RAG and finetuning cannot be used together in the same application."
+    },
+    {
+      "id": "vector_db_first",
+      "description": "Believing you must start with vector databases for RAG instead of simpler term-based solutions like BM25."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p340_519",
+    "chunk_p341_521",
+    "chunk_p342_522"
+  ]
+}

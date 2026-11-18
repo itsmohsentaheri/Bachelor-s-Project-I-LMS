@@ -1,0 +1,28 @@
+{
+  "edges": [
+    {
+      "prerequisite": "Prompt Fundamentals",
+      "dependent": "Prompt Engineering Best Practices",
+      "confidence": 0.95,
+      "rationale": "Understanding what a prompt is and its components is required before learning techniques for writing effective prompts."
+    },
+    {
+      "prerequisite": "Prompt Fundamentals",
+      "dependent": "Prompt Engineering Tools",
+      "confidence": 0.9,
+      "rationale": "Knowledge of prompt structure and components is needed to use tools for structured outputs and prompt variation effectively."
+    },
+    {
+      "prerequisite": "Prompt Fundamentals",
+      "dependent": "Prompt Attacks and Defense",
+      "confidence": 0.9,
+      "rationale": "Understanding how prompts guide model behavior is necessary to understand how prompt attacks manipulate that behavior and how to defend against them."
+    },
+    {
+      "prerequisite": "Prompt Engineering Best Practices",
+      "dependent": "Prompt Attacks and Defense",
+      "confidence": 0.75,
+      "rationale": "Effective prompt writing techniques provide a foundation for designing defensive prompts and evaluation metrics against attacks."
+    }
+  ]
+}

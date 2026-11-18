@@ -1,0 +1,19 @@
+{
+  "subtopics": [
+    {
+      "title": "SFT vs Pre-training Objectives",
+      "summary": "Explains how SFT shifts a model from generic text completion to conversational instruction-following using labeled instruction-response pairs.",
+      "is_atomic": true
+    },
+    {
+      "title": "Next-Token vs Infilling Finetuning",
+      "summary": "Describes the two SFT approaches: predicting the next token versus filling in blanks, with infilling being useful for text editing and code debugging.",
+      "is_atomic": true
+    },
+    {
+      "title": "Finetuning Frameworks and Compute",
+      "summary": "Covers popular SFT frameworks such as LLaMA-Factory, PEFT, and Axolotl, and the compute requirements for full versus adapter-based finetuning.",
+      "is_atomic": true
+    }
+  ]
+}

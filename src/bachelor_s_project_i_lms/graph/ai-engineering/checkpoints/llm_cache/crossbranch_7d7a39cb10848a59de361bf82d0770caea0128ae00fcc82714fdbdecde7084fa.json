@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Assessing dataset quality via downstream task performance does not require the ability to compute rankings from pairwise match outcomes."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Computing model rankings from pairwise comparisons does not depend on evaluating datasets through downstream tasks."
+  }
+}

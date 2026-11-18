@@ -1,0 +1,40 @@
+{
+  "edges": [
+    {
+      "prerequisite": "Inference Performance Metrics",
+      "dependent": "AI Accelerators",
+      "confidence": 0.7,
+      "rationale": "Understanding latency, throughput, and cost metrics is necessary to evaluate whether hardware acceleration improves inference performance."
+    },
+    {
+      "prerequisite": "Inference Performance Metrics",
+      "dependent": "Model Optimization",
+      "confidence": 0.7,
+      "rationale": "Performance metrics provide the baseline for measuring the impact of model size reduction and architectural efficiency on speed and cost."
+    },
+    {
+      "prerequisite": "Inference Performance Metrics",
+      "dependent": "Inference Service Optimization",
+      "confidence": 0.7,
+      "rationale": "Service-level refinements must be evaluated against latency, throughput, and cost metrics to determine their effectiveness."
+    },
+    {
+      "prerequisite": "Model Optimization",
+      "dependent": "AI Accelerators",
+      "confidence": 0.6,
+      "rationale": "Optimized model architectures and reduced sizes are often required to fully leverage specialized hardware like GPUs and TPUs."
+    },
+    {
+      "prerequisite": "Model Optimization",
+      "dependent": "Inference Service Optimization",
+      "confidence": 0.6,
+      "rationale": "Efficient models reduce the load on serving infrastructure, making service-level optimization more effective."
+    },
+    {
+      "prerequisite": "AI Accelerators",
+      "dependent": "Inference Service Optimization",
+      "confidence": 0.6,
+      "rationale": "Serving infrastructure must be designed around the capabilities and constraints of the target hardware accelerators."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Resolving conflicting benchmark results is a decision-making task that does not require prior knowledge of scalability bottlenecks in evaluation."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Identifying scalability bottlenecks in evaluation is a diagnostic task that does not depend on the ability to resolve contradictory benchmark results."
+  }
+}

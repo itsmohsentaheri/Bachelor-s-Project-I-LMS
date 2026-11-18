@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Understanding synthetic data generation does not require prior knowledge of the baseline foundation model application architecture."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Describing a basic model-and-UI architecture does not depend on knowing how to generate synthetic instruction data."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Understanding data quality dimensions is not required to identify or explain generation capability metrics and their evolution from traditional NLP metrics."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Knowledge of generation capability metrics is not required to list and define data quality dimensions for finetuning datasets."
+  }
+}

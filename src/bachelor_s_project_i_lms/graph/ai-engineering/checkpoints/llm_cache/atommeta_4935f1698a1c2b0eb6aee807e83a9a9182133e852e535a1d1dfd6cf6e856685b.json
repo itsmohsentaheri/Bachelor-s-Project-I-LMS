@@ -1,0 +1,20 @@
+{
+  "learning_objective": "The learner can identify security risks introduced by tool use in agents and explain why rigorous defensive mechanisms are required for real-world deployment.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "agent_failures_are_only_technical",
+      "description": "Believing agent failures are limited to technical bugs rather than including catastrophic security risks from tool use."
+    },
+    {
+      "id": "defensive_mechanisms_optional",
+      "description": "Assuming defensive mechanisms are optional add-ons instead of rigorous requirements for real-world agent deployment."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p329_502",
+    "chunk_p300_459"
+  ]
+}

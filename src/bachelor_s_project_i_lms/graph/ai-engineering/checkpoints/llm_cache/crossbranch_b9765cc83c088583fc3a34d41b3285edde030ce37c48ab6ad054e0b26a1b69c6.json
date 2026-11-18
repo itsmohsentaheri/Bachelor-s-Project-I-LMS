@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Describing traditional data synthesis techniques does not require first mastering how to select evaluation methods or curate evaluation data sets; synthesis is a data-generation task independent of evaluation design."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Selecting evaluation methods and curating evaluation data can be done using real production data and does not inherently require knowledge of traditional synthetic data generation techniques."
+  }
+}

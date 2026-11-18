@@ -1,0 +1,25 @@
+{
+  "learning_objective": "The learner can identify the key components of a transformer block, including self-attention mechanisms and feed-forward layers, and explain how they process information in parallel without RNNs.",
+  "estimated_time_min": 10,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "attention_invented_with_transformer",
+      "description": "Believing the attention mechanism was introduced with the transformer model rather than three years prior."
+    },
+    {
+      "id": "transformer_uses_rnns",
+      "description": "Assuming transformers rely on recurrent neural networks for sequential processing instead of parallel token processing."
+    },
+    {
+      "id": "transformer_only_for_translation",
+      "description": "Thinking the transformer architecture is limited to neural machine translation rather than serving as a general foundation model building block."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p84_122",
+    "chunk_p83_121",
+    "chunk_p87_127"
+  ]
+}

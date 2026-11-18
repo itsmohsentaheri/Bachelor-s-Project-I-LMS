@@ -1,0 +1,20 @@
+{
+  "learning_objective": "The learner can explain why comparative evaluation becomes data-intensive as the number of models increases due to quadratic growth in model pairs.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "linear_growth_assumption",
+      "description": "Believing the number of comparisons grows linearly with the number of models rather than quadratically."
+    },
+    {
+      "id": "enough_comparisons_fallacy",
+      "description": "Assuming that a large total number of comparisons guarantees sufficient signal per model pair."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p176_268",
+    "chunk_p177_270"
+  ]
+}

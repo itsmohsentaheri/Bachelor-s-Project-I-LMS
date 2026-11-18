@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Understanding batch size trade-offs for model training is not required to describe how memory systems manage information beyond context length for RAG and agents."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Knowledge of memory systems for RAG and agents is not required to explain how batch size affects training speed, memory usage, gradient stability, and hardware utilization."
+  }
+}

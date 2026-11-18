@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Understanding agents as autonomous entities is not required to define or measure instruction-following capability, which concerns model output adherence to specified criteria."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Instruction-following measurement is a general evaluation concept and is not necessary to understand the core definition of an agent perceiving and acting on its environment."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 1.0,
+    "rationale": "Atom A and Atom B have identical titles, placements, and learning objectives, so mastering one does not enable understanding of the other."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 1.0,
+    "rationale": "Atom B and Atom A are identical in content and objective, so neither is a prerequisite for the other."
+  }
+}

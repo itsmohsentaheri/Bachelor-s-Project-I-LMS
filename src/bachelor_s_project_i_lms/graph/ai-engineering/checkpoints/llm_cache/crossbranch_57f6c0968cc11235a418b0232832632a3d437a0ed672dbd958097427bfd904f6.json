@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Creating evaluation guidelines defines what an application should and shouldn't do, but selecting appropriate evaluation methods does not require first mastering guideline creation; one can choose methods based on criteria independently."
+  },
+  "b_before_a": {
+    "is_prerequisite": true,
+    "confidence": 0.85,
+    "rationale": "Meaningfully creating evaluation guidelines requires knowing which evaluation methods are available to measure criteria such as toxicity, semantic similarity, and factual consistency, so selecting methods precedes defining what responses should be."
+  }
+}

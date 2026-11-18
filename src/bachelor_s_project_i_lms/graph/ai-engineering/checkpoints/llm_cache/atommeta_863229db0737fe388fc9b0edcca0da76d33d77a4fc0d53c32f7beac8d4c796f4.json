@@ -1,0 +1,25 @@
+{
+  "learning_objective": "The learner can identify and categorize external tools that extend an agent's capabilities beyond text generation, such as knowledge augmentation, capability extension, and environment interaction tools.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "more_tools_always_better",
+      "description": "Believing that providing more tools always improves agent performance, when in fact too many tools can make it harder for the agent to understand and utilize them effectively."
+    },
+    {
+      "id": "tools_are_model_agnostic",
+      "description": "Assuming tool selection is independent of the AI model, when the choice of tools depends heavily on the specific model powering the agent."
+    },
+    {
+      "id": "tools_eliminate_planning_need",
+      "description": "Thinking that giving an agent tools removes the need for planning or reasoning, when tools are capabilities that must be selected and invoked within a multi-step agentic workflow."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p303_464",
+    "chunk_p319_487",
+    "chunk_p304_466"
+  ]
+}

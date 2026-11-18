@@ -1,0 +1,24 @@
+{
+  "learning_objective": "The learner can explain why comparative rankings do not reveal absolute performance and why a model win does not guarantee a worthwhile swap.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "win_rate_equals_absolute_quality",
+      "description": "Believing that a higher comparative win rate directly indicates a model is good enough for a specific use case."
+    },
+    {
+      "id": "ranking_reveals_absolute_performance",
+      "description": "Assuming that knowing which model is better tells you how good either model actually is."
+    },
+    {
+      "id": "swap_always_worthwhile",
+      "description": "Thinking that any model that wins a comparison should replace the current model without further evaluation."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p178_273",
+    "chunk_p179_274"
+  ]
+}

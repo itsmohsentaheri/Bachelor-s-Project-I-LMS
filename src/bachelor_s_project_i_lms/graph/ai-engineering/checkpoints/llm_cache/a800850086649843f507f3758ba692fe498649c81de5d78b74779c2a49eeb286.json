@@ -1,0 +1,19 @@
+{
+  "subtopics": [
+    {
+      "title": "Foundation Model Basics",
+      "summary": "Definition and core characteristics of foundation models, including their pre-training on large datasets and ability to be adapted to various downstream tasks.",
+      "is_atomic": true
+    },
+    {
+      "title": "AI Application Architecture",
+      "summary": "The structural components of AI applications built on foundation models, covering how models integrate with user interfaces, data pipelines, and external tools.",
+      "is_atomic": true
+    },
+    {
+      "title": "User Feedback Integration",
+      "summary": "Methods for collecting, processing, and incorporating user feedback to evaluate and improve AI application performance over time.",
+      "is_atomic": true
+    }
+  ]
+}

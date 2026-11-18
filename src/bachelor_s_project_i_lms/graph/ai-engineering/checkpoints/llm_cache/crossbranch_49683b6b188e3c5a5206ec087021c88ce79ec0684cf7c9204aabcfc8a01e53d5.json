@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Understanding how foundation models generate synthetic instruction data is not required to grasp the retriever-generator structure of a RAG system."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Knowing the two-component RAG architecture is not necessary to explain synthetic data generation via template-based generation and model distillation."
+  }
+}

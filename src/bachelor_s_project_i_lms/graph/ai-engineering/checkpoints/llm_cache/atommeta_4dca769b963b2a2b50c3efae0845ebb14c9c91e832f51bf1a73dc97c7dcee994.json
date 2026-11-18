@@ -1,0 +1,23 @@
+{
+  "learning_objective": "The learner can create an evaluation guideline that defines what an application should and shouldn't do, including out-of-scope inputs and appropriate responses.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "ambiguous_guideline",
+      "description": "Believing that an ambiguous evaluation guideline is sufficient, which leads to ambiguous and misleading scores."
+    },
+    {
+      "id": "only_positive_criteria",
+      "description": "Thinking evaluation criteria only need to define what the application should do, ignoring what it shouldn't do."
+    },
+    {
+      "id": "ignore_out_of_scope",
+      "description": "Assuming the application will naturally handle unrelated inputs without explicitly defining out-of-scope detection and response behavior."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p226_353"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Understanding how to balance data quantity against costs and capabilities does not require first knowing that annotations must be consistent across examples and annotators."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Explaining why consistent annotations prevent model confusion does not depend on knowing how data quantity is determined by training costs, desired capabilities, and situational factors."
+  }
+}

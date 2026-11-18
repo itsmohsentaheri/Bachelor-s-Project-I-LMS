@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Understanding why foundation model evaluation is difficult is not required to apply specific language modeling metrics like perplexity or similarity measurements."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Knowing how to assess generation capabilities with metrics does not enable a learner to explain the broader challenges of evaluating open-ended foundation model outputs."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Creating evaluation guidelines does not require first defining evaluation criteria; the two objectives describe essentially the same activity and neither meaningfully depends on the other."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Defining evaluation criteria is not a prerequisite for creating evaluation guidelines because both objectives cover the same content—specifying what an application should and should not do—so neither must be mastered before the other."
+  }
+}

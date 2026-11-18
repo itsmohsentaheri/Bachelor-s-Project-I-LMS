@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Identifying prompt engineering tools and their risks is not required to define or measure instruction-following capability."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Understanding how to measure instruction-following is not necessary to identify prompt engineering tools or explain their cost and API risks."
+  }
+}

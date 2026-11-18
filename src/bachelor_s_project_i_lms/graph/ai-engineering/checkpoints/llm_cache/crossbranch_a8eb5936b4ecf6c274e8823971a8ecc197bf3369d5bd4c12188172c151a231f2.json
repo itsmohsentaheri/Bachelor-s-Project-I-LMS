@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Managing training data costs is not required to understand how data quantity is determined by balancing costs, capabilities, and situational factors."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Explaining data quantity determination does not require first mastering the calculation and management of nontrivial training data costs."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Defining fine-tuning does not require prior mastery of data quality concepts, as fine-tuning can be understood as a weight-adaptation process independent of data quality considerations."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Understanding data quality and its impact on performance does not require first mastering fine-tuning, since data quality is a general training concept applicable to models before any task-specific adaptation."
+  }
+}

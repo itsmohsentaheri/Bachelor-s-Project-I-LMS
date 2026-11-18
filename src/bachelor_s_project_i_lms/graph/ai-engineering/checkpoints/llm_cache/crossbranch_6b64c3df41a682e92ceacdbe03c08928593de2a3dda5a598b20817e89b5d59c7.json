@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.95,
+    "rationale": "Resolving conflicting benchmark results is an evaluation task that does not require knowledge of how learning rate schedules adjust training dynamics."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Learning rate scheduling is a training optimization technique that is not required to meaningfully apply decision criteria for selecting models based on contradictory benchmark results."
+  }
+}

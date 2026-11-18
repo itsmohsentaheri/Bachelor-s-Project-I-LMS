@@ -1,0 +1,25 @@
+{
+  "learning_objective": "The learner can assess the reliability of an evaluation pipeline and iterate on guidelines, methods, and data based on findings to improve evaluation quality over time.",
+  "estimated_time_min": 10,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "public_benchmarks_find_best_models",
+      "description": "Believing public benchmarks alone are sufficient to find the best model for a specific application."
+    },
+    {
+      "id": "pipeline_is_static",
+      "description": "Assuming an evaluation pipeline does not need iteration once it is initially designed."
+    },
+    {
+      "id": "evaluation_is_only_model_level",
+      "description": "Thinking evaluation only applies to the final model output rather than all system components."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p224_350",
+    "chunk_p525_794",
+    "chunk_p532_808"
+  ]
+}

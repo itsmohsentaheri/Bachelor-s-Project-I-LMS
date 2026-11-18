@@ -1,0 +1,23 @@
+{
+  "learning_objective": "The learner can manually inspect annotated data by sampling examples, self-annotating to compare with given labels, fact-checking responses, and identifying duplicate queries with conflicting responses to assess annotation trustworthiness.",
+  "estimated_time_min": 10,
+  "difficulty_weight": 2,
+  "type": "practical",
+  "common_misconceptions": [
+    {
+      "id": "tools_replace_manual_inspection",
+      "description": "Believing that data exploration tools can fully replace the need to manually stare at and inspect raw data."
+    },
+    {
+      "id": "annotations_are_always_trustworthy",
+      "description": "Assuming that provided annotations are correct without verifying them by attempting to annotate the same examples yourself."
+    },
+    {
+      "id": "unique_examples_guaranteed",
+      "description": "Thinking that all examples in a dataset are unique and not checking for the same query appearing with different responses."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p423_652"
+  ]
+}

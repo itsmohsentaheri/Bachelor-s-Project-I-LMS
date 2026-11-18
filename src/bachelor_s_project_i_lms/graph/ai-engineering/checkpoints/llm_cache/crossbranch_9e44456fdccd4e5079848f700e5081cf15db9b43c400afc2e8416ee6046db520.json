@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Comparing foundation models by architecture, size, modality, and performance does not require prior mastery of exact domain-specific evaluation methods such as functional correctness and efficiency metrics."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Evaluating domain-specific capabilities with exact methods can be performed independently of comparing foundation models based on architecture, parameter size, modality support, and performance characteristics."
+  }
+}

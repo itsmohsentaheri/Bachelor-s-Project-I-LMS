@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Designing an end-to-end evaluation pipeline is not required to define instruction-following capability or to measure whether a model's output meets specified criteria."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Understanding how to measure instruction-following is not necessary to outline the general end-to-end process for building an evaluation system."
+  }
+}

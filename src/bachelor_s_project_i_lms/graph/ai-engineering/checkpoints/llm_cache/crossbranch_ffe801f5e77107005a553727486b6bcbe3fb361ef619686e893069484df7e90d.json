@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Identifying prompt engineering tools and their cost risks does not require prior understanding of data scraping risks or foundation model training data issues."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Understanding data sources and output risks is not necessary to meaningfully learn about prompt engineering tools for structured outputs and API cost management."
+  }
+}

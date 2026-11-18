@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Understanding preference optimization algorithms is not required to grasp the conceptual limitation that comparative rankings do not reveal absolute performance."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Knowing the limitations of comparative evaluation is not necessary to explain how RLHF and DPO use ranked human feedback to align model responses."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "learning_objective": "The learner can explain how data-centric benchmark competitions evaluate dataset quality by training models on submitted datasets and measuring performance on standardized downstream tasks.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "model_centric_focus",
+      "description": "Believing the competition evaluates the model architecture rather than the quality of the dataset used to train it."
+    },
+    {
+      "id": "single_task_eval",
+      "description": "Assuming dataset quality is measured by a single task rather than performance across multiple standardized downstream tasks."
+    },
+    {
+      "id": "custom_script_eval",
+      "description": "Thinking participants use their own training scripts instead of a standardized script provided by the competition."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p388_597"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Understanding that all parameters are updated during pre-training is not required to describe how inference service optimization refines serving infrastructure and request handling while keeping the model intact."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Knowledge of inference service optimization is not needed to state that all model parameters are updated during pre-training, as these are distinct phases of the model lifecycle."
+  }
+}

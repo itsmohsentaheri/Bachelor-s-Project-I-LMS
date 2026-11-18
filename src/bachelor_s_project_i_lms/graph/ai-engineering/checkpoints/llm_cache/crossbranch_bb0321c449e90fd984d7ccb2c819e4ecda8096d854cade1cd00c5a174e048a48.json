@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Understanding the economic trade-off between training and inference costs does not require first defining latency, throughput, and goodput metrics."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Defining inference performance metrics does not require first mastering the training cost versus inference revenue inequality."
+  }
+}

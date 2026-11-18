@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Understanding how model parameters affect capacity is not required to explain how data quantity is determined by training costs, desired capabilities, and situational needs."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Knowing how to balance data quantity against costs and capabilities is not required to explain how parameters, layers, and hidden dimensions affect model capacity and expressiveness."
+  }
+}

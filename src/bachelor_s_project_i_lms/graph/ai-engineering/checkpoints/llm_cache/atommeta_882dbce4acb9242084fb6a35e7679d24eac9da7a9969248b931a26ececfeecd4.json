@@ -1,0 +1,23 @@
+{
+  "learning_objective": "The learner can explain how learning rate schedules adjust learning rates during training to stabilize convergence and improve model accuracy.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "constant_lr_is_best",
+      "description": "Believing that keeping the learning rate constant throughout training is always optimal for convergence."
+    },
+    {
+      "id": "larger_lr_always_faster",
+      "description": "Assuming that a larger learning rate will always speed up training without causing instability."
+    },
+    {
+      "id": "schedules_only_for_beginners",
+      "description": "Thinking that learning rate scheduling is only necessary for novice practitioners and not for advanced model tuning."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p383_589"
+  ]
+}

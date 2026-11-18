@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Atom A focuses on comparing finetuning approaches and identifying frameworks, which does not require the detailed technical understanding of how adapter modules work that is covered in Atom B."
+  },
+  "b_before_a": {
+    "is_prerequisite": true,
+    "confidence": 0.9,
+    "rationale": "Understanding how adapter-based finetuning works and its trade-offs is necessary to meaningfully compare it with full finetuning in terms of compute requirements and identify appropriate frameworks."
+  }
+}

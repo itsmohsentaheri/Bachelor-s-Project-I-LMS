@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Understanding SFT objectives is not required to explain how foundation models generate synthetic instruction data via templates or distillation."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Knowing how to synthesize AI-powered data is not necessary to explain how SFT shifts a model toward instruction-following using labeled pairs."
+  }
+}

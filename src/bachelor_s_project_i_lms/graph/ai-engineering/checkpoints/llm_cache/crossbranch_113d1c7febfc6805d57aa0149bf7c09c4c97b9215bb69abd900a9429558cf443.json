@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Understanding how user feedback determines whether an application achieves its goals is not required to understand how preference optimization algorithms use ranked human feedback to align model responses."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Knowing how RLHF and DPO align model responses is not necessary to understand the general process of gathering user feedback to evaluate whether an application achieves its intended goals."
+  }
+}

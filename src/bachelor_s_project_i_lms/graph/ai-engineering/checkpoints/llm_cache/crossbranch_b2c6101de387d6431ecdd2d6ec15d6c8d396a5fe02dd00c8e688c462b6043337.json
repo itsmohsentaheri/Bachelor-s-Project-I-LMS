@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Understanding traditional data synthesis techniques is not required to identify and categorize external tools that extend an agent's capabilities."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Knowledge of agent tools is not necessary to describe rule-based or simulation-based data synthesis methods."
+  }
+}

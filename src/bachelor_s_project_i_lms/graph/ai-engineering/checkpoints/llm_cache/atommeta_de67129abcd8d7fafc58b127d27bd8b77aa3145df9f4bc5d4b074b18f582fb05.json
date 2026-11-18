@@ -1,0 +1,20 @@
+{
+  "learning_objective": "The learner can define retrieval-augmented generation (RAG) as connecting a foundation model to an external database to supplement instructions and generate better responses.",
+  "estimated_time_min": 5,
+  "difficulty_weight": 2,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "rag_is_finetuning",
+      "description": "Believing RAG is the same as finetuning a model on a dataset rather than supplementing instructions with a database."
+    },
+    {
+      "id": "rag_only_text",
+      "description": "Assuming RAG only works with text and cannot be applied to multimodal or tabular data."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p35_46",
+    "chunk_p530_805"
+  ]
+}

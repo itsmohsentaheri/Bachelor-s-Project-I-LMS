@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Understanding the reasons for synthesizing data is not required to understand how synthetic data generation works; one can learn the generation process without first knowing why it is done."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Knowing how synthetic data generation works is not required to explain the reasons for synthesizing data; the motivations can be understood independently of the technical generation process."
+  }
+}

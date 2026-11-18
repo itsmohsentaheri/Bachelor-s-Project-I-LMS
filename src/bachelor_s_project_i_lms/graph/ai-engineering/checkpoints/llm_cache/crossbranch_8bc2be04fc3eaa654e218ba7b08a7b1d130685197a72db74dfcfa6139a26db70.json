@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Parameter-efficient finetuning techniques like LoRA are not required to understand or implement basic RAG starting points such as BM25 term-based retrieval."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Knowing that BM25 is a recommended starting point for RAG does not provide the foundational knowledge needed to understand parameter-efficient finetuning methods like LoRA."
+  }
+}

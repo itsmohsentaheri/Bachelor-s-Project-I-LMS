@@ -1,0 +1,19 @@
+{
+  "subtopics": [
+    {
+      "title": "Evaluation Criteria",
+      "summary": "Defines the standards used to assess AI systems, including domain-specific capabilities like math and reasoning, generation quality, instruction-following, and operational factors such as cost and latency.",
+      "is_atomic": false
+    },
+    {
+      "title": "Model Selection",
+      "summary": "The process of choosing the right foundation model for an application, covering the build-versus-buy decision and how to navigate public benchmarks to narrow down candidates.",
+      "is_atomic": false
+    },
+    {
+      "title": "Design Your Evaluation Pipeline",
+      "summary": "A step-by-step guide to creating a custom evaluation pipeline, including evaluating all system components, creating evaluation guidelines, and defining evaluation methods and data.",
+      "is_atomic": false
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Identifying BM25 as a starting point for RAG is not required to understand how to select evaluation methods for toxicity, semantic similarity, or factual consistency."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Selecting evaluation methods for different criteria does not require first knowing that BM25 is a recommended starting point for RAG implementations."
+  }
+}

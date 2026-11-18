@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Understanding data coverage as a criterion does not require first knowing the broader reasons for synthesizing data."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Explaining reasons for synthesizing data can be done without first mastering the specific concept of data coverage."
+  }
+}

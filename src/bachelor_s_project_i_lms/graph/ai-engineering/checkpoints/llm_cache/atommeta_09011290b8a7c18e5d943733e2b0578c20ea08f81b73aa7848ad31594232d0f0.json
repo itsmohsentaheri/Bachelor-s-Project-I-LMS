@@ -1,0 +1,25 @@
+{
+  "learning_objective": "The learner can define fine-tuning as adapting a foundation model to a specific task by further training its weights using task-specific labeled data.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "finetuning_improves_all_tasks",
+      "description": "Fine-tuning on one task may improve performance for that task but degrade performance on other tasks."
+    },
+    {
+      "id": "finetuning_is_always_memory_intensive",
+      "description": "Native fine-tuning is memory-intensive, but techniques like adapter-based methods allow fine-tuning with less memory."
+    },
+    {
+      "id": "finetuning_requires_large_datasets",
+      "description": "Getting data for fine-tuning is hard, and the amount of data needed depends on the strength of the base model."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p331_504",
+    "chunk_p19_22",
+    "chunk_p337_514"
+  ]
+}

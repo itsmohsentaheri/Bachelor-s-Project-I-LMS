@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Comparing foundation models by architecture, size, modality, and performance does not require first distinguishing absolute from comparative evaluation; the comparison objective can be understood independently."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Understanding how to compare foundation models is not necessary to grasp the conceptual difference between absolute and comparative evaluation, which is a standalone evaluation-methodology distinction."
+  }
+}

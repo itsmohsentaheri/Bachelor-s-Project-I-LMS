@@ -1,0 +1,29 @@
+{
+  "subtopics": [
+    {
+      "title": "Domain-Specific Capability Benchmarks",
+      "summary": "Using public or private benchmarks to assess capabilities such as math, science, reasoning, code generation, and tool use.",
+      "is_atomic": true
+    },
+    {
+      "title": "Generation Quality Criteria",
+      "summary": "Evaluating fluency, coherence, factual consistency, faithfulness, and safety of model outputs.",
+      "is_atomic": true
+    },
+    {
+      "title": "Instruction-Following and Scope",
+      "summary": "Defining what an application should and should not do, including out-of-scope input detection and response behavior.",
+      "is_atomic": true
+    },
+    {
+      "title": "Operational Evaluation Factors",
+      "summary": "Assessing cost, latency, and other operational metrics alongside quality criteria.",
+      "is_atomic": true
+    },
+    {
+      "title": "Evaluation Methods and Scoring Rubrics",
+      "summary": "Selecting methods such as classifiers, semantic similarity, and AI judges, and creating unambiguous scoring guidelines with examples.",
+      "is_atomic": true
+    }
+  ]
+}

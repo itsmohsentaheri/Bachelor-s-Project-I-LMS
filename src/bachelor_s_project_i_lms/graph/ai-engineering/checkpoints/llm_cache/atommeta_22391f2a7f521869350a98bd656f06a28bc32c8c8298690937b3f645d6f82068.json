@@ -1,0 +1,24 @@
+{
+  "learning_objective": "The learner can explain the difference between comparative and absolute evaluation and identify why comparative results alone cannot determine if a model is good enough for a specific use case.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "comparative_means_absolute_quality",
+      "description": "Believing that if model B beats model A in a ranking, model B is necessarily good enough for production."
+    },
+    {
+      "id": "win_rate_to_absolute_metric",
+      "description": "Assuming a comparative win rate (e.g., 51%) can be directly converted into an absolute business metric like ticket resolution rate."
+    },
+    {
+      "id": "both_models_bad_possible",
+      "description": "Overlooking that a comparative ranking can be valid even when both models being compared are actually bad."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p178_273",
+    "chunk_p179_274"
+  ]
+}

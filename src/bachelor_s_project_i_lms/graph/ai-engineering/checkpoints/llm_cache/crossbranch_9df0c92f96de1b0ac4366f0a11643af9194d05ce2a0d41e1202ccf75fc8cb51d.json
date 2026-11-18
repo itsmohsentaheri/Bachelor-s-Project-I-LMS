@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": true,
+    "confidence": 0.85,
+    "rationale": "Selecting appropriate evaluation methods and curating representative data sets is necessary before one can meaningfully evaluate a model's performance using benchmarks and metrics."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Understanding how to evaluate model performance is not required to define evaluation methods or curate evaluation data sets."
+  }
+}

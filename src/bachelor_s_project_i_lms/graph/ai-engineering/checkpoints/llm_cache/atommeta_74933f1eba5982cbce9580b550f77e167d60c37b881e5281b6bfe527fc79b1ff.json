@@ -1,0 +1,23 @@
+{
+  "learning_objective": "The learner can compare the optimal domain data mixes for pre-training, supervised finetuning, and preference finetuning using a domain mix table.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "same_mix_all_phases",
+      "description": "Believing that the same data domain proportions are optimal across all training phases."
+    },
+    {
+      "id": "preference_math_heavy",
+      "description": "Assuming preference finetuning requires a high percentage of math and reasoning data like pre-training."
+    },
+    {
+      "id": "internet_math_50_percent",
+      "description": "Thinking that math and code tokens naturally make up about 50% of general internet data."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p395_610"
+  ]
+}

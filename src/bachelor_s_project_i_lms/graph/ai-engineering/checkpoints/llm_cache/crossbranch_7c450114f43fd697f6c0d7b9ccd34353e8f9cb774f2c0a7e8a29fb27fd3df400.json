@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": true,
+    "confidence": 0.8,
+    "rationale": "Understanding how preference data is collected into ranked pairs is necessary to grasp why those comparative rankings fail to reveal absolute performance or justify model swaps."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Knowing the limitations of comparative evaluation is not required to describe the mechanics of collecting human feedback for preference pairs."
+  }
+}

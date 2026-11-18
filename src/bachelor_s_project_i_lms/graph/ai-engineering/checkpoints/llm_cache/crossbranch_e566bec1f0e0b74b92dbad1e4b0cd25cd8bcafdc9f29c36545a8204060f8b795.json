@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Identifying domain-specific benchmarks is not required to explain how data-centric competitions evaluate dataset quality via downstream task performance."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Understanding data-centric benchmark competitions is not necessary to identify domain-specific benchmarks used to evaluate AI capabilities."
+  }
+}

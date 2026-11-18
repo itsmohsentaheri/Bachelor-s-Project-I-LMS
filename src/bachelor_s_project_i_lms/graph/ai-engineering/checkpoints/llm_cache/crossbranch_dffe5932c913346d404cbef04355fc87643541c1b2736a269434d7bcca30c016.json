@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.95,
+    "rationale": "Identifying prompt engineering tools and their risks does not require prior mastery of the general definition of prompt engineering, as the concepts are distinct enough that one can understand the definition without knowing specific tools."
+  },
+  "b_before_a": {
+    "is_prerequisite": true,
+    "confidence": 0.95,
+    "rationale": "Understanding prompt engineering as crafting instructions to guide foundation models is necessary before meaningfully learning about specific tools for structured outputs, prompt variation, and associated API risks."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "learning_objective": "The learner can define data quality in model training and explain how high-quality data impacts model performance compared to noisy data.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 2,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "quantity_over_quality",
+      "description": "Believing that a larger volume of training data always leads to better model performance regardless of noise or relevance."
+    },
+    {
+      "id": "quality_irrelevance",
+      "description": "Assuming that data quality does not significantly affect model performance as long as the data quantity is sufficient."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p391_603",
+    "chunk_p392_604"
+  ]
+}

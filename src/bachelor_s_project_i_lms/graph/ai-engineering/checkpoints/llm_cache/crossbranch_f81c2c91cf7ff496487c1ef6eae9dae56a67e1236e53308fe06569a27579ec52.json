@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Defining prompts and their components does not require prior understanding of foundation model pre-training or adaptability, as prompt structure is a separate concept from model architecture."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Understanding foundation model characteristics is not necessary to define a prompt or identify its components, since prompts can be understood as input text independent of the underlying model."
+  }
+}

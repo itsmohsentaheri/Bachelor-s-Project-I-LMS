@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Mapping technical metrics to business outcomes is not required to assess operational factors such as cost and latency alongside quality criteria."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Assessing operational metrics is not required before one can map technical evaluation metrics to specific business outcomes."
+  }
+}

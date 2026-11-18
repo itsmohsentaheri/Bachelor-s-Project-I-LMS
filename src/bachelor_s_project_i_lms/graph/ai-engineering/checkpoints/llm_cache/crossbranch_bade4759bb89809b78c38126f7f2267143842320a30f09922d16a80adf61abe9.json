@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Understanding domain mix percentages for preference finetuning does not require knowing how adapter-based finetuning inserts trainable modules into transformer layers."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Adapter-based finetuning is a parameter-efficient technique independent of the specific domain mix percentages used in preference finetuning."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Data quality in foundation model training is not required to understand factual consistency as an evaluation criterion for RAG systems, which focuses on alignment between generated responses and retrieved context."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "RAG evaluation does not require prior mastery of data quality concepts in foundation model training, as they address different stages and aspects of model development."
+  }
+}

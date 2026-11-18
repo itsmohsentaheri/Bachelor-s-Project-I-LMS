@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Annotating evaluation data does not require understanding self-supervised pre-training objectives; one can curate labeled examples and scoring rubrics without knowing how foundation models infer labels during pre-training."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Understanding self-supervised pre-training does not depend on knowing how to annotate evaluation data; the pre-training objective is defined independently of downstream evaluation curation."
+  }
+}

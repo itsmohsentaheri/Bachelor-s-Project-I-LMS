@@ -1,0 +1,19 @@
+{
+  "subtopics": [
+    {
+      "title": "Compute-Optimal Model Scaling",
+      "summary": "Determining the best model size and dataset size given a fixed compute budget to maximize performance while minimizing cost.",
+      "is_atomic": true
+    },
+    {
+      "title": "Training Cost vs. Inference Cost Trade-offs",
+      "summary": "Analyzing the relationship between total training cost and recoverable inference revenue to determine if model development is economically viable.",
+      "is_atomic": true
+    },
+    {
+      "title": "Training Data Cost Management",
+      "summary": "Calculating and managing costs when the acquisition or processing of training data is nontrivial.",
+      "is_atomic": true
+    }
+  ]
+}

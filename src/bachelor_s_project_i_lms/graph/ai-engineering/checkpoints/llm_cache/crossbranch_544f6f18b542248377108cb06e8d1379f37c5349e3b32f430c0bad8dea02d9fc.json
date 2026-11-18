@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Understanding how foundation models generate synthetic data does not require the ability to compare models by architecture, size, modality, or performance."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Comparing foundation models for application needs does not require prior knowledge of synthetic instruction data generation via templates or distillation."
+  }
+}

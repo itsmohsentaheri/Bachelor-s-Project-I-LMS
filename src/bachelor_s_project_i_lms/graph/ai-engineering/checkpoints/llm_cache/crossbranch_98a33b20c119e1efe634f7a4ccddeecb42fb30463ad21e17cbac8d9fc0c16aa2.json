@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Understanding data coverage as a data-mix criterion is not required to explain how benchmark competitions evaluate dataset quality via model training and downstream performance."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Knowing how data-centric benchmark competitions work is not necessary to understand the concept of data coverage in training data."
+  }
+}

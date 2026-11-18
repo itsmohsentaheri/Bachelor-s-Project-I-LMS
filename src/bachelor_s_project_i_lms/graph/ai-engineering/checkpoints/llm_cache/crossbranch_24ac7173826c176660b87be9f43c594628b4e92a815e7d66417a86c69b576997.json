@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Understanding risks from internet scraping and AI-generated data is not required to identify limitations of synthetic data such as model collapse or quality control challenges."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Knowing the limitations of synthetic data is not required to understand how indiscriminate scraping and AI-generated data introduce risks like bias, copyright violations, or benchmark contamination."
+  }
+}

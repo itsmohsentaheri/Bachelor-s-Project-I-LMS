@@ -1,0 +1,40 @@
+{
+  "edges": [
+    {
+      "prerequisite": "Data Filtering and Deduplication",
+      "dependent": "Data Quality",
+      "confidence": 0.9,
+      "rationale": "Removing low-quality samples and duplicates is a foundational step required to ensure data is accurate and free from errors."
+    },
+    {
+      "prerequisite": "Data Filtering and Deduplication",
+      "dependent": "Data Coverage",
+      "confidence": 0.8,
+      "rationale": "Cleaning raw data by removing duplicates and low-quality samples is necessary before assessing whether the dataset represents all necessary scenarios."
+    },
+    {
+      "prerequisite": "Data Filtering and Deduplication",
+      "dependent": "Data Quantity",
+      "confidence": 0.8,
+      "rationale": "The effective volume of usable data can only be determined after low-quality samples and duplicates are removed."
+    },
+    {
+      "prerequisite": "Data Filtering and Deduplication",
+      "dependent": "Overlap Analysis",
+      "confidence": 0.9,
+      "rationale": "Duplicate entries must be removed before analyzing intersections between data subsets to prevent data leakage."
+    },
+    {
+      "prerequisite": "Data Quality",
+      "dependent": "Data Coverage",
+      "confidence": 0.6,
+      "rationale": "Ensuring data accuracy and reliability is a prerequisite for meaningfully evaluating whether the dataset represents all necessary scenarios."
+    },
+    {
+      "prerequisite": "Data Quantity",
+      "dependent": "Data Coverage",
+      "confidence": 0.6,
+      "rationale": "Determining the appropriate volume of data is necessary before assessing whether the dataset has sufficient diversity to represent all scenarios."
+    }
+  ]
+}

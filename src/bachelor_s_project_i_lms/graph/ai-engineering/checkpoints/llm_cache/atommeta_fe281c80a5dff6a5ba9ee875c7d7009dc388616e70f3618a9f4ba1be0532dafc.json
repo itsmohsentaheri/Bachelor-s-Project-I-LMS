@@ -1,0 +1,20 @@
+{
+  "learning_objective": "The learner can explain data coverage as the criterion ensuring training data includes the right mix of domains and topics without over- or under-representing any area.",
+  "estimated_time_min": 5,
+  "difficulty_weight": 2,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "coverage_equals_quantity",
+      "description": "Believing data coverage is about the total amount of data rather than the diversity and balance of domains and topics."
+    },
+    {
+      "id": "coverage_equals_quality",
+      "description": "Confusing data coverage with data quality, which concerns the correctness and reliability of individual examples rather than the mix of data."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p391_603",
+    "chunk_p394_608"
+  ]
+}

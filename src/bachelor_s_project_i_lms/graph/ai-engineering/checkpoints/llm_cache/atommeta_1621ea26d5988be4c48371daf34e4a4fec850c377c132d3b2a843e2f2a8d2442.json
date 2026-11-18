@@ -1,0 +1,25 @@
+{
+  "learning_objective": "The learner can describe model-level inference optimization techniques such as quantization and distillation and explain how they reduce model size or improve efficiency.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "model_level_changes_behavior",
+      "description": "Believing model-level optimization never alters model behavior, when techniques like quantization can change model outputs."
+    },
+    {
+      "id": "all_developers_implement",
+      "description": "Assuming most application developers implement optimization techniques themselves, when most use model APIs with built-in optimization."
+    },
+    {
+      "id": "only_model_level",
+      "description": "Thinking inference optimization happens only at the model level, ignoring hardware and service-level approaches."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p429_661",
+    "chunk_p472_723",
+    "chunk_p450_691"
+  ]
+}

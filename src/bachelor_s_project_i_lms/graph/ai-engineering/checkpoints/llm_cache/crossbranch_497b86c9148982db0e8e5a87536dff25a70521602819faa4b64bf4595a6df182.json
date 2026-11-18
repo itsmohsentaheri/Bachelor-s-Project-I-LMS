@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": true,
+    "confidence": 0.8,
+    "rationale": "To determine whether to finetune or use prompt-based methods, a learner must first understand what a prompt is and its key components, as prompt-based methods are one of the primary alternatives being evaluated."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Defining a prompt and identifying its components does not require any prior knowledge of when to finetune a model."
+  }
+}

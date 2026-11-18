@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Understanding parameter-efficient finetuning techniques is not required to calculate the memory footprint of a model during finetuning, as the calculation depends on parameter count and numerical format rather than the specific finetuning method."
+  },
+  "b_before_a": {
+    "is_prerequisite": true,
+    "confidence": 0.85,
+    "rationale": "Calculating memory footprint provides the foundational understanding of resource constraints that motivates and contextualizes the need for parameter-efficient finetuning techniques like LoRA and PEFT."
+  }
+}

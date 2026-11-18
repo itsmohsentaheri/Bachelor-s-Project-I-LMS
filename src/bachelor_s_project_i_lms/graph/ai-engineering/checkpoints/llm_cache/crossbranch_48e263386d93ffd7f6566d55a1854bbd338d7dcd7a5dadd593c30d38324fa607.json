@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Filtering and deduplicating data is a processing technique that does not require prior understanding of the risks associated with data sources or output generation."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Understanding the risks of data sources and model outputs is not required to mechanically identify and remove low-quality samples or duplicate entries from raw data."
+  }
+}

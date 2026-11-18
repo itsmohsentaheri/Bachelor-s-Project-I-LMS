@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Explaining how data quantity is determined does not require first mastering the economic inequality comparing total training cost to inference revenue."
+  },
+  "b_before_a": {
+    "is_prerequisite": true,
+    "confidence": 0.85,
+    "rationale": "Determining whether model development is economically viable requires understanding how data quantity affects training costs, since data quantity is a key factor in those costs."
+  }
+}

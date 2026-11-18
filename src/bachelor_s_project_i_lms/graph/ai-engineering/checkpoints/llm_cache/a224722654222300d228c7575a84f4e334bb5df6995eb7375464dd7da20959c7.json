@@ -1,0 +1,24 @@
+{
+  "subtopics": [
+    {
+      "title": "Pre-training",
+      "summary": "The initial phase where a model is trained on massive unlabeled text corpora to learn general language patterns and knowledge, typically optimized for text completion rather than conversation.",
+      "is_atomic": false
+    },
+    {
+      "title": "Supervised Finetuning (SFT)",
+      "summary": "The process of training a pre-trained model on labeled instruction-response pairs to align it with conversational behavior and task-specific outputs.",
+      "is_atomic": false
+    },
+    {
+      "title": "Preference Finetuning",
+      "summary": "The alignment stage that uses human feedback to rank model outputs and optimize the model to generate responses that match human preferences.",
+      "is_atomic": false
+    },
+    {
+      "title": "Training Design Decisions",
+      "summary": "Key architectural and hyperparameter choices made during foundation model training that have consequential impact on downstream applications and model capabilities.",
+      "is_atomic": false
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Understanding how to gather user feedback to evaluate an AI product is not required to describe how an agent decomposes tasks and plans actions."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Knowing how an agent plans and executes actions is not necessary to explain how user feedback determines whether an application achieves its intended goals."
+  }
+}

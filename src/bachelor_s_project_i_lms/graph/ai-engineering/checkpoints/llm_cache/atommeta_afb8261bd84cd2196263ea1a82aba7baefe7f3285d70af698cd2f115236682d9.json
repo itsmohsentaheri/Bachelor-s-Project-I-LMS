@@ -1,0 +1,25 @@
+{
+  "learning_objective": "The learner can explain how the number of parameters, layers, and hidden dimensions affect model capacity, expressiveness, and the ability to learn complex patterns from data.",
+  "estimated_time_min": 10,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "larger_models_require_less_data",
+      "description": "Believing that more powerful models require fewer training examples to learn from."
+    },
+    {
+      "id": "parameter_count_equals_memory",
+      "description": "Assuming the number of parameters alone determines memory usage without considering sparsity or precision."
+    },
+    {
+      "id": "more_parameters_always_better",
+      "description": "Thinking that increasing parameters always leads to better performance regardless of data quality or quantity."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p32_41",
+    "chunk_p92_134",
+    "chunk_p99_147"
+  ]
+}

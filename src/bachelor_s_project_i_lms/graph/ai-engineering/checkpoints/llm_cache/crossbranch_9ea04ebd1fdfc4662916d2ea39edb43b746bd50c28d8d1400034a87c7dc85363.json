@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Preference optimization algorithms like RLHF and DPO focus on aligning model outputs using human feedback and do not require prior knowledge of model-level inference optimization techniques such as quantization or distillation."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Understanding how to apply inference optimization techniques like quantization and distillation does not depend on first mastering preference alignment algorithms such as RLHF or DPO."
+  }
+}

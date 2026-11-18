@@ -1,0 +1,25 @@
+{
+  "learning_objective": "The learner can calculate and manage the costs associated with acquiring and processing training data when those costs are nontrivial.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "labeling_cost_is_fixed",
+      "description": "Believing that data labeling costs are constant regardless of dataset size or task complexity."
+    },
+    {
+      "id": "data_quality_irrelevant_to_cost",
+      "description": "Assuming that poor data quality does not increase overall project costs by wasting resources."
+    },
+    {
+      "id": "more_data_always_better",
+      "description": "Thinking that acquiring more data is always beneficial without considering the cost-benefit tradeoff."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p31_39",
+    "chunk_p106_158",
+    "chunk_p389_598"
+  ]
+}

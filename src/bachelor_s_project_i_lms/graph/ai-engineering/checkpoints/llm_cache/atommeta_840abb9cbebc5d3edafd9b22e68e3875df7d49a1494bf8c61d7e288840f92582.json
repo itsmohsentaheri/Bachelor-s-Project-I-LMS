@@ -1,0 +1,23 @@
+{
+  "learning_objective": "The learner can describe programmatic verification methods for synthetic data, including code execution and back-translation.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "verification_guarantees_quality",
+      "description": "Believing that programmatic verification guarantees data quality rather than just checking specific properties."
+    },
+    {
+      "id": "all_data_verifiable",
+      "description": "Assuming all synthetic data can be programmatically verified when some data cannot be verified this way."
+    },
+    {
+      "id": "verification_replaces_curation",
+      "description": "Thinking verification alone is sufficient without additional data curation steps like filtering and cleaning."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p416_640"
+  ]
+}

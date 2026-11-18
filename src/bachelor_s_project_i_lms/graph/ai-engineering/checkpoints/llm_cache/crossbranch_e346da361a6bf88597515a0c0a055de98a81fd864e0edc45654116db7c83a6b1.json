@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Understanding data quality in model training is not required to explain how missing evaluation standards and quality control hinder cross-study comparability."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Knowledge of evaluation standardization issues is not needed to define data quality or explain its impact on model performance versus noisy data."
+  }
+}

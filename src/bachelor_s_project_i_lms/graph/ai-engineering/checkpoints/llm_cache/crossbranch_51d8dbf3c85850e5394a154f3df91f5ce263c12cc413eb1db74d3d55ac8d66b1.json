@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Both units cover the same definition and measurement of instruction-following capability, so mastering A is not required to understand B."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Both units cover the same definition and measurement of instruction-following capability, so mastering B is not required to understand A."
+  }
+}

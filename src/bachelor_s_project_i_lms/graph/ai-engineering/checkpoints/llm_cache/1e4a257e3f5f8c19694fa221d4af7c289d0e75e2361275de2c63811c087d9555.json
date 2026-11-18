@@ -1,0 +1,24 @@
+{
+  "subtopics": [
+    {
+      "title": "Agent Definition and Core Concepts",
+      "summary": "Defines an agent as an entity that perceives its environment through sensors and acts upon it through actuators, distinguishing agentic patterns from simple retrieval by enabling autonomous action-taking and decision-making.",
+      "is_atomic": true
+    },
+    {
+      "title": "Agent Tools",
+      "summary": "Covers the external capabilities and interfaces that agents use to interact with the world, extending model functionality beyond text generation to include API calls, code execution, and other action-taking mechanisms.",
+      "is_atomic": true
+    },
+    {
+      "title": "Agent Planning",
+      "summary": "Explores how agents decompose tasks, sequence actions, and make autonomous decisions to solve complex problems, representing the cognitive layer that directs tool usage toward goal completion.",
+      "is_atomic": true
+    },
+    {
+      "title": "Agent Failure Modes",
+      "summary": "Discusses the new modes of failure introduced by agentic operations, including error propagation in multi-step reasoning, tool misuse, and infinite loops, which differ from standard generation failures.",
+      "is_atomic": true
+    }
+  ]
+}

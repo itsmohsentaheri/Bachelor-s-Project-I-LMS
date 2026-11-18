@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Distinguishing absolute from comparative evaluation is not required to select evaluation methods or create scoring rubrics; one can design rubrics without knowing this distinction."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Selecting evaluation methods and creating rubrics does not require first understanding the difference between absolute and comparative evaluation."
+  }
+}

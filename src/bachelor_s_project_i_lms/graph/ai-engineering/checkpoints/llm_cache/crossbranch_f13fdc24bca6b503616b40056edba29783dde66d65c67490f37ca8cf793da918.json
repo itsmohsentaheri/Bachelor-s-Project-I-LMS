@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Assessing and iterating on an evaluation pipeline requires first knowing how to select evaluation methods and create scoring rubrics, so A depends on B rather than the reverse."
+  },
+  "b_before_a": {
+    "is_prerequisite": true,
+    "confidence": 0.9,
+    "rationale": "Meaningfully evaluating pipeline reliability and iterating on guidelines requires foundational knowledge of appropriate evaluation methods and unambiguous scoring rubrics."
+  }
+}

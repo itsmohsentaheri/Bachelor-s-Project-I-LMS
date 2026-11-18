@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Defining text generation quality criteria does not require prior mastery of data quality concepts, as they address different stages of the AI pipeline."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Understanding how training data quality affects model performance is not necessary to define evaluation criteria for generated text outputs."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Understanding general evaluation bottlenecks such as cost, time, and annotation standardization is not required to grasp why comparative evaluation scales quadratically with the number of model pairs."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Knowing that comparative evaluation grows quadratically with model pairs is not necessary to identify broader scalability bottlenecks in evaluation caused by cost, time, and lack of standardization."
+  }
+}

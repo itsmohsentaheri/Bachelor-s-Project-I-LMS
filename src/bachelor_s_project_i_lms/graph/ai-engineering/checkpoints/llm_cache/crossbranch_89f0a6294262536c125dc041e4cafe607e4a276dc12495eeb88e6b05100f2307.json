@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Defining evaluation methods and data does not require first understanding the distinction between absolute and comparative evaluation; one can select methods and annotate data without that conceptual distinction."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Distinguishing absolute from comparative evaluation is a conceptual task that does not depend on having already defined evaluation methods, annotated data, or sliced production data."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Computing rankings from pairwise match outcomes does not require the ability to resolve contradictory benchmark results across different benchmarks."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Resolving conflicting benchmark results can be done using decision criteria without needing to compute rankings from historical pairwise match outcomes."
+  }
+}

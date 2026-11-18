@@ -1,0 +1,16 @@
+{
+  "edges": [
+    {
+      "prerequisite": "Full Parameter Updates During Pre-training",
+      "dependent": "Pre-training as Parameter Compression",
+      "confidence": 0.8,
+      "rationale": "Parameter compression during pre-training is a result of updating all model parameters over massive data."
+    },
+    {
+      "prerequisite": "Self-Supervised Pre-training Objective",
+      "dependent": "Data Sources and Output Risks",
+      "confidence": 0.7,
+      "rationale": "The self-supervised objective trains on massive unlabeled text corpora, which are the data sources that introduce output risks."
+    }
+  ]
+}

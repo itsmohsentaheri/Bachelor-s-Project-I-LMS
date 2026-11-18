@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Understanding how data quantity is determined by cost and capability goals is not required to calculate the memory footprint of model weights, optimizer states, and gradients during finetuning."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Calculating memory requirements for finetuning does not depend on knowing how to balance training costs and desired capabilities to determine data quantity."
+  }
+}

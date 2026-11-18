@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Defining evaluation methods and data does not require prior mastery of data quality dimensions; one can select methods, annotate data, and slice production slices without explicitly applying completeness, uniqueness, validity, accuracy, consistency, or fitness for purpose."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Listing and defining data quality dimensions does not depend on knowing how to define evaluation methods, annotate evaluation data, or slice data for production slices."
+  }
+}

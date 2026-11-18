@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Comparing model capabilities based on architecture, size, modality, and performance does not require understanding evaluation standardization issues; one can meaningfully compare models without first grasping why results are hard to compare across studies."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Understanding the lack of standardization and quality control in evaluation does not depend on being able to compare foundation models by their technical characteristics; the two concepts address different layers of the evaluation landscape."
+  }
+}

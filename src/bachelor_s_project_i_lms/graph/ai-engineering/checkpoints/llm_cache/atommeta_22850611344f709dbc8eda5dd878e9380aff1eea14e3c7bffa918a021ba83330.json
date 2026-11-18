@@ -1,0 +1,19 @@
+{
+  "learning_objective": "The learner can explain how DataPerf and dcbench serve as standardized data-centric benchmarks that assess dataset quality through model performance metrics.",
+  "estimated_time_min": 5,
+  "difficulty_weight": 2,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "benchmark_is_model_centric",
+      "description": "Believing these benchmarks measure model architecture performance rather than dataset quality."
+    },
+    {
+      "id": "only_mlcommons_exists",
+      "description": "Assuming DataPerf is the only standardized data-centric benchmark and ignoring dcbench."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p388_597"
+  ]
+}

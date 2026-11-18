@@ -1,0 +1,25 @@
+{
+  "learning_objective": "The learner can calculate the memory footprint of a model during finetuning by accounting for weights, optimizer states, and gradients based on parameter count and numerical format.",
+  "estimated_time_min": 10,
+  "difficulty_weight": 4,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "weights_only_memory",
+      "description": "Believing that only the model weights need to be stored in memory during finetuning, ignoring optimizer states and gradients."
+    },
+    {
+      "id": "all_params_trainable",
+      "description": "Assuming that all parameters must be trainable for finetuning, overlooking partial finetuning techniques that reduce memory requirements."
+    },
+    {
+      "id": "memory_equals_storage",
+      "description": "Confusing model storage size with the active memory required for backpropagation and training."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p357_547",
+    "chunk_p10_10",
+    "chunk_p447_688"
+  ]
+}

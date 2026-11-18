@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "B describes a baseline architecture of a model and UI, which can be understood without first mastering the broader structural components of AI applications covered in A."
+  },
+  "b_before_a": {
+    "is_prerequisite": true,
+    "confidence": 0.85,
+    "rationale": "Understanding the simplest baseline architecture of a model and UI provides the foundational context needed to meaningfully identify the more complex structural components of AI applications in A."
+  }
+}

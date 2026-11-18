@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Describing a baseline model-and-UI application architecture does not require knowledge of supervised or preference finetuning workflows."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Understanding post-training alignment workflows does not require first knowing the simplest foundation model application architecture."
+  }
+}

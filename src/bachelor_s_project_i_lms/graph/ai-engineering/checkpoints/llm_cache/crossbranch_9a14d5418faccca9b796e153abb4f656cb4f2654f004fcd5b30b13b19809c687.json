@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Understanding how foundation models generate synthetic data does not require prior knowledge of specific finetuning frameworks or tactics."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Identifying finetuning frameworks and tactics is not necessary to explain how synthetic instruction data is generated through templates and distillation."
+  }
+}

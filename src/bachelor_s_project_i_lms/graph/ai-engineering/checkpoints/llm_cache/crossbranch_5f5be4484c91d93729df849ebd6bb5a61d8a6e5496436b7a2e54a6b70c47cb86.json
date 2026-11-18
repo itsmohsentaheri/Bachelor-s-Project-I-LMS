@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Calculating memory footprint is not required to compare compute requirements or identify finetuning frameworks."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Comparing finetuning approaches and naming frameworks does not require the ability to calculate memory footprints."
+  }
+}

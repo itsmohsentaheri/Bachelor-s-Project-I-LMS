@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Understanding DataPerf and dcbench as data-centric benchmarks is not required to use public benchmarks and leaderboards to filter models or recognize limitations like data contamination."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Knowing how to navigate public benchmarks and leaderboards is not required to explain how DataPerf and dcbench serve as standardized data-centric benchmarks."
+  }
+}

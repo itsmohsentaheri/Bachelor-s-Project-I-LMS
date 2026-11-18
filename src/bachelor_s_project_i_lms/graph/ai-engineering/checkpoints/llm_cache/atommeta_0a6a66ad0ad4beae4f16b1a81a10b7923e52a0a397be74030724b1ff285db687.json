@@ -1,0 +1,25 @@
+{
+  "learning_objective": "The learner can identify challenges in gathering reliable comparison signals and ranking models, including issues with human and AI evaluators.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 4,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "leaderboard_accuracy",
+      "description": "Believing public leaderboards always provide accurate and comparable model rankings."
+    },
+    {
+      "id": "evaluator_reliability",
+      "description": "Assuming human and AI evaluators consistently provide reliable comparison signals without bias."
+    },
+    {
+      "id": "benchmark_standardization",
+      "description": "Thinking there is a single standardized method for evaluating and ranking all foundation models."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p525_794",
+    "chunk_p217_339",
+    "chunk_p529_802"
+  ]
+}

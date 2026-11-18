@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Evaluating model performance using benchmarks and metrics does not require first curating annotated examples from production data; benchmarks can be applied independently of application-specific annotation."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Curating annotated examples for application evaluation can be done using general scoring rubrics without first understanding how to evaluate a foundation model's performance via benchmarks."
+  }
+}

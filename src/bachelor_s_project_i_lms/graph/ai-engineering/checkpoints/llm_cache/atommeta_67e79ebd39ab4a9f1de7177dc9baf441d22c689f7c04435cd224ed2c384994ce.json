@@ -1,0 +1,25 @@
+{
+  "learning_objective": "The learner can define instruction-following capability and explain how scoring rubrics, examples, and defined evaluation criteria are used to measure how well a model adheres to user constraints.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "conflation_with_domain_capability",
+      "description": "Instruction-following failure is often confused with a lack of domain-specific knowledge or generation capability."
+    },
+    {
+      "id": "bad_model_vs_bad_instruction",
+      "description": "Poor model performance is assumed to be the model's fault without considering that the instruction itself may be bad."
+    },
+    {
+      "id": "binary_success_only",
+      "description": "Instruction following is treated as a strict pass/fail rather than a partial score based on meeting multiple criteria."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p197_302",
+    "chunk_p196_300",
+    "chunk_p199_306"
+  ]
+}

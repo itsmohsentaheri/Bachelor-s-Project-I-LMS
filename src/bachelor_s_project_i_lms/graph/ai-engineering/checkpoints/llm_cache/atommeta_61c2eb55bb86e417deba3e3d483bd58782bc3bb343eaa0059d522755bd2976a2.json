@@ -1,0 +1,24 @@
+{
+  "learning_objective": "The learner can curate a set of annotated examples to evaluate an application's components and criteria using production data, human or AI labeling, and clear scoring rubrics.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 3,
+  "type": "practical",
+  "common_misconceptions": [
+    {
+      "id": "natural_labels_always_available",
+      "description": "Assuming every application has natural labels that can be used for evaluation without additional labeling effort."
+    },
+    {
+      "id": "annotation_guide_reuse",
+      "description": "Believing annotation guidelines created for evaluation cannot be reused to create instruction data for finetuning later."
+    },
+    {
+      "id": "evaluation_data_volume",
+      "description": "Thinking evaluation sets should be as large as possible without considering cost and reliability trade-offs."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p229_359",
+    "chunk_p230_361"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "edges": [
+    {
+      "prerequisite": "Supervised Finetuning (SFT)",
+      "dependent": "Preference Finetuning",
+      "confidence": 0.95,
+      "rationale": "Preference finetuning methods such as RLHF typically require a model that has already undergone SFT to convert text-completion behavior into instruction-following dialogue before aligning outputs with human preferences."
+    },
+    {
+      "prerequisite": "Supervised Finetuning (SFT)",
+      "dependent": "Parameter-Efficient Finetuning",
+      "confidence": 0.85,
+      "rationale": "Parameter-efficient finetuning techniques such as LoRA and PEFT are applied to the SFT stage to reduce compute and memory requirements compared to full finetuning."
+    },
+    {
+      "prerequisite": "Parameter-Efficient Finetuning",
+      "dependent": "Finetuning Frameworks and Tactics",
+      "confidence": 0.8,
+      "rationale": "Practical frameworks like PEFT and tactics such as model merging and multi-task finetuning build upon parameter-efficient finetuning techniques."
+    },
+    {
+      "prerequisite": "Supervised Finetuning (SFT)",
+      "dependent": "Finetuning Frameworks and Tactics",
+      "confidence": 0.75,
+      "rationale": "Finetuning frameworks and tactics such as full finetuning and multi-task finetuning are practical implementations of the SFT stage."
+    },
+    {
+      "prerequisite": "Preference Finetuning",
+      "dependent": "Finetuning Frameworks and Tactics",
+      "confidence": 0.7,
+      "rationale": "Finetuning frameworks and tactics include practical tools and methods for implementing preference finetuning such as RLHF."
+    },
+    {
+      "prerequisite": "Post-Training Workflow",
+      "dependent": "Supervised Finetuning (SFT)",
+      "confidence": 0.9,
+      "rationale": "The post-training workflow defines the overall sequence where SFT is a key stage following pre-training."
+    },
+    {
+      "prerequisite": "Post-Training Workflow",
+      "dependent": "Preference Finetuning",
+      "confidence": 0.9,
+      "rationale": "The post-training workflow defines the overall sequence where preference finetuning is a key stage following SFT."
+    },
+    {
+      "prerequisite": "Post-Training Workflow",
+      "dependent": "Parameter-Efficient Finetuning",
+      "confidence": 0.8,
+      "rationale": "The post-training workflow includes parameter-efficient finetuning as a technique used during the SFT stage."
+    },
+    {
+      "prerequisite": "Post-Training Workflow",
+      "dependent": "Finetuning Frameworks and Tactics",
+      "confidence": 0.75,
+      "rationale": "The post-training workflow encompasses the practical tools and tactics used for implementing finetuning strategies."
+    }
+  ]
+}

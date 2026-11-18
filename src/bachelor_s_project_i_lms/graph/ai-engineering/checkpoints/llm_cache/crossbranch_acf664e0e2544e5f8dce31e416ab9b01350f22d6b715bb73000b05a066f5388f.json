@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Assessing dataset quality via downstream task performance does not require prior knowledge of challenges in gathering comparison signals or ranking models."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Identifying challenges in signal gathering and model ranking is not required to meaningfully understand how to evaluate dataset quality using downstream task performance."
+  }
+}

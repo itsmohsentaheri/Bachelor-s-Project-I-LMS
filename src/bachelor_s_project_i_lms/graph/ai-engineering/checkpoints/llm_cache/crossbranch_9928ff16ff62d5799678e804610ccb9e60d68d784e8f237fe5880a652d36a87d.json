@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "RAG Evaluation focuses on applying factual consistency within a specific RAG context, whereas Generation Capability Metrics covers the broader identification and evolution of general generation metrics, so mastering the specific RAG application is not required to understand the general metric concepts."
+  },
+  "b_before_a": {
+    "is_prerequisite": true,
+    "confidence": 0.85,
+    "rationale": "Understanding factual consistency as a general generation capability metric provides the foundational concept needed to meaningfully explain how it serves as a key evaluation criterion specifically for RAG systems."
+  }
+}

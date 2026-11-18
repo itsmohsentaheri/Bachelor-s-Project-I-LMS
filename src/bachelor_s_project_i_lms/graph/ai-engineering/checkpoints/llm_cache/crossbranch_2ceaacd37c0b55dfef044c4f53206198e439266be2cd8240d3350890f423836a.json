@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Deciding whether to finetune does not require first comparing foundation models; one can evaluate data, hardware, and talent needs independently of model capability comparisons."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Comparing foundation models by architecture, size, modality, and performance does not require knowing when to finetune versus use prompting."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Defining and measuring instruction-following does not require prior mastery of prompt engineering best practices such as versioning or systematic testing."
+  },
+  "b_before_a": {
+    "is_prerequisite": true,
+    "confidence": 0.85,
+    "rationale": "Meaningfully applying prompt engineering best practices requires understanding what instruction-following is and how to measure whether outputs meet specified criteria."
+  }
+}

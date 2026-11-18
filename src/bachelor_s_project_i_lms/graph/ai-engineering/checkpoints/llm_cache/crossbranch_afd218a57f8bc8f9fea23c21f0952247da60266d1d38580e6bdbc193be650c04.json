@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Adapter-based finetuning is a parameter-efficient technique that can be applied independently of preference alignment; understanding preference finetuning is not required to grasp how adapters work or their trade-offs."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Preference finetuning is a post-training alignment step whose definition does not depend on knowing adapter-based finetuning, as it can be implemented through full-model or other parameter-efficient methods."
+  }
+}

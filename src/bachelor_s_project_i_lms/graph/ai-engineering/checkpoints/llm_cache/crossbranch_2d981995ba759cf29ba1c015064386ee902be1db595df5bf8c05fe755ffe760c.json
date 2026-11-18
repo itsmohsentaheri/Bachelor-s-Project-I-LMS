@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Evaluating all system components is a broad assessment skill that does not require prior knowledge of specific agent tools to understand what those tools are or how they extend agent capabilities."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Knowing how to identify and categorize agent tools is not required before one can meaningfully evaluate all components of an AI system, as evaluation encompasses many independent dimensions beyond tool usage."
+  }
+}

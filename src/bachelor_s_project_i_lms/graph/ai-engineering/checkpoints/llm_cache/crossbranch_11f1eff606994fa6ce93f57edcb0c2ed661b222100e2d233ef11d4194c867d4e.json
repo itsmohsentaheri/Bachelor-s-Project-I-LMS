@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Model optimization techniques like quantization and distillation are applied after training and are not required to understand how learning rate schedules function during training."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Learning rate scheduling is a training hyperparameter concept, while model optimization focuses on post-training efficiency techniques, so mastering scheduling is not necessary to understand optimization."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "subtopics": [
+    {
+      "title": "Prompt Engineering",
+      "summary": "Designing input prompts to guide foundation models toward desired outputs without modifying model weights.",
+      "is_atomic": true
+    },
+    {
+      "title": "Fine-Tuning",
+      "summary": "Updating foundation model weights using task-specific labeled data to adapt behavior for specialized applications.",
+      "is_atomic": true
+    },
+    {
+      "title": "Retrieval-Augmented Generation",
+      "summary": "Combining foundation models with external knowledge retrieval to ground responses in domain-specific data sources.",
+      "is_atomic": true
+    }
+  ]
+}

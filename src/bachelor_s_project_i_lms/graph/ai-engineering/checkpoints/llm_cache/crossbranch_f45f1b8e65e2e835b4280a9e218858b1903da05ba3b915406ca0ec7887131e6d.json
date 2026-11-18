@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Adapter-based finetuning is a parameter-efficient technique that can be applied to various objectives, including pre-training, and does not require understanding the specific shift from text completion to instruction-following via SFT."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Understanding how SFT shifts model behavior does not depend on knowing the specific mechanics of adapter modules, as SFT can be performed via full fine-tuning without adapters."
+  }
+}

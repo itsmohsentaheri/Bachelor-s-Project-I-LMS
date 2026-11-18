@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.95,
+    "rationale": "Understanding how to gather signals and rank models does not require prior knowledge of learning rate scheduling, as these are distinct concerns of evaluation versus training optimization."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Learning rate scheduling is a training technique that is not required to meaningfully understand the challenges of gathering comparison signals and ranking models."
+  }
+}

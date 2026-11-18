@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "RAG evaluation can be understood by focusing on factual consistency between generated responses and retrieved context without needing to know the full set of data quality dimensions for finetuning datasets."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "RAG evaluation is a separate topic from data quality dimensions for finetuning datasets, and understanding RAG evaluation is not required to list and define data quality dimensions."
+  }
+}

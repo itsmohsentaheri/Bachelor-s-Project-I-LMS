@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Downstream task evaluation focuses on assessing dataset quality through model performance, which does not require knowledge of compute-optimal model scaling laws to be meaningfully understood."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Determining optimal model and dataset sizes for a fixed compute budget relies on scaling laws and does not depend on the ability to evaluate models across downstream tasks."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "User feedback integration focuses on collecting and incorporating feedback to improve applications over time, which is not required to understand how to define instruction-following capability or use scoring rubrics to measure model adherence to constraints."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Instruction-following evaluation teaches how to measure model adherence to constraints, but mastering this specific evaluation method is not necessary to understand the general methods for collecting, processing, and incorporating user feedback to improve AI application performance."
+  }
+}

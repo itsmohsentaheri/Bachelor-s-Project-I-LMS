@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Deciding whether to build or buy a model does not require first knowing how to compare model capabilities; the build-versus-buy decision focuses on cost, control, and time-to-market rather than technical model comparison."
+  },
+  "b_before_a": {
+    "is_prerequisite": true,
+    "confidence": 0.85,
+    "rationale": "Meaningfully evaluating whether to build or buy a foundation model requires understanding how to compare models by architecture, size, modality, and performance to match them with application needs."
+  }
+}

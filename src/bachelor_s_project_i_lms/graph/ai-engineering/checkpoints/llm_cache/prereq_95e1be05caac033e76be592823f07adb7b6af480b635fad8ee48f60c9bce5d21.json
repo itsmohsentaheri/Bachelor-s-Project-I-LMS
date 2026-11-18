@@ -1,0 +1,10 @@
+{
+  "edges": [
+    {
+      "prerequisite": "Navigating Public Benchmarks",
+      "dependent": "Resolving Conflicting Benchmark Results",
+      "confidence": 0.95,
+      "rationale": "To resolve conflicting benchmark results, one must first understand how to navigate public benchmarks and their limitations."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "learning_objective": "The learner can remove extraneous formatting tokens, PII, sensitive data, copyrighted data, and toxic content from a dataset to ensure safety and performance.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 3,
+  "type": "practical",
+  "common_misconceptions": [
+    {
+      "id": "html_tags_are_harmless",
+      "description": "Believing that leaving HTML tags in training data does not affect model accuracy or token length."
+    },
+    {
+      "id": "cleaning_before_filtering",
+      "description": "Assuming data should always be cleaned before filtering or deduplication, regardless of computational cost."
+    },
+    {
+      "id": "in_place_editing",
+      "description": "Thinking it is safe to modify the original dataset directly without keeping a backup copy."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p425_655",
+    "chunk_p416_641",
+    "chunk_p421_650"
+  ]
+}

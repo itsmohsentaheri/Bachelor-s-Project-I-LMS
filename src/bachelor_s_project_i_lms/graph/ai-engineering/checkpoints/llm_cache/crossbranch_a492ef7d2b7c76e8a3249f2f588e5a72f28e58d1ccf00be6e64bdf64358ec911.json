@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Identifying domain-specific benchmarks for capabilities like code generation and math is not required to understand generation capability metrics such as fluency, coherence, and factual consistency."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Understanding generation capability metrics and their evolution from traditional NLP metrics is not necessary to identify domain-specific benchmarks used to evaluate capabilities such as code generation, math, reasoning, and legal knowledge."
+  }
+}

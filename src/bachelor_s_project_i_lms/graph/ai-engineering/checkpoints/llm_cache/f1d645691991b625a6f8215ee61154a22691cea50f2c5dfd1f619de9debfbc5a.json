@@ -1,0 +1,24 @@
+{
+  "subtopics": [
+    {
+      "title": "Comparative vs. Absolute Evaluation",
+      "summary": "Distinguishes ranking models against each other from measuring whether a model is good enough for a specific use case, noting that comparative results alone cannot determine absolute quality.",
+      "is_atomic": true
+    },
+    {
+      "title": "Ranking Models via Pairwise Comparisons",
+      "summary": "Describes how models are evaluated side-by-side to compute a ranking from comparison results, including its use in leaderboards and subjective quality assessment.",
+      "is_atomic": true
+    },
+    {
+      "title": "Scalability Bottlenecks in Comparative Evaluation",
+      "summary": "Covers the quadratic growth of model pairs as the number of models increases and the resulting data-intensity challenges for gathering sufficient comparison signals.",
+      "is_atomic": true
+    },
+    {
+      "title": "Signal Gathering and Model Ranking Challenges",
+      "summary": "Addresses difficulties in collecting reliable comparison signals and computing accurate rankings, including the role of human and AI evaluators.",
+      "is_atomic": true
+    }
+  ]
+}

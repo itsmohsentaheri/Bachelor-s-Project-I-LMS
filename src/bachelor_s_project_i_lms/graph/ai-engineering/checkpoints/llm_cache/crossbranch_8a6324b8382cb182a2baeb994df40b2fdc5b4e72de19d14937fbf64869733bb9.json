@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.95,
+    "rationale": "Resolving conflicting benchmark results is an advanced application of evaluation that does not need to be mastered before understanding the basic distinction between absolute and comparative evaluation."
+  },
+  "b_before_a": {
+    "is_prerequisite": true,
+    "confidence": 0.9,
+    "rationale": "Understanding that comparative evaluation only ranks models relative to one another is necessary to meaningfully interpret and resolve contradictory benchmark results across different models."
+  }
+}

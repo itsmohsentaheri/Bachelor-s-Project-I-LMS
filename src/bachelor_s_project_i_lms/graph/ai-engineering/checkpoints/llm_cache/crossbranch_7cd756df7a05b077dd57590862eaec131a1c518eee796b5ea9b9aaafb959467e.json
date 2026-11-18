@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Creating annotation guidelines and fact-checking annotations does not require understanding RAG-specific factual consistency criteria, as annotation guidelines are general to dataset engineering."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Explaining factual consistency in RAG systems does not require the ability to create annotation guidelines or fact-check annotations, as these are separate skills in dataset engineering."
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "learning_objective": "The learner can explain how data quantity is determined by balancing training costs, desired capabilities, and the specific situation, recognizing that required amounts range from single examples to trillions of tokens.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "more_data_always_better",
+      "description": "Believing that more data always leads to better performance regardless of quality or diversity."
+    },
+    {
+      "id": "fixed_data_amount",
+      "description": "Assuming there is a single fixed amount of data required for all models and tasks."
+    },
+    {
+      "id": "quantity_over_quality",
+      "description": "Thinking data quantity matters more than data quality and coverage for model performance."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p396_612",
+    "chunk_p391_603",
+    "chunk_p401_617"
+  ]
+}

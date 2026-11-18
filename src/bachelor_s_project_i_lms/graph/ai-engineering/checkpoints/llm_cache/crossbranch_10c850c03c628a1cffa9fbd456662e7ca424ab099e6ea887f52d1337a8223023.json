@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Consistency in annotations is a general quality principle, but curating evaluation data can be learned and performed without first mastering the specific concept of annotation consistency."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Understanding how to annotate evaluation data does not require first understanding why annotations must be consistent across examples and annotators."
+  }
+}

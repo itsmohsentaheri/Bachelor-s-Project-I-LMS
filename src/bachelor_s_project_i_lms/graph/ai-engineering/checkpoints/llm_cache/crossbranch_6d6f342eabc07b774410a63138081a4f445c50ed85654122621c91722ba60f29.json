@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Understanding transformer block architecture is not required to describe the general engineering practice of incrementally adding components to AI products."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Knowing how to incrementally add engineering components is not needed to identify the components of a transformer block or explain how they process information."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Understanding training versus inference cost economics is not required to explain why pairwise model comparisons grow quadratically in evaluation methodology."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Knowing that comparative evaluation scales quadratically with model count is not needed to determine economic viability using the training cost versus inference revenue inequality."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "learning_objective": "The learner can identify specific functional and non-functional application needs such as latency, accuracy, cost, and privacy to establish criteria for model selection.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 2,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "only_functional_requirements",
+      "description": "Believing that application requirements only include functional capabilities and ignoring non-functional constraints like latency and cost."
+    },
+    {
+      "id": "criteria_are_universal",
+      "description": "Assuming that the same application requirements and criteria apply to all AI applications regardless of their specific use case."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p203_314"
+  ]
+}

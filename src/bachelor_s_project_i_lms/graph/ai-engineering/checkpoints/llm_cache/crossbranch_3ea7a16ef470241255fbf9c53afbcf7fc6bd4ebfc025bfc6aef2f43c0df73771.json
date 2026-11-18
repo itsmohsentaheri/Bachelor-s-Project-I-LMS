@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Deciding whether to build or buy a foundation model does not require understanding why evaluating intelligent outputs is difficult; the build-versus-buy decision focuses on cost, control, and time-to-market rather than evaluation challenges."
+  },
+  "b_before_a": {
+    "is_prerequisite": true,
+    "confidence": 0.85,
+    "rationale": "Understanding why evaluating foundation models is difficult provides essential context for making an informed build-versus-buy decision, as evaluation difficulty directly affects cost, control, and time-to-market trade-offs."
+  }
+}

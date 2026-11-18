@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Understanding compute requirements and finetuning frameworks is not required to distinguish between next-token and infilling finetuning objectives."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Knowing the difference between next-token and infilling finetuning is not necessary to compare full and adapter-based finetuning compute requirements or identify frameworks."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "edges": [
+    {
+      "prerequisite": "Evaluation Criteria Definition",
+      "dependent": "Evaluation Methods and Data Selection",
+      "confidence": 0.9,
+      "rationale": "You must define what to measure (criteria) before selecting appropriate methods and data to measure it."
+    },
+    {
+      "prerequisite": "Evaluation Methods and Data Selection",
+      "dependent": "Evaluation Pipeline Design",
+      "confidence": 0.85,
+      "rationale": "Selecting methods and data is required before designing the end-to-end pipeline that uses them."
+    },
+    {
+      "prerequisite": "Evaluation Criteria Definition",
+      "dependent": "Comparative vs Absolute Performance Evaluation",
+      "confidence": 0.8,
+      "rationale": "Understanding what is being measured is necessary before distinguishing between comparative and absolute evaluation approaches."
+    }
+  ]
+}

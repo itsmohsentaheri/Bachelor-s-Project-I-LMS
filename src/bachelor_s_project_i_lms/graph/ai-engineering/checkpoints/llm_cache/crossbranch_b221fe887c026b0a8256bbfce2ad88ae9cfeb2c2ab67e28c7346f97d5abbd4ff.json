@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Designing an end-to-end evaluation pipeline is not required to use public benchmarks and leaderboards, as benchmark navigation focuses on selecting and interpreting existing tools rather than building new ones."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Knowing how to navigate public benchmarks is not necessary to outline the general process of building an evaluation system, which can be done using custom guidelines and data without relying on external benchmarks."
+  }
+}

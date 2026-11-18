@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Understanding data quality does not require prior knowledge of signal gathering challenges or model ranking methodologies."
+  },
+  "b_before_a": {
+    "is_prerequisite": true,
+    "confidence": 0.85,
+    "rationale": "Meaningfully evaluating challenges in gathering comparison signals and ranking models requires understanding how data quality impacts model performance and the distinction between high-quality and noisy data."
+  }
+}

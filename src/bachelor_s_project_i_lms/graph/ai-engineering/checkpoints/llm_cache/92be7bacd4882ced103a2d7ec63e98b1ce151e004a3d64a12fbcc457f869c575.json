@@ -1,0 +1,29 @@
+{
+  "subtopics": [
+    {
+      "title": "Defining Evaluation Criteria",
+      "summary": "Establishing what an application should and should not do, including out-of-scope inputs and expected responses, to avoid ambiguous scoring.",
+      "is_atomic": true
+    },
+    {
+      "title": "Creating Scoring Rubrics",
+      "summary": "Developing unambiguous scoring guidelines and examples, including providing scoring reasons, to ensure consistent evaluation by human or AI judges.",
+      "is_atomic": true
+    },
+    {
+      "title": "Selecting Evaluation Methods",
+      "summary": "Choosing appropriate evaluation methods for different criteria, such as toxicity classifiers, semantic similarity, and AI judges for factual consistency.",
+      "is_atomic": true
+    },
+    {
+      "title": "Domain-Specific Capability Benchmarks",
+      "summary": "Using public or private benchmarks to evaluate specific capabilities like code generation, math, reasoning, and legal knowledge.",
+      "is_atomic": true
+    },
+    {
+      "title": "Generation Capability Metrics",
+      "summary": "Evaluating generation qualities such as fluency, coherence, factual consistency, and safety, many of which evolved from traditional NLP.",
+      "is_atomic": true
+    }
+  ]
+}

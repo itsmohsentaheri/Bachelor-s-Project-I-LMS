@@ -1,0 +1,24 @@
+{
+  "learning_objective": "The learner can describe the two-component structure of a RAG system consisting of a retriever that fetches information from external memory sources and a generator that produces responses based on retrieved information.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 2,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "rag_modifies_model",
+      "description": "RAG modifies the underlying model weights to incorporate new information."
+    },
+    {
+      "id": "rag_only_text",
+      "description": "RAG is limited to text-based data sources only."
+    },
+    {
+      "id": "rag_eliminates_hallucinations",
+      "description": "RAG completely eliminates model hallucinations."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p277_423",
+    "chunk_p330_503"
+  ]
+}

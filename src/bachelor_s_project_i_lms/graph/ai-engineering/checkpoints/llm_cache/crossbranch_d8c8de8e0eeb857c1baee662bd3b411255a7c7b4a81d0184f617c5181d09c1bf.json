@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Identifying BM25 as a starting point for RAG does not require the ability to filter or deduplicate raw datasets."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Data filtering and deduplication are general data engineering skills that are not required to understand term-based starting points for RAG implementations."
+  }
+}

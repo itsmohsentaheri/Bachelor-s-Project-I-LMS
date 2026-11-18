@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Data quantity decisions can be made based on practical constraints and capabilities without needing to compute optimal model scaling laws."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Optimal model scaling can be determined using compute budgets and scaling laws without first mastering the broader considerations of data quantity determination."
+  }
+}

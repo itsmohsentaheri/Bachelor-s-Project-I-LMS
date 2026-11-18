@@ -1,0 +1,21 @@
+{
+  "learning_objective": "The learner can define a prompt and identify its key components such as system prompt, user prompt, examples, and context.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 2,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "prompt_is_only_user_input",
+      "description": "Believing a prompt consists only of the user's question rather than the whole input including system instructions and context."
+    },
+    {
+      "id": "prompt_engineering_changes_weights",
+      "description": "Thinking that prompt engineering modifies the model's internal weights instead of guiding behavior through input."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p236_368",
+    "chunk_p244_379",
+    "chunk_p238_372"
+  ]
+}

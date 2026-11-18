@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.95,
+    "rationale": "Inference optimization techniques for foundation models are unrelated to generating synthetic data using rule-based or simulation methods without AI models."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.95,
+    "rationale": "Traditional data synthesis techniques do not require knowledge of model, hardware, or service-level inference optimization to be understood."
+  }
+}

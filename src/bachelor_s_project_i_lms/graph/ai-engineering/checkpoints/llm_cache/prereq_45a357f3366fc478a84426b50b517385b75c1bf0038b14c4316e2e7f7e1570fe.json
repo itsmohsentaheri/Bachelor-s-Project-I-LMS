@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "prerequisite": "Reasons for Synthesizing Data",
+      "dependent": "Traditional Data Synthesis Techniques",
+      "confidence": 0.7,
+      "rationale": "Understanding the motivations for synthetic data provides context for why traditional techniques are used."
+    },
+    {
+      "prerequisite": "Reasons for Synthesizing Data",
+      "dependent": "AI-Powered Data Synthesis",
+      "confidence": 0.7,
+      "rationale": "Understanding the motivations for synthetic data provides context for why AI-powered techniques are used."
+    },
+    {
+      "prerequisite": "Traditional Data Synthesis Techniques",
+      "dependent": "AI-Powered Data Synthesis",
+      "confidence": 0.6,
+      "rationale": "Traditional methods provide a baseline understanding of data generation before introducing AI-powered approaches."
+    },
+    {
+      "prerequisite": "AI-Powered Data Synthesis",
+      "dependent": "Data Verification Methods",
+      "confidence": 0.8,
+      "rationale": "AI-generated data requires specific verification methods to ensure quality and reliability."
+    },
+    {
+      "prerequisite": "Data Verification Methods",
+      "dependent": "Limitations of Synthetic Data",
+      "confidence": 0.7,
+      "rationale": "Understanding verification methods is necessary to appreciate the limitations and quality control issues of synthetic data."
+    }
+  ]
+}

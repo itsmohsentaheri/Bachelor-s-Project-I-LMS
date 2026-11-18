@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": true,
+    "confidence": 0.85,
+    "rationale": "Mastering the end-to-end design of an evaluation pipeline is necessary before one can meaningfully assess its specific cost, latency, and metric correlation for iteration."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Assessing and iterating a pipeline is a refinement activity that presupposes the pipeline has already been designed and built."
+  }
+}

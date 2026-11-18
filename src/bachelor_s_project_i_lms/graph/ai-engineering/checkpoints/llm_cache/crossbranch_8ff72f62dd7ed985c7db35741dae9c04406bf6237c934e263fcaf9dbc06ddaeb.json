@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Describing a baseline model-and-UI architecture does not require knowing how to craft prompts to guide model outputs."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Prompt engineering is a usage technique for foundation models and is not required to understand the high-level components of a model-and-UI application architecture."
+  }
+}

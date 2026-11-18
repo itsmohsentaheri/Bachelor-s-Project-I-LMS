@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Synthetic Data Generation explains the purpose and benefits of synthetic data, but AI-Powered Data Synthesis focuses on specific foundation-model techniques (template-based generation and distillation) that do not require first understanding the general rationale for synthetic data."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "AI-Powered Data Synthesis describes how foundation models generate synthetic instruction data, but mastering these specific techniques is not required to understand the broader concept of how synthetic data increases data quantity, coverage, and quality."
+  }
+}

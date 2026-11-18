@@ -1,0 +1,22 @@
+{
+  "edges": [
+    {
+      "prerequisite": "Selecting Evaluation Methods",
+      "dependent": "Annotating Evaluation Data",
+      "confidence": 0.8,
+      "rationale": "The choice of evaluation methods determines what labels are needed and how data should be annotated."
+    },
+    {
+      "prerequisite": "Selecting Evaluation Methods",
+      "dependent": "Designing Evaluation Data Slices",
+      "confidence": 0.7,
+      "rationale": "The selected evaluation methods inform which data slices are most relevant to evaluate."
+    },
+    {
+      "prerequisite": "Annotating Evaluation Data",
+      "dependent": "Designing Evaluation Data Slices",
+      "confidence": 0.6,
+      "rationale": "Annotated data is required to create meaningful evaluation data slices."
+    }
+  ]
+}

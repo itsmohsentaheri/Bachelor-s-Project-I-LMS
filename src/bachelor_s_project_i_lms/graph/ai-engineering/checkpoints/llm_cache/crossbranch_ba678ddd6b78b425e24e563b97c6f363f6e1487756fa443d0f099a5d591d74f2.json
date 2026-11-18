@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Comparing financial and infrastructure trade-offs between model deployment options does not require prior knowledge of specific inference performance metrics like latency, throughput, and goodput."
+  },
+  "b_before_a": {
+    "is_prerequisite": true,
+    "confidence": 0.85,
+    "rationale": "Meaningfully comparing token-based inference costs and compute requirements for proprietary APIs versus self-hosting requires understanding how inference performance is measured via latency, throughput, and goodput."
+  }
+}

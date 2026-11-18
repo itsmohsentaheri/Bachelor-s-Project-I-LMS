@@ -1,0 +1,24 @@
+{
+  "subtopics": [
+    {
+      "title": "RAG Fundamentals",
+      "summary": "Retrieval-Augmented Generation (RAG) is a pattern that allows models to retrieve relevant information from external data sources to overcome context window limitations and reduce hallucinations.",
+      "is_atomic": false
+    },
+    {
+      "title": "Agentic Patterns",
+      "summary": "Agents are prompt-based methods that enable models to solve tasks by autonomously using tools and making decisions, extending beyond simple retrieval to action-taking capabilities.",
+      "is_atomic": false
+    },
+    {
+      "title": "Memory Systems",
+      "summary": "Memory systems manage and utilize information that exceeds the maximum context length of the underlying model, supporting both RAG and agent applications.",
+      "is_atomic": true
+    },
+    {
+      "title": "Agent Security Risks",
+      "summary": "Tool use exposes agents to security risks that require rigorous defensive mechanisms for real-world deployment, as automated agents can have catastrophic failures.",
+      "is_atomic": true
+    }
+  ]
+}

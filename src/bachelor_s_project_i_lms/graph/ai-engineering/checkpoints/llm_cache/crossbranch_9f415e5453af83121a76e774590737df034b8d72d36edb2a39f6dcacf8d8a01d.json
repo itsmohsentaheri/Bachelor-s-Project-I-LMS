@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Creating annotation guidelines and fact-checking annotations is not required to understand how to design and validate an unambiguous scoring rubric for evaluation."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Knowing how to create scoring rubrics is not necessary before learning to write annotation guidelines and fact-check annotations, as these are distinct quality-assurance tasks."
+  }
+}

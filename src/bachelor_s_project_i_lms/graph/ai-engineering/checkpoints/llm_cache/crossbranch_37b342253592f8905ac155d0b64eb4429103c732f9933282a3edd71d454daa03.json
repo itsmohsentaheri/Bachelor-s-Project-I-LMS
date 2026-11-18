@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Defining basic inference performance metrics does not require the ability to assess and iterate an entire evaluation pipeline."
+  },
+  "b_before_a": {
+    "is_prerequisite": true,
+    "confidence": 0.95,
+    "rationale": "Assessing an evaluation pipeline for cost, latency, and metric correlation requires first understanding what latency, throughput, and goodput mean."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "learning_objective": "The learner can compare the optimal domain mix percentages for pre-training, supervised finetuning, and preference finetuning as shown in Table 8-1.",
+  "estimated_time_min": 5,
+  "difficulty_weight": 2,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "static_domain_mix",
+      "description": "Believing that the optimal distribution of training domains remains constant across all training phases."
+    },
+    {
+      "id": "math_code_dominance",
+      "description": "Assuming that math and coding should continue to comprise nearly half of the training data during preference finetuning."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p395_610"
+  ]
+}

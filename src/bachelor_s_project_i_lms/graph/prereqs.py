@@ -24,8 +24,8 @@ from bachelor_s_project_i_lms.graph.prereq_prompts import LOCAL_PREREQ_SYSTEM, b
 from bachelor_s_project_i_lms.llm.client import call_llm
 from bachelor_s_project_i_lms.llm.schemas import LocalPrereqOutput
 
-EDGES_PATH = Path(__file__).resolve().parent / "checkpoints" / "edges.json"
-CACHE_DIR = Path(__file__).resolve().parent / "checkpoints" / "llm_cache"  # shared with decompose
+EDGES_PATH = Path(__file__).resolve().parent / "ai-engineering" / "checkpoints" / "edges.json"
+CACHE_DIR = Path(__file__).resolve().parent / "ai-engineering" / "checkpoints" / "llm_cache"  # shared with decompose
 
 
 # ----------------------------- LLM + cache -----------------------------

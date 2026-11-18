@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Deciding whether to finetune versus use prompt-based methods does not require knowing the optimal domain mix percentages for preference finetuning."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Comparing domain mix percentages across training stages does not depend on first deciding whether to finetune or use prompt-based methods."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Understanding DataPerf and dcbench as data-centric benchmarks is not required to identify domain-specific capability benchmarks for code, math, reasoning, or legal knowledge."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Knowing domain-specific capability benchmarks does not enable understanding of DataPerf and dcbench, which focus on dataset quality rather than model capabilities."
+  }
+}

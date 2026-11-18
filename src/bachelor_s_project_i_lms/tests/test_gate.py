@@ -25,7 +25,7 @@ def test_chunks_have_embeddings():
 
 def test_vector_search_returns_results():
     """Gate 2: vector search returns related chunks."""
-    from bachelor_s_project_i_lms.scripts.vector_search import embed
+    from bachelor_s_project_i_lms.db.vector_search import embed
     with engine.connect() as conn:
         row = conn.execute(
             text("SELECT embedding FROM book_chunks WHERE embedding IS NOT NULL LIMIT 1;")

@@ -1,0 +1,24 @@
+{
+  "learning_objective": "The learner can explain how batch size affects training speed, memory usage, gradient stability, and hardware utilization, and select appropriate batch sizes based on available compute resources.",
+  "estimated_time_min": 10,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "small_batch_always_unstable",
+      "description": "Small batch sizes always lead to unstable training without considering gradient accumulation techniques."
+    },
+    {
+      "id": "larger_batch_always_better",
+      "description": "Larger batch sizes always improve hardware utilization without considering memory constraints and diminishing returns."
+    },
+    {
+      "id": "batch_size_only_affects_speed",
+      "description": "Batch size only affects training speed and does not impact memory usage or gradient stability."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p384_590",
+    "chunk_p465_713"
+  ]
+}

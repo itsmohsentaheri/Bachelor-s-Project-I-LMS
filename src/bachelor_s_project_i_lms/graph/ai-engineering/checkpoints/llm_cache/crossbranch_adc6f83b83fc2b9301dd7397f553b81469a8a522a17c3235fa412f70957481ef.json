@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Instruction-following evaluation is a specific application of evaluation methodology, while B covers general evaluation methods and rubric creation; mastering the specific concept is not required to understand the general methods."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "General evaluation methods and rubric creation are not strictly required to define instruction-following capability and explain how rubrics and criteria measure adherence to user constraints."
+  }
+}

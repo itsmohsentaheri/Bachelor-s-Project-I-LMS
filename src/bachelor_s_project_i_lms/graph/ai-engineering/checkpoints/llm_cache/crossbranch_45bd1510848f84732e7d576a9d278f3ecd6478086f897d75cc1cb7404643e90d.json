@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Understanding pre-training as parameter compression is not required to define data quality or explain its impact on model performance."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Knowing how data quality affects performance is not necessary to understand the conceptual framework of pre-training as parameter compression."
+  }
+}

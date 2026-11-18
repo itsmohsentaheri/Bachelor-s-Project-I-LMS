@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Designing evaluation slices requires understanding evaluation methodology and production distributions, not the ability to filter or deduplicate raw training data."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Filtering and deduplicating raw data is a data-cleaning task that does not depend on knowing how to design evaluation data slices."
+  }
+}

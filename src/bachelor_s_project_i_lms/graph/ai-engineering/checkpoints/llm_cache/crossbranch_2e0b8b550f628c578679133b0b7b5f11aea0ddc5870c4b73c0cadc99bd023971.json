@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Understanding RAG's retriever-generator structure does not require first knowing the limitations of simple AI architectures; RAG can be learned as a standalone pattern."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Identifying failure modes of simple AI architectures does not require understanding RAG, since simple architectures can be evaluated independently of RAG."
+  }
+}

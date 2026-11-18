@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Understanding DataPerf and dcbench as benchmarks is not required to define data quality or explain its impact on model performance."
+  },
+  "b_before_a": {
+    "is_prerequisite": true,
+    "confidence": 0.85,
+    "rationale": "A learner must first understand what data quality is and how it affects model performance to meaningfully grasp how DataPerf and dcbench measure dataset quality through model performance metrics."
+  }
+}

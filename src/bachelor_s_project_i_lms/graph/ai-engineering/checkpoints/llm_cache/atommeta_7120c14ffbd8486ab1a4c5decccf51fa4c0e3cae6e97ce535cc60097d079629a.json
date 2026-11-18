@@ -1,0 +1,21 @@
+{
+  "learning_objective": "The learner can define latency, throughput, and goodput as key metrics for evaluating inference speed and cost.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 2,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "throughput_equals_goodput",
+      "description": "Confusing throughput with goodput, ignoring that goodput only counts requests meeting service level objectives."
+    },
+    {
+      "id": "latency_only_metric",
+      "description": "Believing latency is the sole performance indicator, overlooking throughput and cost per prediction."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p439_677",
+    "chunk_p436_671",
+    "chunk_p527_798"
+  ]
+}

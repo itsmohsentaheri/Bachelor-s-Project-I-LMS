@@ -1,0 +1,20 @@
+{
+  "learning_objective": "The learner can evaluate domain-specific capabilities using exact evaluation methods such as functional correctness and efficiency metrics.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "functional_correctness_only",
+      "description": "Believing functional correctness is the only aspect that matters when evaluating domain-specific capabilities."
+    },
+    {
+      "id": "exact_vs_general",
+      "description": "Confusing exact evaluation with general generation capability evaluation like fluency or coherence."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p186_284",
+    "chunk_p185_283"
+  ]
+}

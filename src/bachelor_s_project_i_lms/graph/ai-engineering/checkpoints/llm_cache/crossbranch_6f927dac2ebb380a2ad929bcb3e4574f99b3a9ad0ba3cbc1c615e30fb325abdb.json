@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": true,
+    "confidence": 0.9,
+    "rationale": "Understanding what foundation models are and their core characteristics is necessary before one can meaningfully compare them based on architecture, size, modality, and performance."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.95,
+    "rationale": "Comparing model capabilities requires prior knowledge of foundation models, so it cannot be a prerequisite for defining them."
+  }
+}

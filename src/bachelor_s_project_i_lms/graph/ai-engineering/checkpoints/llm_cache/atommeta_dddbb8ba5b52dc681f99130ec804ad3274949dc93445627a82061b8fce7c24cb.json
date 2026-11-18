@@ -1,0 +1,20 @@
+{
+  "learning_objective": "The learner can identify domain-specific benchmarks used to evaluate capabilities such as code generation, math, reasoning, and legal knowledge.",
+  "estimated_time_min": 5,
+  "difficulty_weight": 2,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "only_public_benchmarks",
+      "description": "Believing that only public benchmarks exist for evaluating domain-specific capabilities."
+    },
+    {
+      "id": "single_metric_sufficiency",
+      "description": "Assuming that functional correctness alone is sufficient to evaluate all domain-specific capabilities."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p185_283",
+    "chunk_p186_284"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Mapping technical metrics to business outcomes requires first knowing how to evaluate model performance using benchmarks and metrics, so business alignment is not needed to understand basic performance evaluation."
+  },
+  "b_before_a": {
+    "is_prerequisite": true,
+    "confidence": 0.95,
+    "rationale": "A learner must first be able to evaluate model performance with benchmarks and metrics before they can meaningfully map those technical metrics to specific business outcomes."
+  }
+}

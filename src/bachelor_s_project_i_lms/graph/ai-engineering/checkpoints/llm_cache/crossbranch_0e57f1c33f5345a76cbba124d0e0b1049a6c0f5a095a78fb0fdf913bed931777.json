@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Identifying scalability bottlenecks in evaluation is not required to map technical metrics to business outcomes; one can align metrics with business goals without understanding cost, time, or annotation bottlenecks."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Mapping metrics to business outcomes does not require first understanding scalability bottlenecks; the two objectives address different concerns (alignment vs. practical constraints)."
+  }
+}

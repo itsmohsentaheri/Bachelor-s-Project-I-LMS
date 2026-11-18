@@ -1,0 +1,25 @@
+{
+  "learning_objective": "The learner can identify common prompt attack approaches and apply defensive techniques such as instruction hierarchy and defensive prompt engineering to protect AI applications.",
+  "estimated_time_min": 10,
+  "difficulty_weight": 4,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "no_defenses_exist",
+      "description": "Believing that because security is an evolving cat-and-mouse game, no effective defenses against prompt attacks exist."
+    },
+    {
+      "id": "tool_outputs_high_priority",
+      "description": "Assuming tool outputs have the highest priority in instruction hierarchy, when they actually have the lowest priority."
+    },
+    {
+      "id": "duplication_no_downside",
+      "description": "Thinking repeating the system prompt twice has no drawbacks, ignoring the increased cost and latency from extra tokens."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p275_421",
+    "chunk_p273_417",
+    "chunk_p274_418"
+  ]
+}

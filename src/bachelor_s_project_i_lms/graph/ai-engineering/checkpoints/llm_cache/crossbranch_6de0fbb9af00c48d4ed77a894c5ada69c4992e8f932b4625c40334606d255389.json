@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Creating scoring rubrics is a general evaluation skill that does not require prior knowledge of user feedback collection or integration methods."
+  },
+  "b_before_a": {
+    "is_prerequisite": true,
+    "confidence": 0.85,
+    "rationale": "Meaningfully incorporating user feedback to evaluate and improve AI applications requires the ability to create and validate consistent scoring rubrics to assess that feedback."
+  }
+}

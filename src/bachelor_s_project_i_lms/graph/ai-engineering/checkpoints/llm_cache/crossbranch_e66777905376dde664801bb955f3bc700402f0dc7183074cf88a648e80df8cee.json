@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Defining evaluation methods and data can be done using existing rubrics; creating rubrics is not required to select methods or annotate data."
+  },
+  "b_before_a": {
+    "is_prerequisite": true,
+    "confidence": 0.85,
+    "rationale": "A learner must first define evaluation methods and data before they can create and validate a scoring rubric for those evaluations."
+  }
+}

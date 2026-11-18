@@ -1,0 +1,29 @@
+{
+  "subtopics": [
+    {
+      "title": "Data Quality Dimensions",
+      "summary": "Defining data quality for finetuning using dimensions such as completeness, uniqueness, validity, accuracy, consistency, and fitness for purpose.",
+      "is_atomic": true
+    },
+    {
+      "title": "Annotation Consistency",
+      "summary": "Ensuring annotations are consistent across examples and annotators to avoid confusing the model during training.",
+      "is_atomic": true
+    },
+    {
+      "title": "Annotation Guidelines and Fact-Checking",
+      "summary": "Creating annotation guidelines, updating them based on feedback, and fact-checking annotations to correct factual errors.",
+      "is_atomic": true
+    },
+    {
+      "title": "Data Cleaning and Filtering",
+      "summary": "Removing extraneous formatting tokens, PII, sensitive data, copyrighted data, and toxic content to ensure dataset safety and performance.",
+      "is_atomic": true
+    },
+    {
+      "title": "Manual Data Inspection",
+      "summary": "Manually inspecting data to verify annotation trustworthiness, check example uniqueness, and identify inconsistencies.",
+      "is_atomic": true
+    }
+  ]
+}

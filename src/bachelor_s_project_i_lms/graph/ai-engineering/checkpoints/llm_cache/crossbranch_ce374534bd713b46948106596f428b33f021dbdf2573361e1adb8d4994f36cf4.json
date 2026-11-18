@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Identifying structural components of AI applications does not require the ability to compare foundation models by architecture, size, modality, and performance."
+  },
+  "b_before_a": {
+    "is_prerequisite": true,
+    "confidence": 0.85,
+    "rationale": "Meaningfully integrating a foundation model into an application architecture requires knowing how to compare models on architecture, parameter size, modality support, and performance to match application needs."
+  }
+}

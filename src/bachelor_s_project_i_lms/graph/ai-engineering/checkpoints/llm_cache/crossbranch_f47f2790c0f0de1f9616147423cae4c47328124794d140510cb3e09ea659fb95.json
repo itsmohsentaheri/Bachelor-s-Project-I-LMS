@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Deciding whether to finetune does not require knowing prompt engineering best practices; one can evaluate data, hardware, and talent requirements independently of how prompts are crafted."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Applying prompt engineering best practices does not require first deciding whether to finetune; prompt design can be learned and used without understanding the finetune-versus-prompt trade-off."
+  }
+}

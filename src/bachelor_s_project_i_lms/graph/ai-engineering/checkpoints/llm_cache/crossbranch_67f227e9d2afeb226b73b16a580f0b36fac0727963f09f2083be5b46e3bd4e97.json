@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Data coverage concerns the breadth and balance of domains in training data, which is not required to understand the definition of data quality or its impact on model performance."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Data quality focuses on the cleanliness and usefulness of data, which is not a necessary foundation for understanding how to ensure a training set covers the right mix of domains and topics."
+  }
+}

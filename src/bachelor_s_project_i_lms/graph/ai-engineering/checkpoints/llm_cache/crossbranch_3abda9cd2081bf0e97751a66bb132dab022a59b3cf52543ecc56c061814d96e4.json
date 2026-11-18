@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Synthetic data generation focuses on creating new data to augment datasets, which does not require prior mastery of filtering or deduplicating existing raw data."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Data filtering and deduplication are independent data cleaning techniques that do not depend on an understanding of how synthetic data is generated."
+  }
+}

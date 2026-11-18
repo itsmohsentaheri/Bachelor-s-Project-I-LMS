@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Creating scoring rubrics is a specific evaluation design skill, but user feedback can be gathered and interpreted meaningfully without first mastering rubric construction."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Understanding how user feedback determines goal achievement does not require prior mastery of creating and validating scoring rubrics."
+  }
+}

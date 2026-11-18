@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Understanding data coverage does not require first understanding annotation consistency; coverage concerns topic/domain mix, while consistency concerns label agreement across examples."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Understanding annotation consistency does not require first understanding data coverage; consistency is about label reliability, independent of whether the data covers all domains."
+  }
+}

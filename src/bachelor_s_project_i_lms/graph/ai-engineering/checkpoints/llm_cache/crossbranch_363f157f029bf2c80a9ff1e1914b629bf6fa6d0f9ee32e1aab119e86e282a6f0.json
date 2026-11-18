@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "User feedback integration is a deployment-stage activity for improving live applications and is not required to understand the model alignment workflow of supervised and preference finetuning."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "While post-training aligns models with preferences, collecting and processing user feedback to evaluate and improve an AI application can be understood independently of the specific finetuning techniques used to build the model."
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "learning_objective": "The learner can calculate system-level cost and latency for model deployment by analyzing compute cost, throughput, token usage, and the impact of parallelism strategies.",
+  "estimated_time_min": 10,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "lower_latency_always_dealbreaker",
+      "description": "Believing high latency is always a deal breaker when it is often just an annoyance."
+    },
+    {
+      "id": "pipeline_parallelism_reduces_latency",
+      "description": "Assuming pipeline parallelism reduces latency when it actually increases total latency due to communication overhead."
+    },
+    {
+      "id": "higher_throughput_increases_cost",
+      "description": "Thinking higher throughput increases cost when it typically lowers cost per token."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p202_312",
+    "chunk_p439_676",
+    "chunk_p471_721"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "B's objective includes creating rubrics, so mastering rubric creation (A) is not required before learning how to select evaluation methods and create rubrics (B)."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "A focuses specifically on rubric creation and validation, which does not require first mastering the broader selection of evaluation methods covered in B."
+  }
+}

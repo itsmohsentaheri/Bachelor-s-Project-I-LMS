@@ -1,0 +1,25 @@
+{
+  "learning_objective": "The learner can create an unambiguous scoring rubric with examples and scoring reasons, then validate it with humans to ensure consistent evaluation.",
+  "estimated_time_min": 10,
+  "difficulty_weight": 3,
+  "type": "practical",
+  "common_misconceptions": [
+    {
+      "id": "rubric_is_optional",
+      "description": "Believing that scoring rubrics are optional rather than a critical backbone for reliable evaluation pipelines."
+    },
+    {
+      "id": "examples_unnecessary",
+      "description": "Assuming that a rubric does not need concrete examples of what each score looks like and why."
+    },
+    {
+      "id": "no_human_validation",
+      "description": "Thinking that a rubric is ready to use without testing whether humans find it easy to follow."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p227_355",
+    "chunk_p228_357",
+    "chunk_p532_808"
+  ]
+}

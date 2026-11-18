@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Assessing dataset quality via downstream task performance is not required to understand how human feedback is collected to rank model outputs."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Knowing how preference data is collected is not necessary to meaningfully evaluate dataset quality using downstream task performance."
+  }
+}

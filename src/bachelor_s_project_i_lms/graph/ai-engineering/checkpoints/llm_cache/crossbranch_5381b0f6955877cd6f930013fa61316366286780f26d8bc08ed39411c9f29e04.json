@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Defining an agent and its core concepts does not require prior knowledge of AI accelerator hardware or GPUs."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Defining an AI accelerator and identifying GPUs does not require understanding agent definitions or agentic patterns."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.95,
+    "rationale": "Fine-tuning is a specific adaptation technique applied to foundation models, so understanding what a foundation model is must come first rather than the reverse."
+  },
+  "b_before_a": {
+    "is_prerequisite": true,
+    "confidence": 0.95,
+    "rationale": "A learner must first understand what foundation models are and their core characteristics before they can meaningfully understand how to fine-tune them for a specific task."
+  }
+}

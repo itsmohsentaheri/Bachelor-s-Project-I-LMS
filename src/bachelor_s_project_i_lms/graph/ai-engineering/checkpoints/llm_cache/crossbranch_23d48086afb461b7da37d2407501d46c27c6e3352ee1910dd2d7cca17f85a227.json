@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Creating scoring rubrics is not required to assess operational metrics such as cost and latency, which are independent of quality scoring."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Assessing operational evaluation factors does not enable or block the ability to create and validate an unambiguous scoring rubric."
+  }
+}

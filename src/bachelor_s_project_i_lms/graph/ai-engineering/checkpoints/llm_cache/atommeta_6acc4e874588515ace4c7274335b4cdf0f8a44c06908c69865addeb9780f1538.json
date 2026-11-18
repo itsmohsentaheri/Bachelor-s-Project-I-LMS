@@ -1,0 +1,24 @@
+{
+  "learning_objective": "The learner can identify key generation capability metrics such as fluency, coherence, factual consistency, and safety, and explain how they evolved from traditional NLP metrics like faithfulness and relevance.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "metrics_are_universal",
+      "description": "Believing that a single set of generation metrics applies equally well to all tasks, ignoring that each task may require its own specific metrics like faithfulness for translation or relevance for summarization."
+    },
+    {
+      "id": "early_metrics_obsolete",
+      "description": "Assuming that early NLG metrics are no longer used, when in fact many have been repurposed with significant modifications to evaluate foundation model outputs."
+    },
+    {
+      "id": "fluency_equals_quality",
+      "description": "Confusing high fluency or coherence with overall generation quality, overlooking other critical dimensions such as factual consistency and safety."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p188_288",
+    "chunk_p232_365"
+  ]
+}

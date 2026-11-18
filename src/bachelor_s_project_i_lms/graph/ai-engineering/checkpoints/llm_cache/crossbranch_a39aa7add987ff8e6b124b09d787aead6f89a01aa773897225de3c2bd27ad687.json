@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Data quality dimensions such as completeness and accuracy are not required to understand data coverage, which concerns domain and topic mix rather than quality attributes."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Understanding data coverage does not require prior mastery of data quality dimensions, as coverage focuses on representation balance independent of quality criteria."
+  }
+}

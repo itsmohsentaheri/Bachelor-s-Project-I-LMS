@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Designing evaluation data slices does not require prior mastery of data quality dimensions; slice design focuses on distribution coverage and failure cases rather than data quality assessment."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Listing and defining data quality dimensions does not depend on knowing how to design evaluation data slices; the two concepts address different stages of the ML pipeline."
+  }
+}

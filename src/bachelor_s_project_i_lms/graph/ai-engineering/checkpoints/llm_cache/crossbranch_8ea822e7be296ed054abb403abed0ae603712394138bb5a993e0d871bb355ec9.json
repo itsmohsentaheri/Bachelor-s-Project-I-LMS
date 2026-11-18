@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Creating scoring rubrics is a general evaluation skill not required to understand how to measure model performance on downstream tasks for dataset quality assessment."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Downstream task evaluation focuses on dataset quality via model performance and does not provide foundational knowledge needed to create and validate scoring rubrics."
+  }
+}

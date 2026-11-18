@@ -1,0 +1,25 @@
+{
+  "learning_objective": "The learner can define parameter-efficient finetuning and explain how adapter-based techniques such as LoRA and PEFT reduce compute and memory requirements compared to full finetuning.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "parameter_efficient_means_fewer_layers",
+      "description": "Believing parameter-efficient finetuning simply means finetuning fewer layers, when it specifically refers to methods that achieve comparable performance with significantly fewer trainable parameters."
+    },
+    {
+      "id": "no_inference_overhead",
+      "description": "Assuming adapter-based techniques have no downsides, even though inserting adapter modules can increase inference latency."
+    },
+    {
+      "id": "clear_threshold_exists",
+      "description": "Thinking there is a strict threshold for a method to be considered parameter-efficient, when no clear threshold exists."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p358_549",
+    "chunk_p359_550",
+    "chunk_p383_588"
+  ]
+}

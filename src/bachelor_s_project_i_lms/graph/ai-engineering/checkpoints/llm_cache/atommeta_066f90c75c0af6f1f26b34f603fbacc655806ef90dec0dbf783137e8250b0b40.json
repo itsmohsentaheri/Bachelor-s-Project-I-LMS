@@ -1,0 +1,20 @@
+{
+  "learning_objective": "The learner can assess dataset quality by measuring model performance across multiple downstream tasks rather than relying on intrinsic dataset properties.",
+  "estimated_time_min": 10,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "intrinsic_quality_suffices",
+      "description": "Believing that intrinsic dataset properties alone are sufficient to determine dataset quality without downstream task evaluation."
+    },
+    {
+      "id": "single_task_representation",
+      "description": "Assuming that performance on a single downstream task is representative of overall dataset quality across multiple tasks."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p525_794",
+    "chunk_p532_808"
+  ]
+}

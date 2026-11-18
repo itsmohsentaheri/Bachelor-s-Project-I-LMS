@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Adapter-based finetuning is a model modification technique that does not require understanding inference service infrastructure or request handling to be learned meaningfully."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Inference service optimization focuses on serving infrastructure and request handling while keeping the model intact, which can be understood without prior knowledge of adapter-based finetuning."
+  }
+}

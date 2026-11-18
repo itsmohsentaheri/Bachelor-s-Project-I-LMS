@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Understanding RAG evaluation criteria does not require prior mastery of data quality concepts in model training."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Data quality in model training is not required to understand factual consistency as an evaluation criterion for RAG systems."
+  }
+}

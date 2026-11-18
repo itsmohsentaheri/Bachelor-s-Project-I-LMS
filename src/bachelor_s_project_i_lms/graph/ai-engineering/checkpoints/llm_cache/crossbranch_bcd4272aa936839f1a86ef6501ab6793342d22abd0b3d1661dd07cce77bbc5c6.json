@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Creating evaluation guidelines requires defining criteria and scope, not first assessing every system component; one can author guidelines without having evaluated all components."
+  },
+  "b_before_a": {
+    "is_prerequisite": true,
+    "confidence": 0.8,
+    "rationale": "Meaningfully assessing every part of an AI application requires a defined evaluation guideline that specifies what the application should and shouldn't do, including out-of-scope inputs and appropriate responses."
+  }
+}

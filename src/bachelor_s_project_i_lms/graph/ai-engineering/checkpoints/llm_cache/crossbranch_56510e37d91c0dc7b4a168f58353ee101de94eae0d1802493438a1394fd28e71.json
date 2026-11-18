@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Understanding how supervised finetuning converts text-completion into instruction-following does not require prior knowledge of finetuning frameworks or compute comparisons."
+  },
+  "b_before_a": {
+    "is_prerequisite": true,
+    "confidence": 0.9,
+    "rationale": "Meaningfully comparing full and adapter-based finetuning frameworks requires first understanding what supervised finetuning is and how it transforms model behavior."
+  }
+}

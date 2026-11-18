@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Parameter-efficient finetuning is a broader category that includes adapter-based techniques, so understanding the general concept is not required before learning the specific mechanics of adapters."
+  },
+  "b_before_a": {
+    "is_prerequisite": true,
+    "confidence": 0.9,
+    "rationale": "Adapter-based finetuning is a concrete instance of parameter-efficient finetuning, and mastering how adapters work provides the foundational example needed to understand the broader PEFT concept."
+  }
+}

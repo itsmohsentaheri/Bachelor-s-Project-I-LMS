@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Assessing dataset quality via downstream task performance does not require first mastering how to evaluate and iterate an entire evaluation pipeline."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Evaluating and iterating an evaluation pipeline can be done without first knowing how to assess dataset quality through downstream task performance."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Defining evaluation criteria is a general skill for scoring applications, but assessing dataset quality via downstream task performance does not require first defining application-specific should/should-not behaviors or out-of-scope inputs."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Downstream task evaluation focuses on dataset quality through model performance and does not provide the foundational concepts needed to define evaluation criteria for an application's expected responses and scope."
+  }
+}

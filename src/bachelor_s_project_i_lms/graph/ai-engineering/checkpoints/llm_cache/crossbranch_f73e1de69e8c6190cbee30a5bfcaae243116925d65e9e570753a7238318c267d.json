@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Adapter-based finetuning is a specific parameter-efficient technique, while phase-specific data mixes concern data composition across pre-training and finetuning stages; understanding adapters is not required to compare domain data mixes."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Knowing optimal data mixes for different training phases does not enable understanding of how adapter modules are inserted into transformer layers or their parameter-latency trade-offs."
+  }
+}

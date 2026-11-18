@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Evaluating all system components is a broad system-level skill, while downstream task evaluation is a specific dataset-quality assessment method that does not require prior mastery of full AI system evaluation."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Assessing dataset quality via downstream tasks is not required to meaningfully understand how to evaluate domain-specific capability, generation capability, instruction-following, cost, and latency across an entire AI system."
+  }
+}

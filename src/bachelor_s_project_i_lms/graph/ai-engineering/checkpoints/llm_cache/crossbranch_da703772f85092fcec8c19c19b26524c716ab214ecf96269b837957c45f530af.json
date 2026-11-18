@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Evaluating all system components is a broader task that includes instruction-following as one sub-component, so mastering the whole-system evaluation is not required before defining and measuring instruction-following alone."
+  },
+  "b_before_a": {
+    "is_prerequisite": true,
+    "confidence": 0.85,
+    "rationale": "Instruction-following capability is one of the specific components listed in Atom A's objective, so understanding how to define and measure it is necessary before meaningfully evaluating all components of an AI system."
+  }
+}

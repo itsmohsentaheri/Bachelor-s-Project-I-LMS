@@ -1,0 +1,25 @@
+{
+  "learning_objective": "The learner can define fluency, coherence, factual consistency, faithfulness, and safety as criteria for evaluating the quality of generated text outputs.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 2,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "fluency_equals_accuracy",
+      "description": "Believing that grammatically correct and natural-sounding text is necessarily factually correct."
+    },
+    {
+      "id": "coherence_equals_fluency",
+      "description": "Confusing local grammatical fluency with the global logical structure of a text."
+    },
+    {
+      "id": "faithfulness_irrelevant_to_summarization",
+      "description": "Assuming faithfulness applies only to translation and not to tasks like summarization."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p187_287",
+    "chunk_p188_288",
+    "chunk_p232_365"
+  ]
+}

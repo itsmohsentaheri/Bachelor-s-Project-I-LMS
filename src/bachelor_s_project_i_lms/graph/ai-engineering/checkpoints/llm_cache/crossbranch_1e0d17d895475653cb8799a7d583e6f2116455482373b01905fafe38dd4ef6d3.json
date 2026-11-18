@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.95,
+    "rationale": "Both atoms have identical titles, placements, and learning objectives, so mastering one does not enable understanding of the other; they are the same unit."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.95,
+    "rationale": "Both atoms have identical titles, placements, and learning objectives, so mastering one does not enable understanding of the other; they are the same unit."
+  }
+}

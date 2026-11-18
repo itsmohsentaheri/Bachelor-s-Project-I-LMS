@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Instruction-following evaluation is a specific application of evaluation methodology, while defining evaluation methods and data is a broader foundational skill; mastering the specific case is not required to understand how to select methods and annotate data in general."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.6,
+    "rationale": "Defining general evaluation methods and data is not strictly required to understand instruction-following evaluation, as one can learn rubric-based scoring for instruction adherence without first mastering data slicing and production slice representation."
+  }
+}

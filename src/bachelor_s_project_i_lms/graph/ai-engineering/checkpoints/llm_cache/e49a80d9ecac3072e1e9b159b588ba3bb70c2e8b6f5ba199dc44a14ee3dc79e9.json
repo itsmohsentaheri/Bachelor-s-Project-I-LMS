@@ -1,0 +1,29 @@
+{
+  "subtopics": [
+    {
+      "title": "Data Quality",
+      "summary": "Ensuring data is accurate, reliable, and free from errors, analogous to using fresh ingredients in cooking, as poor data can cause model biases and hallucinations.",
+      "is_atomic": true
+    },
+    {
+      "title": "Data Coverage",
+      "summary": "Ensuring the dataset has the right mix of diverse usage patterns and characteristics to represent all necessary scenarios without over- or under-representing specific types.",
+      "is_atomic": true
+    },
+    {
+      "title": "Data Quantity",
+      "summary": "Determining the appropriate volume of data required for training, balancing the need for sufficient examples against resource constraints.",
+      "is_atomic": true
+    },
+    {
+      "title": "Data Filtering and Deduplication",
+      "summary": "The process of removing low-quality samples and duplicate entries from raw data to build a clean dataset foundation.",
+      "is_atomic": true
+    },
+    {
+      "title": "Overlap Analysis",
+      "summary": "Analyzing the intersection between different data subsets to prevent data leakage and ensure distinct training, validation, and test sets.",
+      "is_atomic": true
+    }
+  ]
+}

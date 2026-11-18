@@ -1,0 +1,21 @@
+{
+  "learning_objective": "The learner can explain how preference optimization algorithms such as RLHF and DPO use ranked human feedback to align model responses with user preferences.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "preference_over_correctness",
+      "description": "Believing preference-based voting should be used for all questions, even those with objectively correct answers."
+    },
+    {
+      "id": "universal_preference_exists",
+      "description": "Assuming a single universal human preference exists and can be perfectly embedded into an AI model."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p108_161",
+    "chunk_p174_264",
+    "chunk_p135_201"
+  ]
+}

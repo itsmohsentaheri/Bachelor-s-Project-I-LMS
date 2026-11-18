@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Creating scoring rubrics focuses on consistent scoring and validation, which is not required to define what an application should and shouldn't do in evaluation guidelines."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Defining evaluation guidelines for application behavior is not required before creating an unambiguous scoring rubric with examples and scoring reasons."
+  }
+}

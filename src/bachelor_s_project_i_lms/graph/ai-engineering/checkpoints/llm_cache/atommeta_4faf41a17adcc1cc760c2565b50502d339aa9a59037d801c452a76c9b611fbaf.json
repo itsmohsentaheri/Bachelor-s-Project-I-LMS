@@ -1,0 +1,23 @@
+{
+  "learning_objective": "The learner can assess generation capabilities using language modeling metrics such as perplexity and similarity measurements against reference data.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "perplexity_equals_quality",
+      "description": "Believing that lower perplexity always indicates higher quality generated text."
+    },
+    {
+      "id": "similarity_guarantees_factuality",
+      "description": "Assuming high similarity to reference data guarantees factual consistency."
+    },
+    {
+      "id": "automatic_metrics_suffice",
+      "description": "Thinking automatic evaluation metrics alone are sufficient to assess all generation capabilities."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p232_365"
+  ]
+}

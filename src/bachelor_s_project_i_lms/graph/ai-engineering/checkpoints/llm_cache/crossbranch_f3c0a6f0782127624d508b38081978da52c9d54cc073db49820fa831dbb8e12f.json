@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Understanding how data-centric benchmark competitions evaluate dataset quality does not require prior mastery of general model performance evaluation, as the competition framework itself provides the evaluation context."
+  },
+  "b_before_a": {
+    "is_prerequisite": true,
+    "confidence": 0.85,
+    "rationale": "Meaningfully understanding how data-centric benchmark competitions measure dataset quality via model performance requires first knowing how to evaluate a model's performance using benchmarks and metrics."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Understanding the limitations of synthetic data is not required to grasp why comparative rankings fail to reveal absolute performance or why a model win does not guarantee a worthwhile swap."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Knowing the pitfalls of comparative evaluation is not necessary to identify limitations of synthetic data such as model collapse, quality control challenges, and superficial imitation."
+  }
+}

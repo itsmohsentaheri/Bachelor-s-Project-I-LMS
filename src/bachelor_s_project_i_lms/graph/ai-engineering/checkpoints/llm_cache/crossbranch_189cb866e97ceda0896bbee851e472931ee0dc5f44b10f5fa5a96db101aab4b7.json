@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Selecting evaluation methods for classifiers and AI judges is not required to identify and categorize external agent tools."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Knowledge of agent tools is not necessary to select appropriate evaluation methods for toxicity classifiers, semantic similarity, or factual consistency."
+  }
+}

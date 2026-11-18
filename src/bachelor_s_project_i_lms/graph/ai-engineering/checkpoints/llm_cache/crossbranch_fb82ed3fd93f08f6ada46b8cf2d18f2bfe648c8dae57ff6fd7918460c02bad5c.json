@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Creating general evaluation guidelines does not require first mastering instruction-following evaluation, as guidelines can cover broader application behavior beyond instruction adherence."
+  },
+  "b_before_a": {
+    "is_prerequisite": true,
+    "confidence": 0.8,
+    "rationale": "Understanding how to define instruction-following capability and use scoring rubrics and evaluation criteria provides the foundational knowledge needed to create meaningful evaluation guidelines for an application's behavior."
+  }
+}

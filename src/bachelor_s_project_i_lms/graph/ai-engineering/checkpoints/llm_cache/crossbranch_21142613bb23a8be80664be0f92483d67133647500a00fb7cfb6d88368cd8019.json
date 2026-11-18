@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Understanding how user feedback determines goal achievement does not require first mastering the end-to-end design of an evaluation pipeline."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Designing an end-to-end evaluation system does not depend on first understanding how user feedback determines whether an application achieves its goals."
+  }
+}

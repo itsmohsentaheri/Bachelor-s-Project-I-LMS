@@ -1,0 +1,25 @@
+{
+  "learning_objective": "The learner can explain why evaluating foundation models is more difficult than traditional ML, including the need for domain expertise and the lack of comprehensive ground truths for open-ended tasks.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "sounds_good_means_correct",
+      "description": "Believing that a response that sounds fluent and coherent is necessarily factually correct or high quality."
+    },
+    {
+      "id": "ground_truth_exists",
+      "description": "Assuming that for every open-ended AI task there is a single, definitive ground truth answer to compare against."
+    },
+    {
+      "id": "anyone_can_evaluate",
+      "description": "Thinking that any human can reliably judge the quality of complex, expert-level AI outputs without specialized knowledge."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p138_205",
+    "chunk_p139_206",
+    "chunk_p138_204"
+  ]
+}

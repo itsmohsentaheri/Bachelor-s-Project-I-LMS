@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Evaluating and iterating a pipeline is a broader meta-evaluation skill that does not need to be mastered before learning specific methods for collecting and incorporating user feedback."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.6,
+    "rationale": "User feedback integration is one source of evaluation data, but mastering it is not required to understand how to assess pipeline reliability and iterate on evaluation guidelines and methods."
+  }
+}

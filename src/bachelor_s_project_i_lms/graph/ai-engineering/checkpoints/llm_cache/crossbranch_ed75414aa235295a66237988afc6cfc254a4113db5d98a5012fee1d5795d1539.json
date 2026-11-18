@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Resolving conflicting benchmark results is a model-selection skill that does not require knowing how to distinguish information-based from behavior-based failures or when to use RAG versus finetuning."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Deciding between RAG and finetuning based on failure type is not needed before a learner can apply decision criteria to select among models with contradictory benchmark results."
+  }
+}

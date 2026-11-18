@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Resolving conflicting benchmark results focuses on model selection based on performance metrics, which is not required to understand the financial and infrastructure trade-offs of proprietary APIs versus self-hosting."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Analyzing cost and deployment trade-offs concerns deployment economics and infrastructure, neither of which is necessary to meaningfully apply decision criteria for selecting among models with contradictory benchmark results."
+  }
+}

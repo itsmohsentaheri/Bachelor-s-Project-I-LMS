@@ -1,0 +1,20 @@
+{
+  "learning_objective": "The learner can explain how self-supervised pre-training infers labels from input text to optimize for text completion rather than conversation.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "self_supervised_means_unsupervised",
+      "description": "Believing self-supervised learning requires no labels at all, when it actually infers labels from the input data."
+    },
+    {
+      "id": "pretraining_optimizes_conversation",
+      "description": "Assuming pre-training optimizes a model for human-like conversation rather than text completion."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p32_41",
+    "chunk_p102_152"
+  ]
+}

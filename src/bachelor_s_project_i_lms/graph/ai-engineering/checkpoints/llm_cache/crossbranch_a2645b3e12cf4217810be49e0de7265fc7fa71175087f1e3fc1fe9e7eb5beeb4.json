@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Comparing phase-specific data mixes does not require first defining data quality or understanding its impact on performance."
+  },
+  "b_before_a": {
+    "is_prerequisite": true,
+    "confidence": 0.85,
+    "rationale": "Meaningfully comparing optimal domain data mixes across training phases requires understanding what data quality is and how it affects model performance."
+  }
+}

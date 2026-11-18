@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Deciding whether to build or buy a model does not require first knowing how to evaluate model performance; the build-versus-buy decision focuses on cost, control, and time-to-market rather than technical evaluation methods."
+  },
+  "b_before_a": {
+    "is_prerequisite": true,
+    "confidence": 0.85,
+    "rationale": "Meaningfully comparing build versus buy options requires understanding how to evaluate a model's performance using benchmarks and metrics to assess suitability for a target application."
+  }
+}

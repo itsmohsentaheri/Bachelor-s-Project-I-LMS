@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Resolving conflicting benchmark results is a general evaluation skill that is not required to identify BM25 as a starting point for RAG implementations."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Knowing RAG implementation starting points does not enable a learner to apply decision criteria for selecting models with contradictory benchmark results."
+  }
+}

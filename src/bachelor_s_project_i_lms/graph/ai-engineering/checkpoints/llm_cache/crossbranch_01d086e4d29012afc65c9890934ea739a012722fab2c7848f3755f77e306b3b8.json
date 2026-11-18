@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Creating evaluation guidelines defines what an application should and shouldn't do, but prompt engineering best practices can be learned and applied independently without first mastering guideline creation."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Prompt engineering best practices are useful for refining prompts but are not required to create evaluation guidelines that define application scope and expected responses."
+  }
+}

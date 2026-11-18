@@ -1,0 +1,25 @@
+{
+  "learning_objective": "The learner can select appropriate evaluation methods and curate evaluation data sets that reflect production scenarios, including edge cases and out-of-scope inputs.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "single_eval_set",
+      "description": "Believing one evaluation set is sufficient to represent all production data slices and edge cases."
+    },
+    {
+      "id": "one_method_fits_all",
+      "description": "Assuming a single evaluation method can measure all criteria without needing specialized scorers or AI judges."
+    },
+    {
+      "id": "rubric_not_needed",
+      "description": "Thinking that specialized scorers and AI judges can succeed without unambiguous scoring rubrics and examples."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p228_357",
+    "chunk_p229_360",
+    "chunk_p525_794"
+  ]
+}

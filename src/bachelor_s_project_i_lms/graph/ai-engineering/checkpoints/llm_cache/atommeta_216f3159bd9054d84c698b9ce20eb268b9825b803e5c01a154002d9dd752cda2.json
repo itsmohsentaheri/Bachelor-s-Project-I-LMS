@@ -1,0 +1,25 @@
+{
+  "learning_objective": "The learner can explain how SFT shifts a model from generic text completion to conversational instruction-following using labeled instruction-response pairs.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "sft_is_pre_training",
+      "description": "Believing SFT is the same as pre-training rather than a post-training step that adapts a pre-trained model."
+    },
+    {
+      "id": "sft_requires_rl",
+      "description": "Thinking SFT requires reinforcement learning or human feedback to function."
+    },
+    {
+      "id": "sft_fixes_all_issues",
+      "description": "Assuming SFT alone eliminates all harmful or incorrect outputs from a pre-trained model."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p102_152",
+    "chunk_p104_155",
+    "chunk_p103_154"
+  ]
+}

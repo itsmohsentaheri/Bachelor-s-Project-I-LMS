@@ -1,0 +1,22 @@
+{
+  "edges": [
+    {
+      "prerequisite": "Preference Data Collection",
+      "dependent": "Preference Optimization Algorithms",
+      "confidence": 0.95,
+      "rationale": "Preference optimization algorithms require ranked preferred versus rejected response datasets produced by preference data collection."
+    },
+    {
+      "prerequisite": "Preference Finetuning Objectives",
+      "dependent": "Preference Optimization Algorithms",
+      "confidence": 0.9,
+      "rationale": "Optimization algorithms target the alignment goals and preference definitions established in preference finetuning objectives."
+    },
+    {
+      "prerequisite": "Preference Optimization Algorithms",
+      "dependent": "Domain Mix in Preference Finetuning",
+      "confidence": 0.85,
+      "rationale": "Analyzing how domain distribution shifts during preference finetuning requires understanding the preference optimization algorithms being applied."
+    }
+  ]
+}

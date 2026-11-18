@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Understanding batch size trade-offs is not required to grasp why comparing many models requires quadratically many pairwise evaluations."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Knowing about evaluation scalability bottlenecks is not needed to understand how batch size affects training speed, memory, gradient stability, and hardware utilization."
+  }
+}

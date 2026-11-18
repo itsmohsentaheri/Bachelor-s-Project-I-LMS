@@ -1,0 +1,25 @@
+{
+  "learning_objective": "The learner can identify scalability bottlenecks in evaluation caused by high costs, time requirements, and the lack of standardization in human annotation and testing of large generative outputs.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "spot_checking_equals_sampling",
+      "description": "Spot-checking is not the same as sampling when evaluating model outputs."
+    },
+    {
+      "id": "evaluation_cheaper_than_generation",
+      "description": "Evaluation can cost more than response generation, sometimes taking up the majority of the budget."
+    },
+    {
+      "id": "ai_judges_are_free",
+      "description": "Using powerful models like GPT-4 as AI judges approximately doubles API costs compared to generation alone."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p168_254",
+    "chunk_p525_794",
+    "chunk_p181_278"
+  ]
+}

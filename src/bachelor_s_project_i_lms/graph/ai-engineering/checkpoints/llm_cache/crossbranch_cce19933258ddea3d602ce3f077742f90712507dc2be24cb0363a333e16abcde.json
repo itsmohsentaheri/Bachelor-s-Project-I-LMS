@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Creating evaluation guidelines defines application behavior and scope, but prompt engineering best practices can be learned and applied without first mastering how to create such guidelines."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Prompt engineering best practices focus on crafting and testing prompts, which are not required to meaningfully understand how to create evaluation guidelines defining application scope and responses."
+  }
+}

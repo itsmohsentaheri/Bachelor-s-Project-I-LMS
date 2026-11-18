@@ -1,0 +1,20 @@
+{
+  "learning_objective": "The learner can explain how putting an application in front of users to gather feedback determines whether it achieves its intended goals.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 2,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "feedback_always_improves_product",
+      "description": "Believing that acting on user feedback always improves the product, when it can actually create degenerate feedback loops that amplify biases."
+    },
+    {
+      "id": "reasoning_sufficient_for_success",
+      "description": "Thinking that reasoning about how to build a successful application is enough, without putting it in front of users to gather actual feedback."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p473_724",
+    "chunk_p516_783"
+  ]
+}

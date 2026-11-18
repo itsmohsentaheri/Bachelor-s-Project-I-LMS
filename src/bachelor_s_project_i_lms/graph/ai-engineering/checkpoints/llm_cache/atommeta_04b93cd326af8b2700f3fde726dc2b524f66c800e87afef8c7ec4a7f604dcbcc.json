@@ -1,0 +1,23 @@
+{
+  "learning_objective": "The learner can state that during pre-training all model parameters are updated, distinguishing this from inference and finetuning.",
+  "estimated_time_min": 5,
+  "difficulty_weight": 2,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "inference_updates_params",
+      "description": "Believing that model parameters are updated during inference."
+    },
+    {
+      "id": "finetuning_always_all_params",
+      "description": "Assuming that finetuning always updates all model parameters like pre-training does."
+    },
+    {
+      "id": "frozen_params_updated",
+      "description": "Thinking that frozen parameters are updated during pre-training."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p344_526"
+  ]
+}

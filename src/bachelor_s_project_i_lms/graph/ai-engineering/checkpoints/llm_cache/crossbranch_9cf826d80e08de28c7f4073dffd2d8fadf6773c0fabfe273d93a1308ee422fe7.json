@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Understanding generation quality metrics such as fluency and safety is not required to define or measure inference speed metrics like latency and throughput."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Knowing inference performance metrics is not necessary to identify or explain generation capability metrics and their evolution from traditional NLP metrics."
+  }
+}

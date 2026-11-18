@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "User feedback integration can be understood as a specific data source and improvement mechanism without needing to master the full end-to-end design of an evaluation pipeline."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Designing an evaluation pipeline does not require first understanding user feedback integration, as pipelines can be built using expert annotations, benchmarks, or other evaluation data instead."
+  }
+}

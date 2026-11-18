@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Manual data inspection focuses on assessing annotation trustworthiness, which is not required to understand factual consistency as an evaluation criterion for RAG systems."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Understanding RAG evaluation criteria is not necessary to manually inspect annotated data for trustworthiness."
+  }
+}

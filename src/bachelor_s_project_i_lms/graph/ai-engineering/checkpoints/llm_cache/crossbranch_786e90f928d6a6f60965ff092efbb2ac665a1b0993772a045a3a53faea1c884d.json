@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.95,
+    "rationale": "Defining RAG does not require knowing how to distinguish between information-based and behavior-based failures or how to choose between RAG and finetuning."
+  },
+  "b_before_a": {
+    "is_prerequisite": true,
+    "confidence": 0.95,
+    "rationale": "Understanding what RAG is and how it connects a foundation model to an external database is necessary before one can meaningfully compare it to finetuning and decide which failure mode it addresses."
+  }
+}

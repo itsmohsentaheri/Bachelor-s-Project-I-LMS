@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Instruction-following is a general model capability, but agent planning can be understood conceptually without first mastering how to measure instruction-following criteria."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Agent planning describes autonomous task decomposition and does not require prior mastery of instruction-following measurement to understand."
+  }
+}

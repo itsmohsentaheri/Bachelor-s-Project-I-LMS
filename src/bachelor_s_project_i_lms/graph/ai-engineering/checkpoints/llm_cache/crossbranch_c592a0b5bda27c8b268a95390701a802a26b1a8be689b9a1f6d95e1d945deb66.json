@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Defining full finetuning as training all parameters does not require understanding pre-training as parameter compression or intrinsic dimension minimization."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Explaining pre-training as parameter compression does not require first defining full finetuning, as the two concepts address different mechanisms (pre-training vs. fine-tuning)."
+  }
+}

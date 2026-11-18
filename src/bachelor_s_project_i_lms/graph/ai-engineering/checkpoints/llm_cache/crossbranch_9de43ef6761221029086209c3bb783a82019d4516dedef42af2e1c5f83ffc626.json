@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Data cleaning is not required to understand how to use public benchmarks and leaderboards to evaluate models."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Knowing how to navigate benchmarks is not required to perform data cleaning and filtering on a dataset."
+  }
+}

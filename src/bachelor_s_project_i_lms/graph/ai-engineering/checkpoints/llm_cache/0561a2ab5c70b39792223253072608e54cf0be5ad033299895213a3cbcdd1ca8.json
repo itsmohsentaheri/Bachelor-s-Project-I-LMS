@@ -1,0 +1,19 @@
+{
+  "subtopics": [
+    {
+      "title": "Data-Centric Benchmark Competitions",
+      "summary": "Competitions that evaluate dataset quality by training models on submitted datasets and measuring performance on standardized downstream tasks, such as CLIP model training and language model benchmarks.",
+      "is_atomic": true
+    },
+    {
+      "title": "DataPerf and dcbench",
+      "summary": "Standardized data-centric benchmarks from MLCommons and academic research used to assess dataset quality through model performance metrics.",
+      "is_atomic": true
+    },
+    {
+      "title": "Downstream Task Evaluation",
+      "summary": "Assessing dataset quality by measuring the performance of models trained on the dataset across multiple downstream tasks rather than intrinsic dataset properties.",
+      "is_atomic": true
+    }
+  ]
+}

@@ -1,0 +1,1080 @@
+[
+  {
+    "from_temp_id": "t_001a338b45",
+    "to_temp_id": "t_f435b171b1",
+    "confidence": 0.8,
+    "rationale": "Understanding evaluation difficulties and how to assess intelligent outputs is required to make informed decisions about which foundation model to select for specific applications. [expanded from sibling edge 'Foundation Model Evaluation Challenges' -> 'Selecting Foundation Models for Applications']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_042bd1eccf",
+    "to_temp_id": "t_581ae6b70b",
+    "confidence": 0.6,
+    "rationale": "Building domain-specific evaluations requires the end-to-end pipeline process for creating guidelines, methods, and annotated sets.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_042bd1eccf",
+    "to_temp_id": "t_7a0306103e",
+    "confidence": 0.6,
+    "rationale": "Instruction-following evaluation with scoring rubrics depends on the pipeline design process for creating guidelines and evaluation sets.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_042bd1eccf",
+    "to_temp_id": "t_83bf39d7fc",
+    "confidence": 0.5,
+    "rationale": "System-level evaluation benefits from the end-to-end pipeline process for measuring efficiency and cost in deployment contexts.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_042bd1eccf",
+    "to_temp_id": "t_9adb7c2da7",
+    "confidence": 0.6,
+    "rationale": "Generation evaluation metrics require an evaluation pipeline to define methods, data, and annotation processes.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_05c1920d7f",
+    "to_temp_id": "t_08c862a096",
+    "confidence": 0.8,
+    "rationale": "Parameter compression during pre-training is a result of updating all model parameters over massive data.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_065bcd1f30",
+    "to_temp_id": "t_3a445bdc44",
+    "confidence": 0.9,
+    "rationale": "Feedback integration requires knowing the application's structural components—where the model, UI, data pipeline, and tools sit—so feedback can be collected and routed to the right parts of the system for improvement.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_0724fc6efb",
+    "to_temp_id": "t_8d3005ebb4",
+    "confidence": 0.6,
+    "rationale": "The chosen model influences the specific components and methods included in a custom evaluation pipeline. [expanded from sibling edge 'Model Selection' -> 'Design Your Evaluation Pipeline']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_08c862a096",
+    "to_temp_id": "t_67b3bb12ac",
+    "confidence": 0.7,
+    "rationale": "Understanding how foundation models are trained, including design decisions, provides necessary context for understanding the specific difficulties in evaluating them compared to traditional ML models. [expanded from sibling edge 'Foundation Model Training Process' -> 'Foundation Model Evaluation Challenges']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_08c862a096",
+    "to_temp_id": "t_91435595dd",
+    "confidence": 0.8,
+    "rationale": "Knowledge of the training process and design decisions is needed to understand how models can be adapted without retraining from scratch. [expanded from sibling edge 'Foundation Model Training Process' -> 'Adapting Foundation Models']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_0aeab9cbd3",
+    "to_temp_id": "t_1207167405",
+    "confidence": 0.7,
+    "rationale": "Annotation guidelines and quality standards from labeled data inform how synthetic data is created and verified. [expanded from sibling edge 'Data Annotation and Quality Control' -> 'Data Synthesis and Verification']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_0bd7b8ffc7",
+    "to_temp_id": "t_17f6673b91",
+    "confidence": 0.6,
+    "rationale": "Optimized model architectures and reduced sizes are often required to fully leverage specialized hardware like GPUs and TPUs.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_0dbad374d4",
+    "to_temp_id": "t_b1d9f5ac83",
+    "confidence": 0.9,
+    "rationale": "Component-level evaluation results are needed to assess the pipeline itself for cost, latency, and metric correlation before iterating.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_0e778f57c5",
+    "to_temp_id": "t_6273eda570",
+    "confidence": 0.8,
+    "rationale": "To select the right model, one must first know the standards and benchmarks against which models will be assessed. [expanded from sibling edge 'Evaluation Criteria' -> 'Model Selection']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_0e778f57c5",
+    "to_temp_id": "t_f8dd8dbfcc",
+    "confidence": 0.8,
+    "rationale": "To select the right model, one must first know the standards and benchmarks against which models will be assessed. [expanded from sibling edge 'Evaluation Criteria' -> 'Model Selection']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_1207167405",
+    "to_temp_id": "t_8fb0dd783b",
+    "confidence": 0.7,
+    "rationale": "Understanding the motivations for synthetic data provides context for why traditional techniques are used.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_156e29b965",
+    "to_temp_id": "t_5d3c8468d7",
+    "confidence": 0.7,
+    "rationale": "Guidance on choosing between RAG and finetuning informs practical recommendations for beginning RAG implementations and when full context inclusion may eliminate the need for RAG.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_17f6673b91",
+    "to_temp_id": "t_7ebb01b16e",
+    "confidence": 0.6,
+    "rationale": "Serving infrastructure must be designed around the capabilities and constraints of the target hardware accelerators.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_1c70841eef",
+    "to_temp_id": "t_2eddc8df3d",
+    "confidence": 0.9,
+    "rationale": "Knowledge of prompt structure and components is needed to use tools for structured outputs and prompt variation effectively.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_1c70841eef",
+    "to_temp_id": "t_943544dc29",
+    "confidence": 0.95,
+    "rationale": "Understanding what a prompt is and its components is required before learning techniques for writing effective prompts.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_1e2e652cea",
+    "to_temp_id": "t_f435b171b1",
+    "confidence": 0.8,
+    "rationale": "Understanding evaluation difficulties and how to assess intelligent outputs is required to make informed decisions about which foundation model to select for specific applications. [expanded from sibling edge 'Foundation Model Evaluation Challenges' -> 'Selecting Foundation Models for Applications']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_1fcded6064",
+    "to_temp_id": "t_6273eda570",
+    "confidence": 0.8,
+    "rationale": "To select the right model, one must first know the standards and benchmarks against which models will be assessed. [expanded from sibling edge 'Evaluation Criteria' -> 'Model Selection']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_1fcded6064",
+    "to_temp_id": "t_f8dd8dbfcc",
+    "confidence": 0.8,
+    "rationale": "To select the right model, one must first know the standards and benchmarks against which models will be assessed. [expanded from sibling edge 'Evaluation Criteria' -> 'Model Selection']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_2110576f87",
+    "to_temp_id": "t_2e5860dbdc",
+    "confidence": 0.9,
+    "rationale": "Clear scoring rubrics and standards are needed before individual system components can be assessed consistently.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_26db6fe3a8",
+    "to_temp_id": "t_2c7a9ce6b8",
+    "confidence": 0.8,
+    "rationale": "Architectural choices and model scale determine the appropriate hyperparameter settings, such as learning rate schedules and batch sizes, needed for stable training. [expanded from sibling edge 'Model Architecture and Scaling' -> 'Hyperparameter Optimization']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_2720672e7d",
+    "to_temp_id": "t_f435b171b1",
+    "confidence": 0.7,
+    "rationale": "Knowledge of adaptation methods is needed to decide what foundation model to use based on application requirements, since adaptation capabilities influence model selection. [expanded from sibling edge 'Adapting Foundation Models' -> 'Selecting Foundation Models for Applications']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_288b4ecd56",
+    "to_temp_id": "t_ef3f63078f",
+    "confidence": 0.8,
+    "rationale": "Practical frameworks like PEFT and tactics such as model merging and multi-task finetuning build upon parameter-efficient finetuning techniques.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_29bee4d996",
+    "to_temp_id": "t_2720672e7d",
+    "confidence": 0.4,
+    "rationale": "Fine-tuning can be used to adapt a foundation model to better incorporate retrieved context, though RAG can function without it.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_2c3e508397",
+    "to_temp_id": "t_56d5c22979",
+    "confidence": 0.7,
+    "rationale": "Understanding the shift from generic text completion to instruction-following provides the context for why different SFT approaches like next-token prediction and infilling are used.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_2c3e508397",
+    "to_temp_id": "t_bb379d82cb",
+    "confidence": 0.6,
+    "rationale": "Understanding the goal of SFT (instruction-following) is necessary before selecting appropriate frameworks and compute resources for implementation.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_2c7a9ce6b8",
+    "to_temp_id": "t_c9f14aa024",
+    "confidence": 0.7,
+    "rationale": "Batch size is a key hyperparameter whose selection depends on available compute resources; understanding these trade-offs informs effective search space configuration.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_2c7a9ce6b8",
+    "to_temp_id": "t_e6e1ef68bc",
+    "confidence": 0.6,
+    "rationale": "Batch size affects gradient stability and effective learning rate, which informs the choice of learning rate scheduling techniques.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_2e5860dbdc",
+    "to_temp_id": "t_488c280376",
+    "confidence": 0.8,
+    "rationale": "Component-level technical results must be available before they can be connected to business outcomes.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_2fc0fc3e3f",
+    "to_temp_id": "t_ab87193c4b",
+    "confidence": 0.85,
+    "rationale": "Synthetic data generation is used to increase training data quantity, so understanding quantity requirements and cost trade-offs is needed to determine how much synthetic data to produce.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_2fc0fc3e3f",
+    "to_temp_id": "t_e02536ce2b",
+    "confidence": 0.75,
+    "rationale": "Phase-specific data mixes involve volume considerations across training phases, so understanding data quantity criteria is needed to balance data amounts against training costs and desired capabilities per phase.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_33361f54c6",
+    "to_temp_id": "t_0aeab9cbd3",
+    "confidence": 0.9,
+    "rationale": "Defining quality dimensions such as consistency establishes the criteria needed to ensure annotations are consistent across examples and annotators.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_33361f54c6",
+    "to_temp_id": "t_3344494d0f",
+    "confidence": 0.85,
+    "rationale": "Quality dimensions such as validity and fitness for purpose define what constitutes extraneous, sensitive, or toxic content that should be removed during cleaning.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_3344494d0f",
+    "to_temp_id": "t_3f224281e0",
+    "confidence": 0.75,
+    "rationale": "Cleaned and filtered data provides a safer, more focused dataset for manual inspectors to verify annotation trustworthiness and uniqueness.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_341cf5a94e",
+    "to_temp_id": "t_065bcd1f30",
+    "confidence": 0.95,
+    "rationale": "Understanding what foundation models are and how they are pre-trained and adapted is necessary before learning how to architect applications that integrate them with UIs, data pipelines, and tools.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_366e056e20",
+    "to_temp_id": "t_ab87193c4b",
+    "confidence": 0.9,
+    "rationale": "Synthetic data generation is explicitly used to increase training data quality when human-generated data is limited or lower quality, so understanding data quality criteria is needed to evaluate and target synthetic data improvements.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_3ae4c6e4b1",
+    "to_temp_id": "t_67b3bb12ac",
+    "confidence": 0.7,
+    "rationale": "Understanding how foundation models are trained, including design decisions, provides necessary context for understanding the specific difficulties in evaluating them compared to traditional ML models. [expanded from sibling edge 'Foundation Model Training Process' -> 'Foundation Model Evaluation Challenges']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_3ae4c6e4b1",
+    "to_temp_id": "t_91435595dd",
+    "confidence": 0.8,
+    "rationale": "Knowledge of the training process and design decisions is needed to understand how models can be adapted without retraining from scratch. [expanded from sibling edge 'Foundation Model Training Process' -> 'Adapting Foundation Models']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_3f224281e0",
+    "to_temp_id": "t_1207167405",
+    "confidence": 0.7,
+    "rationale": "Annotation guidelines and quality standards from labeled data inform how synthetic data is created and verified. [expanded from sibling edge 'Data Annotation and Quality Control' -> 'Data Synthesis and Verification']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_3fcfac59d6",
+    "to_temp_id": "t_f435b171b1",
+    "confidence": 0.8,
+    "rationale": "Understanding evaluation difficulties and how to assess intelligent outputs is required to make informed decisions about which foundation model to select for specific applications. [expanded from sibling edge 'Foundation Model Evaluation Challenges' -> 'Selecting Foundation Models for Applications']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_45aa258ab0",
+    "to_temp_id": "t_dc1c01f07b",
+    "confidence": 0.9,
+    "rationale": "The post-training workflow defines the overall sequence where SFT is a key stage following pre-training.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_46105a7d8b",
+    "to_temp_id": "t_78f01c19c6",
+    "confidence": 0.7,
+    "rationale": "Techniques like quantization and caching are applied to the specific operations (attention, feed-forward) within the transformer block.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_46105a7d8b",
+    "to_temp_id": "t_8af6d8cd02",
+    "confidence": 0.9,
+    "rationale": "Understanding the internal components of a transformer block (layers, hidden dimensions) is necessary to understand how parameter count and model capacity are determined.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_488c280376",
+    "to_temp_id": "t_0ea8815a09",
+    "confidence": 0.75,
+    "rationale": "Business alignment provides the goals against which the evaluation pipeline's reliability and effectiveness are assessed.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_4968c221ed",
+    "to_temp_id": "t_a3bff8769a",
+    "confidence": 0.7,
+    "rationale": "The self-supervised objective trains on massive unlabeled text corpora, which are the data sources that introduce output risks.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_4b42a40057",
+    "to_temp_id": "t_c8f3f79bc8",
+    "confidence": 0.7,
+    "rationale": "Understanding verification methods is necessary to appreciate the limitations and quality control issues of synthetic data.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_4b54f47b40",
+    "to_temp_id": "t_8c235a1ba8",
+    "confidence": 0.6,
+    "rationale": "Memory systems manage information exceeding context length, which agents require to maintain state and context across autonomous tool-using tasks and decision-making processes. [expanded from sibling edge 'Memory Systems' -> 'Agentic Patterns']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_4c237b0dda",
+    "to_temp_id": "t_902227c859",
+    "confidence": 0.9,
+    "rationale": "You must define what to measure (criteria) before selecting appropriate methods and data to measure it. [expanded from sibling edge 'Evaluation Criteria Definition' -> 'Evaluation Methods and Data Selection']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_4e8be94938",
+    "to_temp_id": "t_4b54f47b40",
+    "confidence": 0.7,
+    "rationale": "RAG Fundamentals introduces retrieval from external data sources to overcome context window limitations, which is a specific instance of memory systems managing information exceeding model context length; understanding RAG provides concrete context for memory systems. [expanded from sibling edge 'RAG Fundamentals' -> 'Memory Systems']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_5026ef8c97",
+    "to_temp_id": "t_9601a7b386",
+    "confidence": 0.7,
+    "rationale": "Data acquisition and processing costs are a key component of the total compute budget constraint when determining optimal model and dataset size.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_530aa6c72d",
+    "to_temp_id": "t_ef3f63078f",
+    "confidence": 0.7,
+    "rationale": "Finetuning frameworks and tactics include practical tools and methods for implementing preference finetuning such as RLHF.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_5462fb57a2",
+    "to_temp_id": "t_0aeab9cbd3",
+    "confidence": 0.9,
+    "rationale": "Annotation guidelines provide the rules that annotators must follow to ensure consistency across examples and annotators.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_5462fb57a2",
+    "to_temp_id": "t_3f224281e0",
+    "confidence": 0.85,
+    "rationale": "Annotation guidelines provide the standards against which manual inspection verifies annotation trustworthiness and identifies inconsistencies.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_55cb37fbc9",
+    "to_temp_id": "t_67b3bb12ac",
+    "confidence": 0.7,
+    "rationale": "Understanding how foundation models are trained, including design decisions, provides necessary context for understanding the specific difficulties in evaluating them compared to traditional ML models. [expanded from sibling edge 'Foundation Model Training Process' -> 'Foundation Model Evaluation Challenges']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_55cb37fbc9",
+    "to_temp_id": "t_91435595dd",
+    "confidence": 0.8,
+    "rationale": "Knowledge of the training process and design decisions is needed to understand how models can be adapted without retraining from scratch. [expanded from sibling edge 'Foundation Model Training Process' -> 'Adapting Foundation Models']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_56d5c22979",
+    "to_temp_id": "t_67b3bb12ac",
+    "confidence": 0.7,
+    "rationale": "Understanding how foundation models are trained, including design decisions, provides necessary context for understanding the specific difficulties in evaluating them compared to traditional ML models. [expanded from sibling edge 'Foundation Model Training Process' -> 'Foundation Model Evaluation Challenges']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_56d5c22979",
+    "to_temp_id": "t_91435595dd",
+    "confidence": 0.8,
+    "rationale": "Knowledge of the training process and design decisions is needed to understand how models can be adapted without retraining from scratch. [expanded from sibling edge 'Foundation Model Training Process' -> 'Adapting Foundation Models']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_581ae6b70b",
+    "to_temp_id": "t_f98a2125c1",
+    "confidence": 0.7,
+    "rationale": "Understanding absolute evaluation provides the baseline against which the limitations of comparative evaluation are defined. [expanded from sibling edge 'Absolute Performance Evaluation' -> 'Limitations of Comparative Evaluation']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_5d3c8468d7",
+    "to_temp_id": "t_4b54f47b40",
+    "confidence": 0.7,
+    "rationale": "RAG Fundamentals introduces retrieval from external data sources to overcome context window limitations, which is a specific instance of memory systems managing information exceeding model context length; understanding RAG provides concrete context for memory systems. [expanded from sibling edge 'RAG Fundamentals' -> 'Memory Systems']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_60d25cece2",
+    "to_temp_id": "t_81a85a6565",
+    "confidence": 0.7,
+    "rationale": "Deciding whether to finetune is a prerequisite to choosing a specific finetuning approach such as full finetuning.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_60d25cece2",
+    "to_temp_id": "t_d024cced90",
+    "confidence": 0.7,
+    "rationale": "Deciding whether to finetune is a prerequisite to choosing a specific finetuning approach such as adapter-based finetuning.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_6244b688a5",
+    "to_temp_id": "t_9aad82428d",
+    "confidence": 0.9,
+    "rationale": "Duplicate entries must be removed before analyzing intersections between data subsets to prevent data leakage.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_6244b688a5",
+    "to_temp_id": "t_e3acd0469e",
+    "confidence": 0.8,
+    "rationale": "The effective volume of usable data can only be determined after low-quality samples and duplicates are removed.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_6244b688a5",
+    "to_temp_id": "t_fd1dd7fc9d",
+    "confidence": 0.9,
+    "rationale": "Removing low-quality samples and duplicates is a foundational step required to ensure data is accurate and free from errors.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_6273eda570",
+    "to_temp_id": "t_8d3005ebb4",
+    "confidence": 0.6,
+    "rationale": "The chosen model influences the specific components and methods included in a custom evaluation pipeline. [expanded from sibling edge 'Model Selection' -> 'Design Your Evaluation Pipeline']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_65427a2dd8",
+    "to_temp_id": "t_2110576f87",
+    "confidence": 0.85,
+    "rationale": "Evaluation methods and data define what is being measured and how, which informs the criteria and rubrics in evaluation guidelines.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_67b3bb12ac",
+    "to_temp_id": "t_001a338b45",
+    "confidence": 0.85,
+    "rationale": "The difficulty of judging complex outputs without deep domain knowledge motivates the shift from absolute performance metrics to comparative evaluation.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_67b3bb12ac",
+    "to_temp_id": "t_1e2e652cea",
+    "confidence": 0.8,
+    "rationale": "The need for human evaluators with deep domain knowledge to judge complex outputs creates high cost and time constraints, leading to scalability bottlenecks.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_67b3bb12ac",
+    "to_temp_id": "t_3fcfac59d6",
+    "confidence": 0.75,
+    "rationale": "The inherent difficulty in evaluating intelligent outputs contributes to the absence of universal standards and quality control mechanisms.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_6c796aba79",
+    "to_temp_id": "t_c44d3c19ae",
+    "confidence": 0.85,
+    "rationale": "Understanding how rankings are computed from pairwise comparisons is necessary to understand the challenges in gathering reliable signals and computing accurate rankings.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_71b4e6ed11",
+    "to_temp_id": "t_902227c859",
+    "confidence": 0.9,
+    "rationale": "You must define what to measure (criteria) before selecting appropriate methods and data to measure it. [expanded from sibling edge 'Evaluation Criteria Definition' -> 'Evaluation Methods and Data Selection']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_7309e0f073",
+    "to_temp_id": "t_902227c859",
+    "confidence": 0.7,
+    "rationale": "Scoring rubrics define how outputs are judged, which can influence whether human/AI judges or automated methods are selected for evaluation.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_736f711553",
+    "to_temp_id": "t_0dbad374d4",
+    "confidence": 0.85,
+    "rationale": "Standardized scoring rubrics and criteria are needed to assess every part of the AI application consistently.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_78f01c19c6",
+    "to_temp_id": "t_2c7a9ce6b8",
+    "confidence": 0.8,
+    "rationale": "Architectural choices and model scale determine the appropriate hyperparameter settings, such as learning rate schedules and batch sizes, needed for stable training. [expanded from sibling edge 'Model Architecture and Scaling' -> 'Hyperparameter Optimization']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_7a0306103e",
+    "to_temp_id": "t_f98a2125c1",
+    "confidence": 0.7,
+    "rationale": "Understanding absolute evaluation provides the baseline against which the limitations of comparative evaluation are defined. [expanded from sibling edge 'Absolute Performance Evaluation' -> 'Limitations of Comparative Evaluation']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_81a85a6565",
+    "to_temp_id": "t_3d6c76e0ce",
+    "confidence": 0.6,
+    "rationale": "Knowledge of full finetuning requirements informs the selection of appropriate frameworks and compute resources.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_83bf39d7fc",
+    "to_temp_id": "t_f98a2125c1",
+    "confidence": 0.7,
+    "rationale": "Understanding absolute evaluation provides the baseline against which the limitations of comparative evaluation are defined. [expanded from sibling edge 'Absolute Performance Evaluation' -> 'Limitations of Comparative Evaluation']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_8638f433db",
+    "to_temp_id": "t_81a85a6565",
+    "confidence": 0.8,
+    "rationale": "Understanding data requirements and memory footprint is necessary before attempting full finetuning, which is memory-intensive.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_8638f433db",
+    "to_temp_id": "t_d024cced90",
+    "confidence": 0.7,
+    "rationale": "Understanding data requirements and memory footprint is necessary before attempting adapter-based finetuning to manage memory constraints.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_8af6d8cd02",
+    "to_temp_id": "t_26db6fe3a8",
+    "confidence": 0.85,
+    "rationale": "Model size and parameter count directly determine the computational and memory requirements during training.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_8c235a1ba8",
+    "to_temp_id": "t_f4c08dc14a",
+    "confidence": 0.9,
+    "rationale": "Understanding what an agent is and how it perceives and acts is required before learning the specific external capabilities (tools) it uses to act.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_8d3005ebb4",
+    "to_temp_id": "t_736f711553",
+    "confidence": 0.9,
+    "rationale": "Evaluation methods and annotated data are required to define scoring rubrics and tie criteria to business metrics.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_8fb0dd783b",
+    "to_temp_id": "t_b96850e53f",
+    "confidence": 0.6,
+    "rationale": "Traditional methods provide a baseline understanding of data generation before introducing AI-powered approaches.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_902227c859",
+    "to_temp_id": "t_042bd1eccf",
+    "confidence": 0.8,
+    "rationale": "Understanding what is being measured is necessary before distinguishing between comparative and absolute evaluation approaches. [expanded from sibling edge 'Evaluation Criteria Definition' -> 'Comparative vs Absolute Performance Evaluation']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_902227c859",
+    "to_temp_id": "t_a095b8da97",
+    "confidence": 0.8,
+    "rationale": "Understanding what is being measured is necessary before distinguishing between comparative and absolute evaluation approaches. [expanded from sibling edge 'Evaluation Criteria Definition' -> 'Comparative vs Absolute Performance Evaluation']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_902227c859",
+    "to_temp_id": "t_a46cc3d8fd",
+    "confidence": 0.8,
+    "rationale": "The choice of evaluation methods determines what labels are needed and how data should be annotated.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_902227c859",
+    "to_temp_id": "t_d3aea406f0",
+    "confidence": 0.8,
+    "rationale": "Understanding what is being measured is necessary before distinguishing between comparative and absolute evaluation approaches. [expanded from sibling edge 'Evaluation Criteria Definition' -> 'Comparative vs Absolute Performance Evaluation']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_91435595dd",
+    "to_temp_id": "t_29bee4d996",
+    "confidence": 0.6,
+    "rationale": "Understanding how prompts guide model outputs provides a baseline for evaluating whether weight updates via fine-tuning are necessary or effective.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_943544dc29",
+    "to_temp_id": "t_c1133374fc",
+    "confidence": 0.75,
+    "rationale": "Effective prompt writing techniques provide a foundation for designing defensive prompts and evaluation metrics against attacks.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_95f03bc490",
+    "to_temp_id": "t_4c237b0dda",
+    "confidence": 0.85,
+    "rationale": "Benchmarks are selected based on the evaluation criteria and capabilities to be assessed, requiring criteria to be defined first.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_95f03bc490",
+    "to_temp_id": "t_71b4e6ed11",
+    "confidence": 0.85,
+    "rationale": "Generation capability metrics are chosen to measure specific evaluation criteria, so criteria must be defined before selecting relevant metrics.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_95f03bc490",
+    "to_temp_id": "t_7309e0f073",
+    "confidence": 0.95,
+    "rationale": "Evaluation criteria must be defined before scoring rubrics can be developed, as rubrics operationalize the criteria into unambiguous scoring guidelines.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_9601a7b386",
+    "to_temp_id": "t_3ae4c6e4b1",
+    "confidence": 0.8,
+    "rationale": "Determining the optimal model size and dataset size for a fixed budget is necessary to accurately estimate total training cost before comparing it to inference revenue.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_9aad82428d",
+    "to_temp_id": "t_33361f54c6",
+    "confidence": 0.95,
+    "rationale": "Raw data must be gathered, filtered, and deduplicated before it can be annotated and quality-controlled. [expanded from sibling edge 'Data Collection and Curation' -> 'Data Annotation and Quality Control']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_9aad82428d",
+    "to_temp_id": "t_5462fb57a2",
+    "confidence": 0.95,
+    "rationale": "Raw data must be gathered, filtered, and deduplicated before it can be annotated and quality-controlled. [expanded from sibling edge 'Data Collection and Curation' -> 'Data Annotation and Quality Control']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_9adb7c2da7",
+    "to_temp_id": "t_f98a2125c1",
+    "confidence": 0.7,
+    "rationale": "Understanding absolute evaluation provides the baseline against which the limitations of comparative evaluation are defined. [expanded from sibling edge 'Absolute Performance Evaluation' -> 'Limitations of Comparative Evaluation']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_9ef6e4867f",
+    "to_temp_id": "t_588faef323",
+    "confidence": 0.9,
+    "rationale": "Agent Security Risks specifically addresses tool use exposing agents to security risks, which directly depends on understanding agentic patterns and their autonomous tool use capabilities. [expanded from sibling edge 'Agentic Patterns' -> 'Agent Security Risks']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_9f803e8324",
+    "to_temp_id": "t_34266a5472",
+    "confidence": 0.9,
+    "rationale": "DataPerf and dcbench assess dataset quality through model performance metrics on downstream tasks, making downstream task evaluation a prerequisite.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_9f803e8324",
+    "to_temp_id": "t_b9e490248d",
+    "confidence": 0.9,
+    "rationale": "Benchmark competitions evaluate datasets by measuring model performance on standardized downstream tasks, so understanding downstream task evaluation is required to understand how these competitions work.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_a095b8da97",
+    "to_temp_id": "t_581ae6b70b",
+    "confidence": 0.8,
+    "rationale": "Understanding absolute evaluation as measuring against fixed criteria is foundational for domain-specific benchmarks that assess functional correctness against exact methods.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_a095b8da97",
+    "to_temp_id": "t_7a0306103e",
+    "confidence": 0.8,
+    "rationale": "Instruction-following uses defined rubrics and criteria, which aligns with the absolute evaluation approach of measuring against fixed standards.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_a095b8da97",
+    "to_temp_id": "t_83bf39d7fc",
+    "confidence": 0.7,
+    "rationale": "Determining practical deployment requires absolute thresholds for cost and latency rather than relative comparisons between models.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_a095b8da97",
+    "to_temp_id": "t_9adb7c2da7",
+    "confidence": 0.8,
+    "rationale": "Absolute evaluation concepts are needed to interpret language modeling metrics like perplexity against fixed reference data rather than relative ranking.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_a33b1a7b38",
+    "to_temp_id": "t_e02536ce2b",
+    "confidence": 0.8,
+    "rationale": "Phase-specific data mixes define domain composition across training phases, which requires understanding data coverage criteria to ensure the right mix of domains and topics without over- or under-representation.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_a3bff8769a",
+    "to_temp_id": "t_67b3bb12ac",
+    "confidence": 0.7,
+    "rationale": "Understanding how foundation models are trained, including design decisions, provides necessary context for understanding the specific difficulties in evaluating them compared to traditional ML models. [expanded from sibling edge 'Foundation Model Training Process' -> 'Foundation Model Evaluation Challenges']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_a3bff8769a",
+    "to_temp_id": "t_91435595dd",
+    "confidence": 0.8,
+    "rationale": "Knowledge of the training process and design decisions is needed to understand how models can be adapted without retraining from scratch. [expanded from sibling edge 'Foundation Model Training Process' -> 'Adapting Foundation Models']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_a46cc3d8fd",
+    "to_temp_id": "t_e6e52786da",
+    "confidence": 0.6,
+    "rationale": "Annotated data is required to create meaningful evaluation data slices.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_a60472f235",
+    "to_temp_id": "t_0e778f57c5",
+    "confidence": 0.9,
+    "rationale": "To evaluate quality criteria such as fluency, coherence, and factual consistency, one must first select appropriate scoring methods (classifiers, semantic similarity, AI judges) and define unambiguous rubrics with examples.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_a60472f235",
+    "to_temp_id": "t_1fcded6064",
+    "confidence": 0.8,
+    "rationale": "Applying domain-specific benchmarks requires selecting evaluation methods and establishing scoring rubrics to interpret benchmark results consistently.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_a60472f235",
+    "to_temp_id": "t_a643a56bb4",
+    "confidence": 0.7,
+    "rationale": "Assessing operational metrics such as cost and latency requires defined measurement methods and scoring guidelines to ensure consistent evaluation alongside quality criteria.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_a643a56bb4",
+    "to_temp_id": "t_6273eda570",
+    "confidence": 0.8,
+    "rationale": "To select the right model, one must first know the standards and benchmarks against which models will be assessed. [expanded from sibling edge 'Evaluation Criteria' -> 'Model Selection']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_a643a56bb4",
+    "to_temp_id": "t_f8dd8dbfcc",
+    "confidence": 0.8,
+    "rationale": "To select the right model, one must first know the standards and benchmarks against which models will be assessed. [expanded from sibling edge 'Evaluation Criteria' -> 'Model Selection']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_a9fcb66514",
+    "to_temp_id": "t_0e778f57c5",
+    "confidence": 0.85,
+    "rationale": "Defining what an application should and should not do establishes the behavioral boundaries and expected outputs that generation quality criteria (fluency, coherence, factual consistency, faithfulness, safety) are designed to measure.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_a9fcb66514",
+    "to_temp_id": "t_1fcded6064",
+    "confidence": 0.75,
+    "rationale": "Defining the scope of an application determines which domain-specific capabilities (math, science, reasoning, code generation, tool use) are relevant and should be assessed via benchmarks.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_ab83c21e14",
+    "to_temp_id": "t_33361f54c6",
+    "confidence": 0.95,
+    "rationale": "Raw data must be gathered, filtered, and deduplicated before it can be annotated and quality-controlled. [expanded from sibling edge 'Data Collection and Curation' -> 'Data Annotation and Quality Control']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_ab83c21e14",
+    "to_temp_id": "t_5462fb57a2",
+    "confidence": 0.95,
+    "rationale": "Raw data must be gathered, filtered, and deduplicated before it can be annotated and quality-controlled. [expanded from sibling edge 'Data Collection and Curation' -> 'Data Annotation and Quality Control']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_ab87193c4b",
+    "to_temp_id": "t_2c7a9ce6b8",
+    "confidence": 0.8,
+    "rationale": "The quality and quantity of training data directly influence the selection of learning rates, batch sizes, and other hyperparameters required for effective convergence. [expanded from sibling edge 'Training Data Selection and Quality' -> 'Hyperparameter Optimization']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_ab87193c4b",
+    "to_temp_id": "t_45aa258ab0",
+    "confidence": 0.9,
+    "rationale": "Supervised and preference finetuning require high-quality, curated datasets to effectively align model outputs with user intent. [expanded from sibling edge 'Training Data Selection and Quality' -> 'Post-Training Finetuning Strategies']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_b96850e53f",
+    "to_temp_id": "t_4b42a40057",
+    "confidence": 0.8,
+    "rationale": "AI-generated data requires specific verification methods to ensure quality and reliability.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_bb379d82cb",
+    "to_temp_id": "t_67b3bb12ac",
+    "confidence": 0.7,
+    "rationale": "Understanding how foundation models are trained, including design decisions, provides necessary context for understanding the specific difficulties in evaluating them compared to traditional ML models. [expanded from sibling edge 'Foundation Model Training Process' -> 'Foundation Model Evaluation Challenges']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_bb379d82cb",
+    "to_temp_id": "t_91435595dd",
+    "confidence": 0.8,
+    "rationale": "Knowledge of the training process and design decisions is needed to understand how models can be adapted without retraining from scratch. [expanded from sibling edge 'Foundation Model Training Process' -> 'Adapting Foundation Models']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_be80cf1472",
+    "to_temp_id": "t_e9f4a2e396",
+    "confidence": 0.9,
+    "rationale": "Optimization algorithms target the alignment goals and preference definitions established in preference finetuning objectives.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_c44d3c19ae",
+    "to_temp_id": "t_7166f3aaec",
+    "confidence": 0.8,
+    "rationale": "Understanding comparative evaluation provides context for the challenges of standardization and quality control in that setting. [expanded from sibling edge 'Comparative Performance Evaluation' -> 'Lack of Standardization and Quality Control']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_c44d3c19ae",
+    "to_temp_id": "t_775c4ee484",
+    "confidence": 0.95,
+    "rationale": "Understanding the mechanics of comparative evaluation is required to understand why it scales quadratically. [expanded from sibling edge 'Comparative Performance Evaluation' -> 'Scalability Bottlenecks in Comparative Evaluation']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_c44d3c19ae",
+    "to_temp_id": "t_f98a2125c1",
+    "confidence": 0.95,
+    "rationale": "Understanding how comparative evaluation works is necessary to understand its specific limitations. [expanded from sibling edge 'Comparative Performance Evaluation' -> 'Limitations of Comparative Evaluation']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_c8f3f79bc8",
+    "to_temp_id": "t_9f803e8324",
+    "confidence": 0.8,
+    "rationale": "Synthetic data must be generated and verified before it can be included in dataset evaluation and benchmarking. [expanded from sibling edge 'Data Synthesis and Verification' -> 'Dataset Evaluation and Benchmarking']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_c9f14aa024",
+    "to_temp_id": "t_5026ef8c97",
+    "confidence": 0.7,
+    "rationale": "Optimized hyperparameters are essential for implementing efficiency techniques like quantization and pruning without significant degradation in model performance. [expanded from sibling edge 'Hyperparameter Optimization' -> 'Training Efficiency and Cost Management']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_caeccbb9c3",
+    "to_temp_id": "t_f44fa190e3",
+    "confidence": 0.85,
+    "rationale": "Model capabilities comparison identifies candidate models and their characteristics, which informs which specific models should be evaluated for performance on target tasks.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_d024cced90",
+    "to_temp_id": "t_3d6c76e0ce",
+    "confidence": 0.7,
+    "rationale": "Adapter-based finetuning techniques are often supported by specific frameworks like PEFT and LLaMA-Factory, making knowledge of the technique a prerequisite for framework selection.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_d3aea406f0",
+    "to_temp_id": "t_6c796aba79",
+    "confidence": 0.9,
+    "rationale": "Understanding the distinction between comparative and absolute evaluation is necessary before learning how to rank models via pairwise comparisons.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_d532fb9769",
+    "to_temp_id": "t_e9f4a2e396",
+    "confidence": 0.95,
+    "rationale": "Preference optimization algorithms require ranked preferred versus rejected response datasets produced by preference data collection.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_dc1c01f07b",
+    "to_temp_id": "t_288b4ecd56",
+    "confidence": 0.85,
+    "rationale": "Parameter-efficient finetuning techniques such as LoRA and PEFT are applied to the SFT stage to reduce compute and memory requirements compared to full finetuning.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_dc1c01f07b",
+    "to_temp_id": "t_530aa6c72d",
+    "confidence": 0.95,
+    "rationale": "Preference finetuning methods such as RLHF typically require a model that has already undergone SFT to convert text-completion behavior into instruction-following dialogue before aligning outputs with human preferences.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_dcb221f932",
+    "to_temp_id": "t_0bd7b8ffc7",
+    "confidence": 0.7,
+    "rationale": "Performance metrics provide the baseline for measuring the impact of model size reduction and architectural efficiency on speed and cost.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_e02536ce2b",
+    "to_temp_id": "t_2c7a9ce6b8",
+    "confidence": 0.8,
+    "rationale": "The quality and quantity of training data directly influence the selection of learning rates, batch sizes, and other hyperparameters required for effective convergence. [expanded from sibling edge 'Training Data Selection and Quality' -> 'Hyperparameter Optimization']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_e02536ce2b",
+    "to_temp_id": "t_45aa258ab0",
+    "confidence": 0.9,
+    "rationale": "Supervised and preference finetuning require high-quality, curated datasets to effectively align model outputs with user intent. [expanded from sibling edge 'Training Data Selection and Quality' -> 'Post-Training Finetuning Strategies']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_e3acd0469e",
+    "to_temp_id": "t_ab83c21e14",
+    "confidence": 0.6,
+    "rationale": "Determining the appropriate volume of data is necessary before assessing whether the dataset has sufficient diversity to represent all scenarios.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_e6e1ef68bc",
+    "to_temp_id": "t_5026ef8c97",
+    "confidence": 0.7,
+    "rationale": "Optimized hyperparameters are essential for implementing efficiency techniques like quantization and pruning without significant degradation in model performance. [expanded from sibling edge 'Hyperparameter Optimization' -> 'Training Efficiency and Cost Management']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_e6e52786da",
+    "to_temp_id": "t_65427a2dd8",
+    "confidence": 0.85,
+    "rationale": "Selecting methods and data is required before designing the end-to-end pipeline that uses them. [expanded from sibling edge 'Evaluation Methods and Data Selection' -> 'Evaluation Pipeline Design']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_e9f4a2e396",
+    "to_temp_id": "t_55cb37fbc9",
+    "confidence": 0.85,
+    "rationale": "Analyzing how domain distribution shifts during preference finetuning requires understanding the preference optimization algorithms being applied.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_ef3f63078f",
+    "to_temp_id": "t_67b3bb12ac",
+    "confidence": 0.7,
+    "rationale": "Understanding how foundation models are trained, including design decisions, provides necessary context for understanding the specific difficulties in evaluating them compared to traditional ML models. [expanded from sibling edge 'Foundation Model Training Process' -> 'Foundation Model Evaluation Challenges']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_ef3f63078f",
+    "to_temp_id": "t_91435595dd",
+    "confidence": 0.8,
+    "rationale": "Knowledge of the training process and design decisions is needed to understand how models can be adapted without retraining from scratch. [expanded from sibling edge 'Foundation Model Training Process' -> 'Adapting Foundation Models']",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_f339082d04",
+    "to_temp_id": "t_156e29b965",
+    "confidence": 0.9,
+    "rationale": "Understanding the two-component structure of RAG is necessary to compare it against finetuning and determine when each approach is appropriate.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_f339082d04",
+    "to_temp_id": "t_4e8be94938",
+    "confidence": 0.9,
+    "rationale": "Knowledge of how retrievers fetch context and generators produce responses is required to evaluate factual consistency between generated responses and retrieved context.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_f342a589ab",
+    "to_temp_id": "t_9ef6e4867f",
+    "confidence": 0.85,
+    "rationale": "Error propagation in multi-step reasoning and infinite loops arise from the planning and action-sequencing layer, so planning must be understood first.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_f435b171b1",
+    "to_temp_id": "t_caeccbb9c3",
+    "confidence": 0.95,
+    "rationale": "Application requirements establish the criteria (latency, accuracy, cost, privacy) needed to determine which model capabilities are relevant for comparison.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_f44fa190e3",
+    "to_temp_id": "t_8a700d0cca",
+    "confidence": 0.9,
+    "rationale": "Performance evaluation results are needed to assess whether a model meets application requirements before analyzing its cost and deployment implications.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_f4c08dc14a",
+    "to_temp_id": "t_f342a589ab",
+    "confidence": 0.85,
+    "rationale": "Planning how to solve complex problems requires knowing what tools are available to direct toward goal completion.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_f8dd8dbfcc",
+    "to_temp_id": "t_0724fc6efb",
+    "confidence": 0.95,
+    "rationale": "To resolve conflicting benchmark results, one must first understand how to navigate public benchmarks and their limitations.",
+    "origin": "local"
+  },
+  {
+    "from_temp_id": "t_fd1dd7fc9d",
+    "to_temp_id": "t_ab83c21e14",
+    "confidence": 0.6,
+    "rationale": "Ensuring data accuracy and reliability is a prerequisite for meaningfully evaluating whether the dataset represents all necessary scenarios.",
+    "origin": "local"
+  }
+]

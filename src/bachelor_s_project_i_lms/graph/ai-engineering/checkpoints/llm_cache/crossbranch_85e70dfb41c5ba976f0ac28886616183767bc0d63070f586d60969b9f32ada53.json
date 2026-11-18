@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Atom A covers a broader scope including edge cases and out-of-scope inputs, while Atom B focuses on defining methods and data; mastering the broader A is not required to perform the more specific task in B."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Atom B is a narrower activity within evaluation methodology and does not encompass the full scope of selecting methods and curating data for production scenarios required by Atom A."
+  }
+}

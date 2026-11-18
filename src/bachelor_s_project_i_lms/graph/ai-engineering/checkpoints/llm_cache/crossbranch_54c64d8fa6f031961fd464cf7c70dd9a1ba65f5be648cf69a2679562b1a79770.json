@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Understanding agent security risks is not required to describe the general incremental addition of engineering components to AI products."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Knowing how to incrementally add components to AI products is not required to identify security risks introduced by tool use in agents."
+  }
+}

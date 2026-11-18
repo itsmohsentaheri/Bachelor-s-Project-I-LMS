@@ -1,0 +1,29 @@
+{
+  "subtopics": [
+    {
+      "title": "Comparative Performance Evaluation",
+      "summary": "Ranking models against each other to determine which is better, without measuring absolute quality or whether a model is good enough for a specific use case.",
+      "is_atomic": false
+    },
+    {
+      "title": "Absolute Performance Evaluation",
+      "summary": "Evaluating a model against fixed criteria or thresholds to determine its actual quality and whether it meets the requirements for a given application.",
+      "is_atomic": false
+    },
+    {
+      "title": "Limitations of Comparative Evaluation",
+      "summary": "Comparative rankings do not reveal absolute performance; a model can win against another while both are bad, both good, or one good and one bad, making it unclear if a swap is worthwhile.",
+      "is_atomic": true
+    },
+    {
+      "title": "Scalability Bottlenecks in Comparative Evaluation",
+      "summary": "Comparative evaluation is data-intensive because the number of model pairs grows quadratically with the number of models, requiring large numbers of comparisons for reliable rankings.",
+      "is_atomic": true
+    },
+    {
+      "title": "Lack of Standardization and Quality Control",
+      "summary": "Challenges in ensuring consistent and reliable evaluation signals when using human or AI judges, including variability in voter quality and the need for evaluation guidelines and rubrics.",
+      "is_atomic": true
+    }
+  ]
+}

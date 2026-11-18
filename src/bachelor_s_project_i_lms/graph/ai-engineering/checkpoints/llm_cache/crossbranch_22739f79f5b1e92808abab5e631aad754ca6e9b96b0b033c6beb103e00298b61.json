@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.95,
+    "rationale": "Understanding how supervised finetuning converts text-completion into instruction-following does not require first knowing how to distinguish information-based from behavior-based failures or when to apply RAG versus finetuning."
+  },
+  "b_before_a": {
+    "is_prerequisite": true,
+    "confidence": 0.9,
+    "rationale": "Deciding whether to apply RAG, finetuning, or both requires understanding what supervised finetuning does to a model's behavior, since finetuning is one of the options being evaluated."
+  }
+}

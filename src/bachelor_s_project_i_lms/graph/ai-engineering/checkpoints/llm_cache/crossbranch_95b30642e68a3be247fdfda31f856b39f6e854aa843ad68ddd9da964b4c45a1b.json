@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Understanding data coverage (domain/topic mix) is not required to explain how data quantity is determined by cost, capabilities, and situation."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Knowing how data quantity is determined is not required to explain data coverage as a criterion for balanced domain and topic representation."
+  }
+}

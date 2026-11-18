@@ -1,0 +1,20 @@
+{
+  "learning_objective": "The learner can describe the baseline architecture of a foundation model application consisting of a model and a user interface.",
+  "estimated_time_min": 5,
+  "difficulty_weight": 1,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "requires_external_components",
+      "description": "Believing the simplest architecture requires additional components like vector databases or agents."
+    },
+    {
+      "id": "model_only",
+      "description": "Thinking a foundation model application can function without a user interface."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p48_65",
+    "chunk_p90_132"
+  ]
+}

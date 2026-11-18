@@ -1,0 +1,16 @@
+{
+  "edges": [
+    {
+      "prerequisite": "SFT vs Pre-training Objectives",
+      "dependent": "Next-Token vs Infilling Finetuning",
+      "confidence": 0.7,
+      "rationale": "Understanding the shift from generic text completion to instruction-following provides the context for why different SFT approaches like next-token prediction and infilling are used."
+    },
+    {
+      "prerequisite": "SFT vs Pre-training Objectives",
+      "dependent": "Finetuning Frameworks and Compute",
+      "confidence": 0.6,
+      "rationale": "Understanding the goal of SFT (instruction-following) is necessary before selecting appropriate frameworks and compute resources for implementation."
+    }
+  ]
+}

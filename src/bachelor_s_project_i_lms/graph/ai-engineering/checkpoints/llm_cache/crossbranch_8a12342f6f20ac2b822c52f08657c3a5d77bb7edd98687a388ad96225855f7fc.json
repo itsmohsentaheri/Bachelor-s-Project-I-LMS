@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Defining an AI accelerator and identifying GPUs does not require the ability to assess every component of an AI application."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Assessing all system components can be done meaningfully without first defining AI accelerators or identifying GPUs as the dominant type."
+  }
+}

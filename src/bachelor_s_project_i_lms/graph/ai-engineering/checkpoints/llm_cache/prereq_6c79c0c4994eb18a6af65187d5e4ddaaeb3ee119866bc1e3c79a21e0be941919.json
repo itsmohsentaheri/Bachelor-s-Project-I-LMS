@@ -1,0 +1,28 @@
+{
+  "edges": [
+    {
+      "prerequisite": "Comparative vs. Absolute Evaluation",
+      "dependent": "Ranking Models via Pairwise Comparisons",
+      "confidence": 0.9,
+      "rationale": "Understanding the distinction between comparative and absolute evaluation is necessary before learning how to rank models via pairwise comparisons."
+    },
+    {
+      "prerequisite": "Ranking Models via Pairwise Comparisons",
+      "dependent": "Scalability Bottlenecks in Comparative Evaluation",
+      "confidence": 0.85,
+      "rationale": "Understanding how pairwise comparisons generate rankings is required to understand the quadratic growth of model pairs and resulting scalability bottlenecks."
+    },
+    {
+      "prerequisite": "Ranking Models via Pairwise Comparisons",
+      "dependent": "Signal Gathering and Model Ranking Challenges",
+      "confidence": 0.85,
+      "rationale": "Understanding how rankings are computed from pairwise comparisons is necessary to understand the challenges in gathering reliable signals and computing accurate rankings."
+    },
+    {
+      "prerequisite": "Scalability Bottlenecks in Comparative Evaluation",
+      "dependent": "Signal Gathering and Model Ranking Challenges",
+      "confidence": 0.7,
+      "rationale": "Understanding scalability bottlenecks provides context for the data-intensity challenges in gathering sufficient comparison signals."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "edges": [
+    {
+      "prerequisite": "RAG Fundamentals",
+      "dependent": "Memory Systems",
+      "confidence": 0.7,
+      "rationale": "RAG Fundamentals introduces retrieval from external data sources to overcome context window limitations, which is a specific instance of memory systems managing information exceeding model context length; understanding RAG provides concrete context for memory systems."
+    },
+    {
+      "prerequisite": "RAG Fundamentals",
+      "dependent": "Agentic Patterns",
+      "confidence": 0.6,
+      "rationale": "RAG Fundamentals establishes retrieval-augmented generation as a pattern for extending model capabilities with external information, which serves as a foundational concept for agentic patterns that extend beyond retrieval to autonomous tool use and decision-making."
+    },
+    {
+      "prerequisite": "Memory Systems",
+      "dependent": "Agentic Patterns",
+      "confidence": 0.6,
+      "rationale": "Memory systems manage information exceeding context length, which agents require to maintain state and context across autonomous tool-using tasks and decision-making processes."
+    },
+    {
+      "prerequisite": "Agentic Patterns",
+      "dependent": "Agent Security Risks",
+      "confidence": 0.9,
+      "rationale": "Agent Security Risks specifically addresses tool use exposing agents to security risks, which directly depends on understanding agentic patterns and their autonomous tool use capabilities."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Agent planning focuses on task decomposition and autonomous decision-making, which does not require understanding how self-supervised pre-training infers labels for text completion."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Understanding self-supervised pre-training objectives does not depend on knowledge of how agents decompose tasks and make autonomous decisions."
+  }
+}

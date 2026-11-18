@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Understanding the limitations of simple AI application architectures does not require prior knowledge of signal gathering and model ranking challenges, as these address different concerns (system architecture vs. evaluation methodology)."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Identifying challenges in gathering comparison signals and ranking models is independent of understanding the failure modes of simple AI application architectures, as neither concept relies on the other for meaningful comprehension."
+  }
+}

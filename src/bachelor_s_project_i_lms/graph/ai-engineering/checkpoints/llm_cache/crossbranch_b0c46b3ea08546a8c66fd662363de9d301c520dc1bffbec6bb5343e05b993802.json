@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Describing a gradual approach to adding components does not require the ability to assess every part of an AI application."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Assessing every system component does not depend on knowing how to incrementally add engineering components."
+  }
+}

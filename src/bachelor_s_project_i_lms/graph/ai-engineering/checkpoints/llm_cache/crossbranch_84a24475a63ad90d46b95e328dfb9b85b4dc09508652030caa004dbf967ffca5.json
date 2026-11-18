@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Understanding dataset quality benchmarks is not required to define latency, throughput, and goodput for inference speed and cost."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Defining inference performance metrics is not required to explain how DataPerf and dcbench assess dataset quality through model performance."
+  }
+}

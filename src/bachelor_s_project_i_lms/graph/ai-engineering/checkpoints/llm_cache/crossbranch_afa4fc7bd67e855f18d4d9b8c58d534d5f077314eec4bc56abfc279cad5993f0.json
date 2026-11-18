@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Resolving conflicting benchmark results is a specialized evaluation task that does not need to be mastered before one can compare foundation models by architecture, size, modality, and performance characteristics."
+  },
+  "b_before_a": {
+    "is_prerequisite": true,
+    "confidence": 0.85,
+    "rationale": "Meaningfully resolving contradictory benchmark results requires first being able to compare foundation models' capabilities and performance characteristics to interpret which model is better suited for the task domain."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Understanding security risks in agent tool use is not required to identify challenges in gathering comparison signals and ranking models."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Knowing how to gather signals and rank models is not necessary to understand security risks introduced by tool use in agents."
+  }
+}

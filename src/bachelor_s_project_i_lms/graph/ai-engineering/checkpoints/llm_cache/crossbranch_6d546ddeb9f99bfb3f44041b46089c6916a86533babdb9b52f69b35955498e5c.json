@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": true,
+    "confidence": 0.85,
+    "rationale": "Understanding how foundation models are pre-trained via self-supervised objectives is necessary to meaningfully grasp how those same models are subsequently leveraged to generate synthetic instruction data."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Knowing how to synthesize data using foundation models does not require prior understanding of the self-supervised pre-training objective that created those models."
+  }
+}

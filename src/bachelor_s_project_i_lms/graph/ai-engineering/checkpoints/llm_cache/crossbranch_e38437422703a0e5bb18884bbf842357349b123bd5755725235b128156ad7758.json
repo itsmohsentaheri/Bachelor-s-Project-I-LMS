@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Describing a baseline model-and-UI architecture does not require the ability to compare foundation models by architecture, size, modality, and performance."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Comparing model capabilities is not required to understand the simplest baseline architecture consisting of a model and a user interface."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Comparing finetuning frameworks and compute requirements does not require prior knowledge of comparing foundation model capabilities, as these are distinct technical tasks."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Comparing model capabilities based on architecture and performance does not depend on knowing how to finetune models or which frameworks to use."
+  }
+}

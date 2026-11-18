@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Deciding whether to build or buy a foundation model does not require understanding the lack of standardization in evaluation methodologies."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Understanding evaluation standardization issues is not necessary to meaningfully compare cost, control, and time-to-market for a build-versus-buy decision."
+  }
+}

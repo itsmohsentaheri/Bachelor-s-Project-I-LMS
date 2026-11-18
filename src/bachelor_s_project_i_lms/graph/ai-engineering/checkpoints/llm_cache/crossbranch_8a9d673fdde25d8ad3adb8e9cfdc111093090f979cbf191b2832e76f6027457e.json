@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Understanding how to compare domain data mixes for different training phases does not require first knowing how to detect overlapping data across dataset splits."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Identifying data overlap using techniques like Bloom filters does not depend on knowing the optimal domain mixes for pre-training or finetuning phases."
+  }
+}

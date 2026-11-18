@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Resolving conflicting benchmark results is a specialized task that presupposes the ability to select and apply appropriate evaluation methods, not the other way around."
+  },
+  "b_before_a": {
+    "is_prerequisite": true,
+    "confidence": 0.95,
+    "rationale": "A learner must first know how to select appropriate evaluation methods before they can meaningfully interpret and resolve contradictory results across different benchmarks."
+  }
+}

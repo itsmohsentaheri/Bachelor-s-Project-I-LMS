@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.95,
+    "rationale": "Adapter-based finetuning is a parameter-efficient training technique for transformer models, while RAG architecture concerns the structural integration of retrieval and generation components; understanding RAG does not require knowledge of how adapters modify transformer layers."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.95,
+    "rationale": "RAG architecture describes a system-level design for combining retrieval with generation, which is independent of the specific fine-tuning method used to adapt a generator model, so mastering RAG is not required to understand adapter-based finetuning."
+  }
+}

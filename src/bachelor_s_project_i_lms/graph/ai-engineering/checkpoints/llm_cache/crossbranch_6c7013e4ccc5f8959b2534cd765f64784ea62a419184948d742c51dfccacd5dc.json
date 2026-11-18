@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Knowing specific generation quality criteria is not required to define general evaluation criteria for application behavior and out-of-scope inputs."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Defining general evaluation criteria does not require prior mastery of specific generation quality criteria like fluency or coherence."
+  }
+}

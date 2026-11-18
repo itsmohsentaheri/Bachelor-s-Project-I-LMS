@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Creating evaluation guidelines focuses on defining application behavior and responses, which does not require prior mastery of selecting evaluation methods or curating data sets."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Selecting evaluation methods and curating data sets can be done independently of having created specific evaluation guidelines for an application's behavior."
+  }
+}

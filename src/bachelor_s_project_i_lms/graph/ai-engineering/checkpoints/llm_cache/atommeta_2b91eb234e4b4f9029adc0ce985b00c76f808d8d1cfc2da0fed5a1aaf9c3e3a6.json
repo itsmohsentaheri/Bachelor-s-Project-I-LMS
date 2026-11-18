@@ -1,0 +1,25 @@
+{
+  "learning_objective": "The learner can explain the difference between comparative and absolute performance evaluation and why comparative ranking does not indicate whether a model is good enough for a specific use case.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "win_rate_equals_absolute_improvement",
+      "description": "Believing that a higher comparative win rate directly translates to a specific absolute performance metric, such as ticket resolution rate."
+    },
+    {
+      "id": "comparative_means_good_enough",
+      "description": "Assuming that if model B ranks higher than model A, model B is automatically good enough for production use."
+    },
+    {
+      "id": "ranking_ground_truth_exists",
+      "description": "Thinking there is an absolute ground truth for model rankings when rankings are actually predictive based on historical match outcomes."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p179_274",
+    "chunk_p178_273",
+    "chunk_p179_275"
+  ]
+}

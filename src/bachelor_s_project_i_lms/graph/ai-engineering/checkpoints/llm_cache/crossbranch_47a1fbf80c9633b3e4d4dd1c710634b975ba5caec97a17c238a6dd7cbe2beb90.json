@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Understanding the high-level structural components of AI applications does not require prior knowledge of the internal mechanics of a transformer block."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Identifying how foundation models integrate into an application architecture can be done without understanding the specific internal components of a transformer block."
+  }
+}

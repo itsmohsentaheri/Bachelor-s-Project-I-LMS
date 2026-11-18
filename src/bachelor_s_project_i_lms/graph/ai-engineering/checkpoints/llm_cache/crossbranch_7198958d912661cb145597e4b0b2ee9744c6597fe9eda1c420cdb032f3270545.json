@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Defining data quality is not required to select evaluation methods or curate evaluation datasets, as evaluation design can proceed independently of training data quality concepts."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Understanding how to evaluate models and curate evaluation data is not necessary to define data quality or explain its impact on model training performance."
+  }
+}

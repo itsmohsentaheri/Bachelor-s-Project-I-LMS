@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Identifying structural components of AI applications does not require prior knowledge of AI accelerator hardware."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Defining AI accelerators and GPUs is not necessary to understand how foundation models integrate with UIs, data pipelines, and external tools."
+  }
+}

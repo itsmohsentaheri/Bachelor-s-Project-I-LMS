@@ -1,0 +1,40 @@
+{
+  "edges": [
+    {
+      "prerequisite": "Data Collection and Curation",
+      "dependent": "Data Annotation and Quality Control",
+      "confidence": 0.95,
+      "rationale": "Raw data must be gathered, filtered, and deduplicated before it can be annotated and quality-controlled."
+    },
+    {
+      "prerequisite": "Data Collection and Curation",
+      "dependent": "Data Synthesis and Verification",
+      "confidence": 0.85,
+      "rationale": "A curated dataset foundation is typically needed to guide synthetic data generation and ensure diversity/volume balance."
+    },
+    {
+      "prerequisite": "Data Annotation and Quality Control",
+      "dependent": "Data Synthesis and Verification",
+      "confidence": 0.7,
+      "rationale": "Annotation guidelines and quality standards from labeled data inform how synthetic data is created and verified."
+    },
+    {
+      "prerequisite": "Data Collection and Curation",
+      "dependent": "Dataset Evaluation and Benchmarking",
+      "confidence": 0.9,
+      "rationale": "A dataset must exist and be curated before models can be trained on it and evaluated on downstream benchmarks."
+    },
+    {
+      "prerequisite": "Data Annotation and Quality Control",
+      "dependent": "Dataset Evaluation and Benchmarking",
+      "confidence": 0.85,
+      "rationale": "Accurate, quality-controlled annotations are needed to produce reliable dataset quality assessments and benchmark results."
+    },
+    {
+      "prerequisite": "Data Synthesis and Verification",
+      "dependent": "Dataset Evaluation and Benchmarking",
+      "confidence": 0.8,
+      "rationale": "Synthetic data must be generated and verified before it can be included in dataset evaluation and benchmarking."
+    }
+  ]
+}

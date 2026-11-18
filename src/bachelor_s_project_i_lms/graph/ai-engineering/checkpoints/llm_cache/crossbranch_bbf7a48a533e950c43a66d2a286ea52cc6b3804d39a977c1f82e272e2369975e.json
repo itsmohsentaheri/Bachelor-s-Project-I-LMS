@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Identifying domain-specific benchmarks is not required to map technical metrics to business outcomes, as business alignment can be understood independently of specific capability benchmarks."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Mapping metrics to business outcomes does not require prior knowledge of domain-specific benchmarks, as these are separate concerns in evaluation methodology."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Understanding security risks from agent tool use is not required to identify the general limitations and failure modes of simple AI application architectures."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Knowing the limitations of simple AI architectures does not provide the foundational knowledge needed to understand specific security risks introduced by tool use in agents."
+  }
+}

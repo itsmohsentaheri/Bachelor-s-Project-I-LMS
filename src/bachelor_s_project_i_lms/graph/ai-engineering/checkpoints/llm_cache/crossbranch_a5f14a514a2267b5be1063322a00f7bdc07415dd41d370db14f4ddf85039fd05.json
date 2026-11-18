@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Selecting evaluation methods and curating data sets does not require prior mastery of creating scoring rubrics, as these are parallel components of evaluation design."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Creating scoring rubrics and selecting scoring methods does not require prior mastery of curating evaluation data sets, as rubric design can be done independently of data curation."
+  }
+}

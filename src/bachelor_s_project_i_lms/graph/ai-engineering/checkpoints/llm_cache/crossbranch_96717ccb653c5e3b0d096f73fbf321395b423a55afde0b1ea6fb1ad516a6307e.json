@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Understanding hyperparameter search strategies is not required to use public benchmarks and leaderboards to filter models or recognize benchmark limitations."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Knowing how to navigate public benchmarks is not required to compare grid search, random search, and Bayesian optimization strategies for hyperparameter exploration."
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "learning_objective": "The learner can describe inference optimization techniques at the model, hardware, and service levels, including quantization, distillation, and caching, to reduce latency and cost.",
+  "estimated_time_min": 10,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "optimization_preserves_quality",
+      "description": "Believing that inference optimization never changes model quality, when many techniques can cause model degradation."
+    },
+    {
+      "id": "developers_implement_techniques",
+      "description": "Assuming most application developers implement optimization techniques themselves, when most use model APIs with built-in optimization instead."
+    },
+    {
+      "id": "service_level_changes_model",
+      "description": "Thinking inference service-level optimization changes the model itself, when it typically keeps the model intact and only changes how it is served."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p429_661",
+    "chunk_p450_691",
+    "chunk_p472_723"
+  ]
+}

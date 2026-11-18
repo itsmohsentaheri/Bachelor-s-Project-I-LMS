@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Assessing every part of an AI application is not required to evaluate domain-specific capabilities using exact methods like functional correctness and efficiency metrics."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Mastering domain-specific capability evaluation is not necessary to meaningfully assess every component of an AI system, as system-wide evaluation can be approached independently."
+  }
+}

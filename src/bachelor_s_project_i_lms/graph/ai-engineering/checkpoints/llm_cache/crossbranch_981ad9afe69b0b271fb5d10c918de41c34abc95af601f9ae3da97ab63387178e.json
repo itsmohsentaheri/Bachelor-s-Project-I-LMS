@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Creating scoring rubrics is a general evaluation skill that does not require prior mastery of RAG-specific factual consistency criteria."
+  },
+  "b_before_a": {
+    "is_prerequisite": true,
+    "confidence": 0.9,
+    "rationale": "Meaningfully evaluating factual consistency in RAG requires an unambiguous scoring rubric to define and validate what constitutes alignment with retrieved context."
+  }
+}

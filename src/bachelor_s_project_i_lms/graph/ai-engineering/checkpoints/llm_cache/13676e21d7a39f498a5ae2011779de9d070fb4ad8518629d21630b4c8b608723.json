@@ -1,0 +1,19 @@
+{
+  "subtopics": [
+    {
+      "title": "Build Versus Buy Decision",
+      "summary": "Evaluating whether to develop a custom foundation model in-house or procure an existing model via API or open weights based on cost, control, and time-to-market.",
+      "is_atomic": true
+    },
+    {
+      "title": "Navigating Public Benchmarks",
+      "summary": "Using public leaderboards and benchmarks to compare candidate models while understanding the limitations and opacity of benchmark selection processes.",
+      "is_atomic": true
+    },
+    {
+      "title": "Resolving Conflicting Benchmark Results",
+      "summary": "Applying decision criteria when candidate models show contradictory performance across different benchmarks for the same task domain.",
+      "is_atomic": true
+    }
+  ]
+}

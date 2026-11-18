@@ -1,0 +1,24 @@
+{
+  "subtopics": [
+    {
+      "title": "RAG Architecture",
+      "summary": "The two-component structure of a RAG system consisting of a retriever that fetches information from external memory sources and a generator that produces responses based on retrieved information.",
+      "is_atomic": true
+    },
+    {
+      "title": "RAG vs Finetuning",
+      "summary": "Guidance on choosing between RAG and finetuning based on whether model failures are information-based (factual errors, outdated knowledge) or behavior-based, and how they can be combined.",
+      "is_atomic": true
+    },
+    {
+      "title": "RAG Evaluation",
+      "summary": "Factual consistency as a key evaluation criterion for RAG systems, measuring whether generated responses align with retrieved context from external databases.",
+      "is_atomic": true
+    },
+    {
+      "title": "RAG Implementation Starting Points",
+      "summary": "Practical recommendations for beginning RAG implementations, including starting with simple term-based solutions like BM25 before adopting vector databases, and when full context inclusion may eliminate the need for RAG.",
+      "is_atomic": true
+    }
+  ]
+}

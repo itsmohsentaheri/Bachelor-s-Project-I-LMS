@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Defining full finetuning as training all parameters is not required to explain the goal of preference finetuning or the challenge of mathematically capturing human preference."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Understanding preference finetuning objectives is not necessary to define full finetuning as training all model parameters."
+  }
+}

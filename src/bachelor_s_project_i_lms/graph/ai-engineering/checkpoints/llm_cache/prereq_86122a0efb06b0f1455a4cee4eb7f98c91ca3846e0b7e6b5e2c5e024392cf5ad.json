@@ -1,0 +1,22 @@
+{
+  "edges": [
+    {
+      "prerequisite": "Prompt Engineering",
+      "dependent": "Fine-Tuning",
+      "confidence": 0.6,
+      "rationale": "Understanding how prompts guide model outputs provides a baseline for evaluating whether weight updates via fine-tuning are necessary or effective."
+    },
+    {
+      "prerequisite": "Prompt Engineering",
+      "dependent": "Retrieval-Augmented Generation",
+      "confidence": 0.7,
+      "rationale": "Prompt engineering is needed to format retrieved context and user queries into inputs that effectively guide the foundation model in RAG systems."
+    },
+    {
+      "prerequisite": "Fine-Tuning",
+      "dependent": "Retrieval-Augmented Generation",
+      "confidence": 0.4,
+      "rationale": "Fine-tuning can be used to adapt a foundation model to better incorporate retrieved context, though RAG can function without it."
+    }
+  ]
+}

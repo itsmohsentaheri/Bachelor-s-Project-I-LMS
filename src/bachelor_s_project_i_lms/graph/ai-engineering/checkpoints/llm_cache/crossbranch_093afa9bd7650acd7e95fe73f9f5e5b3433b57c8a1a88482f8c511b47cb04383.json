@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Understanding RAG architecture focuses on the retriever-generator interaction and external memory, which does not require prior knowledge of transformer block internals such as self-attention or feed-forward layers."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Learning about RAG systems does not provide the foundational knowledge needed to understand transformer block components like self-attention mechanisms and feed-forward layers."
+  }
+}

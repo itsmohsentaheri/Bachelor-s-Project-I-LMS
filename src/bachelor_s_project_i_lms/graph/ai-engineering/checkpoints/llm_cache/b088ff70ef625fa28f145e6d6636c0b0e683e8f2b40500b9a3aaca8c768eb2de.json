@@ -1,0 +1,29 @@
+{
+  "subtopics": [
+    {
+      "title": "Reasons for Synthesizing Data",
+      "summary": "Explores the motivations behind generating synthetic data, including scaling training sets, addressing data scarcity, and improving model performance across different training phases.",
+      "is_atomic": true
+    },
+    {
+      "title": "Traditional Data Synthesis Techniques",
+      "summary": "Covers rule-based methods and simulation-based approaches for generating synthetic data without relying on AI models.",
+      "is_atomic": true
+    },
+    {
+      "title": "AI-Powered Data Synthesis",
+      "summary": "Describes the use of foundation models to generate instruction data and other synthetic examples, including template-based generation and model distillation.",
+      "is_atomic": true
+    },
+    {
+      "title": "Data Verification Methods",
+      "summary": "Focuses on techniques for verifying synthetic data quality, such as programmatic verification through code execution and back-translation.",
+      "is_atomic": true
+    },
+    {
+      "title": "Limitations of Synthetic Data",
+      "summary": "Discusses challenges associated with AI-generated data, including model collapse, quality control issues, and superficial imitation problems.",
+      "is_atomic": true
+    }
+  ]
+}

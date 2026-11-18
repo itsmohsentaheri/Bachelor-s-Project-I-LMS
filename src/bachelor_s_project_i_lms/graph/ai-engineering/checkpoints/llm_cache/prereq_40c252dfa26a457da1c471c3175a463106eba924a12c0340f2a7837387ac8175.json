@@ -1,0 +1,46 @@
+{
+  "edges": [
+    {
+      "prerequisite": "When to Finetune",
+      "dependent": "Full Finetuning",
+      "confidence": 0.7,
+      "rationale": "Deciding whether to finetune is a prerequisite to choosing a specific finetuning approach such as full finetuning."
+    },
+    {
+      "prerequisite": "When to Finetune",
+      "dependent": "Adapter-Based Finetuning",
+      "confidence": 0.7,
+      "rationale": "Deciding whether to finetune is a prerequisite to choosing a specific finetuning approach such as adapter-based finetuning."
+    },
+    {
+      "prerequisite": "Data and Memory Considerations",
+      "dependent": "Full Finetuning",
+      "confidence": 0.8,
+      "rationale": "Understanding data requirements and memory footprint is necessary before attempting full finetuning, which is memory-intensive."
+    },
+    {
+      "prerequisite": "Data and Memory Considerations",
+      "dependent": "Adapter-Based Finetuning",
+      "confidence": 0.7,
+      "rationale": "Understanding data requirements and memory footprint is necessary before attempting adapter-based finetuning to manage memory constraints."
+    },
+    {
+      "prerequisite": "Data and Memory Considerations",
+      "dependent": "Finetuning Frameworks and Compute",
+      "confidence": 0.8,
+      "rationale": "Memory footprint and data considerations inform the choice of finetuning frameworks and compute provisioning."
+    },
+    {
+      "prerequisite": "Full Finetuning",
+      "dependent": "Finetuning Frameworks and Compute",
+      "confidence": 0.6,
+      "rationale": "Knowledge of full finetuning requirements informs the selection of appropriate frameworks and compute resources."
+    },
+    {
+      "prerequisite": "Adapter-Based Finetuning",
+      "dependent": "Finetuning Frameworks and Compute",
+      "confidence": 0.7,
+      "rationale": "Adapter-based finetuning techniques are often supported by specific frameworks like PEFT and LLaMA-Factory, making knowledge of the technique a prerequisite for framework selection."
+    }
+  ]
+}

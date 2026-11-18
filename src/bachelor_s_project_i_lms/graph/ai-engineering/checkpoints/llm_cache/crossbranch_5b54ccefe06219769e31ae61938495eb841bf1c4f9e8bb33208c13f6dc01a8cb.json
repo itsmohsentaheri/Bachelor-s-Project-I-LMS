@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Adapter-based finetuning is a specific parameter-efficient technique that does not require understanding learning rate scheduling to grasp its core mechanism of inserting trainable modules while freezing base parameters."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Learning rate scheduling is a general training optimization concept that can be understood independently of adapter-based finetuning, as it applies broadly to model training rather than being specific to adapter architectures."
+  }
+}

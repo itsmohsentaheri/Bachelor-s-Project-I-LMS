@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Defining application requirements such as latency and cost does not require prior mastery of formal inference performance metrics; one can identify needs without knowing how to measure them."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Understanding inference performance metrics does not depend on first defining application requirements; the metrics are general concepts independent of any specific application's needs."
+  }
+}

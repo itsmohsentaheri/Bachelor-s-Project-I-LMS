@@ -1,0 +1,25 @@
+{
+  "learning_objective": "The learner can define instruction-following capability and explain how to measure whether a model's output meets all specified criteria for an instruction.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "conflating_domain_with_instruction",
+      "description": "Confusing a model's failure to follow an instruction with a lack of domain-specific knowledge or generation capability."
+    },
+    {
+      "id": "partial_criteria_success",
+      "description": "Assuming a model successfully follows an instruction if it meets some, but not all, of the specified criteria."
+    },
+    {
+      "id": "instruction_quality_impact",
+      "description": "Believing that poor model performance is always due to the model itself rather than the quality of the instructions provided."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p197_302",
+    "chunk_p196_300",
+    "chunk_p199_306"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.95,
+    "rationale": "Resolving conflicting benchmark results requires prior knowledge of which domain-specific benchmarks exist and what they measure, so mastering conflict resolution is not needed to identify those benchmarks."
+  },
+  "b_before_a": {
+    "is_prerequisite": true,
+    "confidence": 0.95,
+    "rationale": "A learner must first know what domain-specific benchmarks are available before they can meaningfully apply decision criteria to reconcile contradictory results across them."
+  }
+}

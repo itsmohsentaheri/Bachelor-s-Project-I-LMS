@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Understanding how to define and measure instruction-following is not required to understand how supervised finetuning converts text-completion behavior into instruction-following dialogue."
+  },
+  "b_before_a": {
+    "is_prerequisite": true,
+    "confidence": 0.85,
+    "rationale": "Understanding how supervised finetuning creates instruction-following behavior is necessary to meaningfully define and evaluate instruction-following capability."
+  }
+}

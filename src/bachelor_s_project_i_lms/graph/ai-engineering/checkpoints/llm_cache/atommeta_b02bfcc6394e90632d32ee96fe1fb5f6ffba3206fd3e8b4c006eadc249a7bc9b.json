@@ -1,0 +1,25 @@
+{
+  "learning_objective": "The learner can compare full finetuning and adapter-based finetuning in terms of compute requirements and identify frameworks such as LLaMA-Factory, PEFT, and Axolotl for each approach.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "adapter_always_faster",
+      "description": "Believing adapter-based finetuning is always faster than full finetuning regardless of model size or dataset."
+    },
+    {
+      "id": "frameworks_interchangeable",
+      "description": "Assuming all finetuning frameworks support identical methods and hardware configurations without trade-offs."
+    },
+    {
+      "id": "mid_tier_gpu_full_ft",
+      "description": "Thinking a mid-tier GPU is sufficient for full finetuning of most foundation models."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p383_588",
+    "chunk_p331_504",
+    "chunk_p19_22"
+  ]
+}

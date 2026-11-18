@@ -1,0 +1,23 @@
+{
+  "learning_objective": "The learner can compare the financial and infrastructure trade-offs between using proprietary model APIs and self-hosting open-weight models, including token-based inference costs and compute requirements.",
+  "estimated_time_min": 10,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "api_always_cheaper",
+      "description": "Believing that using model APIs is always cheaper than self-hosting, ignoring that high token volume can make API costs exceed compute costs."
+    },
+    {
+      "id": "self_host_free",
+      "description": "Assuming self-hosted models are free because there are no per-token API charges, overlooking the significant cost of compute infrastructure."
+    },
+    {
+      "id": "latency_dealbreaker",
+      "description": "Thinking high latency is always a deal breaker for users, when it is often just an annoyance rather than a critical failure."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p202_312"
+  ]
+}

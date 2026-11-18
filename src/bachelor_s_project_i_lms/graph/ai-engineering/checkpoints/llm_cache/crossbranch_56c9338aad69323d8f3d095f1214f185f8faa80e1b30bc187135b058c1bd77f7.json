@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Creating annotation guidelines and fact-checking annotations is not required to define or measure instruction-following capability, which focuses on whether model outputs meet specified criteria."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Understanding how to measure instruction-following is not necessary to create annotation guidelines or fact-check annotations for factual correctness."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Understanding data quality does not require knowing why synthetic data is generated; the reasons for synthesizing data are independent of the definition and impact of data quality."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Explaining why data is synthesized does not depend on first defining data quality or its impact on model performance, as synthesis motivations such as privacy and quantity are separate concepts."
+  }
+}

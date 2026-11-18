@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Deciding whether to finetune does not require knowing the specific domain data mixes used across pre-training and finetuning phases."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Comparing phase-specific data mixes does not require first deciding whether to finetune a model versus using prompt-based methods."
+  }
+}

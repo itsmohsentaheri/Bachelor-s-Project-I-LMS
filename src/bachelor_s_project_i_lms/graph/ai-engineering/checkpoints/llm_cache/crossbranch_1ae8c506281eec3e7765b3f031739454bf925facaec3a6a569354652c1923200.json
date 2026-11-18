@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": true,
+    "confidence": 0.95,
+    "rationale": "Understanding how to craft prompts to guide foundation models is necessary before one can identify attacks on those prompts or apply defensive techniques to protect them."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.95,
+    "rationale": "Knowledge of prompt attacks and defenses is not required to understand the basic definition and purpose of prompt engineering."
+  }
+}

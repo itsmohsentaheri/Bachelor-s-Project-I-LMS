@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Evaluating all system components is a broader, holistic activity that does not require first mastering the specific mechanics of assessing and iterating an evaluation pipeline."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Assessing and iterating an evaluation pipeline is a narrower operational task that is not required before a learner can meaningfully evaluate all components of an AI system."
+  }
+}

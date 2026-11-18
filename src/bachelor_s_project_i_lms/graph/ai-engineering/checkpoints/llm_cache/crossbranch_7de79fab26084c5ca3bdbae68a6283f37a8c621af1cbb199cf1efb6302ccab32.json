@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Annotating evaluation data is an application of evaluation methods and rubrics rather than a foundational requirement for understanding how to select methods or create rubrics."
+  },
+  "b_before_a": {
+    "is_prerequisite": true,
+    "confidence": 0.85,
+    "rationale": "Meaningful annotation requires knowing which evaluation methods and scoring criteria to apply, which are covered in the evaluation methods and rubrics unit."
+  }
+}

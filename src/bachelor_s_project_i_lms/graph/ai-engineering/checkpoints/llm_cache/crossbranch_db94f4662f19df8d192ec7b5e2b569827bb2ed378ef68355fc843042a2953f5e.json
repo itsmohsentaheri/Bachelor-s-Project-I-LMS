@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Understanding how to optimize inference service infrastructure is not required to compare the financial and deployment trade-offs between proprietary APIs and self-hosting models."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Analyzing cost and deployment trade-offs provides context but is not strictly necessary to meaningfully understand the technical refinements of inference service optimization."
+  }
+}

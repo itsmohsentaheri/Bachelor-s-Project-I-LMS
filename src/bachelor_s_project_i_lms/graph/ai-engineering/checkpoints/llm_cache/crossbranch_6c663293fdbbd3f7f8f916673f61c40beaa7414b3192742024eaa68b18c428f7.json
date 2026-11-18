@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": true,
+    "confidence": 0.85,
+    "rationale": "Creating evaluation guidelines defines the criteria and expected behaviors (including out-of-scope handling) that must be established before appropriate evaluation methods and data can be selected and annotated."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Defining evaluation methods and data does not require first creating evaluation guidelines, as methods can be chosen independently of specific application behavior guidelines."
+  }
+}

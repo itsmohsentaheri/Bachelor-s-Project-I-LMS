@@ -1,0 +1,25 @@
+{
+  "learning_objective": "The learner can explain how adapter-based finetuning works by inserting trainable adapter modules into transformer layers while keeping original model parameters frozen, and identify its trade-offs in parameter efficiency versus inference latency.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "adapter_updates_all_weights",
+      "description": "Believing adapter-based finetuning updates all model weights when it actually keeps original parameters unchanged and only updates adapter parameters."
+    },
+    {
+      "id": "adapter_no_latency_cost",
+      "description": "Assuming adapter-based finetuning has no inference overhead when it actually increases inference latency due to the inserted adapter modules."
+    },
+    {
+      "id": "adapter_requires_full_memory",
+      "description": "Thinking adapter-based finetuning needs the same memory as full finetuning when it uses far fewer trainable parameters and can run on mid-tier GPUs."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p359_550",
+    "chunk_p383_588",
+    "chunk_p331_504"
+  ]
+}

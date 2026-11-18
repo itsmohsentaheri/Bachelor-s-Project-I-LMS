@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": true,
+    "confidence": 0.9,
+    "rationale": "To create a meaningful scoring rubric for generated text, a learner must first understand the specific quality criteria (fluency, coherence, etc.) that the rubric is intended to measure."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.95,
+    "rationale": "Defining quality criteria for generated text does not require prior knowledge of how to construct or validate scoring rubrics."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Assessing generation capabilities with language modeling metrics is not required to identify and categorize external agent tools such as knowledge augmentation or environment interaction tools."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Knowing about external agent tools is not necessary to meaningfully understand how to evaluate generation capabilities using perplexity and similarity measurements."
+  }
+}

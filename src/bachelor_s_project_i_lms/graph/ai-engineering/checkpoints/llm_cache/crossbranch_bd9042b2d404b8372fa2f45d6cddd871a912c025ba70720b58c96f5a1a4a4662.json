@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Computing rankings from pairwise match outcomes is not required to explain how preference optimization algorithms use ranked human feedback to align models."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Understanding RLHF and DPO is not necessary to compute a model ranking from historical pairwise match outcomes and predict future matches."
+  }
+}

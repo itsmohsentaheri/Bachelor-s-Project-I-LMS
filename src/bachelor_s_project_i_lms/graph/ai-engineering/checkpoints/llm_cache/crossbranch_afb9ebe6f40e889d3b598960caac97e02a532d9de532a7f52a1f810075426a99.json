@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Creating annotation guidelines and fact-checking annotations are foundational dataset engineering tasks that do not require prior knowledge of integrating user feedback into AI applications."
+  },
+  "b_before_a": {
+    "is_prerequisite": true,
+    "confidence": 0.75,
+    "rationale": "Meaningfully collecting and incorporating user feedback to improve AI applications requires understanding how to create annotation guidelines and fact-check annotations to ensure the feedback data is accurate and aligned with task requirements."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Defining criteria for evaluating generated text outputs is not required to understand data quality dimensions for finetuning datasets."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Knowing data quality dimensions for datasets is not required to define quality criteria for generated text outputs."
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "learning_objective": "The learner can define evaluation methods and data by selecting appropriate evaluation methods for different criteria, annotating evaluation data, and slicing data to represent different production slices.",
+  "estimated_time_min": 10,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "single_method_for_all_criteria",
+      "description": "Believing that one evaluation method can be used for all criteria instead of mixing and matching methods like classifiers, semantic similarity, and AI judges."
+    },
+    {
+      "id": "single_evaluation_set",
+      "description": "Thinking a single evaluation set is sufficient rather than having multiple sets to represent different data slices and production distribution."
+    },
+    {
+      "id": "no_annotation_needed",
+      "description": "Assuming evaluation can proceed without annotated data when humans or AI may be needed to label examples if natural labels are unavailable."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p228_357",
+    "chunk_p229_359",
+    "chunk_p229_360"
+  ]
+}

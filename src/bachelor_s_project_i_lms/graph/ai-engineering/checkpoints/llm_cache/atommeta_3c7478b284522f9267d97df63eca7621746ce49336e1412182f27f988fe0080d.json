@@ -1,0 +1,24 @@
+{
+  "learning_objective": "The learner can distinguish absolute evaluation, which measures a model against fixed criteria to determine if it is \"good enough\" for a specific application, from comparative evaluation, which only ranks models relative to one another.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 2,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "comparative_means_good_enough",
+      "description": "Believing that a higher comparative ranking or win rate automatically proves a model is good enough for a specific use case."
+    },
+    {
+      "id": "absolute_means_best",
+      "description": "Confusing absolute evaluation with finding the best possible model rather than checking if it meets fixed criteria for an application."
+    },
+    {
+      "id": "win_rate_translates_directly",
+      "description": "Assuming a comparative win rate (e.g., 51%) can be directly converted into an absolute performance metric like ticket resolution rate."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p178_273",
+    "chunk_p179_274"
+  ]
+}

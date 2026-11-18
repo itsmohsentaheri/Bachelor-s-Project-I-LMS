@@ -1,0 +1,25 @@
+{
+  "learning_objective": "The learner can explain how supervised finetuning converts a pre-trained model's text-completion behavior into instruction-following dialogue using labeled conversational data.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "sft_is_only_for_next_token_prediction",
+      "description": "Supervised finetuning can also be used for infilling tasks like text editing and code debugging, not just next-token prediction."
+    },
+    {
+      "id": "sft_requires_full_finetuning",
+      "description": "Supervised finetuning can be performed using adapter-based techniques on mid-tier GPUs, not necessarily requiring full finetuning."
+    },
+    {
+      "id": "sft_is_the_only_post_training_step",
+      "description": "Supervised finetuning is often combined with preference finetuning, and steps can be skipped depending on the desired outcome."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p104_155",
+    "chunk_p334_509",
+    "chunk_p103_154"
+  ]
+}

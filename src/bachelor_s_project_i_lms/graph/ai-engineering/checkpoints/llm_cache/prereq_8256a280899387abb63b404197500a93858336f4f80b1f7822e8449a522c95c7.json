@@ -1,0 +1,16 @@
+{
+  "edges": [
+    {
+      "prerequisite": "Training Data Cost Management",
+      "dependent": "Compute-Optimal Model Scaling",
+      "confidence": 0.7,
+      "rationale": "Data acquisition and processing costs are a key component of the total compute budget constraint when determining optimal model and dataset size."
+    },
+    {
+      "prerequisite": "Compute-Optimal Model Scaling",
+      "dependent": "Training Cost vs. Inference Cost Trade-offs",
+      "confidence": 0.8,
+      "rationale": "Determining the optimal model size and dataset size for a fixed budget is necessary to accurately estimate total training cost before comparing it to inference revenue."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Evaluating model performance using benchmarks and metrics does not require prior mastery of specific inference performance metrics like latency, throughput, and goodput."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Defining latency, throughput, and goodput as inference metrics does not depend on the ability to evaluate a model's overall performance using benchmarks and comparative testing."
+  }
+}

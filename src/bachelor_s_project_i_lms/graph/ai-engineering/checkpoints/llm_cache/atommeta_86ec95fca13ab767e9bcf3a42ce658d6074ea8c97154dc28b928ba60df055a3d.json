@@ -1,0 +1,24 @@
+{
+  "learning_objective": "The learner can explain that preference finetuning is a post-training step used to align model outputs with human preferences, which cannot be captured by a single mathematical formula.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "single_formula",
+      "description": "Believing that human preferences can be captured by a single mathematical formula."
+    },
+    {
+      "id": "only_step",
+      "description": "Thinking preference finetuning is the only step in post-training, ignoring supervised finetuning."
+    },
+    {
+      "id": "universal_preference",
+      "description": "Assuming that a universal human preference exists and can be perfectly embedded into AI."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p135_201",
+    "chunk_p108_161"
+  ]
+}

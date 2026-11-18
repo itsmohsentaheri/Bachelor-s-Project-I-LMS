@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Understanding pre-training as parameter compression is not required to calculate the memory footprint of weights, gradients, and optimizer states during fine-tuning."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Calculating memory footprints during fine-tuning does not require understanding the theoretical compression framework of pre-training."
+  }
+}

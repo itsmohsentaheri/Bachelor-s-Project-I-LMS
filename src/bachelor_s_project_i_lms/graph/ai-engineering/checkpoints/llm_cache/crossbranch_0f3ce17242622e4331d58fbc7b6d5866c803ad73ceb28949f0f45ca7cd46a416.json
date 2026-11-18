@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Assessing generation capabilities with language modeling metrics is not required to understand how to evaluate dataset quality through downstream task performance."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Evaluating datasets via downstream tasks does not require prior mastery of generation capability metrics like perplexity."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": true,
+    "confidence": 0.9,
+    "rationale": "Understanding the general concept of fine-tuning as adapting a foundation model is necessary before specializing to full finetuning, which trains all parameters."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Full finetuning is a specific type of fine-tuning, so mastering the specific case is not required to understand the general definition."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Defining quality criteria is not required to identify metrics and explain their evolution from traditional NLP metrics."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Identifying metrics and their historical evolution is not required to define quality criteria for generated text outputs."
+  }
+}

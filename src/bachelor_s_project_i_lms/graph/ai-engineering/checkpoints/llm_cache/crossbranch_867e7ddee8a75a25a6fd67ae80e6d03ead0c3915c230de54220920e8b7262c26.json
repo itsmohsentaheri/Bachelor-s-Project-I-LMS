@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Annotating evaluation data focuses on scoring application components using rubrics, which is not required to understand how human feedback is collected to rank model outputs for preference training."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Preference data collection describes gathering ranked pairs for training preference models, but it is not necessary to understand how to curate annotated examples for evaluating application components."
+  }
+}

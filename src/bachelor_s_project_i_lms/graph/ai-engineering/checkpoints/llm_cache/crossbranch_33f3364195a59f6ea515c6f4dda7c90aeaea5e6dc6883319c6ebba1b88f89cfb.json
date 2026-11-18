@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Resolving conflicting benchmark results requires first knowing how to evaluate model performance using benchmarks and metrics, so A cannot be a prerequisite for B."
+  },
+  "b_before_a": {
+    "is_prerequisite": true,
+    "confidence": 0.95,
+    "rationale": "Meaningfully resolving contradictory benchmark results depends on first mastering how to evaluate model performance using benchmarks, metrics, and comparative testing."
+  }
+}

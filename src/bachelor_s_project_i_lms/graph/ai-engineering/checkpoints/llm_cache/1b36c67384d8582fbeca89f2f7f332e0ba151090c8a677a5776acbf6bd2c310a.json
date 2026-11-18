@@ -1,0 +1,24 @@
+{
+  "subtopics": [
+    {
+      "title": "Evaluate All System Components",
+      "summary": "Assessing every part of an AI application, not just the model, to ensure each component functions correctly within the system.",
+      "is_atomic": true
+    },
+    {
+      "title": "Create Evaluation Guidelines",
+      "summary": "Defining scoring rubrics with examples and tying evaluation criteria to business metrics to standardize assessment.",
+      "is_atomic": true
+    },
+    {
+      "title": "Define Evaluation Methods and Data",
+      "summary": "Selecting appropriate evaluation methods, annotating data, and determining the necessary volume of examples for reliable results.",
+      "is_atomic": true
+    },
+    {
+      "title": "Evaluate and Iterate the Pipeline",
+      "summary": "Assessing the evaluation pipeline itself for cost, latency, and metric correlation, then iterating based on findings.",
+      "is_atomic": true
+    }
+  ]
+}

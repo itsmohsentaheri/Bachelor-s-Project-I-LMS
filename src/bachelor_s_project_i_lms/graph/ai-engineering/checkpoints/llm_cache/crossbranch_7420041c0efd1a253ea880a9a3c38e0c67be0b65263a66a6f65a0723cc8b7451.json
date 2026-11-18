@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Assessing dataset quality via downstream task performance is not required to understand how to evaluate cost, latency, and other operational metrics of AI systems."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Knowing operational evaluation factors such as cost and latency is not necessary to meaningfully assess dataset quality through downstream task performance."
+  }
+}

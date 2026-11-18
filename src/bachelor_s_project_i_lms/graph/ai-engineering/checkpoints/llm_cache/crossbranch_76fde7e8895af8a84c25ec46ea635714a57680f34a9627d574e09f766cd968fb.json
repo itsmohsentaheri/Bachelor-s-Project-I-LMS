@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Understanding that all parameters are updated during pre-training is not required to describe inference optimization techniques like quantization and distillation."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Knowledge of inference optimization techniques is not needed to understand that pre-training involves updating all model parameters."
+  }
+}

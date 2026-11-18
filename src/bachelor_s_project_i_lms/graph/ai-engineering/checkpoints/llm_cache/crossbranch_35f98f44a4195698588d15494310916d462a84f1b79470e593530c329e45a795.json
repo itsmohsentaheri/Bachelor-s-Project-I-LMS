@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Downstream task evaluation can be understood as assessing dataset quality through model performance without requiring knowledge of how foundation models are fine-tuned."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Fine-tuning is defined as adapting model weights with task-specific data and does not depend on evaluating dataset quality via downstream tasks."
+  }
+}

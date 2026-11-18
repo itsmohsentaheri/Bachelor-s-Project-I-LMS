@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Computing rankings from pairwise match outcomes does not require understanding how SFT shifts a model from text completion to instruction-following."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Understanding SFT objectives does not depend on knowing how to compute model rankings from pairwise comparisons."
+  }
+}

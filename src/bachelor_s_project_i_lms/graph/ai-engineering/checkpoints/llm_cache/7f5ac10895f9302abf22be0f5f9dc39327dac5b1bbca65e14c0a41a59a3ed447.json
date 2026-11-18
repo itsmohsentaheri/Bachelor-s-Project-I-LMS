@@ -1,0 +1,24 @@
+{
+  "subtopics": [
+    {
+      "title": "Self-Supervised Pre-training Objective",
+      "summary": "Pre-training uses self-supervision on massive unlabeled text corpora, optimizing the model for text completion rather than conversation, which causes a pre-trained model to talk like a web page instead of a human.",
+      "is_atomic": true
+    },
+    {
+      "title": "Data Sources and Output Risks",
+      "summary": "Pre-training data is often indiscriminately scraped from the internet, which can lead the model to produce outputs that are racist, sexist, rude, or factually wrong.",
+      "is_atomic": true
+    },
+    {
+      "title": "Pre-training as Parameter Compression",
+      "summary": "Pre-training implicitly minimizes a model's intrinsic dimension, making larger models easier to finetune later with fewer trainable parameters and less data.",
+      "is_atomic": true
+    },
+    {
+      "title": "Full Parameter Updates During Pre-training",
+      "summary": "During pre-training, all model parameters are updated, in contrast to inference where no parameters are updated and finetuning where some or all may be updated.",
+      "is_atomic": true
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.95,
+    "rationale": "Understanding how memory systems manage information beyond context length does not require prior knowledge of how parameter counts, layers, and hidden dimensions determine model capacity."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Explaining model capacity and parameter scaling does not depend on understanding memory systems for RAG and agent applications, as they address distinct architectural concerns."
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "subtopics": [
+    {
+      "title": "Difficulty of Evaluating Intelligent Outputs",
+      "summary": "Explains why evaluating foundation models is harder than traditional ML, as human evaluators struggle to judge high-quality, complex outputs like PhD-level solutions or coherent summaries without deep domain knowledge.",
+      "is_atomic": true
+    },
+    {
+      "title": "Comparative vs. Absolute Performance",
+      "summary": "Discusses the shift from measuring absolute performance to using comparative evaluation to rank models against each other when absolute ground truth is difficult to establish.",
+      "is_atomic": true
+    },
+    {
+      "title": "Lack of Standardization and Quality Control",
+      "summary": "Addresses the absence of universal standards and quality control mechanisms in foundation model evaluation, making results hard to compare across different studies and providers.",
+      "is_atomic": true
+    },
+    {
+      "title": "Scalability Bottlenecks in Evaluation",
+      "summary": "Covers the challenges of scaling evaluation processes due to the high cost and time required for human annotation and testing of large generative outputs.",
+      "is_atomic": true
+    }
+  ]
+}

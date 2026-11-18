@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Identifying limitations of simple AI architectures is not required to understand prompt attacks or apply defensive techniques like instruction hierarchy."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Knowledge of prompt attacks and defenses is not necessary to identify the general limitations and failure modes of simple AI application architectures."
+  }
+}

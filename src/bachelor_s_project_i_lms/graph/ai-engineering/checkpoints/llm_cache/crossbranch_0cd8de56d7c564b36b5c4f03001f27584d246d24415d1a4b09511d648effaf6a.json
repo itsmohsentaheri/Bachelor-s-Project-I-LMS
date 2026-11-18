@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Assessing all system components does not require the ability to create scoring rubrics, as component evaluation can be performed using existing criteria or functional testing without designing new rubrics."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Creating scoring rubrics is a general evaluation skill that does not depend on first mastering the assessment of every AI system component, since rubrics can be designed for isolated model outputs or specific tasks."
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "learning_objective": "The learner can identify key limitations of synthetic data, including model collapse, quality control challenges, and superficial imitation issues.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "synthetic_data_always_lower_quality",
+      "description": "Believing synthetic data is always of lower quality than human-generated data, when sometimes the reverse can be true."
+    },
+    {
+      "id": "synthetic_data_replaces_human_data",
+      "description": "Assuming synthetic data completely replaces human-generated data, when mixing both often produces the best value."
+    },
+    {
+      "id": "evaluation_is_straightforward",
+      "description": "Thinking evaluation of synthetic data is straightforward, when it remains challenging and ultimately depends on real-world performance."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p417_642",
+    "chunk_p405_623",
+    "chunk_p406_625"
+  ]
+}

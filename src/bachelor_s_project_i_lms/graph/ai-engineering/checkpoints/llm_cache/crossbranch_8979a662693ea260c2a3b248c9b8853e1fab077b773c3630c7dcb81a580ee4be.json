@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Synthetic data generation focuses on creating new data to increase quantity and quality, which does not require the ability to clean or filter existing datasets as a foundational skill."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Data cleaning and filtering involves processing existing data for safety and performance, a task that does not depend on understanding how synthetic data is generated."
+  }
+}

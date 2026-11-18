@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Identifying scalability bottlenecks in evaluation is not required to meaningfully understand how to evaluate all system components, as component evaluation can be learned independently of scalability constraints."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Evaluating all system components is not required to understand scalability bottlenecks in evaluation, since bottlenecks can be identified through cost, time, and annotation issues without first mastering component-level evaluation."
+  }
+}

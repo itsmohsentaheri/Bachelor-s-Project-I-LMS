@@ -1,0 +1,19 @@
+{
+  "learning_objective": "The learner can describe traditional data synthesis techniques, including rule-based methods and simulation-based approaches, for generating synthetic data without AI models.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 2,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "ai_required_for_synthesis",
+      "description": "Believing that synthetic data generation always requires AI models or machine learning."
+    },
+    {
+      "id": "rule_based_is_simulation",
+      "description": "Confusing rule-based data synthesis with simulation-based approaches, treating them as identical techniques."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p523_791"
+  ]
+}

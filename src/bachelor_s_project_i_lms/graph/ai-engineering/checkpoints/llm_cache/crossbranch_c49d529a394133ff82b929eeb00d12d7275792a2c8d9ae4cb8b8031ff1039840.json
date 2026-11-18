@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Identifying domain-specific capability benchmarks is not required to compare domain mix percentages across training stages, as these are distinct evaluation and data-mixing concepts."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Comparing domain mix percentages for pre-training and finetuning does not require prior knowledge of domain-specific capability benchmarks used to evaluate model capabilities."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Adapter-based finetuning can be understood conceptually without needing to analyze how batch size affects training speed, memory usage, or hardware utilization."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Understanding how adapter modules work and their parameter-efficiency trade-offs is not required to explain how batch size impacts training dynamics and resource usage."
+  }
+}

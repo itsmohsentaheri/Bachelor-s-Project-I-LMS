@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": true,
+    "confidence": 0.8,
+    "rationale": "Defining evaluation criteria establishes what an application should and should not do, which is necessary before assessing operational metrics like cost and latency alongside quality criteria."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Assessing operational metrics such as cost and latency does not require first defining evaluation criteria, as these are independent considerations in AI system evaluation."
+  }
+}

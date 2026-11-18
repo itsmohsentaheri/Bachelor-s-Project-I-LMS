@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Explaining how synthetic data increases data quantity, coverage, and quality does not require first mastering language modeling metrics such as perplexity or similarity measurements."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Assessing generation capabilities with language modeling metrics does not require first understanding how synthetic data generation increases data quantity, coverage, and quality."
+  }
+}

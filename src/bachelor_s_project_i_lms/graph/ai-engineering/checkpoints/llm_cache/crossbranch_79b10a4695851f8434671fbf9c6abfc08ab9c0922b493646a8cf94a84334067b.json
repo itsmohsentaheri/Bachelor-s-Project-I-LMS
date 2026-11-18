@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Instruction-following evaluation focuses on scoring model adherence to constraints, which is not required to understand how user feedback determines whether an application achieves its intended goals."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Gathering user feedback to assess application goals does not require prior mastery of defining instruction-following capability or its scoring rubrics."
+  }
+}

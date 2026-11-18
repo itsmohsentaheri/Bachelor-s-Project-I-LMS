@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Distinguishing between RAG and finetuning does not require knowing specific finetuning frameworks or tactics; one can understand the conceptual choice without knowing how to implement finetuning."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Identifying finetuning frameworks and tactics is not required to understand the conceptual difference between information-based and behavior-based failures that drives the RAG vs finetuning decision."
+  }
+}

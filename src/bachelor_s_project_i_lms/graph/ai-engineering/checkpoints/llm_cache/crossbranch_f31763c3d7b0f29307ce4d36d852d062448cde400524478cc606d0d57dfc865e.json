@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Defining data quality and its impact on model performance is not required to define instruction-following capability or measure whether outputs meet specified criteria."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Instruction-following and scope evaluation does not require prior mastery of data quality concepts in model training."
+  }
+}

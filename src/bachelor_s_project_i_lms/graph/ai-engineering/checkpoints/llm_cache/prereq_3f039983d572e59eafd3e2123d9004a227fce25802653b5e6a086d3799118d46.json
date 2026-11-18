@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "prerequisite": "Pre-training (compound (has subtopics))",
+      "dependent": "Supervised Finetuning (SFT) (compound (has subtopics))",
+      "confidence": 1.0,
+      "rationale": "SFT requires a pre-trained base model as its starting point; it cannot be performed without first completing pre-training."
+    },
+    {
+      "prerequisite": "Supervised Finetuning (SFT) (compound (has subtopics))",
+      "dependent": "Preference Finetuning (compound (has subtopics))",
+      "confidence": 1.0,
+      "rationale": "Preference finetuning typically starts from an SFT model and uses human feedback to further align its outputs; SFT provides the conversational baseline that preference optimization refines."
+    },
+    {
+      "prerequisite": "Training Design Decisions (compound (has subtopics))",
+      "dependent": "Pre-training (compound (has subtopics))",
+      "confidence": 0.9,
+      "rationale": "Architectural and hyperparameter choices must be made before pre-training begins, as they directly determine how the model is trained and its resulting capabilities."
+    },
+    {
+      "prerequisite": "Training Design Decisions (compound (has subtopics))",
+      "dependent": "Supervised Finetuning (SFT) (compound (has subtopics))",
+      "confidence": 0.85,
+      "rationale": "Design decisions such as model architecture and training setup influence how SFT is conducted and what configurations are used during instruction tuning."
+    },
+    {
+      "prerequisite": "Training Design Decisions (compound (has subtopics))",
+      "dependent": "Preference Finetuning (compound (has subtopics))",
+      "confidence": 0.8,
+      "rationale": "Training design choices affect the base model and SFT checkpoint that preference finetuning builds upon, and can influence alignment hyperparameters."
+    }
+  ]
+}

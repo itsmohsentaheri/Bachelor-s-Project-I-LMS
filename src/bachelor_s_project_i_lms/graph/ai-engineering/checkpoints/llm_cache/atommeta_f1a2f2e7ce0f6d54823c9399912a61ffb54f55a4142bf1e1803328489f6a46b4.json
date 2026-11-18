@@ -1,0 +1,20 @@
+{
+  "learning_objective": "The learner can list and define the data quality dimensions of completeness, uniqueness, validity, accuracy, consistency, and fitness for purpose as they apply to finetuning datasets.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 2,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "quality_equals_quantity",
+      "description": "Believing that a larger volume of data automatically results in higher data quality for model finetuning."
+    },
+    {
+      "id": "dimensions_are_universal",
+      "description": "Assuming that the same set of data quality dimensions applies equally to all use cases without considering the specific context of finetuning."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p392_604",
+    "chunk_p391_603"
+  ]
+}

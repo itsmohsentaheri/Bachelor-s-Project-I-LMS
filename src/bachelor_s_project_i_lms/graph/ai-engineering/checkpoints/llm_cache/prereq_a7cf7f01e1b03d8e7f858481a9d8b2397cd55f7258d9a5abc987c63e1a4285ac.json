@@ -1,0 +1,16 @@
+{
+  "edges": [
+    {
+      "prerequisite": "Batch Size and Resource Trade-offs",
+      "dependent": "Hyperparameter Search Strategies",
+      "confidence": 0.7,
+      "rationale": "Batch size is a key hyperparameter whose selection depends on available compute resources; understanding these trade-offs informs effective search space configuration."
+    },
+    {
+      "prerequisite": "Batch Size and Resource Trade-offs",
+      "dependent": "Learning Rate Scheduling",
+      "confidence": 0.6,
+      "rationale": "Batch size affects gradient stability and effective learning rate, which informs the choice of learning rate scheduling techniques."
+    }
+  ]
+}

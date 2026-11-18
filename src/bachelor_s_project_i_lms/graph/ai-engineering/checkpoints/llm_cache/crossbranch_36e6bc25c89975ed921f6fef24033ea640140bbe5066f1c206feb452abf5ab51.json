@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Understanding model-level optimization techniques like quantization and distillation is not required to determine optimal model and dataset sizes using scaling laws for a fixed compute budget."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Knowing how to scale model and dataset sizes for compute optimality is not necessary to describe or explain inference optimization techniques such as quantization and distillation."
+  }
+}

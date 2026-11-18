@@ -1,0 +1,25 @@
+{
+  "learning_objective": "The learner can describe the post-training workflow consisting of supervised finetuning and preference finetuning used to align a pre-trained foundation model with human preferences.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "post_training_creates_knowledge",
+      "description": "Believing post-training adds new knowledge to the model rather than aligning existing capabilities with human preferences."
+    },
+    {
+      "id": "post_training_is_only_rlhf",
+      "description": "Assuming post-training consists solely of RLHF, ignoring the supervised finetuning step that precedes preference finetuning."
+    },
+    {
+      "id": "post_training_guarantees_safety",
+      "description": "Thinking post-training makes a model completely safe and foolproof, despite human preference being diverse and impossible to capture in a single formula."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p103_154",
+    "chunk_p74_106",
+    "chunk_p135_201"
+  ]
+}

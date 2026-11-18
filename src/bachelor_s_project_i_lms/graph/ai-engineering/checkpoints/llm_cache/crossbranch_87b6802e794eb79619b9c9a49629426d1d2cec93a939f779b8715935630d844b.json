@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Defining and measuring instruction-following is a specific evaluation task that does not require the ability to assess and iterate an entire evaluation pipeline."
+  },
+  "b_before_a": {
+    "is_prerequisite": true,
+    "confidence": 0.85,
+    "rationale": "Meaningfully assessing and iterating an evaluation pipeline requires understanding how to measure specific capabilities, such as whether a model's output meets specified instruction criteria."
+  }
+}

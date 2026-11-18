@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Creating annotation guidelines is a specific task that can be learned independently of outlining an entire end-to-end evaluation pipeline."
+  },
+  "b_before_a": {
+    "is_prerequisite": true,
+    "confidence": 0.8,
+    "rationale": "Meaningfully outlining an end-to-end evaluation pipeline requires understanding how to create annotation guidelines and fact-check data, as these are core components of the annotation process."
+  }
+}

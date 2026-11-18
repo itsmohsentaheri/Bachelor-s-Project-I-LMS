@@ -1,0 +1,20 @@
+{
+  "learning_objective": "The learner can determine whether model development is economically viable by comparing total training cost to recoverable inference revenue using the inequality T <= p × N.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "training_always_dominates_cost",
+      "description": "Believing training cost always exceeds inference cost, when inference can account for up to 90% of ML costs in deployed systems."
+    },
+    {
+      "id": "api_providers_reduce_cost_with_usage",
+      "description": "Assuming third-party API providers can reduce inference cost as usage increases, which does not apply to them selling inference on open source models."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p430_662",
+    "chunk_p444_685"
+  ]
+}

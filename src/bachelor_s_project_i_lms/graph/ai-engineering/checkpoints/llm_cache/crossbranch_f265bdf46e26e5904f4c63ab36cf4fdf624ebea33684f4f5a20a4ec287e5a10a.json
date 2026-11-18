@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": true,
+    "confidence": 0.9,
+    "rationale": "Understanding what foundation models are and their core characteristics is necessary before one can meaningfully explain why evaluating their open-ended outputs is more difficult than traditional ML."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.95,
+    "rationale": "Knowing the difficulties of evaluating intelligent outputs is not required to define foundation models or describe their basic pre-training and adaptability characteristics."
+  }
+}

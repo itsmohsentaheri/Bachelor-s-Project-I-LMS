@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Understanding model-level inference optimization techniques like quantization and distillation is not required to define parameter-efficient finetuning or explain how adapter-based methods like LoRA reduce compute and memory compared to full finetuning."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Knowing how parameter-efficient finetuning works is not necessary to meaningfully understand model-level inference optimization techniques such as quantization and distillation, as they address different stages of the model lifecycle."
+  }
+}

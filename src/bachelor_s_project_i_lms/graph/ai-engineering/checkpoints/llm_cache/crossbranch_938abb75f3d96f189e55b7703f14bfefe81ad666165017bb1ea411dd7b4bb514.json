@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Data verification methods for synthetic data are not required to understand factual consistency in RAG systems, as RAG evaluation focuses on alignment with retrieved context rather than synthetic data generation."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "RAG evaluation concepts are not needed to understand programmatic verification methods for synthetic data, as these are independent techniques for different data contexts."
+  }
+}

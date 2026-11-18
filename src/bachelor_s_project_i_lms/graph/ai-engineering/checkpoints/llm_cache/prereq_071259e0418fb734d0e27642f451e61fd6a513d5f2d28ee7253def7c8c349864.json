@@ -1,0 +1,52 @@
+{
+  "edges": [
+    {
+      "prerequisite": "Absolute vs Comparative Evaluation",
+      "dependent": "Domain-Specific Capability Evaluation",
+      "confidence": 0.8,
+      "rationale": "Understanding absolute evaluation as measuring against fixed criteria is foundational for domain-specific benchmarks that assess functional correctness against exact methods."
+    },
+    {
+      "prerequisite": "Absolute vs Comparative Evaluation",
+      "dependent": "Generation Capability Evaluation",
+      "confidence": 0.8,
+      "rationale": "Absolute evaluation concepts are needed to interpret language modeling metrics like perplexity against fixed reference data rather than relative ranking."
+    },
+    {
+      "prerequisite": "Absolute vs Comparative Evaluation",
+      "dependent": "Instruction-Following Evaluation",
+      "confidence": 0.8,
+      "rationale": "Instruction-following uses defined rubrics and criteria, which aligns with the absolute evaluation approach of measuring against fixed standards."
+    },
+    {
+      "prerequisite": "Absolute vs Comparative Evaluation",
+      "dependent": "System-Level Cost and Latency Evaluation",
+      "confidence": 0.7,
+      "rationale": "Determining practical deployment requires absolute thresholds for cost and latency rather than relative comparisons between models."
+    },
+    {
+      "prerequisite": "Evaluation Pipeline Design",
+      "dependent": "Domain-Specific Capability Evaluation",
+      "confidence": 0.6,
+      "rationale": "Building domain-specific evaluations requires the end-to-end pipeline process for creating guidelines, methods, and annotated sets."
+    },
+    {
+      "prerequisite": "Evaluation Pipeline Design",
+      "dependent": "Generation Capability Evaluation",
+      "confidence": 0.6,
+      "rationale": "Generation evaluation metrics require an evaluation pipeline to define methods, data, and annotation processes."
+    },
+    {
+      "prerequisite": "Evaluation Pipeline Design",
+      "dependent": "Instruction-Following Evaluation",
+      "confidence": 0.6,
+      "rationale": "Instruction-following evaluation with scoring rubrics depends on the pipeline design process for creating guidelines and evaluation sets."
+    },
+    {
+      "prerequisite": "Evaluation Pipeline Design",
+      "dependent": "System-Level Cost and Latency Evaluation",
+      "confidence": 0.5,
+      "rationale": "System-level evaluation benefits from the end-to-end pipeline process for measuring efficiency and cost in deployment contexts."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Understanding preference finetuning objectives is not required to identify challenges in gathering comparison signals and ranking models, as evaluation challenges exist independently of specific finetuning methods."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Knowing signal gathering and ranking challenges is not necessary to explain the goal of preference finetuning or why capturing human preferences mathematically is difficult."
+  }
+}

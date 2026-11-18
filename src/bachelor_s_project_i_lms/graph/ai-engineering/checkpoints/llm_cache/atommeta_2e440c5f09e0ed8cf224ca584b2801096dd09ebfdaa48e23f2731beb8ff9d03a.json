@@ -1,0 +1,25 @@
+{
+  "learning_objective": "The learner can evaluate all components of an AI system, including domain-specific capability, generation capability, instruction-following capability, cost, and latency.",
+  "estimated_time_min": 10,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "evaluating_only_model",
+      "description": "Believing that evaluating only the foundation model is sufficient without assessing other system components."
+    },
+    {
+      "id": "ignoring_cost_latency",
+      "description": "Assuming that capability metrics alone determine system quality while ignoring cost and latency constraints."
+    },
+    {
+      "id": "single_metric_sufficiency",
+      "description": "Thinking that a single benchmark score can represent all aspects of system performance across different capabilities."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p9_9",
+    "chunk_p532_808",
+    "chunk_p525_794"
+  ]
+}

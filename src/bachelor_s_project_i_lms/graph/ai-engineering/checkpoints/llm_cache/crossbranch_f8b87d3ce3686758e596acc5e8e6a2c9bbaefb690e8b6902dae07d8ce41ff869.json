@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Model Optimization is a narrower subset of Inference Optimization Techniques, so mastering it is not required before understanding the broader set of techniques."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Inference Optimization Techniques covers model, hardware, and service levels, so mastering the entire domain is not required to understand model-level optimization techniques alone."
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "prerequisite": "Defining Evaluation Criteria",
+      "dependent": "Creating Scoring Rubrics",
+      "confidence": 0.95,
+      "rationale": "Evaluation criteria must be defined before scoring rubrics can be developed, as rubrics operationalize the criteria into unambiguous scoring guidelines."
+    },
+    {
+      "prerequisite": "Defining Evaluation Criteria",
+      "dependent": "Selecting Evaluation Methods",
+      "confidence": 0.9,
+      "rationale": "The choice of evaluation methods depends on the specific criteria being evaluated; criteria definition precedes method selection."
+    },
+    {
+      "prerequisite": "Defining Evaluation Criteria",
+      "dependent": "Domain-Specific Capability Benchmarks",
+      "confidence": 0.85,
+      "rationale": "Benchmarks are selected based on the evaluation criteria and capabilities to be assessed, requiring criteria to be defined first."
+    },
+    {
+      "prerequisite": "Defining Evaluation Criteria",
+      "dependent": "Generation Capability Metrics",
+      "confidence": 0.85,
+      "rationale": "Generation capability metrics are chosen to measure specific evaluation criteria, so criteria must be defined before selecting relevant metrics."
+    },
+    {
+      "prerequisite": "Creating Scoring Rubrics",
+      "dependent": "Selecting Evaluation Methods",
+      "confidence": 0.7,
+      "rationale": "Scoring rubrics define how outputs are judged, which can influence whether human/AI judges or automated methods are selected for evaluation."
+    }
+  ]
+}

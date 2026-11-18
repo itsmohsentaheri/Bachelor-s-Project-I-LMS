@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Atom A requires the learner to already understand when to finetune versus use RAG, so mastering A cannot precede the more foundational decision covered in Atom B."
+  },
+  "b_before_a": {
+    "is_prerequisite": true,
+    "confidence": 0.9,
+    "rationale": "Atom B establishes the criteria for choosing finetuning over prompt-based methods, which is necessary before a learner can meaningfully compare RAG against finetuning in Atom A."
+  }
+}

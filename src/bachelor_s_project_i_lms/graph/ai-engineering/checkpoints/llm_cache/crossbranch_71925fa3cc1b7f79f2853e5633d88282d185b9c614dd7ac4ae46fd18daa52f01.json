@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Understanding traditional rule-based and simulation-based synthesis is not required to explain how synthetic data generation increases data quantity, coverage, and quality for foundation model tasks."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Knowing how synthetic data generation benefits foundation model training is not required to describe traditional non-AI data synthesis techniques."
+  }
+}

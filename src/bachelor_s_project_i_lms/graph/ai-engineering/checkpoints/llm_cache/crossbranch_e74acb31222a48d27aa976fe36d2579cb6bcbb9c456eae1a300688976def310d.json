@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Instruction-following evaluation is a specialized application of model performance evaluation, not a foundational requirement for understanding general benchmarks and metrics."
+  },
+  "b_before_a": {
+    "is_prerequisite": true,
+    "confidence": 0.7,
+    "rationale": "Understanding general model performance evaluation using benchmarks and metrics provides the necessary foundation to meaningfully apply instruction-following scoring rubrics and criteria."
+  }
+}

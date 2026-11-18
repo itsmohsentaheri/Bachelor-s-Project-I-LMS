@@ -1,0 +1,24 @@
+{
+  "learning_objective": "The learner can define an agent as an entity that perceives its environment through sensors and acts upon it through actuators, distinguishing agentic patterns from simple retrieval by enabling autonomous action-taking and decision-making.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 2,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "agent_is_just_rag",
+      "description": "Believing that an agent is simply a RAG system rather than an entity capable of autonomous action and decision-making."
+    },
+    {
+      "id": "agents_have_established_frameworks",
+      "description": "Assuming there are established theoretical frameworks for defining, developing, and evaluating AI-powered agents."
+    },
+    {
+      "id": "agent_actions_unlimited",
+      "description": "Thinking an agent can perform any action regardless of its specific actuators and environment constraints."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p300_459",
+    "chunk_p301_461"
+  ]
+}

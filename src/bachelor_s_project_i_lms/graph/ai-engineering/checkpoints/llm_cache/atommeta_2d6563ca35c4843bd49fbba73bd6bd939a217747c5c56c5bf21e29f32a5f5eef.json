@@ -1,0 +1,23 @@
+{
+  "learning_objective": "The learner can assess an evaluation pipeline for cost, latency, and metric correlation and iterate based on findings.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "skip_evaluation_to_reduce_latency",
+      "description": "Skipping evaluation reduces latency and cost without negative consequences."
+    },
+    {
+      "id": "perfectly_correlated_metrics_are_redundant",
+      "description": "If two metrics are perfectly correlated, you don't need both of them."
+    },
+    {
+      "id": "public_benchmarks_find_best_models",
+      "description": "Public benchmarks will help you find the best models for your application."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p232_364"
+  ]
+}

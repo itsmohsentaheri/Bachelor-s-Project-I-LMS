@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "prerequisite": "Data Quality Dimensions",
+      "dependent": "Annotation Consistency",
+      "confidence": 0.9,
+      "rationale": "Defining quality dimensions such as consistency establishes the criteria needed to ensure annotations are consistent across examples and annotators."
+    },
+    {
+      "prerequisite": "Data Quality Dimensions",
+      "dependent": "Data Cleaning and Filtering",
+      "confidence": 0.85,
+      "rationale": "Quality dimensions such as validity and fitness for purpose define what constitutes extraneous, sensitive, or toxic content that should be removed during cleaning."
+    },
+    {
+      "prerequisite": "Annotation Guidelines and Fact-Checking",
+      "dependent": "Annotation Consistency",
+      "confidence": 0.9,
+      "rationale": "Annotation guidelines provide the rules that annotators must follow to ensure consistency across examples and annotators."
+    },
+    {
+      "prerequisite": "Annotation Guidelines and Fact-Checking",
+      "dependent": "Manual Data Inspection",
+      "confidence": 0.85,
+      "rationale": "Annotation guidelines provide the standards against which manual inspection verifies annotation trustworthiness and identifies inconsistencies."
+    },
+    {
+      "prerequisite": "Data Cleaning and Filtering",
+      "dependent": "Manual Data Inspection",
+      "confidence": 0.75,
+      "rationale": "Cleaned and filtered data provides a safer, more focused dataset for manual inspectors to verify annotation trustworthiness and uniqueness."
+    }
+  ]
+}

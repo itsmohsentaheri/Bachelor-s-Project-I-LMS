@@ -1,0 +1,23 @@
+{
+  "learning_objective": "The learner can explain how pre-training acts as a compression framework by minimizing a model's intrinsic dimension, enabling more efficient fine-tuning with fewer parameters and less data.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "larger_models_higher_intrinsic_dim",
+      "description": "Believing that larger models have higher intrinsic dimensions after pre-training, when they actually tend to have lower ones."
+    },
+    {
+      "id": "pretraining_is_only_for_performance",
+      "description": "Thinking pre-training only improves general performance rather than acting as a compression mechanism for downstream fine-tuning."
+    },
+    {
+      "id": "finetuning_requires_full_params",
+      "description": "Assuming fine-tuning a pre-trained model requires training all parameters, ignoring that low intrinsic dimension allows for parameter-efficient methods."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p364_556"
+  ]
+}

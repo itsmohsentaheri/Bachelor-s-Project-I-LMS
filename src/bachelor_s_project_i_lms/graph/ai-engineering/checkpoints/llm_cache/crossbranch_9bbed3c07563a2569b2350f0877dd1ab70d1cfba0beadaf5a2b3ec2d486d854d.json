@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "DataPerf and dcbench are specific data-centric benchmarking tools, but understanding how to evaluate model performance using general benchmarks and metrics does not require prior knowledge of these specific tools."
+  },
+  "b_before_a": {
+    "is_prerequisite": true,
+    "confidence": 0.85,
+    "rationale": "To meaningfully understand how DataPerf and dcbench assess dataset quality through model performance metrics, a learner must first understand the general concepts of evaluating model performance using benchmarks and metrics."
+  }
+}

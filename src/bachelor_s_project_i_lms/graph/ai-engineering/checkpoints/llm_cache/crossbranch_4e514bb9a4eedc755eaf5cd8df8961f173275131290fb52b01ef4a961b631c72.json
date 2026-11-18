@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Understanding the lack of standardization and quality control is not required to grasp why pairwise comparisons grow quadratically as more models are added."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Knowing that comparative evaluation scales quadratically with model count is not necessary to explain how missing standards and quality control hinder cross-study comparability."
+  }
+}

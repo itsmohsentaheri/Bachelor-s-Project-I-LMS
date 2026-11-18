@@ -1,0 +1,24 @@
+{
+  "subtopics": [
+    {
+      "title": "Foundation Model Training Process",
+      "summary": "The complex and costly process of training foundation models, including design decisions that impact downstream applications.",
+      "is_atomic": false
+    },
+    {
+      "title": "Foundation Model Evaluation Challenges",
+      "summary": "The difficulties in evaluating foundation models compared to traditional ML models, including assessing intelligent outputs and coherent summaries.",
+      "is_atomic": false
+    },
+    {
+      "title": "Selecting Foundation Models for Applications",
+      "summary": "How to decide what foundation model to use based on high-level understanding and application requirements.",
+      "is_atomic": false
+    },
+    {
+      "title": "Adapting Foundation Models",
+      "summary": "Methods for adapting foundation models to specific application needs without developing them from scratch.",
+      "is_atomic": false
+    }
+  ]
+}

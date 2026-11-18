@@ -1,0 +1,25 @@
+{
+  "learning_objective": "The learner can define evaluation criteria that specify what an application should and should not do, including out-of-scope inputs and expected responses, to avoid ambiguous scoring.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "criteria_only_cover_positive_cases",
+      "description": "Believing evaluation criteria only need to describe what the application should do, ignoring out-of-scope inputs and undesired behaviors."
+    },
+    {
+      "id": "ambiguous_guidelines_are_acceptable",
+      "description": "Assuming that vague evaluation guidelines are sufficient because scorers will interpret them consistently."
+    },
+    {
+      "id": "criteria_and_methods_are_the_same",
+      "description": "Confusing the definition of evaluation criteria with the selection of evaluation methods and data."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p226_353",
+    "chunk_p228_357",
+    "chunk_p525_794"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Defining prompts and their components is not required to understand how instruction-following capability is measured using scoring rubrics and evaluation criteria."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Understanding evaluation methodology for instruction-following is not necessary to define a prompt or identify its key components."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Deciding whether to finetune versus use prompt-based methods depends on data, hardware, and talent constraints, not on knowing how parameter-efficient techniques like LoRA reduce compute and memory."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Understanding parameter-efficient finetuning methods does not require first knowing when to choose finetuning over prompting; the two address different decisions (how vs. whether)."
+  }
+}

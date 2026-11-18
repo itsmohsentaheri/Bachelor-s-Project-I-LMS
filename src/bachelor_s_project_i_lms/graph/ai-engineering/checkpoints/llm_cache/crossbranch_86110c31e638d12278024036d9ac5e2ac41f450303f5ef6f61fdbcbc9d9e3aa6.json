@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Calculating and managing training data costs is not required to select evaluation methods or curate evaluation datasets that reflect production scenarios."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Defining evaluation methods and curating evaluation data is not required to calculate and manage the costs associated with acquiring and processing training data."
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "edges": [
+    {
+      "prerequisite": "Defining Evaluation Methods and Data",
+      "dependent": "Creating Evaluation Guidelines",
+      "confidence": 0.85,
+      "rationale": "Evaluation methods and data define what is being measured and how, which informs the criteria and rubrics in evaluation guidelines."
+    },
+    {
+      "prerequisite": "Creating Evaluation Guidelines",
+      "dependent": "Evaluating All System Components",
+      "confidence": 0.9,
+      "rationale": "Clear scoring rubrics and standards are needed before individual system components can be assessed consistently."
+    },
+    {
+      "prerequisite": "Evaluating All System Components",
+      "dependent": "Tying Metrics to Business Metrics",
+      "confidence": 0.8,
+      "rationale": "Component-level technical results must be available before they can be connected to business outcomes."
+    },
+    {
+      "prerequisite": "Tying Metrics to Business Metrics",
+      "dependent": "Evaluating and Iterating the Pipeline",
+      "confidence": 0.75,
+      "rationale": "Business alignment provides the goals against which the evaluation pipeline's reliability and effectiveness are assessed."
+    }
+  ]
+}

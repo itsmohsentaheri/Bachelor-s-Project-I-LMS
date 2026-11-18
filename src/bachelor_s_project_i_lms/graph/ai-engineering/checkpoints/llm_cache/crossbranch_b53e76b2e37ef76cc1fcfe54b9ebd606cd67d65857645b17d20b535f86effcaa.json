@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "RAG focuses on augmenting model responses with external data at inference time, which is not required to understand how foundation models generate synthetic instruction data via templates or distillation."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Synthetic data generation for instruction tuning is independent of the retrieval-augmented generation mechanism used to supplement foundation model prompts with external database content."
+  }
+}

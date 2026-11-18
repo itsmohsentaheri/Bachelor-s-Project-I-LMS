@@ -238,7 +238,7 @@ def run(
     by_id = {a["temp_id"]: a for a in atoms}
 
     if embed_fn is None:
-        from bachelor_s_project_i_lms.scripts.vector_search import embed as embed_fn  # lazy: heavy import
+        from bachelor_s_project_i_lms.db.vector_search import embed as embed_fn  # lazy: heavy import
 
     vectors = {a["temp_id"]: embed_fn(f"{a['title']}. {a.get('learning_objective', '')}") for a in atoms}
 

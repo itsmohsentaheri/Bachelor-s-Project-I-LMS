@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Creating evaluation guidelines is a broader design activity that does not require first mastering how to define and measure instruction-following capability."
+  },
+  "b_before_a": {
+    "is_prerequisite": true,
+    "confidence": 0.8,
+    "rationale": "Understanding how to define instruction-following and measure whether outputs meet specified criteria is necessary to create meaningful evaluation guidelines that specify what an application should and shouldn't do."
+  }
+}

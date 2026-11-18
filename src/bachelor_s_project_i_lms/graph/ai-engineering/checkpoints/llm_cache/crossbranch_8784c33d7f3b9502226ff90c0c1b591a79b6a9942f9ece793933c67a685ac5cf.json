@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Understanding data quality does not require first knowing the specific risks of internet scraping and AI-generated data."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Identifying risks from data sources does not depend on first defining general data quality and its impact on model performance."
+  }
+}

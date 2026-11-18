@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Evaluating model performance is a focused task that does not require first mastering the assessment of every system component."
+  },
+  "b_before_a": {
+    "is_prerequisite": true,
+    "confidence": 0.85,
+    "rationale": "Meaningfully assessing every part of an AI application requires first being able to evaluate the model's performance using benchmarks and metrics."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Defining prompts and their components is not required to understand how to measure whether a model's output meets specified instruction criteria."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Understanding instruction-following measurement is not required to define a prompt and identify its key components."
+  }
+}

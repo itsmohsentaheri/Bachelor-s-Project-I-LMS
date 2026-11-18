@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Identifying scalability bottlenecks in evaluation does not require first mastering how to define evaluation criteria; one can recognize cost, time, and annotation issues without knowing how to specify application behavior or out-of-scope inputs."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Defining evaluation criteria is a distinct design task that does not depend on understanding scalability bottlenecks such as high costs, time requirements, or lack of standardization in human annotation."
+  }
+}

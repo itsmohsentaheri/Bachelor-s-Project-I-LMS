@@ -1,0 +1,25 @@
+{
+  "learning_objective": "The learner can describe how human feedback is collected to rank model outputs into preferred versus rejected response pairs for training preference models.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "preference_over_correctness",
+      "description": "Believing all questions should be answered by preference rather than correctness, which can lead to misaligned behaviors."
+    },
+    {
+      "id": "user_knows_answer",
+      "description": "Assuming users can reliably pick the correct answer when they lack the knowledge to evaluate the options."
+    },
+    {
+      "id": "single_formula",
+      "description": "Thinking human preference can be captured in a single mathematical formula."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p174_264",
+    "chunk_p135_201",
+    "chunk_p180_277"
+  ]
+}

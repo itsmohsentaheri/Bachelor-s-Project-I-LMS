@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Understanding data coverage as a training-data criterion does not require first mastering how to select evaluation methods or curate evaluation datasets."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Selecting evaluation methods and curating evaluation data can be done without first explaining data coverage as a training-data mix criterion."
+  }
+}

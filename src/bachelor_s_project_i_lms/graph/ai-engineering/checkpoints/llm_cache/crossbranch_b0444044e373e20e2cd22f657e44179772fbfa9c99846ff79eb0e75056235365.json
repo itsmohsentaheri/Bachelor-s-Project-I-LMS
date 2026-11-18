@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Understanding quadratic growth in model pairs is not required to assess dataset quality via downstream task performance."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Assessing datasets through downstream tasks does not require prior knowledge of comparative evaluation scalability bottlenecks."
+  }
+}

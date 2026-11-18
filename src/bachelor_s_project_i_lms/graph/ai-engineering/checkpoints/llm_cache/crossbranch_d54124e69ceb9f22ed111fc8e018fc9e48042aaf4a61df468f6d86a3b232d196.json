@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Understanding synthetic data generation does not require first mastering the specific criterion of data coverage; one can learn how synthetic data is produced without knowing how to balance domain representation."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Data coverage can be understood as a data-quality criterion independently of knowing how synthetic data is generated to improve it."
+  }
+}

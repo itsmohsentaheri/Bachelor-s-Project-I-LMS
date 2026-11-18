@@ -1,0 +1,25 @@
+{
+  "learning_objective": "The learner can identify prompt engineering tools for structured outputs and prompt variation and explain the risks of hidden API calls and unnecessary costs.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "tools_are_free",
+      "description": "Believing prompt engineering tools do not generate hidden model API calls that can quickly increase costs."
+    },
+    {
+      "id": "tools_are_static",
+      "description": "Assuming prompt engineering tools will not change their prompt templates or default prompts without warning."
+    },
+    {
+      "id": "tools_replace_understanding",
+      "description": "Thinking that using prompt engineering tools removes the need to inspect generated prompts or understand the underlying model."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p256_395",
+    "chunk_p257_396",
+    "chunk_p254_392"
+  ]
+}

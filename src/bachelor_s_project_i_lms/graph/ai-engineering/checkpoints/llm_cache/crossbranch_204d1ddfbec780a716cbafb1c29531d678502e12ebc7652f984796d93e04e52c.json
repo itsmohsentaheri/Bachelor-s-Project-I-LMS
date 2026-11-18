@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Understanding annotation consistency is not required to identify scalability bottlenecks in evaluation, which stem from cost, time, and lack of standardization rather than annotation quality."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Knowing about scalability bottlenecks in evaluation is not necessary to explain why annotations must be consistent across examples and annotators."
+  }
+}

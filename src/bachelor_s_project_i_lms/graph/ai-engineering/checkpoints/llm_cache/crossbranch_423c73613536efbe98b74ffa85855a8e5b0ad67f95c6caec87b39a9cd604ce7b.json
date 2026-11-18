@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Understanding model-level inference optimization techniques like quantization and distillation is not required to explain how foundation models generate synthetic instruction data via templates and distillation."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Knowing how to generate synthetic instruction data using foundation models is not necessary to describe inference optimization techniques such as quantization and distillation."
+  }
+}

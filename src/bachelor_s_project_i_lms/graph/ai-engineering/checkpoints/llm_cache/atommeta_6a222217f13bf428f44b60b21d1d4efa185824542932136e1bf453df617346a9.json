@@ -1,0 +1,20 @@
+{
+  "learning_objective": "The learner can define full finetuning as training all model parameters where the number of trainable parameters equals the total number of parameters.",
+  "estimated_time_min": 5,
+  "difficulty_weight": 2,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "full_finetuning_is_training_from_scratch",
+      "description": "Full finetuning starts with previously trained weights, not randomized weights like training from scratch."
+    },
+    {
+      "id": "full_finetuning_uses_fewer_parameters",
+      "description": "Full finetuning uses all parameters, not a subset like partial finetuning or parameter-efficient methods."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p356_546",
+    "chunk_p357_547"
+  ]
+}

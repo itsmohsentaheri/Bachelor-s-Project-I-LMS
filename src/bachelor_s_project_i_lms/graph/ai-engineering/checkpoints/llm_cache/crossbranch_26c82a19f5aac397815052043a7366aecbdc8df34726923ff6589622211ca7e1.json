@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Defining inference performance metrics such as latency, throughput, and goodput does not require prior knowledge of training bottlenecks or resource constraints."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Identifying computational and memory limitations during training does not require prior mastery of inference performance metrics."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Calculating and managing training data costs does not require first understanding data quality concepts or their impact on model performance."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Defining data quality and explaining its impact on model performance does not require first mastering cost management calculations for training data."
+  }
+}

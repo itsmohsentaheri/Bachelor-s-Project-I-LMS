@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Understanding how model parameters affect capacity is not required to define data quality or explain its impact on model performance."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Knowing about data quality is not necessary to explain how model capacity scales with parameters, layers, and hidden dimensions."
+  }
+}

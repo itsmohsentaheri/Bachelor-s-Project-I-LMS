@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Mapping technical metrics to business outcomes requires first knowing how to define evaluation methods and data, not the reverse."
+  },
+  "b_before_a": {
+    "is_prerequisite": true,
+    "confidence": 0.9,
+    "rationale": "A learner must be able to define evaluation methods and data before they can meaningfully map those metrics to specific business outcomes."
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "learning_objective": "The learner can explain how the absence of universal standards and quality control mechanisms in foundation model evaluation makes results difficult to compare across studies and providers.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "leaderboard_transparency",
+      "description": "Assuming leaderboard developers can always clearly explain their benchmark selection processes."
+    },
+    {
+      "id": "gaming_awareness",
+      "description": "Believing that attempts to game evaluation rankings are always admitted or easily detectable."
+    },
+    {
+      "id": "random_matching_necessity",
+      "description": "Thinking all model pairs must be compared an equal number of times to produce a valid ranking."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p177_270",
+    "chunk_p217_339"
+  ]
+}

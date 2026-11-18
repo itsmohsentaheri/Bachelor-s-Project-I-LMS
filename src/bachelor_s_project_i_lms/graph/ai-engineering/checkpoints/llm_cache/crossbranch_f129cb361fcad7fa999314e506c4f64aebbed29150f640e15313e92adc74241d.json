@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Atom A's objective is a subset of Atom B's objective, so mastering A is not required before learning the broader skill set in B."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Atom B covers both method selection and rubric creation, so it does not need to be mastered before the narrower selection task in A."
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "learning_objective": "The learner can identify computational and memory limitations during training, including GPU memory, bandwidth, and the trade-offs between model size and training time.",
+  "estimated_time_min": 10,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "gpu_memory_is_only_constraint",
+      "description": "Believing GPU memory is the only training bottleneck, ignoring bandwidth and other resource constraints."
+    },
+    {
+      "id": "larger_model_always_better",
+      "description": "Assuming larger models always yield better results without considering training time and resource trade-offs."
+    },
+    {
+      "id": "bottlenecks_are_static",
+      "description": "Thinking training bottlenecks remain constant throughout the training process rather than shifting between compute, memory, and I/O."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p343_524",
+    "chunk_p351_536"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Assessing dataset quality via downstream task performance does not require the ability to resolve contradictory benchmark results when selecting between models."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Resolving conflicting benchmark results for model selection does not depend on first knowing how to evaluate dataset quality through downstream tasks."
+  }
+}

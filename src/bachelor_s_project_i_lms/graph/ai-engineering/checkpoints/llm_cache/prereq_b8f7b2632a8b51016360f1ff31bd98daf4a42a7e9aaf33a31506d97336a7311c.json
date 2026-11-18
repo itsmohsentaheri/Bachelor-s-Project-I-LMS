@@ -1,0 +1,22 @@
+{
+  "edges": [
+    {
+      "prerequisite": "Evaluation Criteria",
+      "dependent": "Model Selection",
+      "confidence": 0.8,
+      "rationale": "To select the right model, one must first know the standards and benchmarks against which models will be assessed."
+    },
+    {
+      "prerequisite": "Evaluation Criteria",
+      "dependent": "Design Your Evaluation Pipeline",
+      "confidence": 0.9,
+      "rationale": "Designing an evaluation pipeline requires predefined criteria to determine what to measure, how to measure it, and what constitutes success."
+    },
+    {
+      "prerequisite": "Model Selection",
+      "dependent": "Design Your Evaluation Pipeline",
+      "confidence": 0.6,
+      "rationale": "The chosen model influences the specific components and methods included in a custom evaluation pipeline."
+    }
+  ]
+}

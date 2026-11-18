@@ -1,0 +1,19 @@
+{
+  "subtopics": [
+    {
+      "title": "Selecting Evaluation Methods",
+      "summary": "Choosing appropriate evaluation methods such as toxicity classifiers, semantic similarity, and AI judges based on specific criteria, including the use of scoring rubrics and examples for specialized scorers.",
+      "is_atomic": true
+    },
+    {
+      "title": "Annotating Evaluation Data",
+      "summary": "The process of labeling and preparing evaluation data, including determining the necessary volume of examples to ensure reliable results without being prohibitively expensive.",
+      "is_atomic": true
+    },
+    {
+      "title": "Designing Evaluation Data Slices",
+      "summary": "Creating multiple evaluation sets to represent different data slices, such as production distribution, user tiers, traffic sources, known failure cases, and out-of-scope inputs.",
+      "is_atomic": true
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "learning_objective": "The learner can explain methods for collecting, processing, and incorporating user feedback to evaluate and improve AI application performance over time.",
+  "estimated_time_min": 10,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "thumbs_up_down_sufficient",
+      "description": "Believing that simple thumbs up/down feedback alone is sufficient for deep analysis without additional context like dialogue turns."
+    },
+    {
+      "id": "positive_feedback_clutters",
+      "description": "Assuming that asking for positive feedback always clutters the interface or annoys users, ignoring that it can be managed by limiting frequency."
+    },
+    {
+      "id": "feedback_always_improves",
+      "description": "Thinking that acting on user feedback always improves the product, overlooking degenerate feedback loops that can amplify biases."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p511_775",
+    "chunk_p505_768",
+    "chunk_p516_783"
+  ]
+}

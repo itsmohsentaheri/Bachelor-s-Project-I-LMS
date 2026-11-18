@@ -1,0 +1,19 @@
+{
+  "learning_objective": "The learner can explain how foundation models are used to generate synthetic instruction data through template-based generation and model distillation.",
+  "estimated_time_min": 10,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "synthetic_replaces_human_data",
+      "description": "Believing synthetic data completely replaces human-generated data rather than complementing it."
+    },
+    {
+      "id": "synthesis_only_quantity",
+      "description": "Thinking data synthesis is only for increasing data quantity, ignoring coverage, quality, privacy, and distillation use cases."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p405_623"
+  ]
+}

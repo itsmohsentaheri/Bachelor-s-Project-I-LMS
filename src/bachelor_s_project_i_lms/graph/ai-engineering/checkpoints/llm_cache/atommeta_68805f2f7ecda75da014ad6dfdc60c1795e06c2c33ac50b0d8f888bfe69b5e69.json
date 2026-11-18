@@ -1,0 +1,25 @@
+{
+  "learning_objective": "The learner can identify how indiscriminate internet scraping and AI-generated data introduce risks such as biased, rude, or factually wrong outputs, copyright violations, and benchmark contamination due to obscured data lineage.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "ai_data_is_always_safe",
+      "description": "Believing that AI-generated data is inherently clean and free from the biases or errors present in the original training data."
+    },
+    {
+      "id": "lineage_not_important",
+      "description": "Assuming that data lineage does not matter as long as the model performs well on benchmarks."
+    },
+    {
+      "id": "only_pii_risks",
+      "description": "Thinking that training data extraction risks are limited to personally identifiable information and ignore copyrighted or common text regurgitation."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p101_150",
+    "chunk_p419_646",
+    "chunk_p270_413"
+  ]
+}

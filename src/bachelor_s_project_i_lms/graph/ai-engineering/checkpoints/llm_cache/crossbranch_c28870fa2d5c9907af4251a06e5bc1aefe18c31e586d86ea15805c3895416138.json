@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Identifying structural components of AI applications is not required to understand prompt attacks or apply defensive techniques such as instruction hierarchy."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Knowing prompt attacks and defenses is not required to identify the structural components of AI applications built on foundation models."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Deciding whether to finetune depends on data availability, hardware, and talent, not on understanding how training data quantity is determined by cost and capability trade-offs."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Explaining how data quantity is determined does not require first knowing when to finetune versus use prompt-based methods."
+  }
+}

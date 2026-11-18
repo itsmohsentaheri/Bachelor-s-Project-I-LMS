@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Evaluating domain-specific capabilities using functional correctness and efficiency metrics is not required to define instruction-following or measure whether output meets specified criteria."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Defining instruction-following and measuring output against criteria is not required to evaluate domain-specific capabilities using exact methods such as functional correctness and efficiency."
+  }
+}

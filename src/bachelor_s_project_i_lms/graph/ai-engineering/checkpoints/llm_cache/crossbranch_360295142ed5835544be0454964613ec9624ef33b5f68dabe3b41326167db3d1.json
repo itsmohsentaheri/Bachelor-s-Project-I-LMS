@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Understanding why foundation model evaluation is difficult does not require prior knowledge of standardization and quality control issues; the two concepts address related but distinct aspects of evaluation."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Knowing about the lack of standardization and quality control is not necessary to understand the fundamental difficulties of evaluating open-ended intelligent outputs, such as the need for domain expertise and missing ground truths."
+  }
+}

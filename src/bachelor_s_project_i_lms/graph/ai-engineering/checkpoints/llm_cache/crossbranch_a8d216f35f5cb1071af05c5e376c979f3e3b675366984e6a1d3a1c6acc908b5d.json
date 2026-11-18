@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Understanding why foundation model evaluation is difficult is not required to distinguish between absolute and comparative evaluation methods."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Knowing the difference between absolute and comparative evaluation is not necessary to understand the general challenges of evaluating foundation models."
+  }
+}

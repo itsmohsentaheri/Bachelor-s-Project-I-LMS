@@ -1,0 +1,25 @@
+{
+  "learning_objective": "The learner can use public benchmarks and leaderboards to filter out bad models while recognizing benchmark limitations such as data contamination and opaque selection processes.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "benchmarks_find_best_model",
+      "description": "Believing public benchmarks can identify the best model for a specific application rather than just filtering out bad ones."
+    },
+    {
+      "id": "leaderboard_transparency",
+      "description": "Assuming leaderboard benchmark selection and aggregation processes are always transparent and easily explainable."
+    },
+    {
+      "id": "benchmark_data_cleanliness",
+      "description": "Thinking benchmark data is isolated from model training sets and therefore free from contamination."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p233_366",
+    "chunk_p224_350",
+    "chunk_p217_339"
+  ]
+}

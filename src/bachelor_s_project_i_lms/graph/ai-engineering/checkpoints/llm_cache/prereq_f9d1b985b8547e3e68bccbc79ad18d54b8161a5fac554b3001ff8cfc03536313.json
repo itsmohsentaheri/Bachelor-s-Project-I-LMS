@@ -1,0 +1,28 @@
+{
+  "edges": [
+    {
+      "prerequisite": "Comparative Performance Evaluation",
+      "dependent": "Limitations of Comparative Evaluation",
+      "confidence": 0.95,
+      "rationale": "Understanding how comparative evaluation works is necessary to understand its specific limitations."
+    },
+    {
+      "prerequisite": "Comparative Performance Evaluation",
+      "dependent": "Scalability Bottlenecks in Comparative Evaluation",
+      "confidence": 0.95,
+      "rationale": "Understanding the mechanics of comparative evaluation is required to understand why it scales quadratically."
+    },
+    {
+      "prerequisite": "Comparative Performance Evaluation",
+      "dependent": "Lack of Standardization and Quality Control",
+      "confidence": 0.8,
+      "rationale": "Understanding comparative evaluation provides context for the challenges of standardization and quality control in that setting."
+    },
+    {
+      "prerequisite": "Absolute Performance Evaluation",
+      "dependent": "Limitations of Comparative Evaluation",
+      "confidence": 0.7,
+      "rationale": "Understanding absolute evaluation provides the baseline against which the limitations of comparative evaluation are defined."
+    }
+  ]
+}

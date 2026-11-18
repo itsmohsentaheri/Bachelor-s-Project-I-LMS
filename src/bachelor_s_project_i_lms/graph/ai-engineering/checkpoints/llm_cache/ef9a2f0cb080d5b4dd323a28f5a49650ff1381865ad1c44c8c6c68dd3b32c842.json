@@ -1,0 +1,29 @@
+{
+  "subtopics": [
+    {
+      "title": "Data Quality",
+      "summary": "The criterion ensuring training data is accurate, reliable, and free from errors, analogous to using fresh ingredients in cooking, which directly impacts model performance.",
+      "is_atomic": true
+    },
+    {
+      "title": "Data Coverage",
+      "summary": "The criterion ensuring the training data includes the right mix of domains and topics, such as general knowledge, math, coding, and multilingual content, without over- or under-representing any area.",
+      "is_atomic": true
+    },
+    {
+      "title": "Data Quantity",
+      "summary": "The criterion determining the volume of training data required for a model, balancing the amount of data against training costs and desired capabilities.",
+      "is_atomic": true
+    },
+    {
+      "title": "Phase-Specific Data Mixes",
+      "summary": "The variation in optimal data composition across different training phases, such as pre-training, supervised finetuning, and preference finetuning, as demonstrated by domain mix tables.",
+      "is_atomic": true
+    },
+    {
+      "title": "Synthetic Data Generation",
+      "summary": "The use of AI-generated data to increase training data quality and quantity, particularly when human-generated data is limited, expensive, or of lower quality for specific tasks like tool use or complex math.",
+      "is_atomic": true
+    }
+  ]
+}

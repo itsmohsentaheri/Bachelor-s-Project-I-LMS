@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Manually inspecting annotated data is not required to explain the concept of data coverage as a criterion for domain and topic mix in training data."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Understanding data coverage is not necessary to perform manual inspection of annotated data for trustworthiness, as these are distinct analytical tasks."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "learning_objective": "The learner can define an AI accelerator as a chip designed to accelerate AI workloads and identify GPUs as the dominant type.",
+  "estimated_time_min": 5,
+  "difficulty_weight": 2,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "cpu_gpu_equivalence",
+      "description": "Believing CPUs and GPUs serve the same general-purpose role rather than GPUs being specialized for parallel workloads."
+    },
+    {
+      "id": "accelerator_scope",
+      "description": "Assuming accelerators are only for training rather than also being used for faster inference on target hardware."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p444_684"
+  ]
+}

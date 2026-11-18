@@ -1,0 +1,24 @@
+{
+  "subtopics": [
+    {
+      "title": "Transformer Block Architecture",
+      "summary": "The core building block of foundation models, including self-attention mechanisms and feed-forward layers that determine how the model processes and represents information.",
+      "is_atomic": false
+    },
+    {
+      "title": "Model Capacity and Parameter Scaling",
+      "summary": "How the number of parameters, layers, and hidden dimensions affect model capacity, expressiveness, and the ability to learn complex patterns from data.",
+      "is_atomic": false
+    },
+    {
+      "title": "Training Bottlenecks and Resource Constraints",
+      "summary": "Computational and memory limitations during training, including GPU memory, bandwidth, and the trade-offs between model size and training time.",
+      "is_atomic": false
+    },
+    {
+      "title": "Inference Optimization Techniques",
+      "summary": "Methods for reducing inference latency and cost, such as quantization, caching, and API-based optimizations used in production deployments.",
+      "is_atomic": false
+    }
+  ]
+}

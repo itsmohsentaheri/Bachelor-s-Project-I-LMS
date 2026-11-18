@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Resolving conflicting benchmark results concerns model selection after evaluation and does not require understanding annotation consistency during dataset creation."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Annotation consistency is important for training data quality, but one can meaningfully understand how to select among models with contradictory benchmark results without first mastering annotation consistency."
+  }
+}

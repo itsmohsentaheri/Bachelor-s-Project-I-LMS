@@ -1,0 +1,19 @@
+{
+  "learning_objective": "The learner can distinguish between next-token and infilling finetuning and identify use cases where infilling is more suitable.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 2,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "infilling_requires_masked_pretraining",
+      "description": "Believing that a model must be pre-trained as a masked model to be finetuned for infilling."
+    },
+    {
+      "id": "infilling_only_for_code",
+      "description": "Assuming infilling finetuning is exclusively for code debugging and not applicable to text editing."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p334_509"
+  ]
+}

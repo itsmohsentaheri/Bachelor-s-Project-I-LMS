@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": true,
+    "confidence": 0.8,
+    "rationale": "Understanding overlap analysis and data leakage prevention is necessary to meaningfully recognize benchmark limitations such as data contamination when using public benchmarks."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Navigating public benchmarks does not require prior mastery of overlap estimation techniques like Bloom filters."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Resolving conflicting results is a downstream decision-making task that does not need to be mastered before one can identify the challenges of gathering signals and ranking models."
+  },
+  "b_before_a": {
+    "is_prerequisite": true,
+    "confidence": 0.9,
+    "rationale": "Understanding the challenges in gathering reliable comparison signals and ranking models is necessary to meaningfully interpret contradictory benchmark results and apply decision criteria to select a model."
+  }
+}

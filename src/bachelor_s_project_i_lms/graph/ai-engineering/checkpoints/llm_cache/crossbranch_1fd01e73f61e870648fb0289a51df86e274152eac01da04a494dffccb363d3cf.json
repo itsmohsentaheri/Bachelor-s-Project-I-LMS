@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Instruction-following is a specific capability to measure, but general model performance evaluation can be conducted using benchmarks and metrics without first mastering instruction-following scope."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Defining instruction-following and measuring output against criteria does not require prior mastery of broad model performance evaluation using benchmarks and comparative testing."
+  }
+}

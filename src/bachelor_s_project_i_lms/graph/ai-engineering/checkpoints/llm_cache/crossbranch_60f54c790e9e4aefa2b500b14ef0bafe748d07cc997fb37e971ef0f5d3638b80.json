@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Deciding whether to finetune versus use prompt-based methods depends on resource constraints and task fit, not on understanding the specific objective shift from pre-training to SFT."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Understanding how SFT changes model behavior does not require first knowing when to choose finetuning over prompting."
+  }
+}

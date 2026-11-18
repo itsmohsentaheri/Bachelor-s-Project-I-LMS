@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Understanding training resource constraints is not required to explain why pairwise model comparisons grow quadratically in evaluation."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Knowledge of evaluation scalability bottlenecks is not needed to identify computational and memory limitations during model training."
+  }
+}

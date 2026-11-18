@@ -16,9 +16,9 @@ from bachelor_s_project_i_lms.llm.schemas import DecomposeOutput
 
 MAX_DEPTH = 4
 TOP_K_CHUNKS = 8
-COURSE_FILE = Path(__file__).resolve().parent.parent / "courses" / "computer_networks.md"
-CHECKPOINT_PATH = Path(__file__).resolve().parent / "checkpoints" / "tree.json"
-CACHE_DIR = Path(__file__).resolve().parent / "checkpoints" / "llm_cache"
+COURSE_FILE = Path(__file__).resolve().parent.parent / "courses" / "ai_engineering.md"
+CHECKPOINT_PATH = Path(__file__).resolve().parent / "ai-engineering" / "checkpoints" / "tree.json"
+CACHE_DIR = Path(__file__).resolve().parent / "ai-engineering" / "checkpoints" / "llm_cache"
 
 
 def _norm(title: str) -> str:
@@ -51,7 +51,7 @@ def load_roots(path: Path = COURSE_FILE) -> list[str]:
 def fetch_chunks(query: str, k: int = TOP_K_CHUNKS) -> list[dict]:
     """Vector search book_chunks for a topic title. Returns [{chunk_id, page, text}]."""
     # local import: keeps sentence_transformers (a heavy ML dep) out of module import time
-    from bachelor_s_project_i_lms.scripts.vector_search import embed
+    from bachelor_s_project_i_lms.db.vector_search import embed
 
     qvec = embed(query)
     db = SessionLocal()

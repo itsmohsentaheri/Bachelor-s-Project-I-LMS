@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Understanding how to balance training costs and desired capabilities to determine data quantity does not require first knowing how to list and define data quality dimensions such as completeness or accuracy."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Listing and defining data quality dimensions for finetuning datasets does not require first mastering how data quantity is determined by training costs, desired capabilities, and situational factors."
+  }
+}

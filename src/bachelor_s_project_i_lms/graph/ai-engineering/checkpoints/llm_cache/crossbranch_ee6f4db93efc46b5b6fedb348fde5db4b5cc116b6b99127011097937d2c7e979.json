@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Agent security risks concern defensive mechanisms for tool use in deployed agents, which is not required to understand how training data sources and lineage create output risks in foundation models."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Understanding data-source and output risks in foundation models is not necessary to identify security risks introduced by agent tool use or to explain required defensive mechanisms."
+  }
+}

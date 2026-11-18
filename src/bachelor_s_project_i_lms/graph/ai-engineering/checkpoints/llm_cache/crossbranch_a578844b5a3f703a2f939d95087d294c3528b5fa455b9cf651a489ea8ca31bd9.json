@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Understanding how synthetic data increases data quantity and quality is not required to identify and categorize external tools that extend an agent's capabilities."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Identifying and categorizing agent tools is not required to explain how synthetic data generation improves data quantity, coverage, and quality."
+  }
+}

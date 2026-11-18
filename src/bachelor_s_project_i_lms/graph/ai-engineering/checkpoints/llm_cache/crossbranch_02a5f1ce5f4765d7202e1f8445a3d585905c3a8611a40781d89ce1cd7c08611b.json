@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Managing training data costs is not required to define evaluation methods and data, as evaluation design focuses on criteria and annotation rather than data acquisition expenses."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Defining evaluation methods and data does not require first mastering training data cost management, since cost calculation is independent of selecting evaluation criteria and slicing data."
+  }
+}

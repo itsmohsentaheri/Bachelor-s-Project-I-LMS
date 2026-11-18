@@ -1,0 +1,16 @@
+{
+  "edges": [
+    {
+      "prerequisite": "Downstream Task Evaluation",
+      "dependent": "Data-Centric Benchmark Competitions",
+      "confidence": 0.9,
+      "rationale": "Benchmark competitions evaluate datasets by measuring model performance on standardized downstream tasks, so understanding downstream task evaluation is required to understand how these competitions work."
+    },
+    {
+      "prerequisite": "Downstream Task Evaluation",
+      "dependent": "DataPerf and dcbench",
+      "confidence": 0.9,
+      "rationale": "DataPerf and dcbench assess dataset quality through model performance metrics on downstream tasks, making downstream task evaluation a prerequisite."
+    }
+  ]
+}

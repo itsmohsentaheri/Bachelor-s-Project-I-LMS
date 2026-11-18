@@ -1,0 +1,24 @@
+{
+  "learning_objective": "The learner can determine the optimal model size and dataset size for a fixed compute budget to maximize performance using scaling laws.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 4,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "bigger_is_always_better",
+      "description": "Believing that arbitrarily increasing model size always yields better performance regardless of compute budget."
+    },
+    {
+      "id": "quality_is_everything",
+      "description": "Assuming that model quality is the only factor that matters, ignoring production usability and cost constraints."
+    },
+    {
+      "id": "universal_scaling_law",
+      "description": "Thinking the scaling law applies equally to all model types, such as sparse models or those trained on synthetic data."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p96_142",
+    "chunk_p97_144"
+  ]
+}

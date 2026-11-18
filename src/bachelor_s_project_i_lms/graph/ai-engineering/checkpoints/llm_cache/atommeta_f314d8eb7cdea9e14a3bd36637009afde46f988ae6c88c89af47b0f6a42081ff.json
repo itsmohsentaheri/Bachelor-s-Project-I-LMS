@@ -1,0 +1,25 @@
+{
+  "learning_objective": "The learner can identify and remove low-quality samples and duplicate entries from raw data using heuristics and deduplication techniques.",
+  "estimated_time_min": 10,
+  "difficulty_weight": 3,
+  "type": "practical",
+  "common_misconceptions": [
+    {
+      "id": "exact_match_only",
+      "description": "Believing that only exact text matches count as duplicates, ignoring near-duplicates or paraphrased content."
+    },
+    {
+      "id": "order_irrelevant",
+      "description": "Assuming that lists with the same items in different orders are not duplicates."
+    },
+    {
+      "id": "dedup_before_filter",
+      "description": "Thinking that deduplication must always happen before filtering low-quality data, regardless of efficiency."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p416_641",
+    "chunk_p423_653",
+    "chunk_p424_654"
+  ]
+}

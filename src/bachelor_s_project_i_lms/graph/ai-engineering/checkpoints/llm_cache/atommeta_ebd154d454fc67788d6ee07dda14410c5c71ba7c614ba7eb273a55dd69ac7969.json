@@ -1,0 +1,25 @@
+{
+  "learning_objective": "The learner can apply decision criteria to select a model when candidate models show contradictory performance across different benchmarks for the same task domain.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 4,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "benchmark_equivalence",
+      "description": "Assuming all benchmarks measure the same capability equally, ignoring that benchmarks like TruthfulQA are only moderately correlated with reasoning benchmarks."
+    },
+    {
+      "id": "single_benchmark_superiority",
+      "description": "Believing a model that performs best on one benchmark is superior overall, without considering contradictory results on other benchmarks in the same domain."
+    },
+    {
+      "id": "averaging_ignores_conflicts",
+      "description": "Thinking that simply averaging benchmark scores resolves conflicting results, when averaging treats all benchmarks equally and may mask important performance trade-offs."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p215_335",
+    "chunk_p218_341",
+    "chunk_p219_342"
+  ]
+}

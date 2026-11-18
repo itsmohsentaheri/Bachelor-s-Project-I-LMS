@@ -1,0 +1,20 @@
+{
+  "learning_objective": "The learner can assess cost, latency, and other operational metrics alongside quality criteria when evaluating AI systems.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "quality_only_focus",
+      "description": "Believing that evaluation should focus solely on output quality while ignoring operational factors like cost and latency."
+    },
+    {
+      "id": "operational_secondary",
+      "description": "Assuming operational metrics are secondary considerations rather than core criteria that must be assessed alongside quality."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p532_808",
+    "chunk_p9_9"
+  ]
+}

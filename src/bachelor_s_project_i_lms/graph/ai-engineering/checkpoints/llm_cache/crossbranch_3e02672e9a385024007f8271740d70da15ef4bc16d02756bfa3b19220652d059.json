@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Full finetuning is a specific parameter-update method, but understanding how supervised finetuning converts text-completion into instruction-following does not require knowing that all parameters are trained."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Supervised finetuning describes the purpose and data of instruction tuning, but mastering full finetuning does not depend on understanding SFT, since full finetuning can be applied to other tasks and objectives."
+  }
+}

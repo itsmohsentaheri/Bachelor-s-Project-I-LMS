@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Understanding standardization gaps is not required to evaluate build-versus-buy tradeoffs based on cost, control, and time-to-market."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Making a build-versus-buy decision does not require first understanding why foundation model evaluation lacks universal standards."
+  }
+}

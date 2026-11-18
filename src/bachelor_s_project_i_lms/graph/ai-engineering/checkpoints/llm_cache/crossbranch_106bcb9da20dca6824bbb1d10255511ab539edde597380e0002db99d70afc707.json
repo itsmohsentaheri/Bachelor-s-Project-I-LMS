@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": true,
+    "confidence": 0.85,
+    "rationale": "A learner must first identify the structural components of an AI application (UI, data pipelines, external tools) before they can meaningfully evaluate each of those components for capability, cost, and latency."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Evaluating system components does not require prior knowledge of how to architect or identify those components; evaluation is a separate activity that follows system design."
+  }
+}

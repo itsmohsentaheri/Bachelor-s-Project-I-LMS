@@ -1,0 +1,25 @@
+{
+  "learning_objective": "The learner can map technical evaluation metrics to specific business outcomes to ensure system performance aligns with organizational goals.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "metrics_are_the_goal",
+      "description": "Believing that metrics themselves are the goal rather than a means to identify problems and improvement opportunities."
+    },
+    {
+      "id": "technical_only_focus",
+      "description": "Focusing solely on technical performance scores like relevancy without connecting them to business value or user needs."
+    },
+    {
+      "id": "ignoring_cost_metrics",
+      "description": "Overlooking cost-related metrics such as query volume and token usage when tying evaluation to business outcomes."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p491_748",
+    "chunk_p525_794",
+    "chunk_p493_751"
+  ]
+}

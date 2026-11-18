@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Defining a prompt and its components does not require prior knowledge of the overall structural components of AI applications."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Identifying high-level application components such as UIs, data pipelines, and external tools can be done without first mastering prompt fundamentals."
+  }
+}

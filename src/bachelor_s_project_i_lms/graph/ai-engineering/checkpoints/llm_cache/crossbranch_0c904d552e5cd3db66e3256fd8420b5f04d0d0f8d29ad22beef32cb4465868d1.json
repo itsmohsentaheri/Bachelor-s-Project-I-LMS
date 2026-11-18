@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": true,
+    "confidence": 0.95,
+    "rationale": "A learner must first understand what fine-tuning is before they can meaningfully evaluate whether to use it versus prompt-based methods."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.95,
+    "rationale": "Knowing when to fine-tune is a decision-making skill that depends on first understanding the concept of fine-tuning itself."
+  }
+}

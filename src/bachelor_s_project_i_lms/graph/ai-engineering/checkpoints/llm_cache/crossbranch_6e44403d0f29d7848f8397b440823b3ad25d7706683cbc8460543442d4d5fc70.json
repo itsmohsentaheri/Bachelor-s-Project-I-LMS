@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "B focuses on high-level financial and infrastructure trade-offs between API and self-hosting, which can be understood without the system-level cost and latency calculation skills taught in A."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "A involves calculating system-level cost and latency using compute cost, throughput, and parallelism, which does not require first understanding the proprietary vs. self-hosting trade-offs covered in B."
+  }
+}

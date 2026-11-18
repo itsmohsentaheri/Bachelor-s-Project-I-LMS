@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Assessing operational factors alongside quality criteria does not require prior mastery of defining specific inference performance metrics, as the latter is a narrower technical skill that can be learned independently."
+  },
+  "b_before_a": {
+    "is_prerequisite": true,
+    "confidence": 0.85,
+    "rationale": "Meaningfully assessing cost and latency as operational evaluation factors requires first understanding what latency, throughput, and goodput are and how they measure inference speed and cost."
+  }
+}

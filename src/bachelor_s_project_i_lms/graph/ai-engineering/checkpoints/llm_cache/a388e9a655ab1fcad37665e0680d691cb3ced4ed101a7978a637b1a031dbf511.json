@@ -1,0 +1,29 @@
+{
+  "subtopics": [
+    {
+      "title": "Training Data Selection and Quality",
+      "summary": "Choosing and validating the data used for pre-training and post-training, including data quality, quantity, and synthesis methods that impact model alignment and capabilities.",
+      "is_atomic": false
+    },
+    {
+      "title": "Model Architecture and Scaling",
+      "summary": "Architectural choices such as transformer blocks, attention mechanisms, and scaling decisions that determine model capacity and training bottlenecks.",
+      "is_atomic": false
+    },
+    {
+      "title": "Post-Training Finetuning Strategies",
+      "summary": "Decisions around supervised finetuning (SFT) and preference finetuning to align model outputs with user intent after pre-training.",
+      "is_atomic": false
+    },
+    {
+      "title": "Hyperparameter Optimization",
+      "summary": "Selection of learning rates, batch sizes, and other training hyperparameters that affect convergence, cost, and final model performance.",
+      "is_atomic": false
+    },
+    {
+      "title": "Training Efficiency and Cost Management",
+      "summary": "Techniques to make training faster and cheaper, including quantization, pruning, and resource allocation decisions.",
+      "is_atomic": false
+    }
+  ]
+}

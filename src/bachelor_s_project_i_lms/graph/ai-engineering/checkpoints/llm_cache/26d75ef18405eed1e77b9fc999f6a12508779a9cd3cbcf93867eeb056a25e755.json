@@ -1,0 +1,24 @@
+{
+  "subtopics": [
+    {
+      "title": "Evaluation Criteria Definition",
+      "summary": "Defining what to measure in AI systems, including domain-specific capabilities, generation capability, instruction-following capability, and cost and latency metrics.",
+      "is_atomic": false
+    },
+    {
+      "title": "Evaluation Methods and Data Selection",
+      "summary": "Selecting appropriate evaluation methods such as toxicity classifiers, semantic similarity, and AI judges, along with annotating evaluation data and creating scoring rubrics with examples.",
+      "is_atomic": false
+    },
+    {
+      "title": "Evaluation Pipeline Design",
+      "summary": "Designing the end-to-end evaluation pipeline including creating evaluation guidelines, evaluating all system components, tying metrics to business metrics, and iterating on the pipeline.",
+      "is_atomic": false
+    },
+    {
+      "title": "Comparative vs Absolute Performance Evaluation",
+      "summary": "Understanding the differences between comparative performance evaluation (ranking models) and absolute performance evaluation, including challenges like lack of standardization and scalability bottlenecks.",
+      "is_atomic": false
+    }
+  ]
+}

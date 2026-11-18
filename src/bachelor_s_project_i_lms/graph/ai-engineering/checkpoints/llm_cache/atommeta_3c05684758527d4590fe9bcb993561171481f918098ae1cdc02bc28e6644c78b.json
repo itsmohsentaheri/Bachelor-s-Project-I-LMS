@@ -1,0 +1,24 @@
+{
+  "learning_objective": "The learner can compute a model ranking from historical pairwise match outcomes and use it to predict future match outcomes.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "ground_truth_ranking",
+      "description": "Believing there is a single ground truth for the correct model ranking rather than a predictive quality measure."
+    },
+    {
+      "id": "elo_equivalence",
+      "description": "Assuming Bradley-Terry scores are identical to Elo scores without scaling transformations."
+    },
+    {
+      "id": "sufficient_matches",
+      "description": "Thinking a ranking is reliable for all model pairs regardless of the number of matches observed."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p175_267",
+    "chunk_p175_266"
+  ]
+}

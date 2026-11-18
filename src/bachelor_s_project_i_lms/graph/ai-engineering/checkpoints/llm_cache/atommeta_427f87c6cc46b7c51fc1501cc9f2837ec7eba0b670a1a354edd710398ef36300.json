@@ -1,0 +1,19 @@
+{
+  "learning_objective": "The learner can identify the limitations and failure modes of simple AI application architectures that motivate the addition of further components.",
+  "estimated_time_min": 10,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "simple_architecture_sufficiency",
+      "description": "Believing that the simplest architecture is sufficient for all AI applications without considering its limitations."
+    },
+    {
+      "id": "no_failure_modes",
+      "description": "Assuming that simple AI architectures do not have specific failure modes that require additional components to address."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p478_730"
+  ]
+}

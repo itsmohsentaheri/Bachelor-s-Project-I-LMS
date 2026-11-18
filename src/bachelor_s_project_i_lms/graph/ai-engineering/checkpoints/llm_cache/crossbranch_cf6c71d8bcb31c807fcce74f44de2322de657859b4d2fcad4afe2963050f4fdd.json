@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Understanding how to incrementally add engineering components to an AI product is not required to apply prompt engineering best practices such as crafting instructions or versioning prompts."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Mastering prompt engineering best practices is not required to describe the general architectural approach of gradually adding components to address challenges in AI applications."
+  }
+}

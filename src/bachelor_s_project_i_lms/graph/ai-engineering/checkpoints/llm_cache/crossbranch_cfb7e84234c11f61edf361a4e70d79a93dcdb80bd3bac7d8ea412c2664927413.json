@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Understanding agent planning does not require first knowing the limitations of simple AI application architectures; one can learn how agents decompose tasks and sequence actions independently of architectural failure modes."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Identifying limitations of simple AI architectures does not require mastering agent planning, as simple architectures may not involve agents at all and their failure modes can be understood without knowledge of autonomous task decomposition."
+  }
+}

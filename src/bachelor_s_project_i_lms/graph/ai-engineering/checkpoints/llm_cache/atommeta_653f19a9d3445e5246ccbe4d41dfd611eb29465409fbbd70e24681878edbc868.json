@@ -1,0 +1,25 @@
+{
+  "learning_objective": "The learner can evaluate a model's performance using benchmarks, evaluation metrics, and comparative testing to determine its suitability for a target application.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "public_benchmarks_guarantee_best_model",
+      "description": "Believing that public benchmarks alone can identify the best model for a specific application."
+    },
+    {
+      "id": "comparative_means_absolute_quality",
+      "description": "Confusing comparative evaluation (which model is better) with absolute performance (whether a model is good enough)."
+    },
+    {
+      "id": "benchmark_contamination_irrelevant",
+      "description": "Assuming benchmark results are always valid despite potential data contamination in model training sets."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p183_279",
+    "chunk_p233_366",
+    "chunk_p178_273"
+  ]
+}

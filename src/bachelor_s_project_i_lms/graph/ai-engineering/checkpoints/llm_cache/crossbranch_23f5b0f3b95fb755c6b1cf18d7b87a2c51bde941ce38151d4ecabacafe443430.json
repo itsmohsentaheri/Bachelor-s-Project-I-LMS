@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.95,
+    "rationale": "The two atoms cover identical learning objectives and content, so mastering A is not required to understand B."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.95,
+    "rationale": "The two atoms cover identical learning objectives and content, so mastering B is not required to understand A."
+  }
+}

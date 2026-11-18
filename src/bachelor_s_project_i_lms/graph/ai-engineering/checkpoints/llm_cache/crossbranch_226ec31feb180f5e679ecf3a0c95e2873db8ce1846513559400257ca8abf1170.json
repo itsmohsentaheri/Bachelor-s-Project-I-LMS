@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Defining data quality and its impact is conceptual and not required to describe specific programmatic verification methods like code execution and back-translation."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Knowing programmatic verification methods for synthetic data is not necessary to define data quality or explain its general impact on model performance."
+  }
+}

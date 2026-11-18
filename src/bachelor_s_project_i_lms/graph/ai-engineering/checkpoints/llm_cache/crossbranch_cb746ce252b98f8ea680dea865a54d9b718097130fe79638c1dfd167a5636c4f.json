@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Defining application requirements involves identifying needs such as latency and cost, which does not require the ability to calculate system-level cost and latency for model deployment."
+  },
+  "b_before_a": {
+    "is_prerequisite": true,
+    "confidence": 0.9,
+    "rationale": "Meaningfully calculating system-level cost and latency requires first knowing the specific functional and non-functional application requirements that define the criteria for evaluation."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Understanding how to verify synthetic data programmatically is not required to explain why synthetic data generation increases data quantity, coverage, and quality."
+  },
+  "b_before_a": {
+    "is_prerequisite": true,
+    "confidence": 0.9,
+    "rationale": "Meaningfully describing verification methods for synthetic data requires first understanding what synthetic data generation is and why it is used."
+  }
+}

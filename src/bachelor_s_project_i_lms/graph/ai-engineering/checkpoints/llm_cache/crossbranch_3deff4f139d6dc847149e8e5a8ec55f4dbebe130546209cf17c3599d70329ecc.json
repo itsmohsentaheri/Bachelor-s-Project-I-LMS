@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Identifying security risks from tool use in agents does not require prior mastery of prompt attack defenses, as these are distinct threat domains."
+  },
+  "b_before_a": {
+    "is_prerequisite": true,
+    "confidence": 0.85,
+    "rationale": "Understanding prompt attacks and defenses provides foundational knowledge of adversarial inputs and mitigation strategies that is necessary to meaningfully grasp the broader security risks introduced by agent tool use."
+  }
+}

@@ -1,0 +1,1367 @@
+[
+  {
+    "from_temp_id": "t_001a338b45",
+    "to_temp_id": "t_0724fc6efb",
+    "confidence": 0.85,
+    "rationale": "Understanding that comparative rankings do not establish absolute adequacy is necessary to meaningfully apply decision criteria when benchmarks conflict, since conflicting results require judging whether any candidate meets an absolute threshold rather than merely picking the relative winner.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_001a338b45",
+    "to_temp_id": "t_775c4ee484",
+    "confidence": 0.8,
+    "rationale": "Understanding the concept of comparative performance evaluation is necessary before analyzing its scalability bottlenecks.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_001a338b45",
+    "to_temp_id": "t_f98a2125c1",
+    "confidence": 0.9,
+    "rationale": "Understanding the fundamental distinction between comparative and absolute performance evaluation is necessary before one can meaningfully analyze the specific limitations of comparative rankings.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_042bd1eccf",
+    "to_temp_id": "t_0dbad374d4",
+    "confidence": 0.7,
+    "rationale": "Understanding the end-to-end evaluation pipeline provides the necessary framework for systematically assessing all system components.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_5462fb57a2",
+    "to_temp_id": "t_042bd1eccf",
+    "confidence": 0.8,
+    "rationale": "Meaningfully outlining an end-to-end evaluation pipeline requires understanding how to create annotation guidelines and fact-check data, as these are core components of the annotation process.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_736f711553",
+    "to_temp_id": "t_042bd1eccf",
+    "confidence": 0.85,
+    "rationale": "Designing an end-to-end evaluation pipeline inherently includes creating evaluation guidelines as one of its core stages, making guideline creation a prerequisite sub-skill.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_8d3005ebb4",
+    "to_temp_id": "t_042bd1eccf",
+    "confidence": 0.9,
+    "rationale": "Meaningfully outlining an end-to-end evaluation pipeline requires understanding how to define evaluation methods and data, as these are core components of the process.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_a60472f235",
+    "to_temp_id": "t_042bd1eccf",
+    "confidence": 0.8,
+    "rationale": "Meaningfully outlining an end-to-end evaluation system requires knowing which evaluation methods and scoring rubrics to apply at each stage, making B foundational to A.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_042bd1eccf",
+    "to_temp_id": "t_b1d9f5ac83",
+    "confidence": 0.85,
+    "rationale": "Mastering the end-to-end design of an evaluation pipeline is necessary before one can meaningfully assess its specific cost, latency, and metric correlation for iteration.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_341cf5a94e",
+    "to_temp_id": "t_05c1920d7f",
+    "confidence": 0.95,
+    "rationale": "A learner must first understand what foundation models are and that they are pre-trained on large datasets before they can meaningfully understand the specifics of full parameter updates during pre-training.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_05c1920d7f",
+    "to_temp_id": "t_81a85a6565",
+    "confidence": 0.85,
+    "rationale": "Understanding that all parameters are updated during pre-training establishes the baseline concept of full parameter training, which is necessary to meaningfully define full finetuning as training all model parameters.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_05c1920d7f",
+    "to_temp_id": "t_d024cced90",
+    "confidence": 0.85,
+    "rationale": "Understanding that pre-training updates all model parameters provides the necessary baseline to comprehend how adapter-based finetuning differs by keeping those original parameters frozen.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_065bcd1f30",
+    "to_temp_id": "t_0dbad374d4",
+    "confidence": 0.85,
+    "rationale": "A learner must first identify the structural components of an AI application (UI, data pipelines, external tools) before they can meaningfully assess every part of that system.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_065bcd1f30",
+    "to_temp_id": "t_2e5860dbdc",
+    "confidence": 0.85,
+    "rationale": "A learner must first identify the structural components of an AI application (UI, data pipelines, external tools) before they can meaningfully evaluate each of those components for capability, cost, and latency.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_72a21ccb15",
+    "to_temp_id": "t_065bcd1f30",
+    "confidence": 0.85,
+    "rationale": "Understanding the simplest baseline architecture of a model and UI provides the foundational context needed to meaningfully identify the more complex structural components of AI applications in A.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_065bcd1f30",
+    "to_temp_id": "t_7da13d7633",
+    "confidence": 0.8,
+    "rationale": "Understanding the structural components of AI applications is necessary to meaningfully evaluate how user feedback determines whether the application achieves its intended goals.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_065bcd1f30",
+    "to_temp_id": "t_851d1c48e1",
+    "confidence": 0.9,
+    "rationale": "Understanding the structural components of AI applications is necessary before one can meaningfully describe how to incrementally add engineering components to address specific challenges.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_065bcd1f30",
+    "to_temp_id": "t_b9e8dbe46e",
+    "confidence": 0.95,
+    "rationale": "A learner must first understand the structural components of AI applications before they can meaningfully identify the limitations and failure modes of those simple architectures.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_caeccbb9c3",
+    "to_temp_id": "t_065bcd1f30",
+    "confidence": 0.85,
+    "rationale": "Meaningfully integrating a foundation model into an application architecture requires knowing how to compare models on architecture, parameter size, modality support, and performance to match application needs.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_065bcd1f30",
+    "to_temp_id": "t_f339082d04",
+    "confidence": 0.85,
+    "rationale": "Understanding the general structural components of AI applications provides the necessary context to comprehend how a RAG system fits as a specific architectural pattern integrating retrieval and generation.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_4c237b0dda",
+    "to_temp_id": "t_0724fc6efb",
+    "confidence": 0.95,
+    "rationale": "A learner must first know what domain-specific benchmarks are available before they can meaningfully apply decision criteria to reconcile contradictory results across them.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_67b3bb12ac",
+    "to_temp_id": "t_0724fc6efb",
+    "confidence": 0.85,
+    "rationale": "Understanding the fundamental difficulties of evaluating foundation models provides the necessary context for meaningfully applying decision criteria to resolve contradictory benchmark results.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_902227c859",
+    "to_temp_id": "t_0724fc6efb",
+    "confidence": 0.95,
+    "rationale": "A learner must first know how to select appropriate evaluation methods before they can meaningfully interpret and resolve contradictory results across different benchmarks.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_a095b8da97",
+    "to_temp_id": "t_0724fc6efb",
+    "confidence": 0.9,
+    "rationale": "Understanding that comparative evaluation only ranks models relative to one another is necessary to meaningfully interpret and resolve contradictory benchmark results across different models.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_c44d3c19ae",
+    "to_temp_id": "t_0724fc6efb",
+    "confidence": 0.9,
+    "rationale": "Understanding the challenges in gathering reliable comparison signals and ranking models is necessary to meaningfully interpret contradictory benchmark results and apply decision criteria to select a model.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_caeccbb9c3",
+    "to_temp_id": "t_0724fc6efb",
+    "confidence": 0.85,
+    "rationale": "Meaningfully resolving contradictory benchmark results requires first being able to compare foundation models' capabilities and performance characteristics to interpret which model is better suited for the task domain.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_d3aea406f0",
+    "to_temp_id": "t_0724fc6efb",
+    "confidence": 0.95,
+    "rationale": "A learner must first understand that comparative results alone cannot determine model adequacy before they can meaningfully apply decision criteria to select among models with contradictory benchmark results.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_f44fa190e3",
+    "to_temp_id": "t_0724fc6efb",
+    "confidence": 0.95,
+    "rationale": "Meaningfully resolving contradictory benchmark results depends on first mastering how to evaluate model performance using benchmarks, metrics, and comparative testing.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_f98a2125c1",
+    "to_temp_id": "t_0724fc6efb",
+    "confidence": 0.95,
+    "rationale": "Understanding that comparative rankings do not reveal absolute performance is necessary before a learner can meaningfully apply decision criteria to select a model when benchmarks contradict.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_341cf5a94e",
+    "to_temp_id": "t_08c862a096",
+    "confidence": 0.95,
+    "rationale": "Defining foundation models and their core characteristics, including pre-training, is necessary before a learner can meaningfully understand pre-training as a parameter compression framework.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_366e056e20",
+    "to_temp_id": "t_0aeab9cbd3",
+    "confidence": 0.7,
+    "rationale": "Mastering the general concept of data quality and how high-quality data impacts performance provides the necessary foundation to understand why annotation consistency is a specific requirement for avoiding model confusion during training.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_26db6fe3a8",
+    "to_temp_id": "t_0bd7b8ffc7",
+    "confidence": 0.85,
+    "rationale": "Understanding training bottlenecks and resource constraints provides the necessary context for why model-level inference optimization techniques such as quantization and distillation are used to reduce model size or improve efficiency.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_8af6d8cd02",
+    "to_temp_id": "t_0bd7b8ffc7",
+    "confidence": 0.85,
+    "rationale": "Meaningfully understanding how quantization and distillation affect model size and efficiency requires a foundational grasp of model capacity, parameters, and expressiveness.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_2110576f87",
+    "to_temp_id": "t_0dbad374d4",
+    "confidence": 0.8,
+    "rationale": "Meaningfully assessing every part of an AI application requires a defined evaluation guideline that specifies what the application should and shouldn't do, including out-of-scope inputs and appropriate responses.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_a46cc3d8fd",
+    "to_temp_id": "t_0dbad374d4",
+    "confidence": 0.9,
+    "rationale": "Meaningfully evaluating all system components requires annotated evaluation data and clear scoring rubrics to measure performance.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_b9e8dbe46e",
+    "to_temp_id": "t_0dbad374d4",
+    "confidence": 0.85,
+    "rationale": "Understanding why simple AI architectures fail provides the motivation and context needed to meaningfully assess every component of a more complete system.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_f44fa190e3",
+    "to_temp_id": "t_0dbad374d4",
+    "confidence": 0.85,
+    "rationale": "Meaningfully assessing every part of an AI application requires first being able to evaluate the model's performance using benchmarks and metrics.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_0e778f57c5",
+    "to_temp_id": "t_4e8be94938",
+    "confidence": 0.8,
+    "rationale": "Understanding factual consistency as a general quality criterion for generated text is necessary before applying it specifically to RAG systems.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_0e778f57c5",
+    "to_temp_id": "t_7309e0f073",
+    "confidence": 0.9,
+    "rationale": "To create a meaningful scoring rubric for generated text, a learner must first understand the specific quality criteria (fluency, coherence, etc.) that the rubric is intended to measure.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_0e778f57c5",
+    "to_temp_id": "t_902227c859",
+    "confidence": 0.9,
+    "rationale": "A learner must first understand what fluency, coherence, factual consistency, faithfulness, and safety mean before they can meaningfully select appropriate evaluation methods for those criteria.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_736f711553",
+    "to_temp_id": "t_0ea8815a09",
+    "confidence": 0.95,
+    "rationale": "Meaningfully assessing and iterating an evaluation pipeline requires first having established evaluation guidelines defining what the application should and shouldn't do.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_8d3005ebb4",
+    "to_temp_id": "t_0ea8815a09",
+    "confidence": 0.95,
+    "rationale": "A learner must first define evaluation methods and data before they can meaningfully assess the reliability of an evaluation pipeline and iterate on it.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_a60472f235",
+    "to_temp_id": "t_0ea8815a09",
+    "confidence": 0.9,
+    "rationale": "Meaningfully evaluating pipeline reliability and iterating on guidelines requires foundational knowledge of appropriate evaluation methods and unambiguous scoring rubrics.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_a9fcb66514",
+    "to_temp_id": "t_0ea8815a09",
+    "confidence": 0.85,
+    "rationale": "Meaningfully assessing and iterating an evaluation pipeline requires understanding how to measure specific capabilities, such as whether a model's output meets specified instruction criteria.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_f44fa190e3",
+    "to_temp_id": "t_0ea8815a09",
+    "confidence": 0.9,
+    "rationale": "Meaningfully assessing and iterating an evaluation pipeline requires first understanding how to evaluate model performance using benchmarks, metrics, and comparative testing.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_2720672e7d",
+    "to_temp_id": "t_156e29b965",
+    "confidence": 0.95,
+    "rationale": "Understanding what RAG is and how it connects a foundation model to an external database is necessary before one can meaningfully compare it to finetuning and decide which failure mode it addresses.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_29bee4d996",
+    "to_temp_id": "t_156e29b965",
+    "confidence": 0.9,
+    "rationale": "To meaningfully decide whether to apply finetuning as a solution to a behavior-based failure, a learner must first understand what finetuning is and how it adapts a model's weights.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_530aa6c72d",
+    "to_temp_id": "t_156e29b965",
+    "confidence": 0.85,
+    "rationale": "Meaningfully deciding whether to apply finetuning (as opposed to RAG) requires understanding what finetuning, including preference finetuning, actually does to align model behavior.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_60d25cece2",
+    "to_temp_id": "t_156e29b965",
+    "confidence": 0.9,
+    "rationale": "Atom B establishes the criteria for choosing finetuning over prompt-based methods, which is necessary before a learner can meaningfully compare RAG against finetuning in Atom A.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_dc1c01f07b",
+    "to_temp_id": "t_156e29b965",
+    "confidence": 0.9,
+    "rationale": "Deciding whether to apply RAG, finetuning, or both requires understanding what supervised finetuning does to a model's behavior, since finetuning is one of the options being evaluated.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_1c70841eef",
+    "to_temp_id": "t_60d25cece2",
+    "confidence": 0.8,
+    "rationale": "To determine whether to finetune or use prompt-based methods, a learner must first understand what a prompt is and its key components, as prompt-based methods are one of the primary alternatives being evaluated.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_1c70841eef",
+    "to_temp_id": "t_91435595dd",
+    "confidence": 0.9,
+    "rationale": "Understanding what a prompt is and its key components is necessary before one can meaningfully learn how to craft those prompts to guide foundation models.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_f44fa190e3",
+    "to_temp_id": "t_1fcded6064",
+    "confidence": 0.85,
+    "rationale": "Understanding how to evaluate model performance using benchmarks and metrics is necessary before meaningfully identifying and applying domain-specific capability benchmarks.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_2110576f87",
+    "to_temp_id": "t_8d3005ebb4",
+    "confidence": 0.85,
+    "rationale": "Creating evaluation guidelines defines the criteria and expected behaviors (including out-of-scope handling) that must be established before appropriate evaluation methods and data can be selected and annotated.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_2110576f87",
+    "to_temp_id": "t_a60472f235",
+    "confidence": 0.8,
+    "rationale": "Defining what an application should and shouldn't do via evaluation guidelines establishes the criteria and scope that must be understood before selecting appropriate evaluation methods and creating scoring rubrics.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_a9fcb66514",
+    "to_temp_id": "t_2110576f87",
+    "confidence": 0.8,
+    "rationale": "Understanding how to define instruction-following and measure whether outputs meet specified criteria is necessary to create meaningful evaluation guidelines that specify what an application should and shouldn't do.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_2720672e7d",
+    "to_temp_id": "t_4b54f47b40",
+    "confidence": 0.9,
+    "rationale": "Understanding RAG is necessary to grasp how memory systems specifically support RAG and agent applications by managing information beyond context length.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_2720672e7d",
+    "to_temp_id": "t_4e8be94938",
+    "confidence": 0.95,
+    "rationale": "Understanding what RAG is and how it connects a foundation model to an external database is necessary before one can meaningfully evaluate factual consistency in RAG systems.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_2720672e7d",
+    "to_temp_id": "t_5d3c8468d7",
+    "confidence": 0.9,
+    "rationale": "Understanding what RAG is and its purpose is necessary before identifying specific starting points for its implementation.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_2720672e7d",
+    "to_temp_id": "t_f339082d04",
+    "confidence": 0.9,
+    "rationale": "Understanding the definition and purpose of RAG is necessary before describing its specific two-component architecture.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_288b4ecd56",
+    "to_temp_id": "t_3d6c76e0ce",
+    "confidence": 0.85,
+    "rationale": "Understanding what parameter-efficient finetuning is and how adapter-based techniques like LoRA reduce compute and memory is necessary to meaningfully compare full finetuning and adapter-based finetuning in terms of compute requirements.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_81a85a6565",
+    "to_temp_id": "t_288b4ecd56",
+    "confidence": 0.9,
+    "rationale": "Full finetuning establishes the baseline of training all parameters, which is necessary to meaningfully understand how parameter-efficient techniques reduce the number of trainable parameters compared to that baseline.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_8638f433db",
+    "to_temp_id": "t_288b4ecd56",
+    "confidence": 0.85,
+    "rationale": "Calculating memory footprint provides the foundational understanding of resource constraints that motivates and contextualizes the need for parameter-efficient finetuning techniques like LoRA and PEFT.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_d024cced90",
+    "to_temp_id": "t_288b4ecd56",
+    "confidence": 0.9,
+    "rationale": "Adapter-based finetuning is a concrete instance of parameter-efficient finetuning, and mastering how adapters work provides the foundational example needed to understand the broader PEFT concept.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_341cf5a94e",
+    "to_temp_id": "t_29bee4d996",
+    "confidence": 0.95,
+    "rationale": "A learner must first understand what foundation models are and their core characteristics before they can meaningfully understand how to fine-tune them for a specific task.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_29bee4d996",
+    "to_temp_id": "t_3d6c76e0ce",
+    "confidence": 0.95,
+    "rationale": "Understanding the definition of fine-tuning as adapting a foundation model's weights is necessary before comparing specific fine-tuning frameworks and their compute requirements.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_29bee4d996",
+    "to_temp_id": "t_60d25cece2",
+    "confidence": 0.95,
+    "rationale": "A learner must first understand what fine-tuning is before they can meaningfully evaluate whether to use it versus prompt-based methods.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_29bee4d996",
+    "to_temp_id": "t_81a85a6565",
+    "confidence": 0.9,
+    "rationale": "Understanding the general concept of fine-tuning as adapting a foundation model is necessary before specializing to full finetuning, which trains all parameters.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_29bee4d996",
+    "to_temp_id": "t_8638f433db",
+    "confidence": 0.9,
+    "rationale": "Understanding the definition and purpose of fine-tuning is necessary before calculating the memory footprint of the fine-tuning process.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_29bee4d996",
+    "to_temp_id": "t_d024cced90",
+    "confidence": 0.95,
+    "rationale": "Understanding the general concept of fine-tuning as adapting a foundation model via task-specific data is necessary before learning the specific adapter-based technique that modifies this process.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_2c3e508397",
+    "to_temp_id": "t_7a0306103e",
+    "confidence": 0.85,
+    "rationale": "Understanding how SFT shifts a model toward instruction-following is necessary to meaningfully define and evaluate instruction-following capability, since evaluation targets the behavior SFT is designed to produce.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_2c3e508397",
+    "to_temp_id": "t_a9fcb66514",
+    "confidence": 0.85,
+    "rationale": "Understanding how SFT shifts a model toward instruction-following provides the necessary conceptual foundation for defining and measuring that capability.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_a60472f235",
+    "to_temp_id": "t_2e5860dbdc",
+    "confidence": 0.9,
+    "rationale": "Meaningfully evaluating all components of an AI system requires knowing how to select appropriate evaluation methods and create unambiguous scoring rubrics for each criterion.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_a9fcb66514",
+    "to_temp_id": "t_2e5860dbdc",
+    "confidence": 0.85,
+    "rationale": "Instruction-following capability is one of the specific components listed in Atom A's objective, so understanding how to define and measure it is necessary before meaningfully evaluating all components of an AI system.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_91435595dd",
+    "to_temp_id": "t_2eddc8df3d",
+    "confidence": 0.95,
+    "rationale": "Understanding prompt engineering as crafting instructions to guide foundation models is necessary before meaningfully learning about specific tools for structured outputs, prompt variation, and associated API risks.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_33361f54c6",
+    "to_temp_id": "t_366e056e20",
+    "confidence": 0.8,
+    "rationale": "Understanding the specific dimensions of data quality (completeness, uniqueness, validity, accuracy, consistency, fitness for purpose) provides the concrete criteria needed to meaningfully define and evaluate data quality in model training and its impact on performance.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_366e056e20",
+    "to_temp_id": "t_3344494d0f",
+    "confidence": 0.85,
+    "rationale": "Understanding what constitutes data quality and why it matters provides the necessary motivation and criteria for performing data cleaning and filtering effectively.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_341cf5a94e",
+    "to_temp_id": "t_3fcfac59d6",
+    "confidence": 0.9,
+    "rationale": "Understanding what foundation models are and their core characteristics is necessary before one can meaningfully discuss the challenges of standardizing and quality-controlling their evaluation.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_341cf5a94e",
+    "to_temp_id": "t_45aa258ab0",
+    "confidence": 0.95,
+    "rationale": "Understanding what a foundation model is and its pre-training characteristics is necessary before describing how supervised and preference finetuning adapt that pre-trained model.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_341cf5a94e",
+    "to_temp_id": "t_6273eda570",
+    "confidence": 0.9,
+    "rationale": "A learner must understand what foundation models are and their core characteristics before they can meaningfully evaluate whether to build one in-house or buy an existing one.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_341cf5a94e",
+    "to_temp_id": "t_67b3bb12ac",
+    "confidence": 0.9,
+    "rationale": "Understanding what foundation models are and their core characteristics is necessary before one can meaningfully explain why evaluating their open-ended outputs is more difficult than traditional ML.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_341cf5a94e",
+    "to_temp_id": "t_7166f3aaec",
+    "confidence": 0.9,
+    "rationale": "Understanding what foundation models are and their core characteristics is necessary before one can meaningfully discuss the challenges of standardizing and quality-controlling their evaluation.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_341cf5a94e",
+    "to_temp_id": "t_72a21ccb15",
+    "confidence": 0.9,
+    "rationale": "Understanding what foundation models are and their core characteristics is necessary before describing an application architecture that centers on such a model.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_341cf5a94e",
+    "to_temp_id": "t_caeccbb9c3",
+    "confidence": 0.9,
+    "rationale": "Understanding what foundation models are and their core characteristics is necessary before one can meaningfully compare them based on architecture, size, modality, and performance.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_366e056e20",
+    "to_temp_id": "t_34266a5472",
+    "confidence": 0.85,
+    "rationale": "A learner must first understand what data quality is and how it affects model performance to meaningfully grasp how DataPerf and dcbench measure dataset quality through model performance metrics.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_f44fa190e3",
+    "to_temp_id": "t_34266a5472",
+    "confidence": 0.85,
+    "rationale": "To meaningfully understand how DataPerf and dcbench assess dataset quality through model performance metrics, a learner must first understand the general concepts of evaluating model performance using benchmarks and metrics.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_366e056e20",
+    "to_temp_id": "t_6244b688a5",
+    "confidence": 0.85,
+    "rationale": "Understanding data quality and its impact on model performance provides the necessary conceptual foundation for identifying which samples are low-quality and should be removed during filtering.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_366e056e20",
+    "to_temp_id": "t_9f803e8324",
+    "confidence": 0.8,
+    "rationale": "Understanding data quality and its impact on model performance is necessary to meaningfully assess dataset quality through downstream task evaluation.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_366e056e20",
+    "to_temp_id": "t_b9e490248d",
+    "confidence": 0.8,
+    "rationale": "Understanding data quality and its impact on model performance is necessary to meaningfully grasp how data-centric benchmark competitions evaluate dataset quality through model training and downstream task performance.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_366e056e20",
+    "to_temp_id": "t_c8f3f79bc8",
+    "confidence": 0.85,
+    "rationale": "Understanding data quality and its impact on model performance is necessary to meaningfully identify limitations of synthetic data such as quality control challenges and model collapse.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_5462fb57a2",
+    "to_temp_id": "t_3a445bdc44",
+    "confidence": 0.75,
+    "rationale": "Meaningfully collecting and incorporating user feedback to improve AI applications requires understanding how to create annotation guidelines and fact-check annotations to ensure the feedback data is accurate and aligned with task requirements.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_7309e0f073",
+    "to_temp_id": "t_3a445bdc44",
+    "confidence": 0.85,
+    "rationale": "Meaningfully incorporating user feedback to evaluate and improve AI applications requires the ability to create and validate consistent scoring rubrics to assess that feedback.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_7da13d7633",
+    "to_temp_id": "t_3a445bdc44",
+    "confidence": 0.8,
+    "rationale": "Understanding why user feedback is collected to evaluate goal achievement (B) is necessary before learning the specific methods for collecting, processing, and incorporating that feedback to improve performance (A).",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_a46cc3d8fd",
+    "to_temp_id": "t_3a445bdc44",
+    "confidence": 0.85,
+    "rationale": "Understanding how to annotate evaluation data and establish scoring rubrics is necessary to meaningfully collect, process, and incorporate user feedback for performance evaluation.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_b9e8dbe46e",
+    "to_temp_id": "t_3a445bdc44",
+    "confidence": 0.85,
+    "rationale": "Recognizing the failure modes of simple architectures provides the necessary motivation and context for why user feedback integration is needed to improve AI applications.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_d532fb9769",
+    "to_temp_id": "t_3a445bdc44",
+    "confidence": 0.85,
+    "rationale": "Understanding how human feedback is collected to create preferred versus rejected response pairs provides the foundational concept of user feedback needed to meaningfully explain methods for incorporating that feedback to improve AI application performance.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_e3acd0469e",
+    "to_temp_id": "t_3ae4c6e4b1",
+    "confidence": 0.85,
+    "rationale": "Determining whether model development is economically viable requires understanding how data quantity affects training costs, since data quantity is a key factor in those costs.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_45aa258ab0",
+    "to_temp_id": "t_3d6c76e0ce",
+    "confidence": 0.85,
+    "rationale": "Meaningfully comparing finetuning frameworks and compute requirements requires first understanding what post-training finetuning (supervised and preference finetuning) is and why it is performed.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_dc1c01f07b",
+    "to_temp_id": "t_3d6c76e0ce",
+    "confidence": 0.9,
+    "rationale": "Meaningfully comparing full and adapter-based finetuning frameworks requires first understanding what supervised finetuning is and how it transforms model behavior.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_3f224281e0",
+    "to_temp_id": "t_8d3005ebb4",
+    "confidence": 0.75,
+    "rationale": "Manual data inspection provides the foundational ability to assess annotation trustworthiness and identify conflicting labels, which is necessary before a learner can meaningfully define evaluation methods and annotate evaluation data.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_46105a7d8b",
+    "to_temp_id": "t_d024cced90",
+    "confidence": 0.95,
+    "rationale": "Understanding adapter-based finetuning requires knowing where adapter modules are inserted within transformer layers and how they interact with self-attention and feed-forward components, which is precisely what the Transformer Block Architecture objective covers.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_8d3005ebb4",
+    "to_temp_id": "t_488c280376",
+    "confidence": 0.9,
+    "rationale": "A learner must be able to define evaluation methods and data before they can meaningfully map those metrics to specific business outcomes.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_a60472f235",
+    "to_temp_id": "t_488c280376",
+    "confidence": 0.85,
+    "rationale": "Meaningfully tying technical metrics to business outcomes requires first knowing how to select appropriate evaluation methods and create unambiguous scoring rubrics, since business metrics must be operationalized through concrete evaluation criteria.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_f44fa190e3",
+    "to_temp_id": "t_488c280376",
+    "confidence": 0.95,
+    "rationale": "A learner must first be able to evaluate model performance with benchmarks and metrics before they can meaningfully map those technical metrics to specific business outcomes.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_4968c221ed",
+    "to_temp_id": "t_b96850e53f",
+    "confidence": 0.85,
+    "rationale": "Understanding how foundation models are pre-trained via self-supervised objectives is necessary to meaningfully grasp how those same models are subsequently leveraged to generate synthetic instruction data.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_ab87193c4b",
+    "to_temp_id": "t_4b42a40057",
+    "confidence": 0.9,
+    "rationale": "Meaningfully describing verification methods for synthetic data requires first understanding what synthetic data generation is and why it is used.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_f44fa190e3",
+    "to_temp_id": "t_4c237b0dda",
+    "confidence": 0.85,
+    "rationale": "Understanding how to evaluate model performance using benchmarks and metrics is necessary before meaningfully identifying and applying domain-specific capability benchmarks.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_71b4e6ed11",
+    "to_temp_id": "t_4e8be94938",
+    "confidence": 0.85,
+    "rationale": "Understanding factual consistency as a general generation capability metric provides the foundational concept needed to meaningfully explain how it serves as a key evaluation criterion specifically for RAG systems.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_7309e0f073",
+    "to_temp_id": "t_4e8be94938",
+    "confidence": 0.9,
+    "rationale": "Meaningfully evaluating factual consistency in RAG requires an unambiguous scoring rubric to define and validate what constitutes alignment with retrieved context.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_902227c859",
+    "to_temp_id": "t_4e8be94938",
+    "confidence": 0.85,
+    "rationale": "A learner must first know how to select appropriate evaluation methods for factual consistency (e.g., AI judges) before they can meaningfully explain factual consistency as a key evaluation criterion for RAG systems.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_5462fb57a2",
+    "to_temp_id": "t_a46cc3d8fd",
+    "confidence": 0.85,
+    "rationale": "Creating annotation guidelines and fact-checking annotations (A) provides the foundational skills needed to curate a set of annotated examples with clear scoring rubrics (B).",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_ab83c21e14",
+    "to_temp_id": "t_55cb37fbc9",
+    "confidence": 0.9,
+    "rationale": "Understanding data coverage as ensuring the right mix of domains and topics is necessary to meaningfully compare optimal domain mix percentages across pre-training, supervised finetuning, and preference finetuning.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_f435b171b1",
+    "to_temp_id": "t_581ae6b70b",
+    "confidence": 0.85,
+    "rationale": "Defining application requirements establishes the criteria (e.g., latency, accuracy) necessary to meaningfully evaluate domain-specific capabilities.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_f44fa190e3",
+    "to_temp_id": "t_581ae6b70b",
+    "confidence": 0.85,
+    "rationale": "Understanding how to evaluate model performance using benchmarks and metrics provides the necessary foundation before applying exact evaluation methods to domain-specific capabilities.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_c1133374fc",
+    "to_temp_id": "t_588faef323",
+    "confidence": 0.85,
+    "rationale": "Understanding prompt attacks and defenses provides foundational knowledge of adversarial inputs and mitigation strategies that is necessary to meaningfully grasp the broader security risks introduced by agent tool use.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_6273eda570",
+    "to_temp_id": "t_60d25cece2",
+    "confidence": 0.85,
+    "rationale": "A learner must first decide whether to build a custom model in-house versus buy an existing one before determining whether finetuning or prompting is the appropriate method for that custom model.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_91435595dd",
+    "to_temp_id": "t_60d25cece2",
+    "confidence": 0.85,
+    "rationale": "Understanding prompt engineering as a weight-free method for guiding foundation models is necessary to meaningfully compare it against finetuning when deciding whether to finetune.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_dc1c01f07b",
+    "to_temp_id": "t_60d25cece2",
+    "confidence": 0.85,
+    "rationale": "Meaningfully deciding whether to finetune requires understanding what supervised finetuning actually does to a model, so SFT is a prerequisite for the when-to-finetune decision.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_f435b171b1",
+    "to_temp_id": "t_60d25cece2",
+    "confidence": 0.9,
+    "rationale": "Defining application requirements such as latency, accuracy, cost, and privacy is necessary before a learner can meaningfully evaluate whether finetuning or prompt-based methods are appropriate.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_f44fa190e3",
+    "to_temp_id": "t_60d25cece2",
+    "confidence": 0.85,
+    "rationale": "Meaningfully determining whether to finetune or use prompt-based methods requires first being able to evaluate a model's performance and suitability for the target application.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_67b3bb12ac",
+    "to_temp_id": "t_6273eda570",
+    "confidence": 0.85,
+    "rationale": "Understanding why evaluating foundation models is difficult provides essential context for making an informed build-versus-buy decision, as evaluation difficulty directly affects cost, control, and time-to-market trade-offs.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_8a700d0cca",
+    "to_temp_id": "t_6273eda570",
+    "confidence": 0.85,
+    "rationale": "Understanding the financial and infrastructure trade-offs between proprietary APIs and self-hosting open-weight models provides the concrete cost and compute data needed to meaningfully evaluate whether to build or buy a foundation model.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_caeccbb9c3",
+    "to_temp_id": "t_6273eda570",
+    "confidence": 0.85,
+    "rationale": "Meaningfully evaluating whether to build or buy a foundation model requires understanding how to compare models by architecture, size, modality, and performance to match them with application needs.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_f44fa190e3",
+    "to_temp_id": "t_6273eda570",
+    "confidence": 0.85,
+    "rationale": "Meaningfully comparing build versus buy options requires understanding how to evaluate a model's performance using benchmarks and metrics to assess suitability for a target application.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_65427a2dd8",
+    "to_temp_id": "t_9f803e8324",
+    "confidence": 0.8,
+    "rationale": "Selecting appropriate evaluation methods and curating representative datasets is necessary before one can meaningfully assess dataset quality through downstream task performance.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_65427a2dd8",
+    "to_temp_id": "t_f44fa190e3",
+    "confidence": 0.85,
+    "rationale": "Selecting appropriate evaluation methods and curating representative data sets is necessary before one can meaningfully evaluate a model's performance using benchmarks and metrics.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_fd1dd7fc9d",
+    "to_temp_id": "t_65427a2dd8",
+    "confidence": 0.7,
+    "rationale": "Understanding data quality and its impact on model performance is necessary to meaningfully curate evaluation data sets that reflect production scenarios and include appropriate edge cases.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_67b3bb12ac",
+    "to_temp_id": "t_c44d3c19ae",
+    "confidence": 0.8,
+    "rationale": "Understanding why foundation model evaluation is difficult (A) provides the necessary context for identifying specific challenges in gathering comparison signals and ranking models (B).",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_8d3005ebb4",
+    "to_temp_id": "t_7309e0f073",
+    "confidence": 0.85,
+    "rationale": "A learner must first define evaluation methods and data before they can create and validate a scoring rubric for those evaluations.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_7a0306103e",
+    "to_temp_id": "t_736f711553",
+    "confidence": 0.8,
+    "rationale": "Understanding how to define instruction-following capability and use scoring rubrics and evaluation criteria provides the foundational knowledge needed to create meaningful evaluation guidelines for an application's behavior.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_902227c859",
+    "to_temp_id": "t_736f711553",
+    "confidence": 0.85,
+    "rationale": "Meaningfully creating evaluation guidelines requires knowing which evaluation methods are available to measure criteria such as toxicity, semantic similarity, and factual consistency, so selecting methods precedes defining what responses should be.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_736f711553",
+    "to_temp_id": "t_a46cc3d8fd",
+    "confidence": 0.85,
+    "rationale": "Creating evaluation guidelines establishes the criteria and expected behaviors that define what constitutes a correct or incorrect response, which is necessary before one can meaningfully annotate data with clear scoring rubrics.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_f44fa190e3",
+    "to_temp_id": "t_775c4ee484",
+    "confidence": 0.85,
+    "rationale": "Grasping the scalability bottlenecks of comparative evaluation requires first understanding what comparative testing and model performance evaluation entail.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_78f01c19c6",
+    "to_temp_id": "t_7ebb01b16e",
+    "confidence": 0.8,
+    "rationale": "Understanding the broad range of inference optimization techniques at the model, hardware, and service levels provides the necessary context to specifically refine the entire inference process and serving infrastructure while keeping the model intact.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_dcb221f932",
+    "to_temp_id": "t_78f01c19c6",
+    "confidence": 0.9,
+    "rationale": "Meaningfully describing inference optimization techniques requires understanding the performance metrics they aim to improve.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_f44fa190e3",
+    "to_temp_id": "t_7a0306103e",
+    "confidence": 0.7,
+    "rationale": "Understanding general model performance evaluation using benchmarks and metrics provides the necessary foundation to meaningfully apply instruction-following scoring rubrics and criteria.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_81a85a6565",
+    "to_temp_id": "t_bb379d82cb",
+    "confidence": 0.9,
+    "rationale": "To meaningfully compare full finetuning with adapter-based finetuning in terms of compute requirements, a learner must first understand what full finetuning entails, including that it trains all model parameters.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_83bf39d7fc",
+    "to_temp_id": "t_b1d9f5ac83",
+    "confidence": 0.8,
+    "rationale": "Meaningfully assessing an evaluation pipeline for cost and latency requires the ability to calculate system-level cost and latency, which is the core objective of Atom A.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_dcb221f932",
+    "to_temp_id": "t_83bf39d7fc",
+    "confidence": 0.95,
+    "rationale": "Calculating system-level cost and latency requires first understanding the definitions of latency, throughput, and goodput as evaluation metrics.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_f435b171b1",
+    "to_temp_id": "t_83bf39d7fc",
+    "confidence": 0.9,
+    "rationale": "Meaningfully calculating system-level cost and latency requires first knowing the specific functional and non-functional application requirements that define the criteria for evaluation.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_8af6d8cd02",
+    "to_temp_id": "t_8638f433db",
+    "confidence": 0.85,
+    "rationale": "Understanding how parameters, layers, and hidden dimensions determine model size is necessary to meaningfully calculate the memory footprint of weights, gradients, and optimizer states.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_dcb221f932",
+    "to_temp_id": "t_8a700d0cca",
+    "confidence": 0.85,
+    "rationale": "Meaningfully comparing token-based inference costs and compute requirements for proprietary APIs versus self-hosting requires understanding how inference performance is measured via latency, throughput, and goodput.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_902227c859",
+    "to_temp_id": "t_8d3005ebb4",
+    "confidence": 0.85,
+    "rationale": "Selecting appropriate evaluation methods for different criteria (B) is a foundational skill needed before a learner can meaningfully define evaluation methods and data, including annotating data and slicing it for production slices (A).",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_95f03bc490",
+    "to_temp_id": "t_8d3005ebb4",
+    "confidence": 0.95,
+    "rationale": "Meaningfully selecting evaluation methods, annotating data, and slicing production data requires first knowing what the application should and should not do, i.e., the evaluation criteria.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_8d3005ebb4",
+    "to_temp_id": "t_e6e52786da",
+    "confidence": 0.8,
+    "rationale": "Defining evaluation methods and data, including how to annotate and slice data, provides the foundational knowledge required to design specific evaluation data slices.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_f44fa190e3",
+    "to_temp_id": "t_902227c859",
+    "confidence": 0.7,
+    "rationale": "Understanding how to evaluate model performance using benchmarks and metrics provides the foundational knowledge needed to select appropriate evaluation methods for specific criteria.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_91435595dd",
+    "to_temp_id": "t_943544dc29",
+    "confidence": 0.95,
+    "rationale": "Understanding the definition of prompt engineering is necessary before applying its best practices.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_91435595dd",
+    "to_temp_id": "t_a9fcb66514",
+    "confidence": 0.8,
+    "rationale": "Understanding how to craft instructions via prompt engineering is necessary to meaningfully evaluate whether a model's output meets specified instruction criteria.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_91435595dd",
+    "to_temp_id": "t_b96850e53f",
+    "confidence": 0.85,
+    "rationale": "Understanding how to craft instructions to guide foundation models is necessary to meaningfully explain how those models generate synthetic instruction data through templates and distillation.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_91435595dd",
+    "to_temp_id": "t_c1133374fc",
+    "confidence": 0.95,
+    "rationale": "Understanding how to craft prompts to guide foundation models is necessary before one can identify attacks on those prompts or apply defensive techniques to protect them.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_a9fcb66514",
+    "to_temp_id": "t_943544dc29",
+    "confidence": 0.85,
+    "rationale": "Meaningfully applying prompt engineering best practices requires understanding what instruction-following is and how to measure whether outputs meet specified criteria.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_95f03bc490",
+    "to_temp_id": "t_a60472f235",
+    "confidence": 0.9,
+    "rationale": "Defining clear evaluation criteria is necessary before selecting appropriate evaluation methods and creating scoring rubrics, as the methods and rubrics must align with the specific criteria being evaluated.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_95f03bc490",
+    "to_temp_id": "t_a643a56bb4",
+    "confidence": 0.8,
+    "rationale": "Defining evaluation criteria establishes what an application should and should not do, which is necessary before assessing operational metrics like cost and latency alongside quality criteria.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_f435b171b1",
+    "to_temp_id": "t_95f03bc490",
+    "confidence": 0.9,
+    "rationale": "Meaningful evaluation criteria must be grounded in the application's specific needs (latency, accuracy, cost, privacy), so mastering application requirements precedes defining what should and should not be scored.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_95f03bc490",
+    "to_temp_id": "t_f44fa190e3",
+    "confidence": 0.85,
+    "rationale": "Defining clear evaluation criteria, including out-of-scope inputs and expected responses, is necessary to meaningfully evaluate a model's performance and avoid ambiguous scoring.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_9aad82428d",
+    "to_temp_id": "t_f8dd8dbfcc",
+    "confidence": 0.8,
+    "rationale": "Understanding overlap analysis and data leakage prevention is necessary to meaningfully recognize benchmark limitations such as data contamination when using public benchmarks.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_a60472f235",
+    "to_temp_id": "t_9f803e8324",
+    "confidence": 0.8,
+    "rationale": "Meaningfully assessing dataset quality through downstream tasks requires understanding how to select appropriate evaluation methods and create unambiguous scoring rubrics to measure model performance reliably.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_d3aea406f0",
+    "to_temp_id": "t_9f803e8324",
+    "confidence": 0.85,
+    "rationale": "Meaningfully assessing dataset quality through downstream task performance requires knowing whether results are comparative or absolute, since comparative results alone cannot establish if a model is good enough for a specific use case.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_e6e52786da",
+    "to_temp_id": "t_9f803e8324",
+    "confidence": 0.9,
+    "rationale": "Meaningfully assessing dataset quality through downstream task evaluation requires having evaluation data slices to measure performance across relevant production segments and failure cases.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_f44fa190e3",
+    "to_temp_id": "t_9f803e8324",
+    "confidence": 0.85,
+    "rationale": "Assessing dataset quality via downstream task performance requires understanding how to evaluate model performance using benchmarks and metrics, since the downstream tasks themselves rely on model evaluation.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_a3bff8769a",
+    "to_temp_id": "t_f8dd8dbfcc",
+    "confidence": 0.85,
+    "rationale": "Understanding benchmark contamination and data lineage risks from Atom A is necessary to meaningfully interpret benchmark limitations and leaderboard results in Atom B.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_a60472f235",
+    "to_temp_id": "t_a46cc3d8fd",
+    "confidence": 0.85,
+    "rationale": "Meaningful annotation requires knowing which evaluation methods and scoring criteria to apply, which are covered in the evaluation methods and rubrics unit.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_dcb221f932",
+    "to_temp_id": "t_a643a56bb4",
+    "confidence": 0.85,
+    "rationale": "Meaningfully assessing cost and latency as operational evaluation factors requires first understanding what latency, throughput, and goodput are and how they measure inference speed and cost.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_f435b171b1",
+    "to_temp_id": "t_a643a56bb4",
+    "confidence": 0.95,
+    "rationale": "Mastering how to define application requirements provides the necessary criteria for cost, latency, and quality that are required to meaningfully perform operational evaluation.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_f44fa190e3",
+    "to_temp_id": "t_a643a56bb4",
+    "confidence": 0.85,
+    "rationale": "Understanding how to evaluate model performance provides the foundational quality criteria needed to meaningfully assess operational factors alongside them.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_dc1c01f07b",
+    "to_temp_id": "t_a9fcb66514",
+    "confidence": 0.85,
+    "rationale": "Understanding how supervised finetuning creates instruction-following behavior is necessary to meaningfully define and evaluate instruction-following capability.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_ab83c21e14",
+    "to_temp_id": "t_e02536ce2b",
+    "confidence": 0.8,
+    "rationale": "Understanding data coverage as the criterion for a proper mix of domains and topics is necessary to meaningfully compare optimal domain mixes across different training phases.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_ab87193c4b",
+    "to_temp_id": "t_c8f3f79bc8",
+    "confidence": 0.9,
+    "rationale": "Understanding how synthetic data generation works and its intended benefits is necessary to meaningfully identify and evaluate its specific limitations such as model collapse and quality control challenges.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_e3acd0469e",
+    "to_temp_id": "t_ab87193c4b",
+    "confidence": 0.85,
+    "rationale": "Meaningfully understanding synthetic data generation requires first grasping how data quantity is determined by training costs, desired capabilities, and situational needs.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_fd1dd7fc9d",
+    "to_temp_id": "t_ab87193c4b",
+    "confidence": 0.85,
+    "rationale": "Meaningfully explaining how synthetic data improves quality requires first understanding what data quality is and how it affects model performance.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_dcb221f932",
+    "to_temp_id": "t_b1d9f5ac83",
+    "confidence": 0.95,
+    "rationale": "Assessing an evaluation pipeline for cost, latency, and metric correlation requires first understanding what latency, throughput, and goodput mean.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_e6e52786da",
+    "to_temp_id": "t_b1d9f5ac83",
+    "confidence": 0.95,
+    "rationale": "Meaningfully assessing an evaluation pipeline requires having designed evaluation data slices to test against.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_f44fa190e3",
+    "to_temp_id": "t_b1d9f5ac83",
+    "confidence": 0.95,
+    "rationale": "Meaningfully assessing an evaluation pipeline for cost, latency, and metric correlation presupposes the ability to evaluate model performance with benchmarks and metrics, which is exactly what B teaches.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_f44fa190e3",
+    "to_temp_id": "t_b9e490248d",
+    "confidence": 0.85,
+    "rationale": "Meaningfully understanding how data-centric benchmark competitions measure dataset quality via model performance requires first knowing how to evaluate a model's performance using benchmarks and metrics.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_d024cced90",
+    "to_temp_id": "t_bb379d82cb",
+    "confidence": 0.9,
+    "rationale": "Understanding how adapter-based finetuning works and its trade-offs is necessary to meaningfully compare it with full finetuning in terms of compute requirements and identify appropriate frameworks.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_d532fb9769",
+    "to_temp_id": "t_c44d3c19ae",
+    "confidence": 0.85,
+    "rationale": "Meaningfully understanding challenges in gathering reliable comparison signals and ranking models requires knowing how human feedback is collected to form preferred versus rejected response pairs, since that collection process is a primary source of those signals and ranking challenges.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_f435b171b1",
+    "to_temp_id": "t_c44d3c19ae",
+    "confidence": 0.85,
+    "rationale": "Establishing functional and non-functional requirements provides the necessary criteria against which models are compared and ranked, making it foundational to addressing signal gathering and ranking challenges.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_f44fa190e3",
+    "to_temp_id": "t_c44d3c19ae",
+    "confidence": 0.9,
+    "rationale": "Understanding how to evaluate model performance using benchmarks and metrics is necessary before one can meaningfully identify the challenges in gathering reliable comparison signals and ranking models.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_fd1dd7fc9d",
+    "to_temp_id": "t_c44d3c19ae",
+    "confidence": 0.85,
+    "rationale": "Meaningfully evaluating challenges in gathering comparison signals and ranking models requires understanding how data quality impacts model performance and the distinction between high-quality and noisy data.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_dc1c01f07b",
+    "to_temp_id": "t_d024cced90",
+    "confidence": 0.9,
+    "rationale": "Understanding supervised finetuning provides the foundational context of adapting a pre-trained model to instructions, which is necessary to grasp how adapter-based finetuning modifies that process.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_d3aea406f0",
+    "to_temp_id": "t_f44fa190e3",
+    "confidence": 0.8,
+    "rationale": "Understanding that comparative results alone cannot establish whether a model is good enough for a specific use case is necessary before meaningfully evaluating model performance using benchmarks and metrics to determine suitability for a target application.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_d532fb9769",
+    "to_temp_id": "t_f98a2125c1",
+    "confidence": 0.8,
+    "rationale": "Understanding how preference data is collected into ranked pairs is necessary to grasp why those comparative rankings fail to reveal absolute performance or justify model swaps.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_fd1dd7fc9d",
+    "to_temp_id": "t_e02536ce2b",
+    "confidence": 0.85,
+    "rationale": "Meaningfully comparing optimal domain data mixes across training phases requires understanding what data quality is and how it affects model performance.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_f44fa190e3",
+    "to_temp_id": "t_f8dd8dbfcc",
+    "confidence": 0.8,
+    "rationale": "Understanding how to evaluate model performance using benchmarks and metrics provides the foundational knowledge needed to effectively navigate public benchmarks and leaderboards.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_f44fa190e3",
+    "to_temp_id": "t_f98a2125c1",
+    "confidence": 0.8,
+    "rationale": "Understanding how to evaluate model performance using benchmarks and metrics is necessary before one can meaningfully explain the specific limitations of comparative rankings.",
+    "origin": "cross_branch"
+  },
+  {
+    "from_temp_id": "t_fd1dd7fc9d",
+    "to_temp_id": "t_f44fa190e3",
+    "confidence": 0.85,
+    "rationale": "Understanding how data quality impacts model performance is necessary to meaningfully interpret evaluation results and determine a model's suitability for an application.",
+    "origin": "cross_branch",
+    "backward": true
+  },
+  {
+    "from_temp_id": "t_f98a2125c1",
+    "to_temp_id": "t_f8dd8dbfcc",
+    "confidence": 0.9,
+    "rationale": "A learner must understand that comparative rankings do not reveal absolute performance and that a win does not guarantee a worthwhile swap before they can meaningfully use benchmarks to filter out bad models while recognizing their limitations.",
+    "origin": "cross_branch"
+  }
+]

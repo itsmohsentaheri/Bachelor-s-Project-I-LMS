@@ -1,0 +1,25 @@
+{
+  "learning_objective": "The learner can evaluate whether to build a custom foundation model in-house or buy an existing model via API or open weights by comparing cost, control, and time-to-market.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "build_always_cheaper",
+      "description": "Believing that building a model in-house is always cheaper than paying for model providers, ignoring that provider prices can drop and make in-house the expensive option."
+    },
+    {
+      "id": "third_party_safe",
+      "description": "Assuming that investing in a third-party solution is safe, without considering the risk that the provider could go out of business."
+    },
+    {
+      "id": "adaptation_trivial",
+      "description": "Thinking that adapting an existing model is as difficult as building one from scratch, when it can be significantly easier and faster."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p59_84",
+    "chunk_p36_47",
+    "chunk_p233_366"
+  ]
+}

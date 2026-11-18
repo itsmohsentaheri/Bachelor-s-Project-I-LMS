@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Describing programmatic verification methods for synthetic data is not required to understand the retriever-generator structure of a RAG system."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Understanding RAG architecture is not required to describe code execution and back-translation methods for verifying synthetic data."
+  }
+}

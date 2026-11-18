@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Understanding AI application architecture is not required to explain how foundation models generate synthetic instruction data via templates and distillation."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Knowing how to synthesize synthetic data is not necessary to identify the structural components of AI applications built on foundation models."
+  }
+}

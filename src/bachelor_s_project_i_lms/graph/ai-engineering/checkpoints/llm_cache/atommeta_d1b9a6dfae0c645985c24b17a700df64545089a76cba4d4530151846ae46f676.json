@@ -1,0 +1,23 @@
+{
+  "learning_objective": "The learner can identify finetuning frameworks such as LLaMA-Factory, PEFT, and Axolotl and tactics including model merging, multi-task finetuning, and full finetuning.",
+  "estimated_time_min": 10,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "finetuning_always_requires_full_model_update",
+      "description": "Believing that finetuning a foundation model always requires updating all model parameters rather than using parameter-efficient methods."
+    },
+    {
+      "id": "frameworks_make_data_collection_trivial",
+      "description": "Assuming that because finetuning frameworks simplify the process, obtaining and validating high-quality finetuning data is no longer a challenge."
+    },
+    {
+      "id": "model_merging_is_standard_finetuning",
+      "description": "Confusing model merging with conventional finetuning approaches instead of recognizing it as a distinct experimental technique."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p19_22"
+  ]
+}

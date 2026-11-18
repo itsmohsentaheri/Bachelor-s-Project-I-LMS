@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": true,
+    "confidence": 0.9,
+    "rationale": "Understanding RAG is necessary to grasp how memory systems specifically support RAG and agent applications by managing information beyond context length."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Defining RAG as connecting a foundation model to an external database does not require prior knowledge of memory systems for context length management."
+  }
+}

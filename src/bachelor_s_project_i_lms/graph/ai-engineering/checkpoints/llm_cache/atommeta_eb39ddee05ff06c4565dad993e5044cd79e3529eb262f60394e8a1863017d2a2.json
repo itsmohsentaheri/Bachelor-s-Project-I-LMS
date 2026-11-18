@@ -1,0 +1,25 @@
+{
+  "learning_objective": "The learner can explain how synthetic data generation increases data quantity, coverage, and quality, particularly for tasks like tool use or complex math where human data is limited or lower quality.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "synthetic_always_lower_quality",
+      "description": "Believing synthetic data is always of lower quality than human-generated data, when AI can sometimes exceed human quality for specific tasks."
+    },
+    {
+      "id": "synthetic_replaces_human_data",
+      "description": "Assuming synthetic data completely replaces human-generated data, when mixing both often produces the best value."
+    },
+    {
+      "id": "synthetic_only_for_quantity",
+      "description": "Thinking synthetic data is only used to increase data quantity, ignoring its role in improving coverage and quality."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p405_624",
+    "chunk_p390_601",
+    "chunk_p406_625"
+  ]
+}

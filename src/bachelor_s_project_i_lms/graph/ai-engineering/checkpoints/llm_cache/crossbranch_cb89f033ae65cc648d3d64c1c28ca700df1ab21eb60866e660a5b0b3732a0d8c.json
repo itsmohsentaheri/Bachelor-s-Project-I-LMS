@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Creating evaluation guidelines defines application-specific behavior, but evaluating model performance with benchmarks and metrics can be performed meaningfully without first authoring such guidelines."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Evaluating model performance provides useful context but is not strictly required before a learner can define what an application should and shouldn't do, including out-of-scope inputs and responses."
+  }
+}

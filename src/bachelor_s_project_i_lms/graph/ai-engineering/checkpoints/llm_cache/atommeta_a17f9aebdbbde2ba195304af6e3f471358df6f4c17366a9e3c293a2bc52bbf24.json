@@ -1,0 +1,23 @@
+{
+  "learning_objective": "The learner can compare grid search, random search, and Bayesian optimization strategies for exploring hyperparameter space to improve model convergence and performance.",
+  "estimated_time_min": 10,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "grid_search_always_best",
+      "description": "Believing grid search always finds the optimal hyperparameters, ignoring its computational cost and the curse of dimensionality."
+    },
+    {
+      "id": "random_search_ineffective",
+      "description": "Assuming random search is less effective than grid search, when it often finds better configurations with fewer trials."
+    },
+    {
+      "id": "bayesian_optimization_guarantees_global_optimum",
+      "description": "Thinking Bayesian optimization guarantees finding the global optimum, when it is a probabilistic method that can get stuck in local optima."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p28_35"
+  ]
+}

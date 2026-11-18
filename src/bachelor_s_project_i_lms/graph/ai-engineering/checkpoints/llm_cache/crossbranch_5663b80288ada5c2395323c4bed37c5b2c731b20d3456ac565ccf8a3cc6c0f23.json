@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Resolving conflicting benchmark results is not required to determine whether to finetune based on data, hardware, and talent constraints."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Knowing when to finetune is not necessary to apply decision criteria for selecting among models with contradictory benchmark results."
+  }
+}

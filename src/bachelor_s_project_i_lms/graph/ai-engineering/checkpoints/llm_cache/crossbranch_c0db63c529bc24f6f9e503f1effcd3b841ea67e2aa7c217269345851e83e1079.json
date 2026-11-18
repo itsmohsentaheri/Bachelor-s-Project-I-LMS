@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Deciding whether to finetune depends on data, hardware, and talent constraints, not on understanding why synthetic data is created."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Explaining reasons for synthesizing data does not require knowing when to finetune a model versus using prompts."
+  }
+}

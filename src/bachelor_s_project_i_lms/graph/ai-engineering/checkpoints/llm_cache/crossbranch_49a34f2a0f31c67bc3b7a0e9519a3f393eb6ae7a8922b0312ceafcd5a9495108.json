@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Identifying scalability bottlenecks in evaluation does not require prior knowledge of specific generation capability metrics or their evolution."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Understanding generation capability metrics does not require first mastering the scalability bottlenecks caused by cost, time, and annotation standardization."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "edges": [
+    {
+      "prerequisite": "Define Evaluation Methods and Data",
+      "dependent": "Create Evaluation Guidelines",
+      "confidence": 0.9,
+      "rationale": "Evaluation methods and annotated data are required to define scoring rubrics and tie criteria to business metrics."
+    },
+    {
+      "prerequisite": "Create Evaluation Guidelines",
+      "dependent": "Evaluate All System Components",
+      "confidence": 0.85,
+      "rationale": "Standardized scoring rubrics and criteria are needed to assess every part of the AI application consistently."
+    },
+    {
+      "prerequisite": "Evaluate All System Components",
+      "dependent": "Evaluate and Iterate the Pipeline",
+      "confidence": 0.9,
+      "rationale": "Component-level evaluation results are needed to assess the pipeline itself for cost, latency, and metric correlation before iterating."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": true,
+    "confidence": 0.8,
+    "rationale": "Understanding data coverage as the criterion for a proper mix of domains and topics is necessary to meaningfully compare optimal domain mixes across different training phases."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Comparing phase-specific data mixes does not require first mastering the general concept of data coverage, as the latter is a foundational criterion rather than a consequence of phase-specific application."
+  }
+}

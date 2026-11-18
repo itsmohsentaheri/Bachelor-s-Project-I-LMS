@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": true,
+    "confidence": 0.8,
+    "rationale": "Understanding the broad range of inference optimization techniques at the model, hardware, and service levels provides the necessary context to specifically refine the entire inference process and serving infrastructure while keeping the model intact."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Mastering service-specific optimization is not required to understand the general concepts of model-level and hardware-level inference optimization techniques."
+  }
+}

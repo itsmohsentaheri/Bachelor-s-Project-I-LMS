@@ -1,0 +1,23 @@
+{
+  "learning_objective": "The learner can explain why annotations must be consistent across examples and annotators to avoid confusing the model during training.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 2,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "accuracy_equals_consistency",
+      "description": "Believing that accurate annotations are sufficient even if they differ between annotators."
+    },
+    {
+      "id": "minor_variation_harmless",
+      "description": "Assuming small differences in annotations between annotators won't affect model learning."
+    },
+    {
+      "id": "same_score_same_quality",
+      "description": "Thinking that items receiving the same score are necessarily of the same quality."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p393_606"
+  ]
+}

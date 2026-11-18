@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Using public benchmarks to filter models does not require first defining data quality or understanding its impact on model performance."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Defining data quality and its impact on performance does not require prior knowledge of public benchmarks, leaderboards, or their limitations."
+  }
+}

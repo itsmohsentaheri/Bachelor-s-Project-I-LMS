@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Understanding the post-training workflow does not require knowing how to compare full vs adapter-based finetuning or specific frameworks; those are implementation details rather than foundational concepts."
+  },
+  "b_before_a": {
+    "is_prerequisite": true,
+    "confidence": 0.85,
+    "rationale": "Meaningfully comparing finetuning frameworks and compute requirements requires first understanding what post-training finetuning (supervised and preference finetuning) is and why it is performed."
+  }
+}

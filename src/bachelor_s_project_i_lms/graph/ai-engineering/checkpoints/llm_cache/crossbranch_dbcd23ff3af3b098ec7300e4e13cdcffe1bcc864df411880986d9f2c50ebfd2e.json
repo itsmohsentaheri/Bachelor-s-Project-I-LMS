@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Defining full finetuning as training all model parameters does not require prior knowledge of the distinction between next-token and infilling finetuning."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Distinguishing between next-token and infilling finetuning does not require first mastering the definition of full finetuning."
+  }
+}

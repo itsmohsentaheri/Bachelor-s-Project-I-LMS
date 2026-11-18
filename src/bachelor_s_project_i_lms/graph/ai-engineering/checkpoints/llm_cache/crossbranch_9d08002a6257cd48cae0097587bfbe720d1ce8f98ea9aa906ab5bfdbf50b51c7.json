@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": true,
+    "confidence": 0.8,
+    "rationale": "Understanding factual consistency as a general quality criterion for generated text is necessary before applying it specifically to RAG systems."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "RAG evaluation is a specialized application of generation quality criteria and does not provide the foundational definitions needed to understand general generation quality."
+  }
+}

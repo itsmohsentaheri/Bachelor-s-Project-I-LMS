@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Data cleaning and filtering is a mechanical preprocessing step that does not require understanding the conceptual criterion of data coverage across domains and topics."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Explaining data coverage as a mix of domains and topics does not require first mastering how to remove formatting tokens, PII, or toxic content from a dataset."
+  }
+}

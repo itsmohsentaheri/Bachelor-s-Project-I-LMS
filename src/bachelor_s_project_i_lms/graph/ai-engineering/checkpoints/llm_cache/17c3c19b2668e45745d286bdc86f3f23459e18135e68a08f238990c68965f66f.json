@@ -1,0 +1,24 @@
+{
+  "subtopics": [
+    {
+      "title": "Inference Performance Metrics",
+      "summary": "Key metrics used to evaluate inference speed and cost, including latency, throughput, and cost per prediction.",
+      "is_atomic": true
+    },
+    {
+      "title": "AI Accelerators",
+      "summary": "Hardware-level optimization using specialized processors such as GPUs and TPUs to run inference faster on target hardware.",
+      "is_atomic": true
+    },
+    {
+      "title": "Model Optimization",
+      "summary": "Model-level techniques to reduce a trained model's size or develop more efficient architectures to improve speed and cost.",
+      "is_atomic": true
+    },
+    {
+      "title": "Inference Service Optimization",
+      "summary": "Service-level optimization that refines the entire inference process, including serving infrastructure and request handling.",
+      "is_atomic": true
+    }
+  ]
+}

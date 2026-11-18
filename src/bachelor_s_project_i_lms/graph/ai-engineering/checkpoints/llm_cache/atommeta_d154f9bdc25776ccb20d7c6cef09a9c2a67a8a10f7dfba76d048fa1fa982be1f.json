@@ -1,0 +1,25 @@
+{
+  "learning_objective": "The learner can explain the goal of preference finetuning and why capturing universal human preference mathematically is challenging.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "universal_preference_exists",
+      "description": "Believing that a single, universal human preference can be mathematically defined and embedded into AI."
+    },
+    {
+      "id": "preference_over_correctness",
+      "description": "Assuming preference-based feedback is always appropriate, even for questions that require factual correctness."
+    },
+    {
+      "id": "over_censorship_risk",
+      "description": "Thinking that more preference finetuning always improves a model without risking over-censorship or boring outputs."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p108_161",
+    "chunk_p135_201",
+    "chunk_p174_264"
+  ]
+}

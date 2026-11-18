@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Deciding whether to finetune requires first knowing the application's functional and non-functional requirements, so A depends on B rather than preceding it."
+  },
+  "b_before_a": {
+    "is_prerequisite": true,
+    "confidence": 0.9,
+    "rationale": "Defining application requirements such as latency, accuracy, cost, and privacy is necessary before a learner can meaningfully evaluate whether finetuning or prompt-based methods are appropriate."
+  }
+}

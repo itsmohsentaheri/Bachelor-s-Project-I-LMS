@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Understanding the definition of an agent is not required to identify the limitations of simple AI application architectures, as those limitations can be understood without knowledge of agentic patterns."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Knowing the failure modes of simple architectures is not necessary to define an agent as an entity that perceives and acts upon its environment."
+  }
+}

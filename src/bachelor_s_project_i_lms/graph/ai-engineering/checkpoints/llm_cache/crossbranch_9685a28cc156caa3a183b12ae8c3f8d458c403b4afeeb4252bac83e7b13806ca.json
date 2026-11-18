@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Annotating evaluation data focuses on creating labeled examples for scoring application components, which does not require prior knowledge of ensuring training data covers a balanced mix of domains and topics."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Data coverage concerns the composition of training data, which is not a necessary foundation for curating annotated examples used to evaluate an application's components."
+  }
+}

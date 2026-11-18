@@ -1,0 +1,29 @@
+{
+  "learning_objective": "The learner can apply prompt engineering best practices such as crafting detailed instructions, providing examples, systematically testing changes, versioning prompts, and standardizing evaluation metrics.",
+  "estimated_time_min": 10,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "prompt_engineering_is_not_real",
+      "description": "Believing prompt engineering is not a real skill or technique despite it being a common model adaptation method."
+    },
+    {
+      "id": "prompt_engineering_is_everything",
+      "description": "Thinking prompt engineering is the only skill needed to build production-ready AI applications, ignoring statistics, engineering, and ML knowledge."
+    },
+    {
+      "id": "hacky_tips_work",
+      "description": "Relying on superficial tricks like promising a tip or using shorthand labels instead of systematic best practices for effective prompts."
+    },
+    {
+      "id": "prompt_improves_whole_system",
+      "description": "Assuming a prompt that improves a model's performance on a subtask will necessarily improve the performance of the whole system."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p235_367",
+    "chunk_p236_368",
+    "chunk_p254_392"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Evaluating and iterating a pipeline requires first knowing how to evaluate model performance using benchmarks and metrics, so A depends on B rather than preceding it."
+  },
+  "b_before_a": {
+    "is_prerequisite": true,
+    "confidence": 0.95,
+    "rationale": "Meaningfully assessing an evaluation pipeline for cost, latency, and metric correlation presupposes the ability to evaluate model performance with benchmarks and metrics, which is exactly what B teaches."
+  }
+}

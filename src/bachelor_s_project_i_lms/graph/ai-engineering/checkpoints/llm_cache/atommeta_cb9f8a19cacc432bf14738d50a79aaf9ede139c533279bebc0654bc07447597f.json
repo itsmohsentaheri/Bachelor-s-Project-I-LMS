@@ -1,0 +1,25 @@
+{
+  "learning_objective": "The learner can identify agent failure modes caused by planning, tool execution, and efficiency, and explain how they differ from standard generation failures.",
+  "estimated_time_min": 10,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "agent_failures_are_only_generation_errors",
+      "description": "Believing agent failures are limited to standard AI generation errors rather than including planning, tool execution, and efficiency issues."
+    },
+    {
+      "id": "tool_failures_are_universal",
+      "description": "Assuming tool failures are the same across all tools instead of being tool-dependent and requiring independent testing."
+    },
+    {
+      "id": "time_does_not_matter_for_agents",
+      "description": "Thinking the time an agent takes to complete a task is irrelevant even when deadlines make timeliness critical."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p322_490",
+    "chunk_p300_459",
+    "chunk_p324_494"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Adapter-based finetuning is a specific parameter-efficient technique that builds upon the general concept of supervised finetuning, not a requirement for understanding it."
+  },
+  "b_before_a": {
+    "is_prerequisite": true,
+    "confidence": 0.9,
+    "rationale": "Understanding supervised finetuning provides the foundational context of adapting a pre-trained model to instructions, which is necessary to grasp how adapter-based finetuning modifies that process."
+  }
+}

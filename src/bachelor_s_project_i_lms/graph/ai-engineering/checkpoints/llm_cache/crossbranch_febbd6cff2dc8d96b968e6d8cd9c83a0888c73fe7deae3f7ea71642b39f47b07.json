@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Defining a prompt and identifying its components is not required to understand how to evaluate broader system capabilities such as cost, latency, and domain-specific performance."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Evaluating all system components does not require first mastering the definition and components of a prompt, as these are distinct concepts in system design versus system assessment."
+  }
+}

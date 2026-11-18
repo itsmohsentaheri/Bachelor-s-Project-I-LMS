@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Understanding preference finetuning as a post-training alignment step does not require prior knowledge of finetuning frameworks or compute comparisons."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Comparing full and adapter-based finetuning frameworks can be done without first understanding preference finetuning specifically."
+  }
+}

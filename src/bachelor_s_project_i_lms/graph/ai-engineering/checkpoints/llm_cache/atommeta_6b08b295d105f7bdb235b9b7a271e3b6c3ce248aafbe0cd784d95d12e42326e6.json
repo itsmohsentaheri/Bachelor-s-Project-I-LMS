@@ -1,0 +1,25 @@
+{
+  "learning_objective": "The learner can design multiple evaluation data slices representing production distribution, user tiers, traffic sources, known failure cases, and out-of-scope inputs.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "single_eval_set",
+      "description": "Believing one evaluation set representing overall production data is sufficient to understand system performance across all scenarios."
+    },
+    {
+      "id": "ignore_out_of_scope",
+      "description": "Assuming out-of-scope inputs do not need a dedicated evaluation set because the application is not supposed to engage with them."
+    },
+    {
+      "id": "slice_size_irrelevant",
+      "description": "Thinking the number of examples in each evaluation slice does not matter as long as the data is representative."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p229_360",
+    "chunk_p229_359",
+    "chunk_p230_361"
+  ]
+}

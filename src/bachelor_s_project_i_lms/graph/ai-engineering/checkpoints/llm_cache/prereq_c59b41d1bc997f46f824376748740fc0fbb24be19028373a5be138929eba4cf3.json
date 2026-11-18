@@ -1,0 +1,28 @@
+{
+  "edges": [
+    {
+      "prerequisite": "RAG Architecture",
+      "dependent": "RAG vs Finetuning",
+      "confidence": 0.9,
+      "rationale": "Understanding the two-component structure of RAG is necessary to compare it against finetuning and determine when each approach is appropriate."
+    },
+    {
+      "prerequisite": "RAG Architecture",
+      "dependent": "RAG Evaluation",
+      "confidence": 0.9,
+      "rationale": "Knowledge of how retrievers fetch context and generators produce responses is required to evaluate factual consistency between generated responses and retrieved context."
+    },
+    {
+      "prerequisite": "RAG Architecture",
+      "dependent": "RAG Implementation Starting Points",
+      "confidence": 0.9,
+      "rationale": "Understanding the retriever-generator structure is a prerequisite for making practical implementation decisions such as starting with BM25 or using vector databases."
+    },
+    {
+      "prerequisite": "RAG vs Finetuning",
+      "dependent": "RAG Implementation Starting Points",
+      "confidence": 0.7,
+      "rationale": "Guidance on choosing between RAG and finetuning informs practical recommendations for beginning RAG implementations and when full context inclusion may eliminate the need for RAG."
+    }
+  ]
+}

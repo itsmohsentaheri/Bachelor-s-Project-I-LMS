@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Designing an evaluation pipeline does not require prior mastery of prompt engineering best practices, as evaluation systems can be built independently of how prompts are constructed."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Prompt engineering best practices do not require prior mastery of evaluation pipeline design, as one can apply prompting techniques without understanding the end-to-end process of building an evaluation system."
+  }
+}

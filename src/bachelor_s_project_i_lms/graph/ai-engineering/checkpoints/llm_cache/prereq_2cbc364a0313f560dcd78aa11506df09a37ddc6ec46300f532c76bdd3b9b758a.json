@@ -1,0 +1,16 @@
+{
+  "edges": [
+    {
+      "prerequisite": "Foundation Model Basics",
+      "dependent": "AI Application Architecture",
+      "confidence": 0.95,
+      "rationale": "Understanding what foundation models are and how they are pre-trained and adapted is necessary before learning how to architect applications that integrate them with UIs, data pipelines, and tools."
+    },
+    {
+      "prerequisite": "AI Application Architecture",
+      "dependent": "User Feedback Integration",
+      "confidence": 0.9,
+      "rationale": "Feedback integration requires knowing the application's structural components—where the model, UI, data pipeline, and tools sit—so feedback can be collected and routed to the right parts of the system for improvement."
+    }
+  ]
+}

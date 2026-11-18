@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Creating evaluation guidelines is a component step within the broader evaluation pipeline, so understanding the full pipeline is not required to write a single guideline."
+  },
+  "b_before_a": {
+    "is_prerequisite": true,
+    "confidence": 0.85,
+    "rationale": "Designing an end-to-end evaluation pipeline inherently includes creating evaluation guidelines as one of its core stages, making guideline creation a prerequisite sub-skill."
+  }
+}

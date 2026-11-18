@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Identifying scalability bottlenecks is not required to select appropriate evaluation methods; one can choose methods based on criteria without first analyzing cost or annotation constraints."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Selecting evaluation methods does not require prior mastery of scalability bottlenecks; method selection can be understood independently of cost and standardization issues."
+  }
+}

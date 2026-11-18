@@ -1,0 +1,23 @@
+{
+  "learning_objective": "The learner can determine whether to finetune a model or use prompt-based methods by evaluating data, hardware, and ML talent requirements.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "finetune_first",
+      "description": "Believing finetuning should be the first approach tried before experimenting with prompt engineering."
+    },
+    {
+      "id": "low_resource_finetune",
+      "description": "Assuming finetuning requires fewer resources than prompt-based methods."
+    },
+    {
+      "id": "post_trained_irrelevant",
+      "description": "Thinking that starting with a less refined model reduces the effort needed to adapt it to a specific task."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p335_511"
+  ]
+}

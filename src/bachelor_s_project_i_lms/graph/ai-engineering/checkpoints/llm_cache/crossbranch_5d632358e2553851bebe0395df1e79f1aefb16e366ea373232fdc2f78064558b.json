@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Knowing that all parameters are updated during pre-training is not required to evaluate whether to finetune or use prompt-based methods based on data, hardware, and talent constraints."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Deciding when to finetune does not require prior knowledge that pre-training updates all model parameters, as the two objectives address different stages and decisions."
+  }
+}

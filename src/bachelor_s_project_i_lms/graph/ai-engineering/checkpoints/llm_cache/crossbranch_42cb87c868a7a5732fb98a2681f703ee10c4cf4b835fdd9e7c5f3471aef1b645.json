@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Understanding RAG architecture does not require knowing how to filter or deduplicate datasets, as the retriever-generator structure can be learned independently of data cleaning techniques."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Data filtering and deduplication can be performed without any knowledge of RAG systems, as these are general data engineering tasks unrelated to retriever-generator architecture."
+  }
+}

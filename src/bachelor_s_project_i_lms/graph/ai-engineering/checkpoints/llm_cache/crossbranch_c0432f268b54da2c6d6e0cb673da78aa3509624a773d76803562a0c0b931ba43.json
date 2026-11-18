@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "User feedback integration focuses on post-deployment improvement and is not required to understand how to curate annotated evaluation data."
+  },
+  "b_before_a": {
+    "is_prerequisite": true,
+    "confidence": 0.85,
+    "rationale": "Understanding how to annotate evaluation data and establish scoring rubrics is necessary to meaningfully collect, process, and incorporate user feedback for performance evaluation."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Agent planning focuses on task decomposition and autonomous decision-making, which does not require understanding how SFT shifts a model from text completion to instruction-following."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Understanding SFT objectives does not depend on knowing how agents decompose tasks into plans and make autonomous decisions."
+  }
+}

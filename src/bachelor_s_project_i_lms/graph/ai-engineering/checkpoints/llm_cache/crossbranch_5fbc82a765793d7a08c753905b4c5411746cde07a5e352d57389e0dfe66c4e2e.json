@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Resolving conflicting benchmark results is an advanced application of evaluation criteria, whereas understanding comparative vs. absolute evaluation is a foundational concept that does not depend on conflict resolution."
+  },
+  "b_before_a": {
+    "is_prerequisite": true,
+    "confidence": 0.95,
+    "rationale": "A learner must first understand that comparative results alone cannot determine model adequacy before they can meaningfully apply decision criteria to select among models with contradictory benchmark results."
+  }
+}

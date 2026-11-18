@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Defining basic inference metrics does not require the ability to perform system-level cost and latency calculations involving parallelism strategies."
+  },
+  "b_before_a": {
+    "is_prerequisite": true,
+    "confidence": 0.95,
+    "rationale": "Calculating system-level cost and latency requires first understanding the definitions of latency, throughput, and goodput as evaluation metrics."
+  }
+}

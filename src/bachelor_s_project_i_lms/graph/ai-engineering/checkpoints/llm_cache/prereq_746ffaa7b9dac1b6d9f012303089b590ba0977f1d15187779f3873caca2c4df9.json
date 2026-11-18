@@ -1,0 +1,22 @@
+{
+  "edges": [
+    {
+      "prerequisite": "Transformer Block Architecture",
+      "dependent": "Model Capacity and Parameter Scaling",
+      "confidence": 0.9,
+      "rationale": "Understanding the internal components of a transformer block (layers, hidden dimensions) is necessary to understand how parameter count and model capacity are determined."
+    },
+    {
+      "prerequisite": "Model Capacity and Parameter Scaling",
+      "dependent": "Training Bottlenecks and Resource Constraints",
+      "confidence": 0.85,
+      "rationale": "Model size and parameter count directly determine the computational and memory requirements during training."
+    },
+    {
+      "prerequisite": "Transformer Block Architecture",
+      "dependent": "Inference Optimization Techniques",
+      "confidence": 0.7,
+      "rationale": "Techniques like quantization and caching are applied to the specific operations (attention, feed-forward) within the transformer block."
+    }
+  ]
+}

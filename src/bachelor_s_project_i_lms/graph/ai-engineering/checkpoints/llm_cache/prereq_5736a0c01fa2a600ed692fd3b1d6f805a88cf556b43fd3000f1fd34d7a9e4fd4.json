@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "prerequisite": "Agent Definition and Core Concepts",
+      "dependent": "Agent Tools",
+      "confidence": 0.9,
+      "rationale": "Understanding what an agent is and how it perceives and acts is required before learning the specific external capabilities (tools) it uses to act."
+    },
+    {
+      "prerequisite": "Agent Definition and Core Concepts",
+      "dependent": "Agent Planning",
+      "confidence": 0.9,
+      "rationale": "The core definition of autonomous action and decision-making is the foundation for learning how agents decompose tasks and sequence actions."
+    },
+    {
+      "prerequisite": "Agent Tools",
+      "dependent": "Agent Planning",
+      "confidence": 0.85,
+      "rationale": "Planning how to solve complex problems requires knowing what tools are available to direct toward goal completion."
+    },
+    {
+      "prerequisite": "Agent Tools",
+      "dependent": "Agent Failure Modes",
+      "confidence": 0.8,
+      "rationale": "Tool misuse is a specific agentic failure mode, so understanding tools is needed to understand how they can be misused."
+    },
+    {
+      "prerequisite": "Agent Planning",
+      "dependent": "Agent Failure Modes",
+      "confidence": 0.85,
+      "rationale": "Error propagation in multi-step reasoning and infinite loops arise from the planning and action-sequencing layer, so planning must be understood first."
+    }
+  ]
+}

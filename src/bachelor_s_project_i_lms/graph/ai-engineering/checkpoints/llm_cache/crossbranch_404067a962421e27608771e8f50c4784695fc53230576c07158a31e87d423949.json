@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.95,
+    "rationale": "Understanding AI accelerators is not required to identify prompt attacks or apply defensive techniques such as instruction hierarchy."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.95,
+    "rationale": "Knowledge of prompt attacks and defenses is not needed to define an AI accelerator or identify GPUs as the dominant type."
+  }
+}

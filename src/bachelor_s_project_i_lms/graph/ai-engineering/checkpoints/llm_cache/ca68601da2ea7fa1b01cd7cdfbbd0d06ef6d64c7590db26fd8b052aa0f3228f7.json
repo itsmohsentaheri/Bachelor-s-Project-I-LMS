@@ -1,0 +1,24 @@
+{
+  "subtopics": [
+    {
+      "title": "Defining Application Requirements",
+      "summary": "Identifying the specific functional and non-functional needs of an application, such as latency, accuracy, cost, and privacy, to establish the criteria for model selection.",
+      "is_atomic": true
+    },
+    {
+      "title": "Comparing Model Capabilities",
+      "summary": "Evaluating different foundation models based on their architecture, parameter size, modality support, and general performance characteristics to match them with application needs.",
+      "is_atomic": true
+    },
+    {
+      "title": "Evaluating Model Performance",
+      "summary": "Using benchmarks, evaluation metrics, and comparative testing to determine how well a specific model performs on tasks relevant to the target application.",
+      "is_atomic": true
+    },
+    {
+      "title": "Analyzing Cost and Deployment Trade-offs",
+      "summary": "Assessing the financial and infrastructure implications of using proprietary APIs versus self-hosted open-weight models, including inference costs and scaling requirements.",
+      "is_atomic": true
+    }
+  ]
+}

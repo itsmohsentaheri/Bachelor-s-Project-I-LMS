@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Assessing operational metrics like cost and latency does not require first understanding instruction-following scoring rubrics, as these are distinct evaluation dimensions."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Defining instruction-following capability and its scoring criteria does not depend on assessing operational factors such as cost and latency."
+  }
+}

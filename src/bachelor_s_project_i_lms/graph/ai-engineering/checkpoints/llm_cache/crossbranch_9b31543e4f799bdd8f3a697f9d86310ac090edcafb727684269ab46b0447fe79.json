@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Understanding how to compare full vs adapter-based finetuning frameworks is not required to analyze the financial and infrastructure trade-offs between proprietary APIs and self-hosting open-weight models."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Analyzing cost and deployment trade-offs for model APIs versus self-hosting is not required to compare finetuning frameworks and their compute requirements."
+  }
+}

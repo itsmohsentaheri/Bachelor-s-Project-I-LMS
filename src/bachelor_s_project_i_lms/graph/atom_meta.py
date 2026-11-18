@@ -30,8 +30,8 @@ from bachelor_s_project_i_lms.graph.atom_meta_prompts import ATOM_META_SYSTEM, b
 from bachelor_s_project_i_lms.llm.client import call_llm
 from bachelor_s_project_i_lms.llm.schemas import AtomMetadata
 
-ATOMS_PATH = Path(__file__).resolve().parent / "checkpoints" / "atoms.json"
-CACHE_DIR = Path(__file__).resolve().parent / "checkpoints" / "llm_cache"  # shared with decompose
+ATOMS_PATH = Path(__file__).resolve().parent / "ai-engineering" / "checkpoints" / "atoms.json"
+CACHE_DIR = Path(__file__).resolve().parent / "ai-engineering" / "checkpoints" / "llm_cache"  # shared with decompose
 
 
 # ----------------------------- LLM + cache -----------------------------

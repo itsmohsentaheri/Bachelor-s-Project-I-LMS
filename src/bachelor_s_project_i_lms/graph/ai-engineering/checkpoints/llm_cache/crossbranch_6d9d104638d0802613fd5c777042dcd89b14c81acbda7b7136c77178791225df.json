@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Computing rankings from pairwise outcomes is not required to describe how human feedback is collected to form preferred versus rejected pairs."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Describing preference data collection is not necessary to compute a model ranking from historical pairwise match outcomes."
+  }
+}

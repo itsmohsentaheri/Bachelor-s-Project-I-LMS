@@ -1,0 +1,25 @@
+{
+  "learning_objective": "The learner can define prompt engineering as crafting instructions to guide foundation models toward desired outputs without modifying model weights.",
+  "estimated_time_min": 5,
+  "difficulty_weight": 2,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "prompt_engineering_is_not_real",
+      "description": "Believing prompt engineering is not a real skill or technique despite its widespread use."
+    },
+    {
+      "id": "prompt_engineering_changes_weights",
+      "description": "Thinking prompt engineering modifies the model's weights like finetuning does."
+    },
+    {
+      "id": "prompt_engineering_is_sufficient",
+      "description": "Assuming prompt engineering alone is enough to build production-ready AI applications."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p235_367",
+    "chunk_p236_368",
+    "chunk_p35_46"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "learning_objective": "The learner can assess every part of an AI application, not just the model, to ensure each component functions correctly within the system.",
+  "estimated_time_min": 10,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "model_only_evaluation",
+      "description": "Believing that evaluating only the model is sufficient for system success."
+    },
+    {
+      "id": "public_benchmarks_sufficiency",
+      "description": "Assuming public benchmarks alone can identify the best model for a specific application."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p532_808",
+    "chunk_p224_350"
+  ]
+}

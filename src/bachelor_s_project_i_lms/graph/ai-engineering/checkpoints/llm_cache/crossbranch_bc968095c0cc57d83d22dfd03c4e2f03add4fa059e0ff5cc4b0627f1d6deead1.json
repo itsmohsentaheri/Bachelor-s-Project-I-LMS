@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Computing rankings from pairwise match outcomes is a specialized technique that is not required to understand the general concepts of benchmarks, metrics, and comparative testing used to evaluate model performance."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "General model performance evaluation is not required to compute a ranking from historical pairwise match outcomes, as the latter relies on specific match data rather than broad suitability assessments."
+  }
+}

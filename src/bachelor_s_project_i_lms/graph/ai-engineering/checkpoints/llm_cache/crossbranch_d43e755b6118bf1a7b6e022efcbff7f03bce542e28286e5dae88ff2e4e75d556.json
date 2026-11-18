@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Deciding whether to finetune a model is a tactical choice that presupposes the broader build-versus-buy decision has already been made, not a prerequisite for it."
+  },
+  "b_before_a": {
+    "is_prerequisite": true,
+    "confidence": 0.85,
+    "rationale": "A learner must first decide whether to build a custom model in-house versus buy an existing one before determining whether finetuning or prompting is the appropriate method for that custom model."
+  }
+}

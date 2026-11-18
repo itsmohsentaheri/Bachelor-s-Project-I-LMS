@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Model optimization techniques like quantization and distillation are not required to identify computational and memory limitations during training."
+  },
+  "b_before_a": {
+    "is_prerequisite": true,
+    "confidence": 0.85,
+    "rationale": "Understanding training bottlenecks and resource constraints provides the necessary context for why model-level inference optimization techniques such as quantization and distillation are used to reduce model size or improve efficiency."
+  }
+}

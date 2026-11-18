@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Adapter-based finetuning can be understood and applied without knowing how to compare grid search, random search, or Bayesian optimization strategies."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Hyperparameter search strategies are general model-tuning methods that do not require prior knowledge of adapter-based finetuning."
+  }
+}

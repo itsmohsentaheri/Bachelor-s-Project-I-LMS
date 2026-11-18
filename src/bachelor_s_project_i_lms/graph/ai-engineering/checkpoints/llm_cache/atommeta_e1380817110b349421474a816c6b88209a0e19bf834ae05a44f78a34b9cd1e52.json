@@ -1,0 +1,23 @@
+{
+  "learning_objective": "The learner can identify overlapping data across training, validation, and test sets using overlap estimation techniques such as Bloom filters to prevent data leakage.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "exact_match_only",
+      "description": "Believing that overlap analysis only detects exact duplicates rather than partial matches like 80% overlap."
+    },
+    {
+      "id": "document_level_only",
+      "description": "Assuming overlap analysis only applies at the document level and ignores paragraph, sentence, or token-level duplications."
+    },
+    {
+      "id": "order_irrelevant",
+      "description": "Thinking that two lists with the same items in different order are not considered duplicates."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p424_654"
+  ]
+}

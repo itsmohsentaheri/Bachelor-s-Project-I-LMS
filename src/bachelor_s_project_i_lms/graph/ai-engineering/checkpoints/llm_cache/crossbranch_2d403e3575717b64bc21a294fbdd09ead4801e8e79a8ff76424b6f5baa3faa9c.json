@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Defining evaluation methods and data is a broader activity that includes annotating evaluation data, so mastering the broader definition is not required before performing the specific annotation task."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Annotating evaluation data is a component of defining evaluation methods and data, but one can define methods and data selection criteria without first mastering the specific annotation process."
+  }
+}

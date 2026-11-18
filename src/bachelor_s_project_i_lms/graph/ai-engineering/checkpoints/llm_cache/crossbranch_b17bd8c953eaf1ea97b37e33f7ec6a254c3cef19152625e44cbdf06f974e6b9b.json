@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Identifying scalability bottlenecks in evaluation does not require prior mastery of selecting evaluation methods and curating data sets; one can recognize cost, time, and annotation-standardization problems without knowing how to design evaluation methods."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Selecting evaluation methods and curating data sets can be done meaningfully without first understanding scalability bottlenecks caused by high costs, time requirements, and lack of standardization in human annotation."
+  }
+}

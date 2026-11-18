@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Creating annotation guidelines for data labeling and fact-checking annotations is not required to create evaluation guidelines that define application behavior and out-of-scope responses."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Defining evaluation guidelines for an AI application does not require first mastering how to create annotation guidelines or fact-check data annotations."
+  }
+}

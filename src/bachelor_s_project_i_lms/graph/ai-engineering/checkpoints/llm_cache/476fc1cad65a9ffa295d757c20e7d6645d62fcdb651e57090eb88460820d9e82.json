@@ -1,0 +1,29 @@
+{
+  "subtopics": [
+    {
+      "title": "Post-Training Workflow",
+      "summary": "The overall sequence of pre-training, supervised finetuning (SFT), and preference finetuning (e.g., RLHF) used to align a foundation model with user intent.",
+      "is_atomic": true
+    },
+    {
+      "title": "Supervised Finetuning (SFT)",
+      "summary": "Training a pre-trained model on labeled conversational data to convert text-completion behavior into instruction-following dialogue.",
+      "is_atomic": true
+    },
+    {
+      "title": "Preference Finetuning",
+      "summary": "Aligning model outputs with human preferences using methods such as RLHF, since preferences cannot be captured by a single mathematical formula.",
+      "is_atomic": true
+    },
+    {
+      "title": "Parameter-Efficient Finetuning",
+      "summary": "Adapter-based techniques such as LoRA and PEFT that reduce compute and memory requirements compared to full finetuning.",
+      "is_atomic": true
+    },
+    {
+      "title": "Finetuning Frameworks and Tactics",
+      "summary": "Practical tools like LLaMA-Factory, PEFT, and Axolotl, along with tactics such as model merging, multi-task finetuning, and full finetuning.",
+      "is_atomic": true
+    }
+  ]
+}

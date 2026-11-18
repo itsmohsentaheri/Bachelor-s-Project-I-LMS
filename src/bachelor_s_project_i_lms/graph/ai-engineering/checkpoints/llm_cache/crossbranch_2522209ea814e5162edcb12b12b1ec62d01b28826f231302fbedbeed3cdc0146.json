@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Understanding how to balance training costs and desired capabilities to determine data quantity is not required to define data quality or explain its impact on model performance."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Defining data quality and its impact on performance is not required to explain how data quantity is determined by balancing costs, capabilities, and situational needs."
+  }
+}

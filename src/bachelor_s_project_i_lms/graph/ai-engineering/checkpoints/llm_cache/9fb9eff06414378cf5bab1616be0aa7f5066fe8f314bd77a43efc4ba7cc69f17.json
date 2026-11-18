@@ -1,0 +1,24 @@
+{
+  "subtopics": [
+    {
+      "title": "Prompt Fundamentals",
+      "summary": "Defines what a prompt is, its key components such as system prompt, user prompt, examples, and context, and how prompt engineering guides model behavior without changing weights.",
+      "is_atomic": true
+    },
+    {
+      "title": "Prompt Engineering Best Practices",
+      "summary": "Covers techniques for writing effective prompts, including crafting detailed instructions, providing examples, systematic testing, versioning prompts, and standardizing evaluation metrics.",
+      "is_atomic": true
+    },
+    {
+      "title": "Prompt Engineering Tools",
+      "summary": "Discusses tools that assist with prompt engineering, such as those for structured outputs and prompt variation, along with risks like hidden API calls and unnecessary costs.",
+      "is_atomic": true
+    },
+    {
+      "title": "Prompt Attacks and Defense",
+      "summary": "Covers how to defend AI applications against prompt attacks as part of building production-ready systems.",
+      "is_atomic": true
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "B covers operational evaluation factors broadly, including quality criteria alongside cost and latency, and does not require the system-level calculation techniques taught in A."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "A focuses on specific system-level cost and latency calculations for model deployment, which do not depend on first mastering the broader operational evaluation factors in B."
+  }
+}

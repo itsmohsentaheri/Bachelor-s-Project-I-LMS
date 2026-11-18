@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Understanding how to collect and process user feedback is not required to describe the general concept of gradually adding engineering components to an AI product."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Knowing how to incrementally add components is not necessary to explain methods for collecting and incorporating user feedback to improve AI applications."
+  }
+}

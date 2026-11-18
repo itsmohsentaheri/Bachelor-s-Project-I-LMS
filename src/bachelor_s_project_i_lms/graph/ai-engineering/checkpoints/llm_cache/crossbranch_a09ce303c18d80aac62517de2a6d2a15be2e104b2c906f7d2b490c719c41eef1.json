@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Understanding standardized benchmarks like DataPerf and dcbench is not required to compare domain-specific data mixes for different foundation model training phases."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Knowing how to compare data mixes for pre-training and finetuning is not necessary to explain how DataPerf and dcbench assess dataset quality through model performance metrics."
+  }
+}

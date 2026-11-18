@@ -1,0 +1,28 @@
+{
+  "edges": [
+    {
+      "prerequisite": "Data Quality",
+      "dependent": "Synthetic Data Generation",
+      "confidence": 0.9,
+      "rationale": "Synthetic data generation is explicitly used to increase training data quality when human-generated data is limited or lower quality, so understanding data quality criteria is needed to evaluate and target synthetic data improvements."
+    },
+    {
+      "prerequisite": "Data Quantity",
+      "dependent": "Synthetic Data Generation",
+      "confidence": 0.85,
+      "rationale": "Synthetic data generation is used to increase training data quantity, so understanding quantity requirements and cost trade-offs is needed to determine how much synthetic data to produce."
+    },
+    {
+      "prerequisite": "Data Coverage",
+      "dependent": "Phase-Specific Data Mixes",
+      "confidence": 0.8,
+      "rationale": "Phase-specific data mixes define domain composition across training phases, which requires understanding data coverage criteria to ensure the right mix of domains and topics without over- or under-representation."
+    },
+    {
+      "prerequisite": "Data Quantity",
+      "dependent": "Phase-Specific Data Mixes",
+      "confidence": 0.75,
+      "rationale": "Phase-specific data mixes involve volume considerations across training phases, so understanding data quantity criteria is needed to balance data amounts against training costs and desired capabilities per phase."
+    }
+  ]
+}

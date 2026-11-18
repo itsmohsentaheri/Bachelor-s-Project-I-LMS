@@ -1,0 +1,24 @@
+{
+  "subtopics": [
+    {
+      "title": "Preference Finetuning Objectives",
+      "summary": "The goal of aligning model outputs with human preferences, the challenges of defining universal human preference mathematically, and the risks of over-censorship or misalignment.",
+      "is_atomic": true
+    },
+    {
+      "title": "Preference Data Collection",
+      "summary": "The process of gathering human feedback to rank model outputs, creating datasets of preferred versus rejected responses for training.",
+      "is_atomic": true
+    },
+    {
+      "title": "Preference Optimization Algorithms",
+      "summary": "Algorithms such as RLHF and DPO that optimize a model to generate responses matching human preferences based on ranked data.",
+      "is_atomic": true
+    },
+    {
+      "title": "Domain Mix in Preference Finetuning",
+      "summary": "How the optimal distribution of training domains, such as general knowledge, math, and coding, shifts during preference finetuning compared to earlier stages.",
+      "is_atomic": true
+    }
+  ]
+}

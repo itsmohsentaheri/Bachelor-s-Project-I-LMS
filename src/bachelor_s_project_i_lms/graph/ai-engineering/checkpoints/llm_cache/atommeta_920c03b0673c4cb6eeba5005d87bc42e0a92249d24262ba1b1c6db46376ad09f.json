@@ -1,0 +1,25 @@
+{
+  "learning_objective": "The learner can identify the structural components of AI applications built on foundation models, including how models integrate with user interfaces, data pipelines, and external tools.",
+  "estimated_time_min": 10,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "ai_app_is_just_model",
+      "description": "Believing an AI application is only the foundation model itself, ignoring the surrounding UI, data pipelines, and tool integration layers."
+    },
+    {
+      "id": "foundation_model_equals_ai_engineering",
+      "description": "Confusing the existence of a foundation model with the complete practice of AI engineering architecture."
+    },
+    {
+      "id": "ui_irrelevant_to_ai",
+      "description": "Assuming the user interface is separate from or unimportant to the core AI application architecture."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p7_7",
+    "chunk_p28_35",
+    "chunk_p478_730"
+  ]
+}

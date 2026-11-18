@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Supervised finetuning focuses on adapting model behavior using labeled data and does not require prior knowledge of model-level inference optimization techniques like quantization or distillation."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Understanding model optimization techniques such as quantization and distillation does not depend on knowing how supervised finetuning converts text-completion models into instruction-following models."
+  }
+}

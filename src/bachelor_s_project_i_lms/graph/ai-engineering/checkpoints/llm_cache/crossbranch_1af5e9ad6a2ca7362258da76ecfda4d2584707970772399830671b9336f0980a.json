@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Model optimization techniques like quantization and distillation are not required to understand how batch size affects training speed, memory usage, and gradient stability."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Understanding batch size and resource trade-offs is not necessary to describe model-level inference optimization techniques such as quantization and distillation."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Defining full finetuning as training all model parameters does not require first distinguishing between information-based and behavior-based failures or deciding between RAG and finetuning."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Understanding when to apply RAG versus finetuning does not require knowing the specific definition of full finetuning, as the decision can be made at a conceptual level without parameter-level details."
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "edges": [
+    {
+      "prerequisite": "Foundation Model Training Process",
+      "dependent": "Foundation Model Evaluation Challenges",
+      "confidence": 0.7,
+      "rationale": "Understanding how foundation models are trained, including design decisions, provides necessary context for understanding the specific difficulties in evaluating them compared to traditional ML models."
+    },
+    {
+      "prerequisite": "Foundation Model Training Process",
+      "dependent": "Adapting Foundation Models",
+      "confidence": 0.8,
+      "rationale": "Knowledge of the training process and design decisions is needed to understand how models can be adapted without retraining from scratch."
+    },
+    {
+      "prerequisite": "Foundation Model Evaluation Challenges",
+      "dependent": "Selecting Foundation Models for Applications",
+      "confidence": 0.8,
+      "rationale": "Understanding evaluation difficulties and how to assess intelligent outputs is required to make informed decisions about which foundation model to select for specific applications."
+    },
+    {
+      "prerequisite": "Adapting Foundation Models",
+      "dependent": "Selecting Foundation Models for Applications",
+      "confidence": 0.7,
+      "rationale": "Knowledge of adaptation methods is needed to decide what foundation model to use based on application requirements, since adaptation capabilities influence model selection."
+    }
+  ]
+}

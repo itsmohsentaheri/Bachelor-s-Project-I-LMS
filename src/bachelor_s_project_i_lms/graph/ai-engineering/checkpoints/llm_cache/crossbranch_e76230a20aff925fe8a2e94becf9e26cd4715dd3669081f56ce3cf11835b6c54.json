@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Understanding how to balance training costs and desired capabilities to determine data quantity is not required to explain the criterion of ensuring a proper mix of domains and topics in training data."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Knowing how to ensure proper domain and topic coverage in training data is not required to explain how data quantity is determined by balancing costs, capabilities, and situational needs."
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "learning_objective": "The learner can describe how an agent decomposes a task into a plan, sequences actions, and makes autonomous decisions to achieve a goal within constraints.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "planning_equals_execution",
+      "description": "Believing that generating a plan is the same as executing it, ignoring the separate validation and execution stages."
+    },
+    {
+      "id": "planning_is_always_autonomous",
+      "description": "Assuming agents always plan independently without any human involvement in generating, validating, or executing plans."
+    },
+    {
+      "id": "single_plan_guarantee",
+      "description": "Thinking that any decomposed plan will lead to a successful outcome, rather than recognizing that some decompositions are more efficient or correct than others."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p305_469",
+    "chunk_p306_470",
+    "chunk_p307_472"
+  ]
+}

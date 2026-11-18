@@ -1,0 +1,22 @@
+{
+  "edges": [
+    {
+      "prerequisite": "Simplest Foundation Model Application Architecture (atomic leaf)",
+      "dependent": "Challenges of Simple AI Application Architectures (atomic leaf)",
+      "confidence": 0.95,
+      "rationale": "One must understand the baseline architecture before identifying its specific limitations and failure modes."
+    },
+    {
+      "prerequisite": "Challenges of Simple AI Application Architectures (atomic leaf)",
+      "dependent": "Incremental Component Addition for AI Products (atomic leaf)",
+      "confidence": 0.95,
+      "rationale": "The motivation for adding engineering components stems directly from the challenges of the simplest architecture."
+    },
+    {
+      "prerequisite": "Incremental Component Addition for AI Products (atomic leaf)",
+      "dependent": "User Feedback in AI Product Evaluation (atomic leaf)",
+      "confidence": 0.9,
+      "rationale": "User feedback is gathered to evaluate whether the added components successfully address the challenges and meet intended goals."
+    }
+  ]
+}

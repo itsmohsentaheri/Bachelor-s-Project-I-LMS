@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Understanding why foundation model evaluation is difficult does not require knowing that comparative rankings lack absolute performance context."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Knowing the limitations of comparative rankings is not necessary to understand why evaluating open-ended foundation model outputs is inherently difficult."
+  }
+}

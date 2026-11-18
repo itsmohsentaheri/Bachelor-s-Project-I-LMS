@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Defining AI accelerators and identifying GPUs is not required to understand the general concept of incrementally adding engineering components to AI products."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Knowing how to incrementally add components to AI products is not required to define an AI accelerator or identify GPUs as the dominant type."
+  }
+}

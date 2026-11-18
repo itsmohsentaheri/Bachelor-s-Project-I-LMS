@@ -1,0 +1,25 @@
+{
+  "learning_objective": "The learner can select appropriate evaluation methods such as classifiers, semantic similarity, and AI judges for different criteria and create unambiguous scoring rubrics with examples.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "one_method_fits_all",
+      "description": "Believing a single evaluation method can be used for all criteria without considering the specific nature of each criterion."
+    },
+    {
+      "id": "rubric_unnecessary",
+      "description": "Assuming that scoring rubrics and examples are optional when using AI judges or specialized scorers."
+    },
+    {
+      "id": "mixing_not_allowed",
+      "description": "Thinking that only one evaluation method can be applied to a single criterion rather than mixing and matching methods."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p228_357",
+    "chunk_p525_794",
+    "chunk_p532_808"
+  ]
+}

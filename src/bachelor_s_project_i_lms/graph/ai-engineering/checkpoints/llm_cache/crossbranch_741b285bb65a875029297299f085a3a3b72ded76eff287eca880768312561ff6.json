@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Understanding preference finetuning objectives is not required to distinguish between comparative and absolute evaluation methods or to recognize the limitations of comparative results."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Knowing the difference between comparative and absolute evaluation is not necessary to explain the goal of preference finetuning or the challenges of mathematically capturing human preference."
+  }
+}

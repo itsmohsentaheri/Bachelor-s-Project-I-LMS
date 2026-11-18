@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Evaluating all system components is a broader objective that includes operational factors, so mastering it is not required before assessing cost and latency specifically."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Assessing operational metrics alone does not provide the necessary foundation to evaluate domain-specific, generation, and instruction-following capabilities."
+  }
+}

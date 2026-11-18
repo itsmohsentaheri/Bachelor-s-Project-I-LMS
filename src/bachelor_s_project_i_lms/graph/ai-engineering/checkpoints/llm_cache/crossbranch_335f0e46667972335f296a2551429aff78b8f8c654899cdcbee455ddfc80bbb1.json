@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Atom A focuses on comparing compute requirements between full and adapter-based finetuning, which is not required to simply identify finetuning frameworks and tactics as described in Atom B."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Atom B provides a general identification of frameworks and tactics but does not teach the compute requirement analysis necessary to meaningfully understand Atom A's comparison."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Designing evaluation data slices requires understanding production distributions and failure modes, not the specific domain data mixes used during model training phases."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Comparing optimal domain data mixes for training phases does not depend on the ability to design evaluation data slices."
+  }
+}

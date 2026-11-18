@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "prerequisite": "Defining Application Requirements",
+      "dependent": "Comparing Model Capabilities",
+      "confidence": 0.95,
+      "rationale": "Application requirements establish the criteria (latency, accuracy, cost, privacy) needed to determine which model capabilities are relevant for comparison."
+    },
+    {
+      "prerequisite": "Defining Application Requirements",
+      "dependent": "Evaluating Model Performance",
+      "confidence": 0.95,
+      "rationale": "Application requirements define which tasks and metrics are relevant for evaluating model performance."
+    },
+    {
+      "prerequisite": "Comparing Model Capabilities",
+      "dependent": "Evaluating Model Performance",
+      "confidence": 0.85,
+      "rationale": "Model capabilities comparison identifies candidate models and their characteristics, which informs which specific models should be evaluated for performance on target tasks."
+    },
+    {
+      "prerequisite": "Evaluating Model Performance",
+      "dependent": "Analyzing Cost and Deployment Trade-offs",
+      "confidence": 0.9,
+      "rationale": "Performance evaluation results are needed to assess whether a model meets application requirements before analyzing its cost and deployment implications."
+    },
+    {
+      "prerequisite": "Defining Application Requirements",
+      "dependent": "Analyzing Cost and Deployment Trade-offs",
+      "confidence": 0.85,
+      "rationale": "Application requirements such as cost constraints and privacy needs directly inform the trade-off analysis between proprietary APIs and self-hosted models."
+    }
+  ]
+}

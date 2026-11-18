@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Calculating and managing training data costs does not require the ability to filter or deduplicate data, as cost management can be performed on raw or already processed datasets."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Identifying and removing low-quality samples and duplicates is a data cleaning task that does not depend on first mastering the calculation of training data costs."
+  }
+}

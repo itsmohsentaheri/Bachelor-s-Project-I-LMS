@@ -1,0 +1,24 @@
+{
+  "learning_objective": "The learner can define foundation models and describe their core characteristics, including pre-training on large datasets and adaptability to downstream tasks.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 2,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "foundation_models_are_ready_to_use",
+      "description": "Believing foundation models are immediately ready for specific applications without any adaptation or fine-tuning."
+    },
+    {
+      "id": "training_is_simple",
+      "description": "Assuming training a foundation model is a simple process rather than an incredibly complex and costly one."
+    },
+    {
+      "id": "need_to_build_to_use",
+      "description": "Thinking you must know how to develop a foundation model from scratch to be able to use it effectively."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p73_105",
+    "chunk_p18_20"
+  ]
+}

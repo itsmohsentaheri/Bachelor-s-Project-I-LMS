@@ -1,0 +1,24 @@
+{
+  "learning_objective": "The learner can explain factual consistency as a key evaluation criterion for RAG systems by describing how generated responses should align with retrieved context from external databases.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "retrieval_quality_equals_response_quality",
+      "description": "Believing that evaluating the retriever alone (e.g., with NDCG or MAP) is sufficient to assess the factual consistency of the final generated response."
+    },
+    {
+      "id": "rag_always_improves_factuality",
+      "description": "Assuming that adding RAG automatically guarantees factually consistent outputs without needing specific evaluation of consistency between context and generation."
+    },
+    {
+      "id": "human_baseline_irrelevant",
+      "description": "Thinking that human expert baselines like the 94% on TruthfulQA are not relevant reference points for evaluating RAG factual consistency."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p193_297",
+    "chunk_p289_443"
+  ]
+}

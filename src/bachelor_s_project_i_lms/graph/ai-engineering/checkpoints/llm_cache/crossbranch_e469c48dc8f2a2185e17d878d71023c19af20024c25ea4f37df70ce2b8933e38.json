@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Assessing and iterating an evaluation pipeline is not required to identify scalability bottlenecks such as cost, time, and annotation standardization."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Understanding scalability bottlenecks is not necessary before one can assess pipeline reliability and iterate on evaluation guidelines, methods, and data."
+  }
+}

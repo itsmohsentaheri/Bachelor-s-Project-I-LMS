@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Identifying general training bottlenecks is not required to calculate the specific memory footprint of model weights, optimizer states, and gradients during finetuning."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Calculating finetuning memory footprints is not required to understand general computational and memory limitations during model training."
+  }
+}

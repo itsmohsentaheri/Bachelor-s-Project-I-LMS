@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Identifying domain-specific benchmarks for evaluating AI capabilities is not required to compare optimal domain data mixes across different training phases."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Comparing phase-specific data mixes for model training does not require prior mastery of domain-specific capability benchmarks used for evaluation."
+  }
+}

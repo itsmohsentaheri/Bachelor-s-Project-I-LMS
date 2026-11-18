@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.95,
+    "rationale": "Understanding how to distinguish between failure modes to choose between RAG and finetuning does not require first mastering the definition of finetuning, as the definition is a basic concept that can be learned independently."
+  },
+  "b_before_a": {
+    "is_prerequisite": true,
+    "confidence": 0.9,
+    "rationale": "To meaningfully decide whether to apply finetuning as a solution to a behavior-based failure, a learner must first understand what finetuning is and how it adapts a model's weights."
+  }
+}

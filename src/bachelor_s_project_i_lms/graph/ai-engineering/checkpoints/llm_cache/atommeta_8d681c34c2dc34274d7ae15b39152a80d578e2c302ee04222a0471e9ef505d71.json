@@ -1,0 +1,25 @@
+{
+  "learning_objective": "The learner can explain the reasons for synthesizing data, including increasing data quantity, improving coverage and quality, mitigating privacy concerns, and enabling model distillation.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 2,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "synthetic_replaces_human_data",
+      "description": "Believing synthetic data completely replaces human-generated data rather than complementing it."
+    },
+    {
+      "id": "synthesis_only_for_quantity",
+      "description": "Thinking data synthesis is only used to increase quantity, ignoring coverage, quality, privacy, and distillation."
+    },
+    {
+      "id": "synthetic_always_lower_quality",
+      "description": "Assuming synthetic data is always lower quality than human-generated data when it can sometimes exceed it."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p405_623",
+    "chunk_p405_624",
+    "chunk_p206_319"
+  ]
+}

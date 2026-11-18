@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Understanding general model performance evaluation does not require knowing why comparative evaluation scales quadratically with the number of models."
+  },
+  "b_before_a": {
+    "is_prerequisite": true,
+    "confidence": 0.85,
+    "rationale": "Grasping the scalability bottlenecks of comparative evaluation requires first understanding what comparative testing and model performance evaluation entail."
+  }
+}

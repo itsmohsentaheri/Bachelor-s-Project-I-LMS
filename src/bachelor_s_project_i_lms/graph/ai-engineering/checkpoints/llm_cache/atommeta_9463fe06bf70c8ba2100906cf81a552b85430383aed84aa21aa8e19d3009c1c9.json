@@ -1,0 +1,25 @@
+{
+  "learning_objective": "The learner can create annotation guidelines aligned with task requirements, update them based on feedback, and fact-check annotations to correct factual errors.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "guidelines_are_static",
+      "description": "Believing annotation guidelines do not need updates after initial creation."
+    },
+    {
+      "id": "annotations_are_always_factual",
+      "description": "Assuming annotations are inherently factually correct without a fact-checking step."
+    },
+    {
+      "id": "consistency_equals_accuracy",
+      "description": "Confusing consistent annotations across annotators with factually accurate annotations."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p402_619",
+    "chunk_p392_605",
+    "chunk_p393_606"
+  ]
+}

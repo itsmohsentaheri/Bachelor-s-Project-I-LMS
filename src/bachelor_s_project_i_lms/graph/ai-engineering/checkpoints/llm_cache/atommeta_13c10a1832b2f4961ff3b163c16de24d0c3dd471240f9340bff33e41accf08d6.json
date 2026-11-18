@@ -1,0 +1,25 @@
+{
+  "learning_objective": "The learner can compare foundation models based on architecture, parameter size, modality support, and performance characteristics to match them with application needs.",
+  "estimated_time_min": 10,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "bigger_is_always_better",
+      "description": "Assuming a model with more parameters always performs better across all tasks."
+    },
+    {
+      "id": "benchmark_equivalence",
+      "description": "Believing that high scores on public benchmarks guarantee success in a specific real-world application."
+    },
+    {
+      "id": "modality_assumption",
+      "description": "Thinking all foundation models support the same input and output modalities."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p183_279",
+    "chunk_p185_283",
+    "chunk_p215_335"
+  ]
+}

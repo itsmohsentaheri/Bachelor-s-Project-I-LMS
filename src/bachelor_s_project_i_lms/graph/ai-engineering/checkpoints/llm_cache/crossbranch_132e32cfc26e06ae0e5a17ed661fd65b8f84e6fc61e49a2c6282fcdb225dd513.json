@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Evaluating all system components is a broad assessment skill that is not required to understand the conceptual process of incrementally adding engineering components to an AI product."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Knowing how to incrementally add components does not provide the necessary foundational knowledge to meaningfully evaluate all components of an AI system, such as domain-specific capability or latency."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Understanding factual consistency as a criterion for RAG systems is not required to learn how to select general evaluation methods such as toxicity classifiers or semantic similarity metrics."
+  },
+  "b_before_a": {
+    "is_prerequisite": true,
+    "confidence": 0.85,
+    "rationale": "A learner must first know how to select appropriate evaluation methods for factual consistency (e.g., AI judges) before they can meaningfully explain factual consistency as a key evaluation criterion for RAG systems."
+  }
+}

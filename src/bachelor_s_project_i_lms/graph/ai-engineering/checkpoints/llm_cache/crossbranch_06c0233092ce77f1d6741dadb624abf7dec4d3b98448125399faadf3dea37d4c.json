@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Deciding whether to finetune versus use prompt-based methods depends on data, hardware, and talent constraints, not on understanding the difference between next-token and infilling finetuning objectives."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Distinguishing next-token from infilling finetuning does not require first knowing when to finetune versus prompt; the two objectives address different decisions."
+  }
+}

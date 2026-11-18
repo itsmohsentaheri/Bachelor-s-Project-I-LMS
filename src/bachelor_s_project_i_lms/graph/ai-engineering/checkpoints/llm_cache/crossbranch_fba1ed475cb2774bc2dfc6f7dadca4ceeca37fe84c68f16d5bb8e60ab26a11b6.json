@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Assessing dataset quality via downstream task performance does not require understanding the distinction between comparative and absolute evaluation."
+  },
+  "b_before_a": {
+    "is_prerequisite": true,
+    "confidence": 0.85,
+    "rationale": "Meaningfully assessing dataset quality through downstream task performance requires knowing whether results are comparative or absolute, since comparative results alone cannot establish if a model is good enough for a specific use case."
+  }
+}

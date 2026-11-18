@@ -1,0 +1,25 @@
+{
+  "learning_objective": "The learner can describe how memory systems manage information exceeding a model's maximum context length to support RAG and agent applications.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "internal_knowledge_is_mutable",
+      "description": "Believing that a model's internal knowledge changes with every query rather than only when the model is updated."
+    },
+    {
+      "id": "context_persists_across_tasks",
+      "description": "Assuming that short-term memory (context) persists across different tasks or queries when it does not."
+    },
+    {
+      "id": "fifo_is_the_only_strategy",
+      "description": "Thinking FIFO is the only memory management strategy, ignoring retention of N last messages or tokens."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p326_497",
+    "chunk_p325_496",
+    "chunk_p327_499"
+  ]
+}

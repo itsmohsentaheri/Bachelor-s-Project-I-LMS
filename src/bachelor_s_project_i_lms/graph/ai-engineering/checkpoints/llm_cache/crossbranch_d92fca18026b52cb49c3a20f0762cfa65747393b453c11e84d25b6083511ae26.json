@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "The build-versus-buy decision is a broader strategic choice that encompasses cost and deployment trade-offs, but mastering the decision framework is not required to understand how to analyze specific financial and infrastructure trade-offs."
+  },
+  "b_before_a": {
+    "is_prerequisite": true,
+    "confidence": 0.85,
+    "rationale": "Understanding the financial and infrastructure trade-offs between proprietary APIs and self-hosting open-weight models provides the concrete cost and compute data needed to meaningfully evaluate whether to build or buy a foundation model."
+  }
+}

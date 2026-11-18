@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Defining full finetuning as training all model parameters does not require knowing optimal domain mix percentages for different training stages."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Comparing domain mix percentages across pre-training, supervised finetuning, and preference finetuning does not require first defining full finetuning."
+  }
+}

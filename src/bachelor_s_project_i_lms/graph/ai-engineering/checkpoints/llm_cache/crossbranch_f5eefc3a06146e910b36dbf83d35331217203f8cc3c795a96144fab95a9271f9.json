@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Selecting evaluation methods and creating rubrics is not required to identify challenges in gathering comparison signals and ranking models."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Understanding signal gathering and ranking challenges is not required to select evaluation methods or create scoring rubrics."
+  }
+}

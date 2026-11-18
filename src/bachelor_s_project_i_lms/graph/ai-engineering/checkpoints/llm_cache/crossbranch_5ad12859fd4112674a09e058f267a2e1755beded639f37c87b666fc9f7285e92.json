@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Understanding training resource constraints is not required to describe how memory systems manage information beyond context length for RAG and agents."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.7,
+    "rationale": "Knowing how memory systems support RAG and agents is not required to identify computational and memory limitations during model training."
+  }
+}

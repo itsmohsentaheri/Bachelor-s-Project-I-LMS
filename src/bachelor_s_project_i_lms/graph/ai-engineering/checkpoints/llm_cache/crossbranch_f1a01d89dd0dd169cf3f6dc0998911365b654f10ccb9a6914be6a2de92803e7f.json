@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Understanding data-centric benchmark competitions does not require knowing why comparative evaluation scales quadratically with model count."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Explaining quadratic growth in model pairs does not depend on how benchmark competitions assess dataset quality."
+  }
+}

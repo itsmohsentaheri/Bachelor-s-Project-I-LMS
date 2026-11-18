@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Understanding model-level optimization techniques like quantization and distillation is not required to apply the training-versus-inference cost inequality T <= p × N, which concerns economic viability rather than technical implementation."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "The ability to compare training cost to inference revenue does not provide any necessary foundation for describing how quantization or distillation reduce model size or improve inference efficiency."
+  }
+}

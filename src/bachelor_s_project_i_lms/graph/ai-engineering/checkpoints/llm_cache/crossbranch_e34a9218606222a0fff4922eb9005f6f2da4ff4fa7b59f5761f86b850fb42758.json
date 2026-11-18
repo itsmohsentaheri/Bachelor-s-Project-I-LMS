@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Collecting human preference rankings does not require first filtering or deduplicating raw datasets, as preference data is generated through human annotation rather than cleaned from existing samples."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Understanding how human feedback is collected for preference pairs is not needed to identify and remove low-quality or duplicate entries from raw data using heuristics."
+  }
+}

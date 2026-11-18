@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Synthetic data generation is not required to understand how labeled conversational data is used to convert text-completion behavior into instruction-following dialogue."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Understanding supervised finetuning is not necessary to explain how foundation models generate synthetic instruction data through templates and distillation."
+  }
+}

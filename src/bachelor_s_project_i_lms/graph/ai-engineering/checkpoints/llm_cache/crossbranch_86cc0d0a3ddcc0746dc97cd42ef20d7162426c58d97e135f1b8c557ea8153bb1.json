@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Defining evaluation methods and data does not require first defining evaluation criteria; criteria can be established independently of how data is annotated or sliced."
+  },
+  "b_before_a": {
+    "is_prerequisite": true,
+    "confidence": 0.95,
+    "rationale": "Meaningfully selecting evaluation methods, annotating data, and slicing production data requires first knowing what the application should and should not do, i.e., the evaluation criteria."
+  }
+}

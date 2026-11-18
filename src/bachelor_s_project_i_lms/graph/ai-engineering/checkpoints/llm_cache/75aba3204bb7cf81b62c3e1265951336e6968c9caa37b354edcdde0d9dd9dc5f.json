@@ -1,0 +1,29 @@
+{
+  "subtopics": [
+    {
+      "title": "When to Finetune",
+      "summary": "Criteria for deciding whether to finetune versus using prompt-based methods, considering resource requirements in data, hardware, and ML talent.",
+      "is_atomic": true
+    },
+    {
+      "title": "Full Finetuning",
+      "summary": "The approach of training all model parameters, where the number of trainable parameters equals the total number of parameters, typically used when models are small enough.",
+      "is_atomic": true
+    },
+    {
+      "title": "Adapter-Based Finetuning",
+      "summary": "Parameter-efficient finetuning techniques that allow adapting models with less memory, often requiring only a mid-tier GPU, supported by frameworks like PEFT and LLaMA-Factory.",
+      "is_atomic": true
+    },
+    {
+      "title": "Finetuning Frameworks and Compute",
+      "summary": "Overview of finetuning frameworks such as LLaMA-Factory, unsloth, Axolotl, and LitGPT, and compute provisioning options ranging from local GPUs to cloud integration.",
+      "is_atomic": true
+    },
+    {
+      "title": "Data and Memory Considerations",
+      "summary": "Challenges of obtaining finetuning data and calculating model memory footprint, including memory bottlenecks that make native finetuning memory-intensive.",
+      "is_atomic": true
+    }
+  ]
+}

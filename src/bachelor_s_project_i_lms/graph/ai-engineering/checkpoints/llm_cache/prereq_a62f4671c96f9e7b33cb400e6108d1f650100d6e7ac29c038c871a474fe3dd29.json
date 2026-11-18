@@ -1,0 +1,22 @@
+{
+  "edges": [
+    {
+      "prerequisite": "Difficulty of Evaluating Intelligent Outputs",
+      "dependent": "Comparative vs. Absolute Performance",
+      "confidence": 0.85,
+      "rationale": "The difficulty of judging complex outputs without deep domain knowledge motivates the shift from absolute performance metrics to comparative evaluation."
+    },
+    {
+      "prerequisite": "Difficulty of Evaluating Intelligent Outputs",
+      "dependent": "Lack of Standardization and Quality Control",
+      "confidence": 0.75,
+      "rationale": "The inherent difficulty in evaluating intelligent outputs contributes to the absence of universal standards and quality control mechanisms."
+    },
+    {
+      "prerequisite": "Difficulty of Evaluating Intelligent Outputs",
+      "dependent": "Scalability Bottlenecks in Evaluation",
+      "confidence": 0.8,
+      "rationale": "The need for human evaluators with deep domain knowledge to judge complex outputs creates high cost and time constraints, leading to scalability bottlenecks."
+    }
+  ]
+}

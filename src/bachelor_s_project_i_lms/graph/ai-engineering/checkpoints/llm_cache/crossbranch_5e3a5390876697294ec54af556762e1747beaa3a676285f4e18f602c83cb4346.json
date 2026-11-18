@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Defining latency, throughput, and goodput does not require understanding transformer block internals; these metrics apply generically to any inference system."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Knowing inference performance metrics is not needed to identify transformer block components or explain how self-attention and feed-forward layers process information in parallel."
+  }
+}

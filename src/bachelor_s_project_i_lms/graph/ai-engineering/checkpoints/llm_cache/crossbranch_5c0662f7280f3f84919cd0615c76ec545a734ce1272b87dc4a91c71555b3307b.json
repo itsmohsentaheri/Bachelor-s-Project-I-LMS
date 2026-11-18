@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Calculating system-level cost and latency for deployment does not require first knowing how to calculate memory footprint during finetuning, as these are distinct analytical tasks for different stages."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Calculating memory footprint for finetuning does not require prior mastery of system-level cost and latency evaluation for model deployment."
+  }
+}

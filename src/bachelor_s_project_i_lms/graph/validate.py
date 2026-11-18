@@ -31,7 +31,7 @@ from bachelor_s_project_i_lms.graph.decompose import load_checkpoint
 from bachelor_s_project_i_lms.graph.prereqs import load_edges
 from bachelor_s_project_i_lms.graph.cross_branch import load_cross_edges
 
-CHECKPOINTS = Path(__file__).resolve().parent / "checkpoints"
+CHECKPOINTS = Path(__file__).resolve().parent / "ai-engineering" / "checkpoints"
 FINAL_EDGES_PATH = CHECKPOINTS / "final_edges.json"
 REPORT_PATH = CHECKPOINTS / "validation_report.json"
 

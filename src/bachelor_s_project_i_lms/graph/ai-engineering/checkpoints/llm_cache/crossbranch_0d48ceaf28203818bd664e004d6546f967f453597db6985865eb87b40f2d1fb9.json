@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Gathering general user feedback to evaluate whether an application achieves its goals is not required to understand the specific mechanics of collecting human preference pairs for training preference models."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Knowing how to collect ranked preference data for model training is not necessary to meaningfully understand how deploying an application to users determines whether it meets its intended goals."
+  }
+}

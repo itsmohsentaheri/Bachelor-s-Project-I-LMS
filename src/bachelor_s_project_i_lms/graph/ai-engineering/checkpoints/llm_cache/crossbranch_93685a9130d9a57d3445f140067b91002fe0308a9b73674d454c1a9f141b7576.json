@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Defining application requirements and selection criteria can be done without first understanding the challenges of gathering comparison signals and ranking models."
+  },
+  "b_before_a": {
+    "is_prerequisite": true,
+    "confidence": 0.85,
+    "rationale": "Establishing functional and non-functional requirements provides the necessary criteria against which models are compared and ranked, making it foundational to addressing signal gathering and ranking challenges."
+  }
+}

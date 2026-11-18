@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "prerequisite": "Instruction-Following and Scope",
+      "dependent": "Generation Quality Criteria",
+      "confidence": 0.85,
+      "rationale": "Defining what an application should and should not do establishes the behavioral boundaries and expected outputs that generation quality criteria (fluency, coherence, factual consistency, faithfulness, safety) are designed to measure."
+    },
+    {
+      "prerequisite": "Instruction-Following and Scope",
+      "dependent": "Domain-Specific Capability Benchmarks",
+      "confidence": 0.75,
+      "rationale": "Defining the scope of an application determines which domain-specific capabilities (math, science, reasoning, code generation, tool use) are relevant and should be assessed via benchmarks."
+    },
+    {
+      "prerequisite": "Evaluation Methods and Scoring Rubrics",
+      "dependent": "Generation Quality Criteria",
+      "confidence": 0.9,
+      "rationale": "To evaluate quality criteria such as fluency, coherence, and factual consistency, one must first select appropriate scoring methods (classifiers, semantic similarity, AI judges) and define unambiguous rubrics with examples."
+    },
+    {
+      "prerequisite": "Evaluation Methods and Scoring Rubrics",
+      "dependent": "Domain-Specific Capability Benchmarks",
+      "confidence": 0.8,
+      "rationale": "Applying domain-specific benchmarks requires selecting evaluation methods and establishing scoring rubrics to interpret benchmark results consistently."
+    },
+    {
+      "prerequisite": "Evaluation Methods and Scoring Rubrics",
+      "dependent": "Operational Evaluation Factors",
+      "confidence": 0.7,
+      "rationale": "Assessing operational metrics such as cost and latency requires defined measurement methods and scoring guidelines to ensure consistent evaluation alongside quality criteria."
+    }
+  ]
+}

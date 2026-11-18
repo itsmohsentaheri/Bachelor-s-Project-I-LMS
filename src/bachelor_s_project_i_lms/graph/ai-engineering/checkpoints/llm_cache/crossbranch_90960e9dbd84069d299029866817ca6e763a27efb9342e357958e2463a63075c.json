@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Understanding challenges in signal gathering and model ranking does not require prior knowledge of synthetic data limitations, as these are distinct evaluation and data engineering concerns."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.85,
+    "rationale": "Knowing the limitations of synthetic data is not necessary to meaningfully understand the challenges of gathering comparison signals and ranking models."
+  }
+}

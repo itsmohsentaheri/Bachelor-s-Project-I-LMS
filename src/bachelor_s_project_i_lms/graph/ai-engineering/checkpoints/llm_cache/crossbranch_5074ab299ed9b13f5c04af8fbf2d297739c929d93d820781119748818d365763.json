@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Deciding whether to finetune does not require the ability to evaluate model performance using benchmarks and metrics; one can assess data, hardware, and talent requirements independently."
+  },
+  "b_before_a": {
+    "is_prerequisite": true,
+    "confidence": 0.85,
+    "rationale": "Meaningfully determining whether to finetune or use prompt-based methods requires first being able to evaluate a model's performance and suitability for the target application."
+  }
+}

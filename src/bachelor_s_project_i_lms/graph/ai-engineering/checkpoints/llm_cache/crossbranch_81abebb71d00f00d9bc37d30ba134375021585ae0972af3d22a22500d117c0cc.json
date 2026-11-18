@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Understanding that all parameters are updated during pre-training is not required to define data quality or explain its impact on model performance."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.9,
+    "rationale": "Defining data quality and its impact on performance is not required to understand that all model parameters are updated during pre-training."
+  }
+}

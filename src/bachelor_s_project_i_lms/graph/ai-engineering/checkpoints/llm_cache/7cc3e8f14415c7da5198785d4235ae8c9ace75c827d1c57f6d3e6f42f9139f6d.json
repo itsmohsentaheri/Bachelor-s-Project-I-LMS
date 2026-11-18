@@ -1,0 +1,29 @@
+{
+  "subtopics": [
+    {
+      "title": "Creating Evaluation Guidelines",
+      "summary": "Defining evaluation criteria and creating scoring rubrics with examples to establish clear standards for assessing system outputs.",
+      "is_atomic": true
+    },
+    {
+      "title": "Evaluating All System Components",
+      "summary": "Assessing each component of an AI system individually, including domain-specific capability, generation capability, instruction-following capability, cost, and latency.",
+      "is_atomic": true
+    },
+    {
+      "title": "Defining Evaluation Methods and Data",
+      "summary": "Selecting appropriate evaluation methods, annotating evaluation data, and curating test sets that reflect production scenarios including edge cases and out-of-scope inputs.",
+      "is_atomic": true
+    },
+    {
+      "title": "Tying Metrics to Business Metrics",
+      "summary": "Connecting evaluation metrics to business outcomes to ensure that technical performance aligns with organizational goals and user needs.",
+      "is_atomic": true
+    },
+    {
+      "title": "Evaluating and Iterating the Pipeline",
+      "summary": "Assessing the reliability of the evaluation pipeline itself and iterating on guidelines, methods, and data based on findings to improve evaluation quality over time.",
+      "is_atomic": true
+    }
+  ]
+}

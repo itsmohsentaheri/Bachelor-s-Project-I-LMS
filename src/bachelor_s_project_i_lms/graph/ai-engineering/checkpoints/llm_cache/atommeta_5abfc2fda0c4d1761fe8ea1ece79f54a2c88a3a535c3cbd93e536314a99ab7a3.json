@@ -1,0 +1,20 @@
+{
+  "learning_objective": "The learner can describe how inference service optimization refines the entire inference process, including serving infrastructure and request handling, while keeping the model intact.",
+  "estimated_time_min": 8,
+  "difficulty_weight": 3,
+  "type": "concept",
+  "common_misconceptions": [
+    {
+      "id": "model_vs_service_optimization",
+      "description": "Believing inference service optimization changes the model itself, when it typically only changes how the model is served."
+    },
+    {
+      "id": "service_level_scope",
+      "description": "Thinking service-level optimization only covers request handling, ignoring that it also refines serving infrastructure and the entire shooting process."
+    }
+  ],
+  "source_chunk_ids": [
+    "chunk_p450_691",
+    "chunk_p472_723"
+  ]
+}

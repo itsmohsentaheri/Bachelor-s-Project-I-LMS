@@ -1,0 +1,12 @@
+{
+  "a_before_b": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Understanding how data-centric benchmark competitions evaluate dataset quality is not required to use public benchmarks and leaderboards to filter models and recognize their limitations."
+  },
+  "b_before_a": {
+    "is_prerequisite": false,
+    "confidence": 0.8,
+    "rationale": "Knowing how to navigate public benchmarks and recognize their limitations is not required to explain how data-centric benchmark competitions evaluate dataset quality."
+  }
+}
