@@ -1,19 +1,51 @@
 {
-  "_instructions": "Edit this file, then re-run review.apply_edits(). node_overrides: patch fields of one atom (set needs_review=false when fixed). manual_edges: add {from_temp_id, to_temp_id, rationale, confidence?}; origin is forced to 'manual'. removed_edges: list {from_temp_id, to_temp_id}.",
+  "_instructions": "Edit this file, then re-run review.apply_edits(). node_overrides: patch fields of one atom (set needs_review=false when fixed). manual_edges: add {from_temp_id, to_temp_id, rationale, confidence?}; origin is forced to 'manual'. removed_edges: list {from_temp_id, to_temp_id}. merge_nodes: list {keep, drop, reason}. remove_nodes: list of temp_ids to delete.",
   "node_overrides": {
     "t_46105a7d8b": {
-      "needs_review": true
+      "needs_review": false
     },
     "t_8af6d8cd02": {
-      "needs_review": true
+      "needs_review": false
     },
     "t_26db6fe3a8": {
-      "needs_review": true
-    },
-    "t_78f01c19c6": {
-      "needs_review": true
+      "needs_review": false
     }
   },
   "manual_edges": [],
-  "removed_edges": []
+  "removed_edges": [],
+  "remove_nodes": [
+    "t_78f01c19c6"
+  ],
+  "merge_nodes": [
+    {
+      "keep": "t_3d6c76e0ce",
+      "drop": "t_bb379d82cb",
+      "reason": "identical objective+source_ref; keep the dedicated Finetuning chapter copy"
+    },
+    {
+      "keep": "t_fd1dd7fc9d",
+      "drop": "t_366e056e20",
+      "reason": "identical objective+source_ref; keep the dedicated Dataset Engineering chapter copy"
+    },
+    {
+      "keep": "t_ab83c21e14",
+      "drop": "t_a33b1a7b38",
+      "reason": "identical objective+source_ref; keep the dedicated Dataset Engineering chapter copy"
+    },
+    {
+      "keep": "t_e3acd0469e",
+      "drop": "t_2fc0fc3e3f",
+      "reason": "identical objective+source_ref; keep the dedicated Dataset Engineering chapter copy"
+    },
+    {
+      "keep": "t_7166f3aaec",
+      "drop": "t_3fcfac59d6",
+      "reason": "identical objective+source_ref; keep the dedicated Evaluation Methodology chapter copy"
+    },
+    {
+      "keep": "t_4c237b0dda",
+      "drop": "t_1fcded6064",
+      "reason": "identical objective+source_ref; keep the copy under Evaluation Criteria Definition"
+    }
+  ]
 }

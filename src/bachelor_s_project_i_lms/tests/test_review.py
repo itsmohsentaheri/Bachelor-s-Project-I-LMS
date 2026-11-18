@@ -98,6 +98,52 @@ def test_apply_rejects_unknown_field_and_id():
     assert len(report["errors"]) == 2
 
 
+def test_duplicate_temp_id_keeps_first_occurrence():
+    first = atom("a", "Alpha")
+    second = {**atom("a", "Alpha"), "parent_temp_id": "other"}
+    out_atoms, _, report = apply_edits([first, second], [], {})
+    assert len(out_atoms) == 1
+    assert out_atoms[0]["parent_temp_id"] == "p"
+    assert report["duplicate_temp_ids_dropped"] == ["a"]
+
+
+def test_merge_rewires_edges_and_dedupes():
+    atoms = [atom("a", "Alpha"), atom("b", "Beta"), atom("c", "Gamma"), atom("d", "Delta")]
+    edges = [edge("a", "c"), edge("b", "c"), edge("c", "d")]
+    out_atoms, out_edges, report = apply_edits(
+        atoms, edges, {"merge_nodes": [{"keep": "a", "drop": "b", "reason": "duplicate"}]}
+    )
+    assert {a["temp_id"] for a in out_atoms} == {"a", "c", "d"}
+    pairs = {(e["from_temp_id"], e["to_temp_id"]) for e in out_edges}
+    assert pairs == {("a", "c"), ("c", "d")}
+    assert report["merged"][0]["kept_title"] == "Alpha"
+
+
+def test_merge_rejects_unknown_and_self():
+    atoms = [atom("a", "Alpha"), atom("b", "Beta")]
+    _, _, report = apply_edits(atoms, [], {"merge_nodes": [
+        {"keep": "a", "drop": "zzz"},
+        {"keep": "a", "drop": "a"},
+    ]})
+    assert len(report["errors"]) == 2
+
+
+def test_remove_node_drops_incident_edges():
+    atoms = [atom("a", "Alpha"), atom("b", "Beta"), atom("c", "Gamma")]
+    edges = [edge("a", "b"), edge("b", "c")]
+    out_atoms, out_edges, report = apply_edits(
+        atoms, edges, {"remove_nodes": ["b"]}
+    )
+    assert {a["temp_id"] for a in out_atoms} == {"a", "c"}
+    assert out_edges == []
+    assert report["nodes_removed"] == [{"temp_id": "b", "title": "Beta"}]
+
+
+def test_remove_node_rejects_unknown():
+    _, _, report = apply_edits([atom("a", "Alpha")], [], {"remove_nodes": ["zzz"]})
+    assert report["errors"] == ["remove_nodes: unknown temp_id 'zzz'"]
+
+
 def test_manual_edge_is_added_with_manual_origin():
     atoms = [atom("a", "Alpha"), atom("b", "Beta")]
     _, edges, report = apply_edits(
@@ -134,13 +180,16 @@ def test_removed_edge():
     assert len(report["edges_removed"]) == 1
 
 
-def test_manual_edge_cycle_is_detected():
+def test_cycle_from_edit_drops_weakest_edge():
     atoms = [atom("a", "Alpha"), atom("b", "Beta")]
-    _, _, report = apply_edits(
+    _, edges, report = apply_edits(
         atoms, [edge("a", "b")],
         {"manual_edges": [{"from_temp_id": "b", "to_temp_id": "a"}]},
     )
-    assert [set(c) for c in report["cycles"]] == [{"Alpha", "Beta"}]
+    assert report["cycles"] == []
+    assert len(report["cycle_edges_removed"]) == 1
+    assert report["cycle_edges_removed"][0]["from"] == "Alpha"
+    assert {(e["from_temp_id"], e["to_temp_id"]) for e in edges} == {("b", "a")}
 
 
 # ----------------------------- entry point -----------------------------
@@ -177,7 +226,7 @@ def test_run_refuses_invalid_edits(tmp_path):
     edits_path = tmp_path / "review_edits.json"
     edits_path.write_text(json.dumps({
         "node_overrides": {},
-        "manual_edges": [{"from_temp_id": "b", "to_temp_id": "a"}],
+        "manual_edges": [{"from_temp_id": "b", "to_temp_id": "zzz"}],
         "removed_edges": [],
     }), encoding="utf-8")
 

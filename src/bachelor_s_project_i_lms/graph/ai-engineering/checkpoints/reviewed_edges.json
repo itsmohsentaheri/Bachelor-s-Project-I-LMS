@@ -157,21 +157,21 @@
     "origin": "local"
   },
   {
-    "from_temp_id": "t_1fcded6064",
+    "from_temp_id": "t_4c237b0dda",
     "to_temp_id": "t_6273eda570",
     "confidence": 0.8,
     "rationale": "To select the right model, one must first know the standards and benchmarks against which models will be assessed. [expanded from sibling edge 'Evaluation Criteria' -> 'Model Selection']",
     "origin": "local"
   },
   {
-    "from_temp_id": "t_1fcded6064",
+    "from_temp_id": "t_4c237b0dda",
     "to_temp_id": "t_8d3005ebb4",
     "confidence": 0.9,
     "rationale": "Designing an evaluation pipeline requires predefined criteria to determine what to measure, how to measure it, and what constitutes success. [expanded from sibling edge 'Evaluation Criteria' -> 'Design Your Evaluation Pipeline']",
     "origin": "local"
   },
   {
-    "from_temp_id": "t_1fcded6064",
+    "from_temp_id": "t_4c237b0dda",
     "to_temp_id": "t_f8dd8dbfcc",
     "confidence": 0.8,
     "rationale": "To select the right model, one must first know the standards and benchmarks against which models will be assessed. [expanded from sibling edge 'Evaluation Criteria' -> 'Model Selection']",
@@ -244,7 +244,7 @@
   },
   {
     "from_temp_id": "t_2c3e508397",
-    "to_temp_id": "t_bb379d82cb",
+    "to_temp_id": "t_3d6c76e0ce",
     "confidence": 0.6,
     "rationale": "Understanding the goal of SFT (instruction-following) is necessary before selecting appropriate frameworks and compute resources for implementation.",
     "origin": "local"
@@ -271,14 +271,15 @@
     "origin": "local"
   },
   {
-    "from_temp_id": "t_2fc0fc3e3f",
+    "from_temp_id": "t_e3acd0469e",
     "to_temp_id": "t_ab87193c4b",
     "confidence": 0.85,
-    "rationale": "Synthetic data generation is used to increase training data quantity, so understanding quantity requirements and cost trade-offs is needed to determine how much synthetic data to produce.",
-    "origin": "local"
+    "rationale": "Meaningfully understanding synthetic data generation requires first grasping how data quantity is determined by training costs, desired capabilities, and situational needs.",
+    "origin": "cross_branch",
+    "backward": true
   },
   {
-    "from_temp_id": "t_2fc0fc3e3f",
+    "from_temp_id": "t_e3acd0469e",
     "to_temp_id": "t_e02536ce2b",
     "confidence": 0.75,
     "rationale": "Phase-specific data mixes involve volume considerations across training phases, so understanding data quantity criteria is needed to balance data amounts against training costs and desired capabilities per phase.",
@@ -334,13 +335,6 @@
     "origin": "cross_branch"
   },
   {
-    "from_temp_id": "t_366e056e20",
-    "to_temp_id": "t_6244b688a5",
-    "confidence": 0.85,
-    "rationale": "Understanding data quality and its impact on model performance provides the necessary conceptual foundation for identifying which samples are low-quality and should be removed during filtering.",
-    "origin": "cross_branch"
-  },
-  {
     "from_temp_id": "t_3ae4c6e4b1",
     "to_temp_id": "t_67b3bb12ac",
     "confidence": 0.7,
@@ -370,24 +364,10 @@
     "backward": true
   },
   {
-    "from_temp_id": "t_3fcfac59d6",
-    "to_temp_id": "t_f435b171b1",
-    "confidence": 0.8,
-    "rationale": "Understanding evaluation difficulties and how to assess intelligent outputs is required to make informed decisions about which foundation model to select for specific applications. [expanded from sibling edge 'Foundation Model Evaluation Challenges' -> 'Selecting Foundation Models for Applications']",
-    "origin": "local"
-  },
-  {
     "from_temp_id": "t_45aa258ab0",
     "to_temp_id": "t_dc1c01f07b",
     "confidence": 0.9,
     "rationale": "The post-training workflow defines the overall sequence where SFT is a key stage following pre-training.",
-    "origin": "local"
-  },
-  {
-    "from_temp_id": "t_46105a7d8b",
-    "to_temp_id": "t_78f01c19c6",
-    "confidence": 0.7,
-    "rationale": "Techniques like quantization and caching are applied to the specific operations (attention, feed-forward) within the transformer block.",
     "origin": "local"
   },
   {
@@ -582,7 +562,7 @@
   },
   {
     "from_temp_id": "t_67b3bb12ac",
-    "to_temp_id": "t_3fcfac59d6",
+    "to_temp_id": "t_7166f3aaec",
     "confidence": 0.75,
     "rationale": "The inherent difficulty in evaluating intelligent outputs contributes to the absence of universal standards and quality control mechanisms.",
     "origin": "local"
@@ -648,20 +628,6 @@
     "origin": "cross_branch"
   },
   {
-    "from_temp_id": "t_78f01c19c6",
-    "to_temp_id": "t_2c7a9ce6b8",
-    "confidence": 0.8,
-    "rationale": "Architectural choices and model scale determine the appropriate hyperparameter settings, such as learning rate schedules and batch sizes, needed for stable training. [expanded from sibling edge 'Model Architecture and Scaling' -> 'Hyperparameter Optimization']",
-    "origin": "local"
-  },
-  {
-    "from_temp_id": "t_78f01c19c6",
-    "to_temp_id": "t_7ebb01b16e",
-    "confidence": 0.8,
-    "rationale": "Understanding the broad range of inference optimization techniques at the model, hardware, and service levels provides the necessary context to specifically refine the entire inference process and serving infrastructure while keeping the model intact.",
-    "origin": "cross_branch"
-  },
-  {
     "from_temp_id": "t_7a0306103e",
     "to_temp_id": "t_736f711553",
     "confidence": 0.8,
@@ -691,7 +657,7 @@
   },
   {
     "from_temp_id": "t_81a85a6565",
-    "to_temp_id": "t_bb379d82cb",
+    "to_temp_id": "t_3d6c76e0ce",
     "confidence": 0.9,
     "rationale": "To meaningfully compare full finetuning with adapter-based finetuning in terms of compute requirements, a learner must first understand what full finetuning entails, including that it trains all model parameters.",
     "origin": "cross_branch",
@@ -933,11 +899,11 @@
     "origin": "local"
   },
   {
-    "from_temp_id": "t_a33b1a7b38",
+    "from_temp_id": "t_ab83c21e14",
     "to_temp_id": "t_e02536ce2b",
     "confidence": 0.8,
-    "rationale": "Phase-specific data mixes define domain composition across training phases, which requires understanding data coverage criteria to ensure the right mix of domains and topics without over- or under-representation.",
-    "origin": "local"
+    "rationale": "Understanding data coverage as the criterion for a proper mix of domains and topics is necessary to meaningfully compare optimal domain mixes across different training phases.",
+    "origin": "cross_branch"
   },
   {
     "from_temp_id": "t_a3bff8769a",
@@ -977,7 +943,7 @@
   },
   {
     "from_temp_id": "t_a60472f235",
-    "to_temp_id": "t_1fcded6064",
+    "to_temp_id": "t_4c237b0dda",
     "confidence": 0.8,
     "rationale": "Applying domain-specific benchmarks requires selecting evaluation methods and establishing scoring rubrics to interpret benchmark results consistently.",
     "origin": "local"
@@ -1027,7 +993,7 @@
   },
   {
     "from_temp_id": "t_a9fcb66514",
-    "to_temp_id": "t_1fcded6064",
+    "to_temp_id": "t_4c237b0dda",
     "confidence": 0.75,
     "rationale": "Defining the scope of an application determines which domain-specific capabilities (math, science, reasoning, code generation, tool use) are relevant and should be assessed via benchmarks.",
     "origin": "local"
@@ -1068,13 +1034,6 @@
     "origin": "cross_branch"
   },
   {
-    "from_temp_id": "t_ab83c21e14",
-    "to_temp_id": "t_e02536ce2b",
-    "confidence": 0.8,
-    "rationale": "Understanding data coverage as the criterion for a proper mix of domains and topics is necessary to meaningfully compare optimal domain mixes across different training phases.",
-    "origin": "cross_branch"
-  },
-  {
     "from_temp_id": "t_ab87193c4b",
     "to_temp_id": "t_2c7a9ce6b8",
     "confidence": 0.8,
@@ -1111,14 +1070,14 @@
     "origin": "cross_branch"
   },
   {
-    "from_temp_id": "t_bb379d82cb",
+    "from_temp_id": "t_3d6c76e0ce",
     "to_temp_id": "t_67b3bb12ac",
     "confidence": 0.7,
     "rationale": "Understanding how foundation models are trained, including design decisions, provides necessary context for understanding the specific difficulties in evaluating them compared to traditional ML models. [expanded from sibling edge 'Foundation Model Training Process' -> 'Foundation Model Evaluation Challenges']",
     "origin": "local"
   },
   {
-    "from_temp_id": "t_bb379d82cb",
+    "from_temp_id": "t_3d6c76e0ce",
     "to_temp_id": "t_91435595dd",
     "confidence": 0.8,
     "rationale": "Knowledge of the training process and design decisions is needed to understand how models can be adapted without retraining from scratch. [expanded from sibling edge 'Foundation Model Training Process' -> 'Adapting Foundation Models']",
@@ -1197,7 +1156,7 @@
   },
   {
     "from_temp_id": "t_d024cced90",
-    "to_temp_id": "t_bb379d82cb",
+    "to_temp_id": "t_3d6c76e0ce",
     "confidence": 0.9,
     "rationale": "Understanding how adapter-based finetuning works and its trade-offs is necessary to meaningfully compare it with full finetuning in terms of compute requirements and identify appropriate frameworks.",
     "origin": "cross_branch",
@@ -1246,14 +1205,6 @@
     "origin": "local"
   },
   {
-    "from_temp_id": "t_dcb221f932",
-    "to_temp_id": "t_78f01c19c6",
-    "confidence": 0.9,
-    "rationale": "Meaningfully describing inference optimization techniques requires understanding the performance metrics they aim to improve.",
-    "origin": "cross_branch",
-    "backward": true
-  },
-  {
     "from_temp_id": "t_e02536ce2b",
     "to_temp_id": "t_2c7a9ce6b8",
     "confidence": 0.8,
@@ -1266,14 +1217,6 @@
     "confidence": 0.9,
     "rationale": "Supervised and preference finetuning require high-quality, curated datasets to effectively align model outputs with user intent. [expanded from sibling edge 'Training Data Selection and Quality' -> 'Post-Training Finetuning Strategies']",
     "origin": "local"
-  },
-  {
-    "from_temp_id": "t_e3acd0469e",
-    "to_temp_id": "t_ab87193c4b",
-    "confidence": 0.85,
-    "rationale": "Meaningfully understanding synthetic data generation requires first grasping how data quantity is determined by training costs, desired capabilities, and situational needs.",
-    "origin": "cross_branch",
-    "backward": true
   },
   {
     "from_temp_id": "t_e6e1ef68bc",
@@ -1344,13 +1287,6 @@
     "confidence": 0.95,
     "rationale": "Application requirements establish the criteria (latency, accuracy, cost, privacy) needed to determine which model capabilities are relevant for comparison.",
     "origin": "local"
-  },
-  {
-    "from_temp_id": "t_f44fa190e3",
-    "to_temp_id": "t_1fcded6064",
-    "confidence": 0.85,
-    "rationale": "Understanding how to evaluate model performance using benchmarks and metrics is necessary before meaningfully identifying and applying domain-specific capability benchmarks.",
-    "origin": "cross_branch"
   },
   {
     "from_temp_id": "t_f44fa190e3",

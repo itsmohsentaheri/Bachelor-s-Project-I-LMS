@@ -24,7 +24,7 @@ from pathlib import Path
 from typing import Optional
 
 from bachelor_s_project_i_lms.graph.atom_meta import load_atoms
-from bachelor_s_project_i_lms.graph.validate import _sccs
+from bachelor_s_project_i_lms.graph.validate import _sccs, break_cycles
 
 CHECKPOINTS = Path(__file__).resolve().parent / "ai-engineering" / "checkpoints"
 NODES_CSV = CHECKPOINTS / "nodes.csv"
@@ -176,7 +176,9 @@ def write_template(atoms: list[dict], path: Path = EDITS_PATH) -> Path:
             "Edit this file, then re-run review.apply_edits(). "
             "node_overrides: patch fields of one atom (set needs_review=false when fixed). "
             "manual_edges: add {from_temp_id, to_temp_id, rationale, confidence?}; "
-            "origin is forced to 'manual'. removed_edges: list {from_temp_id, to_temp_id}."
+            "origin is forced to 'manual'. removed_edges: list {from_temp_id, to_temp_id}. "
+            "merge_nodes: list {keep, drop, reason} for duplicate atoms; edges are rewired. "
+            "remove_nodes: list of temp_ids to delete (incident edges go with them)."
         ),
         "node_overrides": {
             a["temp_id"]: {"needs_review": True}
@@ -184,6 +186,8 @@ def write_template(atoms: list[dict], path: Path = EDITS_PATH) -> Path:
         },
         "manual_edges": [],
         "removed_edges": [],
+        "merge_nodes": [],
+        "remove_nodes": [],
     }
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(template, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
@@ -200,14 +204,30 @@ def apply_edits(atoms: list[dict], edges: list[dict], edits: dict) -> tuple[list
     """
     atoms = [dict(a) for a in atoms]
     edges = [dict(e) for e in edges]
-    by_id = {a["temp_id"]: a for a in atoms}
     report: dict = {
+        "duplicate_temp_ids_dropped": [],
+        "merged": [],
         "node_overrides_applied": [],
         "manual_edges_added": [],
         "edges_removed": [],
+        "nodes_removed": [],
+        "cycle_edges_removed": [],
         "errors": [],
         "cycles": [],
     }
+
+    # A temp_id must identify exactly one atom. The tree can contain the same
+    # atom under two parents (same id, same content); keep the first occurrence.
+    deduped: list[dict] = []
+    seen_ids: set[str] = set()
+    for a in atoms:
+        if a["temp_id"] in seen_ids:
+            report["duplicate_temp_ids_dropped"].append(a["temp_id"])
+            continue
+        seen_ids.add(a["temp_id"])
+        deduped.append(a)
+    atoms = deduped
+    by_id = {a["temp_id"]: a for a in atoms}
 
     for tid, patch in (edits.get("node_overrides") or {}).items():
         if tid not in by_id:
@@ -219,6 +239,52 @@ def apply_edits(atoms: list[dict], edges: list[dict], edits: dict) -> tuple[list
             continue
         by_id[tid].update(patch)
         report["node_overrides_applied"].append({"temp_id": tid, "fields": sorted(patch)})
+
+    origin_rank = {"manual": 3, "cross_branch": 2, "local": 1}
+    for item in edits.get("merge_nodes") or []:
+        keep, drop = item.get("keep"), item.get("drop")
+        if keep not in by_id or drop not in by_id:
+            report["errors"].append(f"merge_nodes: unknown temp_id in {(keep, drop)}")
+            continue
+        if keep == drop:
+            report["errors"].append(f"merge_nodes: keep == drop ({keep})")
+            continue
+
+        for e in edges:
+            if e["from_temp_id"] == drop:
+                e["from_temp_id"] = keep
+            if e["to_temp_id"] == drop:
+                e["to_temp_id"] = keep
+        edges = [e for e in edges if e["from_temp_id"] != e["to_temp_id"]]
+
+        best: dict[tuple[str, str], dict] = {}
+        for e in edges:
+            pair = (e["from_temp_id"], e["to_temp_id"])
+            current = best.get(pair)
+            if current is None or (e["confidence"], origin_rank.get(e.get("origin"), 0)) > (
+                    current["confidence"], origin_rank.get(current.get("origin"), 0)):
+                best[pair] = e
+        edges = list(best.values())
+
+        report["merged"].append({
+            "keep": keep, "drop": drop,
+            "kept_title": by_id[keep]["title"], "dropped_title": by_id[drop]["title"],
+            "reason": item.get("reason", ""),
+        })
+        atoms = [a for a in atoms if a["temp_id"] != drop]
+        by_id.pop(drop)
+
+    for item in edits.get("remove_nodes") or []:
+        tid = item if isinstance(item, str) else item.get("temp_id")
+        if tid not in by_id:
+            report["errors"].append(f"remove_nodes: unknown temp_id {tid!r}")
+            continue
+        title = by_id[tid]["title"]
+        atoms = [a for a in atoms if a["temp_id"] != tid]
+        edges = [e for e in edges
+                 if tid not in (e["from_temp_id"], e["to_temp_id"])]
+        by_id.pop(tid)
+        report["nodes_removed"].append({"temp_id": tid, "title": title})
 
     for item in edits.get("removed_edges") or []:
         pair = (item.get("from_temp_id"), item.get("to_temp_id"))
@@ -259,6 +325,18 @@ def apply_edits(atoms: list[dict], edges: list[dict], edits: dict) -> tuple[list
     for comp in _sccs(nodes, edges):
         if len(comp) > 1 or comp[0] in self_ids:
             report["cycles"].append([by_id[n]["title"] for n in comp])
+
+    if report["cycles"]:
+        # Merging duplicate atoms can fuse two acyclic neighbourhoods into a
+        # cycle. Apply the Phase 6 rule: drop the weakest edge in each cycle.
+        edges, removed = break_cycles(nodes, edges)
+        report["cycle_edges_removed"] = [
+            {"from": by_id[e["from_temp_id"]]["title"],
+             "to": by_id[e["to_temp_id"]]["title"],
+             "confidence": e["confidence"], "origin": e.get("origin")}
+            for e in removed
+        ]
+        report["cycles"] = []
 
     return atoms, edges, report
 
@@ -302,7 +380,10 @@ def run(
     print(f"= edits:     {edits_path}")
     print(f"= applied:   {len(report['node_overrides_applied'])} overrides, "
           f"{len(report['manual_edges_added'])} manual edges, "
-          f"{len(report['edges_removed'])} removals")
+          f"{len(report['edges_removed'])} removals, "
+          f"{len(report['merged'])} merges, "
+          f"{len(report['nodes_removed'])} nodes removed, "
+          f"{len(report['cycle_edges_removed'])} cycle edges dropped")
     print(f"= still flagged for review: {report['n_flagged']}")
 
     if report["errors"] or report["cycles"]:

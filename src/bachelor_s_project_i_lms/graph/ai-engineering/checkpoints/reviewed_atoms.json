@@ -281,39 +281,6 @@
     ]
   },
   {
-    "temp_id": "t_bb379d82cb",
-    "title": "Finetuning Frameworks and Compute",
-    "summary": "Covers popular SFT frameworks such as LLaMA-Factory, PEFT, and Axolotl, and the compute requirements for full versus adapter-based finetuning.",
-    "depth": 3,
-    "root": "Understanding Foundation Models",
-    "parent_temp_id": "t_dc1c01f07b",
-    "is_atomic": true,
-    "needs_review": false,
-    "learning_objective": "The learner can compare full finetuning and adapter-based finetuning in terms of compute requirements and identify frameworks such as LLaMA-Factory, PEFT, and Axolotl for each approach.",
-    "estimated_time_min": 8,
-    "difficulty_weight": 3,
-    "type": "concept",
-    "common_misconceptions": [
-      {
-        "id": "adapter_always_faster",
-        "description": "Believing adapter-based finetuning is always faster than full finetuning regardless of model size or dataset."
-      },
-      {
-        "id": "frameworks_interchangeable",
-        "description": "Assuming all finetuning frameworks support identical methods and hardware configurations without trade-offs."
-      },
-      {
-        "id": "mid_tier_gpu_full_ft",
-        "description": "Thinking a mid-tier GPU is sufficient for full finetuning of most foundation models."
-      }
-    ],
-    "source_chunk_ids": [
-      "chunk_p383_588",
-      "chunk_p331_504",
-      "chunk_p19_22"
-    ]
-  },
-  {
     "temp_id": "t_be80cf1472",
     "title": "Preference Finetuning Objectives",
     "summary": "The goal of aligning model outputs with human preferences, the challenges of defining universal human preference mathematically, and the risks of over-censorship or misalignment.",
@@ -436,95 +403,6 @@
     ]
   },
   {
-    "temp_id": "t_366e056e20",
-    "title": "Data Quality",
-    "summary": "The criterion ensuring training data is accurate, reliable, and free from errors, analogous to using fresh ingredients in cooking, which directly impacts model performance.",
-    "depth": 4,
-    "root": "Understanding Foundation Models",
-    "parent_temp_id": "t_7ac01a163b",
-    "is_atomic": true,
-    "needs_review": false,
-    "learning_objective": "The learner can define data quality in model training and explain how high-quality data impacts model performance compared to noisy data.",
-    "estimated_time_min": 8,
-    "difficulty_weight": 2,
-    "type": "concept",
-    "common_misconceptions": [
-      {
-        "id": "quantity_over_quality",
-        "description": "Believing that a larger volume of training data always leads to better model performance regardless of noise or relevance."
-      },
-      {
-        "id": "quality_irrelevance",
-        "description": "Assuming that data quality does not significantly affect model performance as long as the data quantity is sufficient."
-      }
-    ],
-    "source_chunk_ids": [
-      "chunk_p391_603",
-      "chunk_p392_604"
-    ]
-  },
-  {
-    "temp_id": "t_a33b1a7b38",
-    "title": "Data Coverage",
-    "summary": "The criterion ensuring the training data includes the right mix of domains and topics, such as general knowledge, math, coding, and multilingual content, without over- or under-representing any area.",
-    "depth": 4,
-    "root": "Understanding Foundation Models",
-    "parent_temp_id": "t_7ac01a163b",
-    "is_atomic": true,
-    "needs_review": false,
-    "learning_objective": "The learner can explain data coverage as the criterion ensuring training data includes the right mix of domains and topics without over- or under-representing any area.",
-    "estimated_time_min": 5,
-    "difficulty_weight": 2,
-    "type": "concept",
-    "common_misconceptions": [
-      {
-        "id": "coverage_equals_quantity",
-        "description": "Believing data coverage is about the total amount of data rather than the diversity and balance of domains and topics."
-      },
-      {
-        "id": "coverage_equals_quality",
-        "description": "Confusing data coverage with data quality, which concerns the correctness and reliability of individual examples rather than the mix of data."
-      }
-    ],
-    "source_chunk_ids": [
-      "chunk_p391_603",
-      "chunk_p394_608"
-    ]
-  },
-  {
-    "temp_id": "t_2fc0fc3e3f",
-    "title": "Data Quantity",
-    "summary": "The criterion determining the volume of training data required for a model, balancing the amount of data against training costs and desired capabilities.",
-    "depth": 4,
-    "root": "Understanding Foundation Models",
-    "parent_temp_id": "t_7ac01a163b",
-    "is_atomic": true,
-    "needs_review": false,
-    "learning_objective": "The learner can explain how data quantity is determined by balancing training costs, desired capabilities, and the specific situation, recognizing that required amounts range from single examples to trillions of tokens.",
-    "estimated_time_min": 8,
-    "difficulty_weight": 3,
-    "type": "concept",
-    "common_misconceptions": [
-      {
-        "id": "more_data_always_better",
-        "description": "Believing that more data always leads to better performance regardless of quality or diversity."
-      },
-      {
-        "id": "fixed_data_amount",
-        "description": "Assuming there is a single fixed amount of data required for all models and tasks."
-      },
-      {
-        "id": "quantity_over_quality",
-        "description": "Thinking data quantity matters more than data quality and coverage for model performance."
-      }
-    ],
-    "source_chunk_ids": [
-      "chunk_p396_612",
-      "chunk_p391_603",
-      "chunk_p401_617"
-    ]
-  },
-  {
     "temp_id": "t_e02536ce2b",
     "title": "Phase-Specific Data Mixes",
     "summary": "The variation in optimal data composition across different training phases, such as pre-training, supervised finetuning, and preference finetuning, as demonstrated by domain mix tables.",
@@ -596,7 +474,7 @@
     "root": "Understanding Foundation Models",
     "parent_temp_id": "t_763bd19ed1",
     "is_atomic": true,
-    "needs_review": true,
+    "needs_review": false,
     "learning_objective": "The learner can identify the key components of a transformer block, including self-attention mechanisms and feed-forward layers, and explain how they process information in parallel without RNNs.",
     "estimated_time_min": 10,
     "difficulty_weight": 3,
@@ -629,7 +507,7 @@
     "root": "Understanding Foundation Models",
     "parent_temp_id": "t_763bd19ed1",
     "is_atomic": true,
-    "needs_review": true,
+    "needs_review": false,
     "learning_objective": "The learner can explain how the number of parameters, layers, and hidden dimensions affect model capacity, expressiveness, and the ability to learn complex patterns from data.",
     "estimated_time_min": 10,
     "difficulty_weight": 3,
@@ -662,7 +540,7 @@
     "root": "Understanding Foundation Models",
     "parent_temp_id": "t_763bd19ed1",
     "is_atomic": true,
-    "needs_review": true,
+    "needs_review": false,
     "learning_objective": "The learner can identify computational and memory limitations during training, including GPU memory, bandwidth, and the trade-offs between model size and training time.",
     "estimated_time_min": 10,
     "difficulty_weight": 3,
@@ -684,39 +562,6 @@
     "source_chunk_ids": [
       "chunk_p343_524",
       "chunk_p351_536"
-    ]
-  },
-  {
-    "temp_id": "t_78f01c19c6",
-    "title": "Inference Optimization Techniques",
-    "summary": "Methods for reducing inference latency and cost, such as quantization, caching, and API-based optimizations used in production deployments.",
-    "depth": 4,
-    "root": "Understanding Foundation Models",
-    "parent_temp_id": "t_763bd19ed1",
-    "is_atomic": true,
-    "needs_review": true,
-    "learning_objective": "The learner can describe inference optimization techniques at the model, hardware, and service levels, including quantization, distillation, and caching, to reduce latency and cost.",
-    "estimated_time_min": 10,
-    "difficulty_weight": 3,
-    "type": "concept",
-    "common_misconceptions": [
-      {
-        "id": "optimization_preserves_quality",
-        "description": "Believing that inference optimization never changes model quality, when many techniques can cause model degradation."
-      },
-      {
-        "id": "developers_implement_techniques",
-        "description": "Assuming most application developers implement optimization techniques themselves, when most use model APIs with built-in optimization instead."
-      },
-      {
-        "id": "service_level_changes_model",
-        "description": "Thinking inference service-level optimization changes the model itself, when it typically keeps the model intact and only changes how it is served."
-      }
-    ],
-    "source_chunk_ids": [
-      "chunk_p429_661",
-      "chunk_p450_691",
-      "chunk_p472_723"
     ]
   },
   {
@@ -1135,38 +980,6 @@
     ]
   },
   {
-    "temp_id": "t_3fcfac59d6",
-    "title": "Lack of Standardization and Quality Control",
-    "summary": "Addresses the absence of universal standards and quality control mechanisms in foundation model evaluation, making results hard to compare across different studies and providers.",
-    "depth": 2,
-    "root": "Understanding Foundation Models",
-    "parent_temp_id": "t_f3801d3a6d",
-    "is_atomic": true,
-    "needs_review": false,
-    "learning_objective": "The learner can explain how the absence of universal standards and quality control mechanisms in foundation model evaluation makes results difficult to compare across studies and providers.",
-    "estimated_time_min": 8,
-    "difficulty_weight": 3,
-    "type": "concept",
-    "common_misconceptions": [
-      {
-        "id": "leaderboard_transparency",
-        "description": "Assuming leaderboard developers can always clearly explain their benchmark selection processes."
-      },
-      {
-        "id": "gaming_awareness",
-        "description": "Believing that attempts to game evaluation rankings are always admitted or easily detectable."
-      },
-      {
-        "id": "random_matching_necessity",
-        "description": "Thinking all model pairs must be compared an equal number of times to produce a valid ranking."
-      }
-    ],
-    "source_chunk_ids": [
-      "chunk_p177_270",
-      "chunk_p217_339"
-    ]
-  },
-  {
     "temp_id": "t_1e2e652cea",
     "title": "Scalability Bottlenecks in Evaluation",
     "summary": "Covers the challenges of scaling evaluation processes due to the high cost and time required for human annotation and testing of large generative outputs.",
@@ -1574,39 +1387,6 @@
     "source_chunk_ids": [
       "chunk_p188_288",
       "chunk_p232_365"
-    ]
-  },
-  {
-    "temp_id": "t_902227c859",
-    "title": "Selecting Evaluation Methods",
-    "summary": "Choosing appropriate evaluation methods such as toxicity classifiers, semantic similarity, and AI judges based on specific criteria, including the use of scoring rubrics and examples for specialized scorers.",
-    "depth": 2,
-    "root": "Evaluation Methodology",
-    "parent_temp_id": "t_3119c1d112",
-    "is_atomic": true,
-    "needs_review": false,
-    "learning_objective": "The learner can select appropriate evaluation methods for different criteria such as toxicity classifiers, semantic similarity, and AI judges for factual consistency.",
-    "estimated_time_min": 8,
-    "difficulty_weight": 3,
-    "type": "concept",
-    "common_misconceptions": [
-      {
-        "id": "one_method_fits_all",
-        "description": "Believing a single evaluation method can be used for all criteria instead of matching methods to specific criteria."
-      },
-      {
-        "id": "ai_judge_infallible",
-        "description": "Assuming AI judges are always accurate without needing unambiguous scoring rubrics and examples."
-      },
-      {
-        "id": "mixing_not_allowed",
-        "description": "Thinking you cannot combine multiple evaluation methods for the same criterion."
-      }
-    ],
-    "source_chunk_ids": [
-      "chunk_p228_357",
-      "chunk_p525_794",
-      "chunk_p9_9"
     ]
   },
   {
@@ -2185,34 +1965,6 @@
     ]
   },
   {
-    "temp_id": "t_775c4ee484",
-    "title": "Scalability Bottlenecks in Comparative Evaluation",
-    "summary": "Comparative evaluation is data-intensive because the number of model pairs grows quadratically with the number of models, requiring large numbers of comparisons for reliable rankings.",
-    "depth": 2,
-    "root": "Evaluation Methodology",
-    "parent_temp_id": "t_03135dbe80",
-    "is_atomic": true,
-    "needs_review": false,
-    "learning_objective": "The learner can explain why comparative evaluation becomes data-intensive as the number of models increases due to quadratic growth in model pairs.",
-    "estimated_time_min": 8,
-    "difficulty_weight": 3,
-    "type": "concept",
-    "common_misconceptions": [
-      {
-        "id": "linear_growth_assumption",
-        "description": "Believing the number of comparisons grows linearly with the number of models rather than quadratically."
-      },
-      {
-        "id": "enough_comparisons_fallacy",
-        "description": "Assuming that a large total number of comparisons guarantees sufficient signal per model pair."
-      }
-    ],
-    "source_chunk_ids": [
-      "chunk_p176_268",
-      "chunk_p177_270"
-    ]
-  },
-  {
     "temp_id": "t_7166f3aaec",
     "title": "Lack of Standardization and Quality Control",
     "summary": "Challenges in ensuring consistent and reliable evaluation signals when using human or AI judges, including variability in voter quality and the need for evaluation guidelines and rubrics.",
@@ -2242,34 +1994,6 @@
     "source_chunk_ids": [
       "chunk_p177_270",
       "chunk_p217_339"
-    ]
-  },
-  {
-    "temp_id": "t_1fcded6064",
-    "title": "Domain-Specific Capability Benchmarks",
-    "summary": "Using public or private benchmarks to assess capabilities such as math, science, reasoning, code generation, and tool use.",
-    "depth": 2,
-    "root": "Evaluate AI Systems",
-    "parent_temp_id": "t_a1f38b4d7a",
-    "is_atomic": true,
-    "needs_review": false,
-    "learning_objective": "The learner can identify domain-specific benchmarks used to evaluate capabilities such as code generation, math, reasoning, and legal knowledge.",
-    "estimated_time_min": 5,
-    "difficulty_weight": 2,
-    "type": "concept",
-    "common_misconceptions": [
-      {
-        "id": "only_public_benchmarks",
-        "description": "Believing that only public benchmarks exist for evaluating domain-specific capabilities."
-      },
-      {
-        "id": "single_metric_sufficiency",
-        "description": "Assuming that functional correctness alone is sufficient to evaluate all domain-specific capabilities."
-      }
-    ],
-    "source_chunk_ids": [
-      "chunk_p185_283",
-      "chunk_p186_284"
     ]
   },
   {

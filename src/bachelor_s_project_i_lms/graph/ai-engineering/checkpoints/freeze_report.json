@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "dry_run": false,
+  "errors": [],
+  "warnings": [],
+  "stats": {
+    "n_atoms": 119,
+    "n_edges": 192,
+    "n_roots": 10,
+    "n_flagged": 0,
+    "edge_origins": {
+      "local": 122,
+      "cross_branch": 70
+    }
+  },
+  "inputs": {
+    "atoms.json": "db9d28c12ee3e65bf8a94bbebb4328ed2d8c780b277505cc878cb3cf1427f043",
+    "final_edges.json": "ee35a1697bf73c43aaee0eed7d17856570d8dd720391fc3141113fa49c2dcf1c",
+    "review_edits.json": "ccc6993320acfe893e500cd625766cad201f422cc97e39012d23e12bd4e69cfa",
+    "reviewed_atoms.json": "4a2e5f1bc32b8338b7e54dd2c7612e2e58af4a727862aa641293b3ee79143986",
+    "reviewed_edges.json": "678686b15d74384d25aaecaa3312281ca37e261b1731c3168c652764f47681e8"
+  },
+  "published": {
+    "n_nodes": 119,
+    "n_edges": 192
+  }
+}
