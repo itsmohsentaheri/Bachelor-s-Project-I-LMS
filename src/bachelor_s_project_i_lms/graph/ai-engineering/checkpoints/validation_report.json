@@ -1,13 +1,174 @@
 {
   "n_atoms": 128,
-  "n_edges_in": 193,
+  "n_edges_in": 380,
   "cycle_edges_removed": [
+    {
+      "from": "Fine-Tuning",
+      "to": "Retrieval-Augmented Generation",
+      "confidence": 0.4,
+      "origin": "local",
+      "rationale": "Fine-tuning can be used to adapt a foundation model to better incorporate retrieved context, though RAG can function without it."
+    },
+    {
+      "from": "Data Quantity",
+      "to": "Data Coverage",
+      "confidence": 0.6,
+      "origin": "local",
+      "rationale": "Determining the appropriate volume of data is necessary before assessing whether the dataset has sufficient diversity to represent all scenarios."
+    },
+    {
+      "from": "Evaluation Pipeline Design",
+      "to": "System-Level Cost and Latency Evaluation",
+      "confidence": 0.5,
+      "origin": "local",
+      "rationale": "System-level evaluation benefits from the end-to-end pipeline process for measuring efficiency and cost in deployment contexts."
+    },
+    {
+      "from": "Data Quality",
+      "to": "Data Coverage",
+      "confidence": 0.6,
+      "origin": "local",
+      "rationale": "Ensuring data accuracy and reliability is a prerequisite for meaningfully evaluating whether the dataset represents all necessary scenarios."
+    },
+    {
+      "from": "Evaluation Pipeline Design",
+      "to": "Domain-Specific Capability Evaluation",
+      "confidence": 0.6,
+      "origin": "local",
+      "rationale": "Building domain-specific evaluations requires the end-to-end pipeline process for creating guidelines, methods, and annotated sets."
+    },
+    {
+      "from": "Data Quality Dimensions",
+      "to": "Data Quality",
+      "confidence": 0.8,
+      "origin": "cross_branch",
+      "rationale": "Understanding the specific dimensions of data quality (completeness, uniqueness, validity, accuracy, consistency, fitness for purpose) provides the concrete criteria needed to meaningfully define and evaluate data quality in model training and its impact on performance."
+    },
+    {
+      "from": "Evaluation Pipeline Design",
+      "to": "Instruction-Following Evaluation",
+      "confidence": 0.6,
+      "origin": "local",
+      "rationale": "Instruction-following evaluation with scoring rubrics depends on the pipeline design process for creating guidelines and evaluation sets."
+    },
+    {
+      "from": "Evaluation Pipeline Design",
+      "to": "Generation Capability Evaluation",
+      "confidence": 0.6,
+      "origin": "local",
+      "rationale": "Generation evaluation metrics require an evaluation pipeline to define methods, data, and annotation processes."
+    },
+    {
+      "from": "Resolving Conflicting Benchmark Results",
+      "to": "Define Evaluation Methods and Data",
+      "confidence": 0.6,
+      "origin": "local",
+      "rationale": "The chosen model influences the specific components and methods included in a custom evaluation pipeline. [expanded from sibling edge 'Model Selection' -> 'Design Your Evaluation Pipeline']"
+    },
     {
       "from": "Scalability Bottlenecks in Comparative Evaluation",
       "to": "Signal Gathering and Model Ranking Challenges",
       "confidence": 0.7,
       "origin": "local",
       "rationale": "Understanding scalability bottlenecks provides context for the data-intensity challenges in gathering sufficient comparison signals."
+    },
+    {
+      "from": "Build Versus Buy Decision",
+      "to": "Define Evaluation Methods and Data",
+      "confidence": 0.6,
+      "origin": "local",
+      "rationale": "The chosen model influences the specific components and methods included in a custom evaluation pipeline. [expanded from sibling edge 'Model Selection' -> 'Design Your Evaluation Pipeline']"
+    },
+    {
+      "from": "Prompt Engineering",
+      "to": "Fine-Tuning",
+      "confidence": 0.6,
+      "origin": "local",
+      "rationale": "Understanding how prompts guide model outputs provides a baseline for evaluating whether weight updates via fine-tuning are necessary or effective."
+    },
+    {
+      "from": "Annotating Evaluation Data",
+      "to": "Designing Evaluation Data Slices",
+      "confidence": 0.6,
+      "origin": "local",
+      "rationale": "Annotated data is required to create meaningful evaluation data slices."
+    },
+    {
+      "from": "Retrieval-Augmented Generation",
+      "to": "Defining Application Requirements",
+      "confidence": 0.7,
+      "origin": "local",
+      "rationale": "Knowledge of adaptation methods is needed to decide what foundation model to use based on application requirements, since adaptation capabilities influence model selection. [expanded from sibling edge 'Adapting Foundation Models' -> 'Selecting Foundation Models for Applications']"
+    },
+    {
+      "from": "When to Finetune",
+      "to": "Full Finetuning",
+      "confidence": 0.7,
+      "origin": "local",
+      "rationale": "Deciding whether to finetune is a prerequisite to choosing a specific finetuning approach such as full finetuning."
+    },
+    {
+      "from": "When to Finetune",
+      "to": "Adapter-Based Finetuning",
+      "confidence": 0.7,
+      "origin": "local",
+      "rationale": "Deciding whether to finetune is a prerequisite to choosing a specific finetuning approach such as adapter-based finetuning."
+    },
+    {
+      "from": "Creating Scoring Rubrics",
+      "to": "Selecting Evaluation Methods",
+      "confidence": 0.7,
+      "origin": "local",
+      "rationale": "Scoring rubrics define how outputs are judged, which can influence whether human/AI judges or automated methods are selected for evaluation."
+    },
+    {
+      "from": "Selecting Evaluation Methods",
+      "to": "Designing Evaluation Data Slices",
+      "confidence": 0.7,
+      "origin": "local",
+      "rationale": "The selected evaluation methods inform which data slices are most relevant to evaluate."
+    },
+    {
+      "from": "Evaluation Methods and Scoring Rubrics",
+      "to": "Operational Evaluation Factors",
+      "confidence": 0.7,
+      "origin": "local",
+      "rationale": "Assessing operational metrics such as cost and latency requires defined measurement methods and scoring guidelines to ensure consistent evaluation alongside quality criteria."
+    },
+    {
+      "from": "Evaluating Model Performance",
+      "to": "Selecting Evaluation Methods",
+      "confidence": 0.7,
+      "origin": "cross_branch",
+      "rationale": "Understanding how to evaluate model performance using benchmarks and metrics provides the foundational knowledge needed to select appropriate evaluation methods for specific criteria."
+    },
+    {
+      "from": "Creating Evaluation Guidelines",
+      "to": "Evaluation Methods and Scoring Rubrics",
+      "confidence": 0.8,
+      "origin": "cross_branch",
+      "rationale": "Defining what an application should and shouldn't do via evaluation guidelines establishes the criteria and scope that must be understood before selecting appropriate evaluation methods and creating scoring rubrics."
+    },
+    {
+      "from": "Domain-Specific Capability Benchmarks",
+      "to": "Comparative vs. Absolute Evaluation",
+      "confidence": 0.8,
+      "origin": "local",
+      "rationale": "Understanding what is being measured is necessary before distinguishing between comparative and absolute evaluation approaches. [expanded from sibling edge 'Evaluation Criteria Definition' -> 'Comparative vs Absolute Performance Evaluation']"
+    },
+    {
+      "from": "Define Evaluation Methods and Data",
+      "to": "Designing Evaluation Data Slices",
+      "confidence": 0.8,
+      "origin": "cross_branch",
+      "rationale": "Defining evaluation methods and data, including how to annotate and slice data, provides the foundational knowledge required to design specific evaluation data slices."
+    },
+    {
+      "from": "Selecting Evaluation Methods",
+      "to": "Comparative vs. Absolute Evaluation",
+      "confidence": 0.8,
+      "origin": "local",
+      "rationale": "Understanding what is being measured is necessary before distinguishing between comparative and absolute evaluation approaches. [expanded from sibling edge 'Evaluation Criteria Definition' -> 'Comparative vs Absolute Performance Evaluation']"
     },
     {
       "from": "Selecting Evaluation Methods",
@@ -17,8 +178,44 @@
       "rationale": "You must define what to measure (criteria) before selecting appropriate methods and data to measure it. [expanded from sibling edge 'Evaluation Criteria Definition' -> 'Evaluation Methods and Data Selection']"
     }
   ],
-  "n_edges_after_cycles": 191,
+  "n_edges_after_cycles": 355,
   "redundant_edges_removed": [
+    {
+      "from": "Comparative vs. Absolute Performance",
+      "to": "Resolving Conflicting Benchmark Results",
+      "confidence": 0.85,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Comparative vs. Absolute Performance",
+      "to": "Scalability Bottlenecks in Comparative Evaluation",
+      "confidence": 0.8,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Comparative vs. Absolute Performance",
+      "to": "Limitations of Comparative Evaluation",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Evaluation Pipeline Design",
+      "to": "Evaluate and Iterate the Pipeline",
+      "confidence": 0.85,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "AI Application Architecture",
+      "to": "Evaluate All System Components",
+      "confidence": 0.85,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "AI Application Architecture",
+      "to": "User Feedback Integration",
+      "confidence": 0.9,
+      "origin": "local"
+    },
     {
       "from": "Annotation Consistency",
       "to": "Downstream Task Evaluation",
@@ -33,8 +230,26 @@
     },
     {
       "from": "Generation Quality Criteria",
+      "to": "RAG Evaluation",
+      "confidence": 0.8,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Generation Quality Criteria",
+      "to": "Creating Scoring Rubrics",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Generation Quality Criteria",
       "to": "Define Evaluation Methods and Data",
       "confidence": 0.9,
+      "origin": "local"
+    },
+    {
+      "from": "Generation Quality Criteria",
+      "to": "Navigating Public Benchmarks",
+      "confidence": 0.8,
       "origin": "local"
     },
     {
@@ -45,15 +260,183 @@
     },
     {
       "from": "Prompt Fundamentals",
+      "to": "Prompt Engineering Tools",
+      "confidence": 0.9,
+      "origin": "local"
+    },
+    {
+      "from": "Prompt Fundamentals",
+      "to": "When to Finetune",
+      "confidence": 0.8,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Prompt Fundamentals",
+      "to": "Prompt Engineering Best Practices",
+      "confidence": 0.95,
+      "origin": "local"
+    },
+    {
+      "from": "Prompt Fundamentals",
       "to": "Prompt Attacks and Defense",
       "confidence": 0.9,
       "origin": "local"
     },
     {
-      "from": "Domain-Specific Capability Benchmarks",
-      "to": "Define Evaluation Methods and Data",
+      "from": "Creating Evaluation Guidelines",
+      "to": "Evaluate All System Components",
+      "confidence": 0.8,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Retrieval-Augmented Generation",
+      "to": "RAG vs Finetuning",
+      "confidence": 0.95,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Retrieval-Augmented Generation",
+      "to": "Memory Systems",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Retrieval-Augmented Generation",
+      "to": "RAG Evaluation",
+      "confidence": 0.95,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Retrieval-Augmented Generation",
+      "to": "RAG Implementation Starting Points",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Fine-Tuning",
+      "to": "RAG vs Finetuning",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Fine-Tuning",
+      "to": "Finetuning Frameworks and Compute",
+      "confidence": 0.95,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Fine-Tuning",
+      "to": "When to Finetune",
+      "confidence": 0.95,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Fine-Tuning",
+      "to": "Full Finetuning",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Fine-Tuning",
+      "to": "Adapter-Based Finetuning",
+      "confidence": 0.95,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "SFT vs Pre-training Objectives",
+      "to": "Instruction-Following Evaluation",
+      "confidence": 0.85,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "SFT vs Pre-training Objectives",
+      "to": "Instruction-Following and Scope",
+      "confidence": 0.85,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Foundation Model Basics",
+      "to": "AI Application Architecture",
+      "confidence": 0.95,
+      "origin": "local"
+    },
+    {
+      "from": "Foundation Model Basics",
+      "to": "Pre-training as Parameter Compression",
+      "confidence": 0.95,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Foundation Model Basics",
+      "to": "Lack of Standardization and Quality Control",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Foundation Model Basics",
+      "to": "Build Versus Buy Decision",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Foundation Model Basics",
+      "to": "Difficulty of Evaluating Intelligent Outputs",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Foundation Model Basics",
+      "to": "Lack of Standardization and Quality Control",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Foundation Model Basics",
+      "to": "Comparing Model Capabilities",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Data Quality",
+      "to": "Annotation Consistency",
+      "confidence": 0.7,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Data Quality",
+      "to": "Data Cleaning and Filtering",
+      "confidence": 0.85,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Data Quality",
+      "to": "DataPerf and dcbench",
+      "confidence": 0.85,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Data Quality",
+      "to": "Downstream Task Evaluation",
+      "confidence": 0.8,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Data Quality",
+      "to": "Synthetic Data Generation",
       "confidence": 0.9,
       "origin": "local"
+    },
+    {
+      "from": "Data Quality",
+      "to": "Data-Centric Benchmark Competitions",
+      "confidence": 0.8,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Data Quality",
+      "to": "Limitations of Synthetic Data",
+      "confidence": 0.85,
+      "origin": "cross_branch"
     },
     {
       "from": "Manual Data Inspection",
@@ -69,6 +452,12 @@
     },
     {
       "from": "Post-Training Workflow",
+      "to": "Finetuning Frameworks and Compute",
+      "confidence": 0.85,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Post-Training Workflow",
       "to": "Preference Finetuning",
       "confidence": 0.9,
       "origin": "local"
@@ -80,6 +469,18 @@
       "origin": "local"
     },
     {
+      "from": "Transformer Block Architecture",
+      "to": "Adapter-Based Finetuning",
+      "confidence": 0.95,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Self-Supervised Pre-training Objective",
+      "to": "AI-Powered Data Synthesis",
+      "confidence": 0.85,
+      "origin": "cross_branch"
+    },
+    {
       "from": "Domain-Specific Capability Benchmarks",
       "to": "Evaluation Pipeline Design",
       "confidence": 0.8,
@@ -87,13 +488,13 @@
     },
     {
       "from": "Domain-Specific Capability Benchmarks",
-      "to": "Absolute vs Comparative Evaluation",
-      "confidence": 0.8,
-      "origin": "local"
+      "to": "Resolving Conflicting Benchmark Results",
+      "confidence": 0.95,
+      "origin": "cross_branch"
     },
     {
       "from": "Domain-Specific Capability Benchmarks",
-      "to": "Comparative vs. Absolute Evaluation",
+      "to": "Absolute vs Comparative Evaluation",
       "confidence": 0.8,
       "origin": "local"
     },
@@ -104,16 +505,58 @@
       "origin": "local"
     },
     {
+      "from": "Preference Finetuning",
+      "to": "RAG vs Finetuning",
+      "confidence": 0.85,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Annotation Guidelines and Fact-Checking",
+      "to": "Evaluation Pipeline Design",
+      "confidence": 0.8,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Annotation Guidelines and Fact-Checking",
+      "to": "User Feedback Integration",
+      "confidence": 0.75,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Annotation Guidelines and Fact-Checking",
+      "to": "Annotating Evaluation Data",
+      "confidence": 0.85,
+      "origin": "cross_branch"
+    },
+    {
       "from": "RAG Implementation Starting Points",
       "to": "Agent Definition and Core Concepts",
       "confidence": 0.6,
       "origin": "local"
     },
     {
-      "from": "Data Filtering and Deduplication",
-      "to": "Data Coverage",
+      "from": "Defining Evaluation Methods and Data",
+      "to": "Downstream Task Evaluation",
       "confidence": 0.8,
-      "origin": "local"
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Difficulty of Evaluating Intelligent Outputs",
+      "to": "Resolving Conflicting Benchmark Results",
+      "confidence": 0.85,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Difficulty of Evaluating Intelligent Outputs",
+      "to": "Build Versus Buy Decision",
+      "confidence": 0.85,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Difficulty of Evaluating Intelligent Outputs",
+      "to": "Signal Gathering and Model Ranking Challenges",
+      "confidence": 0.8,
+      "origin": "cross_branch"
     },
     {
       "from": "Ranking Models via Pairwise Comparisons",
@@ -129,15 +572,39 @@
     },
     {
       "from": "Generation Capability Metrics",
+      "to": "RAG Evaluation",
+      "confidence": 0.85,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Generation Capability Metrics",
+      "to": "Selecting Evaluation Methods",
+      "confidence": 0.9,
+      "origin": "local"
+    },
+    {
+      "from": "Generation Capability Metrics",
       "to": "Absolute vs Comparative Evaluation",
       "confidence": 0.8,
       "origin": "local"
     },
     {
-      "from": "Generation Capability Metrics",
-      "to": "Comparative vs. Absolute Evaluation",
-      "confidence": 0.8,
+      "from": "Create Evaluation Guidelines",
+      "to": "Evaluate All System Components",
+      "confidence": 0.85,
       "origin": "local"
+    },
+    {
+      "from": "Full Finetuning",
+      "to": "Finetuning Frameworks and Compute",
+      "confidence": 0.6,
+      "origin": "local"
+    },
+    {
+      "from": "Data and Memory Considerations",
+      "to": "Parameter-Efficient Finetuning",
+      "confidence": 0.85,
+      "origin": "cross_branch"
     },
     {
       "from": "Data and Memory Considerations",
@@ -146,22 +613,94 @@
       "origin": "local"
     },
     {
+      "from": "Model Capacity and Parameter Scaling",
+      "to": "Model Optimization",
+      "confidence": 0.85,
+      "origin": "cross_branch"
+    },
+    {
       "from": "Agent Definition and Core Concepts",
       "to": "Agent Planning",
       "confidence": 0.9,
       "origin": "local"
     },
     {
+      "from": "Define Evaluation Methods and Data",
+      "to": "Evaluation Pipeline Design",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Define Evaluation Methods and Data",
+      "to": "Evaluating and Iterating the Pipeline",
+      "confidence": 0.95,
+      "origin": "cross_branch"
+    },
+    {
       "from": "Selecting Evaluation Methods",
-      "to": "Designing Evaluation Data Slices",
-      "confidence": 0.7,
+      "to": "Evaluation Pipeline Design",
+      "confidence": 0.8,
+      "origin": "local"
+    },
+    {
+      "from": "Selecting Evaluation Methods",
+      "to": "Resolving Conflicting Benchmark Results",
+      "confidence": 0.95,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Selecting Evaluation Methods",
+      "to": "RAG Evaluation",
+      "confidence": 0.85,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Selecting Evaluation Methods",
+      "to": "Create Evaluation Guidelines",
+      "confidence": 0.85,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Selecting Evaluation Methods",
+      "to": "Annotating Evaluation Data",
+      "confidence": 0.8,
       "origin": "local"
     },
     {
       "from": "Prompt Engineering",
-      "to": "Retrieval-Augmented Generation",
-      "confidence": 0.7,
+      "to": "When to Finetune",
+      "confidence": 0.85,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Prompt Engineering",
+      "to": "Prompt Engineering Best Practices",
+      "confidence": 0.95,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Prompt Engineering",
+      "to": "Prompt Attacks and Defense",
+      "confidence": 0.95,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Defining Evaluation Criteria",
+      "to": "Domain-Specific Capability Benchmarks",
+      "confidence": 0.85,
       "origin": "local"
+    },
+    {
+      "from": "Defining Evaluation Criteria",
+      "to": "Creating Scoring Rubrics",
+      "confidence": 0.95,
+      "origin": "local"
+    },
+    {
+      "from": "Defining Evaluation Criteria",
+      "to": "Define Evaluation Methods and Data",
+      "confidence": 0.95,
+      "origin": "cross_branch"
     },
     {
       "from": "Defining Evaluation Criteria",
@@ -170,6 +709,18 @@
       "origin": "local"
     },
     {
+      "from": "Defining Evaluation Criteria",
+      "to": "Operational Evaluation Factors",
+      "confidence": 0.8,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Defining Evaluation Criteria",
+      "to": "Evaluating Model Performance",
+      "confidence": 0.85,
+      "origin": "cross_branch"
+    },
+    {
       "from": "Overlap Analysis",
       "to": "Reasons for Synthesizing Data",
       "confidence": 0.85,
@@ -182,10 +733,52 @@
       "origin": "local"
     },
     {
-      "from": "Operational Evaluation Factors",
-      "to": "Define Evaluation Methods and Data",
+      "from": "Absolute vs Comparative Evaluation",
+      "to": "Resolving Conflicting Benchmark Results",
       "confidence": 0.9,
-      "origin": "local"
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Data Sources and Output Risks",
+      "to": "Navigating Public Benchmarks",
+      "confidence": 0.85,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Evaluation Methods and Scoring Rubrics",
+      "to": "Evaluation Pipeline Design",
+      "confidence": 0.8,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Evaluation Methods and Scoring Rubrics",
+      "to": "Evaluating and Iterating the Pipeline",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Evaluation Methods and Scoring Rubrics",
+      "to": "Tying Metrics to Business Metrics",
+      "confidence": 0.85,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Evaluation Methods and Scoring Rubrics",
+      "to": "Annotating Evaluation Data",
+      "confidence": 0.85,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Instruction-Following and Scope",
+      "to": "Evaluating and Iterating the Pipeline",
+      "confidence": 0.85,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Instruction-Following and Scope",
+      "to": "Evaluating All System Components",
+      "confidence": 0.85,
+      "origin": "cross_branch"
     },
     {
       "from": "Data Coverage",
@@ -198,6 +791,102 @@
       "to": "Downstream Task Evaluation",
       "confidence": 0.9,
       "origin": "local"
+    },
+    {
+      "from": "Synthetic Data Generation",
+      "to": "Data Verification Methods",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Synthetic Data Generation",
+      "to": "Limitations of Synthetic Data",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Signal Gathering and Model Ranking Challenges",
+      "to": "Resolving Conflicting Benchmark Results",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Comparing Model Capabilities",
+      "to": "Resolving Conflicting Benchmark Results",
+      "confidence": 0.85,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Comparing Model Capabilities",
+      "to": "Build Versus Buy Decision",
+      "confidence": 0.85,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Adapter-Based Finetuning",
+      "to": "Finetuning Frameworks and Compute",
+      "confidence": 0.7,
+      "origin": "local"
+    },
+    {
+      "from": "Comparative vs. Absolute Evaluation",
+      "to": "Resolving Conflicting Benchmark Results",
+      "confidence": 0.95,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Comparative vs. Absolute Evaluation",
+      "to": "Downstream Task Evaluation",
+      "confidence": 0.85,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Preference Data Collection",
+      "to": "User Feedback Integration",
+      "confidence": 0.85,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Preference Data Collection",
+      "to": "Signal Gathering and Model Ranking Challenges",
+      "confidence": 0.85,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Preference Data Collection",
+      "to": "Limitations of Comparative Evaluation",
+      "confidence": 0.8,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Supervised Finetuning (SFT)",
+      "to": "RAG vs Finetuning",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Supervised Finetuning (SFT)",
+      "to": "Parameter-Efficient Finetuning",
+      "confidence": 0.85,
+      "origin": "local"
+    },
+    {
+      "from": "Supervised Finetuning (SFT)",
+      "to": "Finetuning Frameworks and Compute",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Supervised Finetuning (SFT)",
+      "to": "When to Finetune",
+      "confidence": 0.85,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Supervised Finetuning (SFT)",
+      "to": "Instruction-Following and Scope",
+      "confidence": 0.85,
+      "origin": "cross_branch"
     },
     {
       "from": "Supervised Finetuning (SFT)",
@@ -218,10 +907,70 @@
       "origin": "local"
     },
     {
+      "from": "Inference Performance Metrics",
+      "to": "System-Level Cost and Latency Evaluation",
+      "confidence": 0.95,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Inference Performance Metrics",
+      "to": "Analyzing Cost and Deployment Trade-offs",
+      "confidence": 0.85,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Inference Performance Metrics",
+      "to": "Operational Evaluation Factors",
+      "confidence": 0.85,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Inference Performance Metrics",
+      "to": "Evaluate and Iterate the Pipeline",
+      "confidence": 0.95,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Data Quantity",
+      "to": "Training Cost vs. Inference Cost Trade-offs",
+      "confidence": 0.85,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Designing Evaluation Data Slices",
+      "to": "Downstream Task Evaluation",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Designing Evaluation Data Slices",
+      "to": "Evaluate and Iterate the Pipeline",
+      "confidence": 0.95,
+      "origin": "cross_branch"
+    },
+    {
       "from": "RAG Architecture",
       "to": "RAG Implementation Starting Points",
       "confidence": 0.9,
       "origin": "local"
+    },
+    {
+      "from": "Defining Application Requirements",
+      "to": "Domain-Specific Capability Evaluation",
+      "confidence": 0.85,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Defining Application Requirements",
+      "to": "When to Finetune",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Defining Application Requirements",
+      "to": "System-Level Cost and Latency Evaluation",
+      "confidence": 0.9,
+      "origin": "cross_branch"
     },
     {
       "from": "Defining Application Requirements",
@@ -231,30 +980,139 @@
     },
     {
       "from": "Defining Application Requirements",
+      "to": "Operational Evaluation Factors",
+      "confidence": 0.95,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Defining Application Requirements",
+      "to": "Signal Gathering and Model Ranking Challenges",
+      "confidence": 0.85,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Defining Application Requirements",
       "to": "Evaluating Model Performance",
       "confidence": 0.95,
       "origin": "local"
+    },
+    {
+      "from": "Evaluating Model Performance",
+      "to": "Resolving Conflicting Benchmark Results",
+      "confidence": 0.95,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Evaluating Model Performance",
+      "to": "Evaluate All System Components",
+      "confidence": 0.85,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Evaluating Model Performance",
+      "to": "Evaluating and Iterating the Pipeline",
+      "confidence": 0.9,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Evaluating Model Performance",
+      "to": "DataPerf and dcbench",
+      "confidence": 0.85,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Evaluating Model Performance",
+      "to": "Tying Metrics to Business Metrics",
+      "confidence": 0.95,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Evaluating Model Performance",
+      "to": "Domain-Specific Capability Evaluation",
+      "confidence": 0.85,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Evaluating Model Performance",
+      "to": "When to Finetune",
+      "confidence": 0.85,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Evaluating Model Performance",
+      "to": "Build Versus Buy Decision",
+      "confidence": 0.85,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Evaluating Model Performance",
+      "to": "Scalability Bottlenecks in Comparative Evaluation",
+      "confidence": 0.85,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Evaluating Model Performance",
+      "to": "Instruction-Following Evaluation",
+      "confidence": 0.7,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Evaluating Model Performance",
+      "to": "Evaluate and Iterate the Pipeline",
+      "confidence": 0.95,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Evaluating Model Performance",
+      "to": "Data-Centric Benchmark Competitions",
+      "confidence": 0.85,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Evaluating Model Performance",
+      "to": "Navigating Public Benchmarks",
+      "confidence": 0.8,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Evaluating Model Performance",
+      "to": "Limitations of Comparative Evaluation",
+      "confidence": 0.8,
+      "origin": "cross_branch"
     },
     {
       "from": "Agent Tools",
       "to": "Agent Failure Modes",
       "confidence": 0.8,
       "origin": "local"
+    },
+    {
+      "from": "Limitations of Comparative Evaluation",
+      "to": "Resolving Conflicting Benchmark Results",
+      "confidence": 0.95,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Data Quality",
+      "to": "Signal Gathering and Model Ranking Challenges",
+      "confidence": 0.85,
+      "origin": "cross_branch"
+    },
+    {
+      "from": "Data Quality",
+      "to": "Evaluating Model Performance",
+      "confidence": 0.85,
+      "origin": "cross_branch"
     }
   ],
-  "n_edges_after_reduction": 154,
-  "isolated_nodes": [
-    "Simplest Foundation Model Application Architecture",
-    "Challenges of Simple AI Application Architectures",
-    "Incremental Component Addition for AI Products",
-    "User Feedback in AI Product Evaluation"
-  ],
+  "n_edges_after_reduction": 201,
+  "isolated_nodes": [],
   "coverage": {
     "headings_without_atoms": [],
     "atoms_not_in_tree": [],
     "n_headings_checked": 39
   },
   "duplicate_atom_pairs": "skipped (no embed_fn)",
-  "longest_chain_edges": 14,
+  "longest_chain_edges": 26,
   "chain_warning": true
 }

@@ -35,7 +35,7 @@ from bachelor_s_project_i_lms.graph.cross_branch_prompts import (
 from bachelor_s_project_i_lms.llm.client import call_llm
 from bachelor_s_project_i_lms.llm.schemas import CrossBranchPairVerdict
 
-CROSS_EDGES_PATH = Path(__file__).resolve().parent / "checkpoints" / "cross_edges.json"
+CROSS_EDGES_PATH = Path(__file__).resolve().parent / "ai-engineering" / "checkpoints" / "cross_edges.json"
 CACHE_DIR = Path(__file__).resolve().parent / "checkpoints" / "llm_cache"  # shared with decompose
 
 CONFIDENCE_THRESHOLD = 0.7

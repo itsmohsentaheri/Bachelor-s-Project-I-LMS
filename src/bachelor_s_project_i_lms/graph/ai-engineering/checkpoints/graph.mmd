@@ -1,0 +1,353 @@
+flowchart TD
+  subgraph sg0["Introduction to Building AI Applications with Foundation Models"]
+    t_065bcd1f30["AI Application Architecture<br/>10 min · d3 · concept"]
+    t_341cf5a94e["Foundation Model Basics<br/>8 min · d2 · concept"]
+    t_3a445bdc44["User Feedback Integration<br/>10 min · d3 · concept"]
+  end
+  subgraph sg1["Understanding Foundation Models"]
+    t_8a700d0cca["Analyzing Cost and Deployment Trade-offs<br/>10 min · d3 · concept"]
+    t_001a338b45["Comparative vs. Absolute Performance<br/>8 min · d3 · concept"]
+    t_caeccbb9c3["Comparing Model Capabilities<br/>10 min · d3 · concept"]
+    t_f435b171b1["Defining Application Requirements<br/>8 min · d2 · concept"]
+    t_67b3bb12ac["Difficulty of Evaluating Intelligent Outputs<br/>8 min · d3 · concept"]
+    t_f44fa190e3["Evaluating Model Performance<br/>8 min · d3 · concept"]
+    t_29bee4d996["Fine-Tuning<br/>8 min · d3 · concept"]
+    t_3fcfac59d6["Lack of Standardization and Quality Control<br/>8 min · d3 · concept"]
+    t_91435595dd["Prompt Engineering<br/>5 min · d2 · concept"]
+    t_2720672e7d["Retrieval-Augmented Generation<br/>5 min · d2 · concept"]
+    t_1e2e652cea["Scalability Bottlenecks in Evaluation<br/>8 min · d3 · concept"]
+    t_a3bff8769a["Data Sources and Output Risks<br/>8 min · d3 · concept"]
+    t_55cb37fbc9["Domain Mix in Preference Finetuning<br/>5 min · d2 · concept"]
+    t_bb379d82cb["Finetuning Frameworks and Compute<br/>8 min · d3 · concept"]
+    t_05c1920d7f["Full Parameter Updates During Pre-training<br/>5 min · d2 · concept"]
+    t_56d5c22979["Next-Token vs Infilling Finetuning<br/>8 min · d2 · concept"]
+    t_08c862a096["Pre-training as Parameter Compression<br/>8 min · d3 · concept"]
+    t_d532fb9769["Preference Data Collection<br/>8 min · d3 · concept"]
+    t_be80cf1472["Preference Finetuning Objectives<br/>8 min · d3 · concept"]
+    t_e9f4a2e396["Preference Optimization Algorithms<br/>8 min · d3 · concept"]
+    t_2c3e508397["SFT vs Pre-training Objectives<br/>8 min · d3 · concept"]
+    t_4968c221ed["Self-Supervised Pre-training Objective<br/>8 min · d3 · concept"]
+    t_2c7a9ce6b8["Batch Size and Resource Trade-offs<br/>10 min · d3 · concept"]
+    t_9601a7b386["Compute-Optimal Model Scaling<br/>8 min · d4 · concept"]
+    t_a33b1a7b38["Data Coverage<br/>5 min · d2 · concept"]
+    t_366e056e20["Data Quality<br/>8 min · d2 · concept"]
+    t_2fc0fc3e3f["Data Quantity<br/>8 min · d3 · concept"]
+    t_ef3f63078f["Finetuning Frameworks and Tactics<br/>10 min · d3 · concept"]
+    t_c9f14aa024["Hyperparameter Search Strategies<br/>10 min · d3 · concept"]
+    t_78f01c19c6["Inference Optimization Techniques<br/>10 min · d3 · concept<br/>needs review"]
+    t_e6e1ef68bc["Learning Rate Scheduling<br/>8 min · d3 · concept"]
+    t_8af6d8cd02["Model Capacity and Parameter Scaling<br/>10 min · d3 · concept<br/>needs review"]
+    t_288b4ecd56["Parameter-Efficient Finetuning<br/>8 min · d3 · concept"]
+    t_e02536ce2b["Phase-Specific Data Mixes<br/>8 min · d3 · concept"]
+    t_45aa258ab0["Post-Training Workflow<br/>8 min · d3 · concept"]
+    t_530aa6c72d["Preference Finetuning<br/>8 min · d3 · concept"]
+    t_dc1c01f07b["Supervised Finetuning (SFT)<br/>8 min · d3 · concept"]
+    t_ab87193c4b["Synthetic Data Generation<br/>8 min · d3 · concept"]
+    t_26db6fe3a8["Training Bottlenecks and Resource Constraints<br/>10 min · d3 · concept<br/>needs review"]
+    t_3ae4c6e4b1["Training Cost vs. Inference Cost Trade-offs<br/>8 min · d3 · concept"]
+    t_5026ef8c97["Training Data Cost Management<br/>8 min · d3 · concept"]
+    t_46105a7d8b["Transformer Block Architecture<br/>10 min · d3 · concept<br/>needs review"]
+  end
+  subgraph sg2["Evaluation Methodology"]
+    t_a46cc3d8fd["Annotating Evaluation Data<br/>8 min · d3 · practical"]
+    t_2110576f87["Creating Evaluation Guidelines<br/>8 min · d3 · concept"]
+    t_7309e0f073["Creating Scoring Rubrics<br/>10 min · d3 · practical"]
+    t_95f03bc490["Defining Evaluation Criteria<br/>8 min · d3 · concept"]
+    t_65427a2dd8["Defining Evaluation Methods and Data<br/>8 min · d3 · concept"]
+    t_e6e52786da["Designing Evaluation Data Slices<br/>8 min · d3 · concept"]
+    t_4c237b0dda["Domain-Specific Capability Benchmarks<br/>5 min · d2 · concept"]
+    t_2e5860dbdc["Evaluating All System Components<br/>10 min · d3 · concept"]
+    t_0ea8815a09["Evaluating and Iterating the Pipeline<br/>10 min · d3 · concept"]
+    t_71b4e6ed11["Generation Capability Metrics<br/>8 min · d3 · concept"]
+    t_7166f3aaec["Lack of Standardization and Quality Control<br/>8 min · d3 · concept"]
+    t_f98a2125c1["Limitations of Comparative Evaluation<br/>8 min · d3 · concept"]
+    t_775c4ee484["Scalability Bottlenecks in Comparative Evaluation<br/>8 min · d3 · concept"]
+    t_902227c859["Selecting Evaluation Methods<br/>8 min · d3 · concept"]
+    t_902227c859["Selecting Evaluation Methods<br/>8 min · d3 · concept"]
+    t_488c280376["Tying Metrics to Business Metrics<br/>8 min · d3 · concept"]
+    t_a095b8da97["Absolute vs Comparative Evaluation<br/>8 min · d2 · concept"]
+    t_d3aea406f0["Comparative vs. Absolute Evaluation<br/>8 min · d3 · concept"]
+    t_581ae6b70b["Domain-Specific Capability Evaluation<br/>8 min · d3 · concept"]
+    t_042bd1eccf["Evaluation Pipeline Design<br/>10 min · d3 · concept"]
+    t_9adb7c2da7["Generation Capability Evaluation<br/>8 min · d3 · concept"]
+    t_7a0306103e["Instruction-Following Evaluation<br/>8 min · d3 · concept"]
+    t_6c796aba79["Ranking Models via Pairwise Comparisons<br/>8 min · d3 · concept"]
+    t_775c4ee484["Scalability Bottlenecks in Comparative Evaluation<br/>8 min · d3 · concept"]
+    t_c44d3c19ae["Signal Gathering and Model Ranking Challenges<br/>8 min · d4 · concept"]
+    t_83bf39d7fc["System-Level Cost and Latency Evaluation<br/>10 min · d3 · concept"]
+  end
+  subgraph sg3["Evaluate AI Systems"]
+    t_6273eda570["Build Versus Buy Decision<br/>8 min · d3 · concept"]
+    t_736f711553["Create Evaluation Guidelines<br/>8 min · d3 · practical"]
+    t_8d3005ebb4["Define Evaluation Methods and Data<br/>10 min · d3 · concept"]
+    t_1fcded6064["Domain-Specific Capability Benchmarks<br/>5 min · d2 · concept"]
+    t_0dbad374d4["Evaluate All System Components<br/>10 min · d3 · concept"]
+    t_b1d9f5ac83["Evaluate and Iterate the Pipeline<br/>8 min · d3 · concept"]
+    t_a60472f235["Evaluation Methods and Scoring Rubrics<br/>8 min · d3 · concept"]
+    t_0e778f57c5["Generation Quality Criteria<br/>8 min · d2 · concept"]
+    t_a9fcb66514["Instruction-Following and Scope<br/>8 min · d3 · concept"]
+    t_f8dd8dbfcc["Navigating Public Benchmarks<br/>8 min · d3 · concept"]
+    t_a643a56bb4["Operational Evaluation Factors<br/>8 min · d3 · concept"]
+    t_0724fc6efb["Resolving Conflicting Benchmark Results<br/>8 min · d4 · concept"]
+  end
+  subgraph sg4["Prompt Engineering"]
+    t_c1133374fc["Prompt Attacks and Defense<br/>10 min · d4 · concept"]
+    t_943544dc29["Prompt Engineering Best Practices<br/>10 min · d3 · concept"]
+    t_2eddc8df3d["Prompt Engineering Tools<br/>8 min · d3 · concept"]
+    t_1c70841eef["Prompt Fundamentals<br/>8 min · d2 · concept"]
+  end
+  subgraph sg5["RAG and Agents"]
+    t_588faef323["Agent Security Risks<br/>8 min · d3 · concept"]
+    t_4b54f47b40["Memory Systems<br/>8 min · d3 · concept"]
+    t_8c235a1ba8["Agent Definition and Core Concepts<br/>8 min · d2 · concept"]
+    t_9ef6e4867f["Agent Failure Modes<br/>10 min · d3 · concept"]
+    t_f342a589ab["Agent Planning<br/>8 min · d3 · concept"]
+    t_f4c08dc14a["Agent Tools<br/>8 min · d3 · concept"]
+    t_f339082d04["RAG Architecture<br/>8 min · d2 · concept"]
+    t_4e8be94938["RAG Evaluation<br/>8 min · d3 · concept"]
+    t_5d3c8468d7["RAG Implementation Starting Points<br/>5 min · d2 · concept"]
+    t_156e29b965["RAG vs Finetuning<br/>8 min · d3 · concept"]
+  end
+  subgraph sg6["Finetuning"]
+    t_d024cced90["Adapter-Based Finetuning<br/>8 min · d3 · concept"]
+    t_8638f433db["Data and Memory Considerations<br/>10 min · d4 · concept"]
+    t_3d6c76e0ce["Finetuning Frameworks and Compute<br/>8 min · d3 · concept"]
+    t_81a85a6565["Full Finetuning<br/>5 min · d2 · concept"]
+    t_60d25cece2["When to Finetune<br/>8 min · d3 · concept"]
+  end
+  subgraph sg7["Dataset Engineering"]
+    t_b96850e53f["AI-Powered Data Synthesis<br/>10 min · d3 · concept"]
+    t_0aeab9cbd3["Annotation Consistency<br/>8 min · d2 · concept"]
+    t_5462fb57a2["Annotation Guidelines and Fact-Checking<br/>8 min · d3 · concept"]
+    t_3344494d0f["Data Cleaning and Filtering<br/>8 min · d3 · practical"]
+    t_ab83c21e14["Data Coverage<br/>5 min · d2 · concept"]
+    t_6244b688a5["Data Filtering and Deduplication<br/>10 min · d3 · practical"]
+    t_fd1dd7fc9d["Data Quality<br/>8 min · d2 · concept"]
+    t_33361f54c6["Data Quality Dimensions<br/>8 min · d2 · concept"]
+    t_e3acd0469e["Data Quantity<br/>8 min · d3 · concept"]
+    t_4b42a40057["Data Verification Methods<br/>8 min · d3 · concept"]
+    t_b9e490248d["Data-Centric Benchmark Competitions<br/>8 min · d3 · concept"]
+    t_34266a5472["DataPerf and dcbench<br/>5 min · d2 · concept"]
+    t_9f803e8324["Downstream Task Evaluation<br/>10 min · d3 · concept"]
+    t_c8f3f79bc8["Limitations of Synthetic Data<br/>8 min · d3 · concept"]
+    t_3f224281e0["Manual Data Inspection<br/>10 min · d2 · practical"]
+    t_9aad82428d["Overlap Analysis<br/>8 min · d3 · concept"]
+    t_1207167405["Reasons for Synthesizing Data<br/>8 min · d2 · concept"]
+    t_8fb0dd783b["Traditional Data Synthesis Techniques<br/>8 min · d2 · concept"]
+  end
+  subgraph sg8["Inference Optimization"]
+    t_17f6673b91["AI Accelerators<br/>5 min · d2 · concept"]
+    t_dcb221f932["Inference Performance Metrics<br/>8 min · d2 · concept"]
+    t_7ebb01b16e["Inference Service Optimization<br/>8 min · d3 · concept"]
+    t_0bd7b8ffc7["Model Optimization<br/>8 min · d3 · concept"]
+  end
+  subgraph sg9["AI Engineering Architecture and User Feedback"]
+    t_b9e8dbe46e["Challenges of Simple AI Application Architectures<br/>10 min · d3 · concept"]
+    t_851d1c48e1["Incremental Component Addition for AI Products<br/>10 min · d2 · concept"]
+    t_72a21ccb15["Simplest Foundation Model Application Architecture<br/>5 min · d1 · concept"]
+    t_7da13d7633["User Feedback in AI Product Evaluation<br/>8 min · d2 · concept"]
+  end
+  t_001a338b45 -->|"0.80 local"| t_f435b171b1
+  t_042bd1eccf -->|"0.70 cross_branch"| t_0dbad374d4
+  t_05c1920d7f -->|"0.80 local"| t_08c862a096
+  t_05c1920d7f -->|"0.85 cross_branch"| t_81a85a6565
+  t_05c1920d7f -->|"0.85 cross_branch"| t_d024cced90
+  t_065bcd1f30 -->|"0.85 cross_branch"| t_2e5860dbdc
+  t_065bcd1f30 -->|"0.80 cross_branch"| t_7da13d7633
+  t_065bcd1f30 -->|"0.90 cross_branch"| t_851d1c48e1
+  t_065bcd1f30 -->|"0.95 cross_branch"| t_b9e8dbe46e
+  t_065bcd1f30 -->|"0.85 cross_branch"| t_f339082d04
+  t_08c862a096 -->|"0.70 local"| t_67b3bb12ac
+  t_08c862a096 -->|"0.80 local"| t_91435595dd
+  t_0aeab9cbd3 -->|"0.70 local"| t_1207167405
+  t_0bd7b8ffc7 -->|"0.60 local"| t_17f6673b91
+  t_0dbad374d4 -->|"0.90 local"| t_b1d9f5ac83
+  t_0e778f57c5 -->|"0.80 local"| t_6273eda570
+  t_0e778f57c5 -->|"0.90 cross_branch"| t_902227c859
+  t_1207167405 -->|"0.70 local"| t_8fb0dd783b
+  t_156e29b965 -->|"0.70 local"| t_5d3c8468d7
+  t_17f6673b91 -->|"0.60 local"| t_7ebb01b16e
+  t_1c70841eef -->|"0.90 cross_branch"| t_91435595dd
+  t_1e2e652cea -->|"0.80 local"| t_f435b171b1
+  t_1fcded6064 -->|"0.80 local"| t_6273eda570
+  t_1fcded6064 -->|"0.90 local"| t_8d3005ebb4
+  t_1fcded6064 -->|"0.80 local"| t_f8dd8dbfcc
+  t_2110576f87 -->|"0.90 local"| t_2e5860dbdc
+  t_2110576f87 -->|"0.85 cross_branch"| t_8d3005ebb4
+  t_26db6fe3a8 -->|"0.85 cross_branch"| t_0bd7b8ffc7
+  t_26db6fe3a8 -->|"0.80 local"| t_2c7a9ce6b8
+  t_2720672e7d -->|"0.90 cross_branch"| t_f339082d04
+  t_288b4ecd56 -->|"0.85 cross_branch"| t_3d6c76e0ce
+  t_288b4ecd56 -->|"0.80 local"| t_ef3f63078f
+  t_29bee4d996 -->|"0.90 cross_branch"| t_8638f433db
+  t_2c3e508397 -->|"0.70 local"| t_56d5c22979
+  t_2c3e508397 -->|"0.60 local"| t_bb379d82cb
+  t_2c7a9ce6b8 -->|"0.70 local"| t_c9f14aa024
+  t_2c7a9ce6b8 -->|"0.60 local"| t_e6e1ef68bc
+  t_2e5860dbdc -->|"0.80 local"| t_488c280376
+  t_2fc0fc3e3f -->|"0.85 local"| t_ab87193c4b
+  t_2fc0fc3e3f -->|"0.75 local"| t_e02536ce2b
+  t_33361f54c6 -->|"0.90 local"| t_0aeab9cbd3
+  t_33361f54c6 -->|"0.85 local"| t_3344494d0f
+  t_3344494d0f -->|"0.75 local"| t_3f224281e0
+  t_341cf5a94e -->|"0.95 cross_branch"| t_05c1920d7f
+  t_341cf5a94e -->|"0.95 cross_branch"| t_29bee4d996
+  t_341cf5a94e -->|"0.95 cross_branch"| t_45aa258ab0
+  t_341cf5a94e -->|"0.90 cross_branch"| t_72a21ccb15
+  t_366e056e20 -->|"0.85 cross_branch"| t_6244b688a5
+  t_3ae4c6e4b1 -->|"0.70 local"| t_67b3bb12ac
+  t_3ae4c6e4b1 -->|"0.80 local"| t_91435595dd
+  t_3f224281e0 -->|"0.70 local"| t_1207167405
+  t_3f224281e0 -->|"0.75 cross_branch"| t_8d3005ebb4
+  t_3fcfac59d6 -->|"0.80 local"| t_f435b171b1
+  t_45aa258ab0 -->|"0.90 local"| t_dc1c01f07b
+  t_46105a7d8b -->|"0.70 local"| t_78f01c19c6
+  t_46105a7d8b -->|"0.90 local"| t_8af6d8cd02
+  t_488c280376 -->|"0.75 local"| t_0ea8815a09
+  t_4968c221ed -->|"0.70 local"| t_a3bff8769a
+  t_4b42a40057 -->|"0.70 local"| t_c8f3f79bc8
+  t_4b54f47b40 -->|"0.60 local"| t_8c235a1ba8
+  t_4c237b0dda -->|"0.90 local"| t_902227c859
+  t_4e8be94938 -->|"0.70 local"| t_4b54f47b40
+  t_5026ef8c97 -->|"0.70 local"| t_9601a7b386
+  t_530aa6c72d -->|"0.70 local"| t_ef3f63078f
+  t_5462fb57a2 -->|"0.90 local"| t_0aeab9cbd3
+  t_5462fb57a2 -->|"0.85 local"| t_3f224281e0
+  t_55cb37fbc9 -->|"0.70 local"| t_67b3bb12ac
+  t_55cb37fbc9 -->|"0.80 local"| t_91435595dd
+  t_56d5c22979 -->|"0.70 local"| t_67b3bb12ac
+  t_56d5c22979 -->|"0.80 local"| t_91435595dd
+  t_581ae6b70b -->|"0.70 local"| t_f98a2125c1
+  t_5d3c8468d7 -->|"0.70 local"| t_4b54f47b40
+  t_60d25cece2 -->|"0.90 cross_branch"| t_156e29b965
+  t_6244b688a5 -->|"0.90 local"| t_9aad82428d
+  t_6244b688a5 -->|"0.80 local"| t_ab83c21e14
+  t_6244b688a5 -->|"0.80 local"| t_e3acd0469e
+  t_6244b688a5 -->|"0.90 local"| t_fd1dd7fc9d
+  t_6273eda570 -->|"0.85 cross_branch"| t_60d25cece2
+  t_65427a2dd8 -->|"0.85 local"| t_2110576f87
+  t_65427a2dd8 -->|"0.85 cross_branch"| t_f44fa190e3
+  t_67b3bb12ac -->|"0.85 local"| t_001a338b45
+  t_67b3bb12ac -->|"0.80 local"| t_1e2e652cea
+  t_67b3bb12ac -->|"0.75 local"| t_3fcfac59d6
+  t_6c796aba79 -->|"0.85 local"| t_c44d3c19ae
+  t_71b4e6ed11 -->|"0.80 local"| t_d3aea406f0
+  t_72a21ccb15 -->|"0.85 cross_branch"| t_065bcd1f30
+  t_7309e0f073 -->|"0.85 cross_branch"| t_3a445bdc44
+  t_7309e0f073 -->|"0.90 cross_branch"| t_4e8be94938
+  t_736f711553 -->|"0.85 cross_branch"| t_042bd1eccf
+  t_736f711553 -->|"0.95 cross_branch"| t_0ea8815a09
+  t_736f711553 -->|"0.85 cross_branch"| t_a46cc3d8fd
+  t_78f01c19c6 -->|"0.80 local"| t_2c7a9ce6b8
+  t_78f01c19c6 -->|"0.80 cross_branch"| t_7ebb01b16e
+  t_7a0306103e -->|"0.80 cross_branch"| t_736f711553
+  t_7a0306103e -->|"0.70 local"| t_f98a2125c1
+  t_7da13d7633 -->|"0.80 cross_branch"| t_3a445bdc44
+  t_81a85a6565 -->|"0.90 cross_branch"| t_288b4ecd56
+  t_81a85a6565 -->|"0.90 cross_branch"| t_bb379d82cb
+  t_83bf39d7fc -->|"0.80 cross_branch"| t_b1d9f5ac83
+  t_83bf39d7fc -->|"0.70 local"| t_f98a2125c1
+  t_8638f433db -->|"0.80 local"| t_81a85a6565
+  t_8638f433db -->|"0.70 local"| t_d024cced90
+  t_8a700d0cca -->|"0.85 cross_branch"| t_6273eda570
+  t_8af6d8cd02 -->|"0.85 local"| t_26db6fe3a8
+  t_8af6d8cd02 -->|"0.85 cross_branch"| t_8638f433db
+  t_8c235a1ba8 -->|"0.90 local"| t_f4c08dc14a
+  t_8d3005ebb4 -->|"0.90 cross_branch"| t_488c280376
+  t_8d3005ebb4 -->|"0.85 cross_branch"| t_7309e0f073
+  t_8d3005ebb4 -->|"0.90 local"| t_736f711553
+  t_8fb0dd783b -->|"0.60 local"| t_b96850e53f
+  t_902227c859 -->|"0.85 cross_branch"| t_8d3005ebb4
+  t_902227c859 -->|"0.80 local"| t_a095b8da97
+  t_91435595dd -->|"0.70 local"| t_2720672e7d
+  t_91435595dd -->|"0.95 cross_branch"| t_2eddc8df3d
+  t_91435595dd -->|"0.80 cross_branch"| t_a9fcb66514
+  t_91435595dd -->|"0.85 cross_branch"| t_b96850e53f
+  t_943544dc29 -->|"0.75 local"| t_c1133374fc
+  t_95f03bc490 -->|"0.85 local"| t_71b4e6ed11
+  t_95f03bc490 -->|"0.90 cross_branch"| t_a60472f235
+  t_9601a7b386 -->|"0.80 local"| t_3ae4c6e4b1
+  t_9aad82428d -->|"0.95 local"| t_33361f54c6
+  t_9aad82428d -->|"0.95 local"| t_5462fb57a2
+  t_9aad82428d -->|"0.80 cross_branch"| t_f8dd8dbfcc
+  t_9adb7c2da7 -->|"0.70 local"| t_f98a2125c1
+  t_9ef6e4867f -->|"0.90 local"| t_588faef323
+  t_9f803e8324 -->|"0.90 local"| t_34266a5472
+  t_9f803e8324 -->|"0.90 local"| t_b9e490248d
+  t_a095b8da97 -->|"0.80 local"| t_581ae6b70b
+  t_a095b8da97 -->|"0.80 local"| t_7a0306103e
+  t_a095b8da97 -->|"0.70 local"| t_83bf39d7fc
+  t_a095b8da97 -->|"0.80 local"| t_9adb7c2da7
+  t_a33b1a7b38 -->|"0.80 local"| t_e02536ce2b
+  t_a3bff8769a -->|"0.70 local"| t_67b3bb12ac
+  t_a3bff8769a -->|"0.80 local"| t_91435595dd
+  t_a46cc3d8fd -->|"0.90 cross_branch"| t_0dbad374d4
+  t_a46cc3d8fd -->|"0.85 cross_branch"| t_3a445bdc44
+  t_a60472f235 -->|"0.90 local"| t_0e778f57c5
+  t_a60472f235 -->|"0.80 local"| t_1fcded6064
+  t_a60472f235 -->|"0.90 cross_branch"| t_2e5860dbdc
+  t_a60472f235 -->|"0.80 cross_branch"| t_9f803e8324
+  t_a643a56bb4 -->|"0.80 local"| t_6273eda570
+  t_a643a56bb4 -->|"0.90 local"| t_8d3005ebb4
+  t_a643a56bb4 -->|"0.80 local"| t_f8dd8dbfcc
+  t_a9fcb66514 -->|"0.85 local"| t_0e778f57c5
+  t_a9fcb66514 -->|"0.75 local"| t_1fcded6064
+  t_a9fcb66514 -->|"0.80 cross_branch"| t_2110576f87
+  t_a9fcb66514 -->|"0.85 cross_branch"| t_943544dc29
+  t_ab83c21e14 -->|"0.95 local"| t_33361f54c6
+  t_ab83c21e14 -->|"0.95 local"| t_5462fb57a2
+  t_ab83c21e14 -->|"0.90 cross_branch"| t_55cb37fbc9
+  t_ab83c21e14 -->|"0.80 cross_branch"| t_e02536ce2b
+  t_ab87193c4b -->|"0.80 local"| t_2c7a9ce6b8
+  t_ab87193c4b -->|"0.90 local"| t_45aa258ab0
+  t_b96850e53f -->|"0.80 local"| t_4b42a40057
+  t_b9e8dbe46e -->|"0.85 cross_branch"| t_0dbad374d4
+  t_b9e8dbe46e -->|"0.85 cross_branch"| t_3a445bdc44
+  t_bb379d82cb -->|"0.70 local"| t_67b3bb12ac
+  t_bb379d82cb -->|"0.80 local"| t_91435595dd
+  t_be80cf1472 -->|"0.90 local"| t_e9f4a2e396
+  t_c1133374fc -->|"0.85 cross_branch"| t_588faef323
+  t_c44d3c19ae -->|"0.80 local"| t_7166f3aaec
+  t_c44d3c19ae -->|"0.95 local"| t_775c4ee484
+  t_c44d3c19ae -->|"0.95 local"| t_f98a2125c1
+  t_c8f3f79bc8 -->|"0.80 local"| t_9f803e8324
+  t_c9f14aa024 -->|"0.70 local"| t_5026ef8c97
+  t_caeccbb9c3 -->|"0.85 cross_branch"| t_065bcd1f30
+  t_caeccbb9c3 -->|"0.85 local"| t_f44fa190e3
+  t_d024cced90 -->|"0.90 cross_branch"| t_288b4ecd56
+  t_d024cced90 -->|"0.90 cross_branch"| t_bb379d82cb
+  t_d3aea406f0 -->|"0.90 local"| t_6c796aba79
+  t_d3aea406f0 -->|"0.80 cross_branch"| t_f44fa190e3
+  t_d532fb9769 -->|"0.95 local"| t_e9f4a2e396
+  t_dc1c01f07b -->|"0.95 local"| t_530aa6c72d
+  t_dc1c01f07b -->|"0.90 cross_branch"| t_d024cced90
+  t_dcb221f932 -->|"0.70 local"| t_0bd7b8ffc7
+  t_dcb221f932 -->|"0.90 cross_branch"| t_78f01c19c6
+  t_e02536ce2b -->|"0.80 local"| t_2c7a9ce6b8
+  t_e02536ce2b -->|"0.90 local"| t_45aa258ab0
+  t_e3acd0469e -->|"0.85 cross_branch"| t_ab87193c4b
+  t_e6e1ef68bc -->|"0.70 local"| t_5026ef8c97
+  t_e6e52786da -->|"0.85 local"| t_65427a2dd8
+  t_e9f4a2e396 -->|"0.85 local"| t_55cb37fbc9
+  t_ef3f63078f -->|"0.70 local"| t_67b3bb12ac
+  t_ef3f63078f -->|"0.80 local"| t_91435595dd
+  t_f339082d04 -->|"0.90 local"| t_156e29b965
+  t_f339082d04 -->|"0.90 local"| t_4e8be94938
+  t_f342a589ab -->|"0.85 local"| t_9ef6e4867f
+  t_f435b171b1 -->|"0.90 cross_branch"| t_95f03bc490
+  t_f435b171b1 -->|"0.95 local"| t_caeccbb9c3
+  t_f44fa190e3 -->|"0.85 cross_branch"| t_1fcded6064
+  t_f44fa190e3 -->|"0.85 cross_branch"| t_4c237b0dda
+  t_f44fa190e3 -->|"0.90 local"| t_8a700d0cca
+  t_f44fa190e3 -->|"0.85 cross_branch"| t_9f803e8324
+  t_f44fa190e3 -->|"0.85 cross_branch"| t_a643a56bb4
+  t_f44fa190e3 -->|"0.90 cross_branch"| t_c44d3c19ae
+  t_f4c08dc14a -->|"0.85 local"| t_f342a589ab
+  t_f8dd8dbfcc -->|"0.95 local"| t_0724fc6efb
+  t_f98a2125c1 -->|"0.90 cross_branch"| t_f8dd8dbfcc
+  t_fd1dd7fc9d -->|"0.70 cross_branch"| t_65427a2dd8
+  t_fd1dd7fc9d -->|"0.85 cross_branch"| t_ab87193c4b
+  t_fd1dd7fc9d -->|"0.85 cross_branch"| t_e02536ce2b
+  classDef needsReview fill:#ffe0e0,stroke:#c00,stroke-width:2px
+  classDef isolated fill:#fff4cc,stroke:#c90
+  class t_46105a7d8b,t_8af6d8cd02,t_26db6fe3a8,t_78f01c19c6 needsReview

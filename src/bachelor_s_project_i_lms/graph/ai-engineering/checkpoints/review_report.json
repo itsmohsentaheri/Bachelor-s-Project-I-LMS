@@ -1,0 +1,35 @@
+{
+  "node_overrides_applied": [
+    {
+      "temp_id": "t_46105a7d8b",
+      "fields": [
+        "needs_review"
+      ]
+    },
+    {
+      "temp_id": "t_8af6d8cd02",
+      "fields": [
+        "needs_review"
+      ]
+    },
+    {
+      "temp_id": "t_26db6fe3a8",
+      "fields": [
+        "needs_review"
+      ]
+    },
+    {
+      "temp_id": "t_78f01c19c6",
+      "fields": [
+        "needs_review"
+      ]
+    }
+  ],
+  "manual_edges_added": [],
+  "edges_removed": [],
+  "errors": [],
+  "cycles": [],
+  "n_atoms": 128,
+  "n_edges": 201,
+  "n_flagged": 4
+}

@@ -1,0 +1,19 @@
+{
+  "_instructions": "Edit this file, then re-run review.apply_edits(). node_overrides: patch fields of one atom (set needs_review=false when fixed). manual_edges: add {from_temp_id, to_temp_id, rationale, confidence?}; origin is forced to 'manual'. removed_edges: list {from_temp_id, to_temp_id}.",
+  "node_overrides": {
+    "t_46105a7d8b": {
+      "needs_review": true
+    },
+    "t_8af6d8cd02": {
+      "needs_review": true
+    },
+    "t_26db6fe3a8": {
+      "needs_review": true
+    },
+    "t_78f01c19c6": {
+      "needs_review": true
+    }
+  },
+  "manual_edges": [],
+  "removed_edges": []
+}
